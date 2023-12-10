@@ -6,4 +6,4 @@ The overarching objective of ORCESTRA is to better understand the physical mecha
 
 Hence, several initiatives come together aiming to understand the mesoscale organisation of tropical convection with field data and satellite observations over the tropical ocean. This international initiative, named ORCESTRA, will include the French airborne field campaign [MAESTRO](https://maestro.aeris-data.fr/) (Mesoscale organisation of tropical convection), the German airborne field campaign PERCUSSION (Persistent EarthCare underflight studies of the ITCZ and organized convection), the German ship cruise BOW-TIE (Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment) and the US initiative PICCOLO (Process investigation of clouds and convective organization over the tropical ocean).
 
-The field campaign will take place over the Atlantic Ocean between Cap Verden and Barbados in August and September of 2024.
+The field campaign will take place over the Atlantic Ocean between Cape Verde and Barbados in August and September of 2024.
