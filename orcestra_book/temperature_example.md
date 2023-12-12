@@ -20,12 +20,12 @@ import healpy as hp
 import matplotlib.pylab as plt
 
 cat = intake.open_catalog("https://tcodata.mpimet.mpg.de/internal.yaml")
-ds = cat["ORCESTRA"]["hera5"].to_dask()
 wxt = cat["BCO"]["surfacemet_wxt_v1"].to_dask()
+era5 = cat["ORCESTRA"]["hera5"].to_dask()
 
-i_bco = hp.ang2pix(2**7, 59 + 25/60 + 43.5/3600, 13 + 9/60 + 45.5/3600, nest=True, lonlat=True)
+i_bco = hp.ang2pix(2**7, wxt.lon, wxt.lat, nest=True, lonlat=True)
 
-ds["2t"].isel(cell=i_bco).sel(time=slice("2020-01", "2020-02")).plot(label="ERA5")
+era5["2t"].isel(cell=i_bco).sel(time=slice("2020-01", "2020-02")).plot(label="ERA5")
 (wxt["T"].sel(time=slice("2020-01", "2020-02")).resample(time="1H").mean() + 272.15).plot(label="WXT")
 
 plt.legend();
