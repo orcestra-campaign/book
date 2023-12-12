@@ -1,2 +1,6 @@
 .DS_Store
-/_build
+_build
+*.swp
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints
