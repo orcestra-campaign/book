@@ -1,0 +1,9 @@
+name: orcestra_book
+dependencies:
+  - python>=3.10
+  - cartopy
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+    - -r requirements.txt

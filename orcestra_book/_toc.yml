@@ -7,7 +7,17 @@ chapters:
 - file: science
 - file: strategy
 - file: preparation
+  sections:
+    - file: virtual_campaign
 #- file: operation
 - file: data
+  #sections:
+    #- file: data_policy
+    #- file: data_creation
+    #- file: data_access
 #- file: results
+#  sections:
+#    - file: showcases
+#    - file: publications
+#    - file: conferences
 #- file: news

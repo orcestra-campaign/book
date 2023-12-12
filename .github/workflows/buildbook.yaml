@@ -1,0 +1,91 @@
+name: buildbook
+
+on: [push, pull_request]
+
+env:
+  # Increase this value to reset cache
+  CONDA_CACHE_NUMBER: 0
+  PYDEVD_DISABLE_FILE_VALIDATION: 1  # disable warnings that debugger might not work using frozen (i.e. faster-to-load) modules. We'd expect debugging to be done outside of CI, so here it's probably fine to hide it.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: initialize conda
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+        activate-environment: orcestra_book
+        auto-activate-base: false
+        use-mamba: true
+        miniforge-variant: Mambaforge
+        miniforge-version: latest
+    - name: restore conda environment from cache
+      uses: actions/cache/restore@v3
+      with:
+        path: ${{ env.CONDA }}/envs
+        key:
+          conda-${{ runner.os }}--${{ runner.arch }}--${{ hashFiles('environment.yml', 'requirements.txt') }}-${{ env.CONDA_CACHE_NUMBER }}
+      id: conda_cache
+    - name: install conda environment
+      run:
+        mamba env update -n orcestra_book -f environment.yml
+      if: steps.conda_cache.outputs.cache-hit != 'true'
+      id: install_conda_env
+    - name: upload conda environment to cache
+      uses: actions/cache/save@v3
+      if: steps.install_conda_env.outcome == 'success'
+      with:
+        path: ${{ env.CONDA }}/envs
+        key:
+          conda-${{ runner.os }}--${{ runner.arch }}--${{ hashFiles('environment.yml', 'requirements.txt') }}-${{ env.CONDA_CACHE_NUMBER }}
+    - name: setting up notebook execution cache
+      uses: actions/cache/restore@v3
+      with:
+        path: |
+          orcestra_book/_build/.jupyter_cache
+        key: notebooks-${{ runner.os }}-${{ hashFiles('environment.yml', 'requirements.txt') }}-${{ github.run_id }}-${{ github.run_attempt }}
+        restore-keys: |
+          notebooks-${{ runner.os }}-${{ hashFiles('environment.yml', 'requirements.txt') }}-${{ github.run_id }}-
+          notebooks-${{ runner.os }}-${{ hashFiles('environment.yml', 'requirements.txt') }}-
+    - name: build book
+      run: |
+        conda info
+        jupyter-book build -W -n --keep-going orcestra_book
+    - name: save execution cache
+      uses: actions/cache/save@v3
+      if: always()
+      with:
+        path: |
+          orcestra_book/_build/.jupyter_cache
+        key: notebooks-${{ runner.os }}-${{ hashFiles('environment.yml', 'requirements.txt') }}-${{ github.run_id }}-${{ github.run_attempt }}
+    - name: Archive build artifacts
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: html
+        path: |
+          orcestra_book/_build/html
+
+  publish:
+    needs: build
+    if: "always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository_owner == 'orcestra-campaign'"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download compiled book
+        uses: actions/download-artifact@v3
+        with:
+          name: html
+          path: html
+      #- name: set CNAME
+      #  run: |
+      #    printf "orcestra-campaign.org" > _build/html/CNAME
+      - name: Publish book on github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: html
