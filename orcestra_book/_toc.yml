@@ -11,10 +11,11 @@ chapters:
     - file: virtual_campaign
 #- file: operation
 - file: data
-  #sections:
+  sections:
     #- file: data_policy
     #- file: data_creation
     #- file: data_access
+    - file: temperature_example
 #- file: results
 #  sections:
 #    - file: showcases
