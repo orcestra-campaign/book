@@ -78,6 +78,8 @@ jobs:
           orcestra_book/_build/html
 
   publish:
+    needs: build
+    if: "always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository_owner == 'orcestra-campaign'"
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
