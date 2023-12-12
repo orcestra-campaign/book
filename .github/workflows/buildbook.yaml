@@ -2,6 +2,10 @@ name: buildbook
 
 on: [push, pull_request]
 
+permissions:
+  contents: read
+  pages: write
+
 env:
   # Increase this value to reset cache
   CONDA_CACHE_NUMBER: 0
