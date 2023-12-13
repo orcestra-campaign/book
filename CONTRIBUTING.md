@@ -32,20 +32,23 @@ Ready to contribute? Here's how to set up the `ORCESTRA book` for local developm
 
 1. Fork the repo on GitHub.
 2. Clone your fork locally.
-3. Install your local copy into a virtualenv, e.g., using `conda`.
+3. Install your local copy into a virtualenv, e.g., using `conda`: `conda env create -f environment.yml`.
 4. Create a branch for local development and make changes locally.
 5. Commit your changes and push your branch to GitHub.
 6. Submit a pull request through the GitHub website.
 
 ## Building the book
 
-To check your changes locally you can build the book:
+To check your changes locally you can build the book from within the repo's root folder:
 
-- (Recommended) Remove the existing `orcestra-book/_build/` directory
-- Run `jupyter-book build orcestra-book/`
+```
+jupyter-book build orcestra-book/
+```
 
 A fully-rendered HTML version of the book will be built in `orcestra-book/_build/html/`.
-
+You can have a look at it by opening the `_build/html/index.html` file in your browser.
+In case the book builds without errors, but your changes don't seem to get rendered it might be due to the cache.
+You can force the book to be built from scratch by removing the existing `orcestra-book/_build/` directory before building the book.
 
 ## Code of Conduct
 
