@@ -25,6 +25,14 @@ repository:
   path_to_book: orcestra_book  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
+sphinx:
+  local_extensions:
+    apastyle: _ext/
+    bracket_citation_style: _ext/
+  config:
+    bibtex_default_style: myapastyle
+    bibtex_reference_style: author_year_round
+
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:

@@ -10,3 +10,4 @@ requests
 aiohttp
 zarr>=2.8.3
 healpy
+pybtex-apa-style

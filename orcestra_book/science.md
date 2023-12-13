@@ -15,7 +15,7 @@ Due to this central role, the ITCZ has, of course, already been studied intensel
 Snapshots from VIIRS (NOAA-20) from the 1st of July 2021 until the 15th of July 2021 in the East Atlantic (26°W to 20°W, 0° to 14°N).
 ```
 
-Such deviations from the mean picture of the ITCZ have already been observed during the GATE campaign about 50 years ago and is nicely stated in a paper by Frank (1983):
+Such deviations from the mean picture of the ITCZ have already been observed during the GATE campaign about 50 years ago and is nicely stated in a paper by {cite:t}`Frank_1983`:
 
 > With the introduction of meteorological satellites two decades ago, it became clear that long east-west oriented lindes of maximum cloudiness occur in the mean. However, the lines of maximum mean cloudiness consist only of preferred locations for a variety of complex convective phenomena. At any given time and place along the zonal band containing the ITCZ, there may be deep convective clouds organized into a number of mesoscale patterns or no clouds at all.
 
