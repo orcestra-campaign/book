@@ -34,8 +34,9 @@ Ready to contribute? Here's how to set up the `ORCESTRA book` for local developm
 2. Clone your fork locally.
 3. Install your local copy into a virtualenv, e.g., using `conda`: `conda env create -f environment.yml`.
 4. Create a branch for local development and make changes locally.
-5. Commit your changes and push your branch to GitHub.
-6. Submit a pull request through the GitHub website.
+5. Build the book locally to see if the fully-rendered HTML version looks as intended (see below how to).
+6. Commit your changes and push your branch to GitHub.
+7. Submit a pull request through the GitHub website.
 
 ## Building the book
 
