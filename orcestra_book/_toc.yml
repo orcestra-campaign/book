@@ -4,6 +4,13 @@
 format: jb-book
 root: intro
 chapters:
+- file: orcestra
+  sections:
+    - file: maestro
+    - file: percussion
+    - file: bowtie
+    - file: piccolo
+    - file: score
 - file: science
 - file: strategy
 - file: preparation

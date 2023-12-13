@@ -1,9 +1,14 @@
-# ORCESTRA
+# The ORCESTRA campaign
 
-## Organized Convection and EarthCare Studies over the Tropical Atlantic
+**ORCESTRA - Organized Convection and EarthCare Studies over the Tropical Atlantic**
 
 The overarching objective of ORCESTRA is to better understand the physical mechanisms that organize tropical convection at the mesoscale, influencing the structure and dynamics of the inter-tropical convergence zone (ITCZ). This includes the interaction of convective organization with tropical waves and air-sea interaction, and the impact of convective organization on climate and the Earth’s radiation budget and processes of tropical cyclogenesis. In addition to advancing understanding of tropical meteorology and atmospheric processes, ORCESTRA observations will help calibrate and validate satellite remote sensing (especially EarthCARE) and a new generation of global ocean-eddy and storm-resolving climate models.
 
-Hence, several initiatives come together aiming to understand the mesoscale organisation of tropical convection with field data and satellite observations over the tropical ocean. This international initiative, named ORCESTRA, will include the French airborne field campaign [MAESTRO](https://maestro.aeris-data.fr/) (Mesoscale organisation of tropical convection), the German airborne field campaign PERCUSSION (Persistent EarthCare underflight studies of the ITCZ and organized convection), the German ship cruise BOW-TIE (Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment) and the US initiative PICCOLO (Process investigation of clouds and convective organization over the tropical ocean).
+ORCESTRA is an international initiative that combines five different sub-campaigns:
+* [MAESTRO - Mesoscale organisation of tropical convection](maestro.md)
+* [PERCUSSION - Persistent EarthCare underflight studies of the ITCZ and organized convection](percussion.md)
+* [BOW-TIE - Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment](bowtie.md)
+* [PICCOLO - Process investigation of clouds and convective organization over the tropical ocean](piccolo.md)
+* [SCORE - Sub-Cloud Observations of Rain Evaporation](score.md)
 
-The field campaign will take place over the Atlantic Ocean between Cape Verde and Barbados in August and September of 2024.
+ORCESTRA will happen in August and September 2024 in the tropical Atlantic region. Further details can be found on the [ORCESTRA overview](orcestra.md) page. This book further includes information on the science, the (measurement) strategy, preparations (e.g. the virtual field campaign), and soonish also everything around data including a data concept, data policy, data access and description.
