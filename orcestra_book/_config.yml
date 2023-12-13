@@ -3,7 +3,7 @@
 
 title: ORCESTRA
 author: The ORCESTRA Community
-logo: logos/percussion_b.png
+logo: logos/orcestra.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
