@@ -12,6 +12,8 @@ chapters:
     - file: piccolo
     - file: score
 - file: science
+  #sections:
+    #- file: gate
 - file: strategy
 - file: preparation
   sections:
