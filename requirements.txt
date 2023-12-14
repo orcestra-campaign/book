@@ -11,3 +11,4 @@ aiohttp
 zarr>=2.8.3
 healpy
 pybtex-apa-style
+docutils==0.17.1  # see https://github.com/executablebooks/jupyter-book/issues/1997
