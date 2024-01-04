@@ -18,6 +18,7 @@ chapters:
 - file: preparation
   sections:
     - file: virtual_campaign
+    - file: water_vapour_overview
 #- file: operation
 - file: data
   sections:
