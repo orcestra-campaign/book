@@ -20,8 +20,8 @@ import healpy as hp
 import matplotlib.pylab as plt
 
 cat = intake.open_catalog("https://tcodata.mpimet.mpg.de/internal.yaml")
-wxt = cat["BCO"]["surfacemet_wxt_v1"].to_dask()
-era5 = cat["ORCESTRA"]["hera5"].to_dask()
+wxt = cat.BCO.surfacemet_wxt_v1.to_dask()
+era5 = cat.HERA5(time="PT1H").to_dask()
 
 i_bco = hp.ang2pix(2**7, wxt.lon, wxt.lat, nest=True, lonlat=True)
 
