@@ -7,7 +7,7 @@ chapters:
 - file: orcestra
   sections:
     - file: maestro
-    - file: percussion
+    - file: percusion
     - file: bowtie
     - file: piccolo
     - file: score
