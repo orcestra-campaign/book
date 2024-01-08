@@ -1,6 +1,6 @@
 # The ORCESTRA book
 
-This repo collects all information to the ORCESTRA campaign in the form of a book. For now, the rendered book (website) is deployed to **https://orcestra-campaign.github.io/book**
+This repo collects all information to the ORCESTRA campaign in the form of a book. For now, the rendered book (website) is deployed to **https://orcestra-campaign.org/**
 
 The book is thought to grow and include information on
 * the SCIENCE
