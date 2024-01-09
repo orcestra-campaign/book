@@ -43,7 +43,7 @@ Ready to contribute? Here's how to set up the `ORCESTRA book` for local developm
 To check your changes locally you can build the book from within the repo's root folder:
 
 ```
-jupyter-book build orcestra-book/
+jupyter-book build orcestra_book/
 ```
 
 A fully-rendered HTML version of the book will be built in `orcestra-book/_build/html/`.
