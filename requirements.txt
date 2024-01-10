@@ -13,3 +13,4 @@ healpy
 pybtex-apa-style
 docutils==0.17.1  # see https://github.com/executablebooks/jupyter-book/issues/1997
 easygems>=0.0.3
+cmocean
