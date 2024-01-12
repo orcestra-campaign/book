@@ -99,7 +99,7 @@ Now, we can plot the time series by selecting the respective cell as well as the
 era5["2t"].sel(cell=i_bco, time=slice("2020-08", "2020-09")).plot()
 ```
 
-### Evolution of the moisture field at BCO 
+### Evolution of the moisture field at BCO
 
 Next, we extend our analysis and use a 3d variable to plot a time-height diagramm of moisture.
 Again, we select the BCO cell, a time range and now also a range in height `level` where we leave out the upper most layers (<100hPa) as we are interested in the troposphere only.
@@ -117,25 +117,7 @@ era5["q"].sel(
 )
 ```
 
-### A snapshot of global SST
-using the [healpy.mollview()](https://healpy.readthedocs.io/en/latest/generated/healpy.visufunc.mollview.html) function
-
-```{code-cell} ipython3
-hp.mollview(
-    era5["sst"].sel(time="2020-08-01T12:00:00", method="nearest"),
-    title="global SST on 2020-01-08 12:00",
-    nest=egh.get_nest(era5),
-    flip="geo",
-    min=273,
-    max=303,
-    cmap="cmo.thermal",
-    unit=era5["sst"].units,
-)
-```
-
 ### Select ORCESTRA region
-
-+++
 
 We want to see how the RH profile changes with latitude when averaged over the ORCESTRA campaign region on the 20th of August 2020. The `easygems` package provides the the `isel_extent` function which takes a lat/lon extent (`[W, E, S, N]`) as input and returns the corresponding indices of the global HEALPix grid. These indices can then be used to select the region of interest.
 
@@ -160,6 +142,23 @@ era5["r"].sel(
 ax.set_title("Relative humidity profile on 2020-08-20 (ORCESTRA region)")
 ```
 
+### A snapshot of global SST
+
+using the [healpy.mollview()](https://healpy.readthedocs.io/en/latest/generated/healpy.visufunc.mollview.html) function
+
+```{code-cell} ipython3
+hp.mollview(
+    era5["sst"].sel(time="2020-08-01T12:00:00", method="nearest"),
+    title="global SST on 2020-01-08 12:00",
+    nest=egh.get_nest(era5),
+    flip="geo",
+    min=273,
+    max=303,
+    cmap="cmo.thermal",
+    unit=era5["sst"].units,
+)
+```
+
 ## Plotting the Atlantic basin only
 
 The `healpy` package only provides functions to plot the whole globe. However, in real-life analyses it is often necessary to constrain a plot to certain regions. The function `easygems.healpix_show()` allows to plot two-dimensional data onto a cartopy `GeoAxis` with arbitrary projection and extent.
@@ -168,7 +167,7 @@ The `healpy` package only provides functions to plot the whole globe. However, i
 era5 = cat.HERA5(time="P1M").to_dask()
 var = era5["tp"]
 
-fig, ax = plt.subplots(subplot_kw={"projection": ccrs.PlateCarree()})
+fig, ax = plt.subplots(figsize=(10, 6), subplot_kw={"projection": ccrs.PlateCarree()})
 ax.set_extent([-65, -5, -10, 25])
 ax.coastlines(lw=0.8)
 im = egh.healpix_show(
