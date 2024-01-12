@@ -32,12 +32,14 @@ II.) Start **collecting tools/scripts/datasets** that are useful during the camp
 | | 2:10 pm     | Overview talks + most recent flight/ship track ideas of (sub-)programs <br> ( [ORCESTRA](https://orcestra-campaign.org/preparation.html) / [MAESTRO](https://orcestra-campaign.org/maestro.html) / [PERCUSION](https://orcestra-campaign.org/percusion.html) / [BOW-TIE](https://orcestra-campaign.org/bowtie.html) / [PICCOLO](https://orcestra-campaign.org/piccolo.html) / [SCORE](https://orcestra-campaign.org/score.html) )    |
 | | 4 pm    |  **break** |
 | | 4:20 pm     | Overview of boundary conditions for flight planning |
-| | 5 pm        | Tool(s) introduction  |
-| | 5:10 pm     | Topic collection, Group distribution  |
+| | 5:00 pm     | Topic collection, Group distribution  |
 | | 6 pm | end |
 ||||
-| Jan, 12th  | 2 -- 6 pm     | Group work (Breakout sessions)    |
-||||
+| Jan, 12th  | 2 pm     | Overview    |
+| | 2:05 pm       | Tool(s) introduction |
+| | 2:25 pm       | Group distribution   |
+| | 2:30 pm       | Breakout Sessions  (autonomous break(s))  |
+| | 5:30 pm       | Reconvene in plenum  |||||
 | Jan, 18th  | 2 -- 3 pm     | General meeting     |
 |            | 3 -- 6 pm     | Group work (Breakout sessions)    |
 ||||
