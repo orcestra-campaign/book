@@ -8,7 +8,7 @@ ORCESTRA is an international initiative that combines five different sub-campaig
 * [MAESTRO - Mesoscale organisation of tropical convection](maestro.md)
 * [PERCUSSION - Persistent EarthCare underflight studies of the ITCZ and organized convection](percusion.md)
 * [BOW-TIE - Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment](bowtie.md)
-* [PICCOLO - Process investigation of clouds and convective organization over the tropical ocean](piccolo.md)
+* [PICCOLO - Process Investigation of Clouds and Convective Organization over the atLantic Ocean](piccolo.md)
 * [SCORE - Sub-Cloud Observations of Rain Evaporation](score.md)
 
 ORCESTRA will happen in August and September 2024 in the tropical Atlantic region. Further details can be found on the [ORCESTRA overview](orcestra.md) page. This book further includes information on the science, the (measurement) strategy, preparations (e.g. the virtual field campaign), and soonish also everything around data including a data concept, data policy, data access and description.
