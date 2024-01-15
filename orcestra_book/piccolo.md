@@ -14,4 +14,6 @@ The objectives of PICCOLO involve
 
 [SEA-POL](https://seapol.colostate.edu) is the Colorado State University Sea-Going Polarimetric Radar, a National Science Foundation (NSF) community facility. SEA-POL is a 5.65 GHz ship-stabilized Doppler radar that operates at C-band to measure dual-polarization. 
 
-As of December 2023, PICCOLO was recommended for funding by NSF. 
+PICCOLO is funded by the US National Science Foundation.
+
+![](/Users/ywu/Downloads/NSF_Official_logo_High_Res_1200ppi.png =x150)  
