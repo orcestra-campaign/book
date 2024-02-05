@@ -6,11 +6,12 @@ root: intro
 chapters:
 - file: orcestra
   sections:
+    - file: bowtie
+    - file: cello
     - file: maestro
     - file: percusion
-    - file: bowtie
     - file: piccolo
-    - file: score
+    - file: score    
 - file: science
   #sections:
     #- file: gate
@@ -32,5 +33,6 @@ chapters:
 #    - file: showcases
 #    - file: publications
 #    - file: conferences
-#- file: news
+- file: news
+     - file: news_and_blogentries/20240205_virtual-campaign
 - file: references
