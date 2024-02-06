@@ -5,9 +5,10 @@
 The overarching objective of ORCESTRA is to better understand the physical mechanisms that organize tropical convection at the mesoscale, including the interaction of convective organization with tropical waves and air-sea interaction, and the impact of convective organization on climate and the Earth’s radiation budget and processes of tropical cyclogenesis. In addition to advancing understanding of tropical meteorology and atmospheric processes, ORCESTRA observations will to help calibrate and validate satellite remote sensing (especially EarthCARE) and a new generation of global ocean-eddy and storm-resolving climate models.
 
 ORCESTRA is an international initiative that combines five different sub-campaigns:
+* [BOW-TIE - Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment](bowtie.md)
+* [CELLO - Cloud and EarthCARE caL/vaL Observations](cello.md)
 * [MAESTRO - Mesoscale organisation of tropical convection](maestro.md)
 * [PERCUSSION - Persistent EarthCare underflight studies of the ITCZ and organized convection](percusion.md)
-* [BOW-TIE - Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment](bowtie.md)
 * [PICCOLO - Process investigation of clouds and convective organization over the tropical ocean](piccolo.md)
 * [SCORE - Sub-Cloud Observations of Rain Evaporation](score.md)
 
