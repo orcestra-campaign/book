@@ -50,7 +50,7 @@ list(cat)
 ```
 
 ```{code-cell} ipython3
-cat.HERA5.to_dask()
+cat.HERA5.to_dask().pipe(egh.attach_coords)
 ```
 
 ### Some notes on the dataset
@@ -79,7 +79,7 @@ We would like to plot the 2m air temperature at one location, the BCO, in August
 For this rather short time period, we would like to work with the hourly data. Therefore, we need to specify the time hierarchy when addressing the data in the catalog.
 
 ```{code-cell} ipython3
-era5 = cat.HERA5(time="PT1H").to_dask()
+era5 = cat.HERA5(time="PT1H").to_dask().pipe(egh.attach_coords)
 ```
 
 Next, we select the cell index that is the nearest neighbor to the BCO location using [`healpy.ang2pix()`](https://healpy.readthedocs.io/en/latest/generated/healpy.pixelfunc.ang2pix.html#healpy.pixelfunc.ang2pix).
@@ -132,9 +132,9 @@ era5["r"].sel(
 ).mean(
     "time"
 ).groupby(
-    era5.latitude.sel(cell=is_orcestra)
+    era5.lat.sel(cell=is_orcestra)
 ).mean().plot(
-    x="latitude",
+    x="lat",
     yincrease=False,
     cmap="cmo.dense",
     ax=ax,
@@ -164,7 +164,7 @@ hp.mollview(
 The `healpy` package only provides functions to plot the whole globe. However, in real-life analyses it is often necessary to constrain a plot to certain regions. The function `easygems.healpix_show()` allows to plot two-dimensional data onto a cartopy `GeoAxis` with arbitrary projection and extent.
 
 ```{code-cell} ipython3
-era5 = cat.HERA5(time="P1M").to_dask()
+era5 = cat.HERA5(time="P1M").to_dask().pipe(egh.attach_coords)
 var = era5["tp"]
 
 fig, ax = plt.subplots(figsize=(10, 6), subplot_kw={"projection": ccrs.PlateCarree()})
