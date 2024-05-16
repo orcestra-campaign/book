@@ -1,5 +1,5 @@
 jupyter-book
-matplotlib
+matplotlib<3.9 # required until there's a new release of healpy (see https://github.com/healpy/healpy/pull/944)
 numpy
 xarray
 dask>=2023.2.0
