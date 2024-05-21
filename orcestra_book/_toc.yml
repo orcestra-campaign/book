@@ -23,7 +23,7 @@ chapters:
 #- file: operation
 - file: data
   sections:
-    #- file: data_policy
+    - file: data_policy
     #- file: data_creation
     #- file: data_access
     - file: data_concept
