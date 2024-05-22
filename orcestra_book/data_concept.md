@@ -104,3 +104,117 @@ e.g. [IPFS](https://ipfs.tech), [ONEDATA](https://onedata.org)
 * One **may** write a data paper to describe datasets that are part of the ORCESTRA data collection. The ORCESTRA data collection and a data paper may benefit mutually:
     * Preparing data for the ORCESTRA data collection may help writing a data paper.
     * Writing a data paper may help preparing data for the ORCESTRA data collection.
+
+## Implementation
+
+:::{caution}
+This section is currently in exploratory stage. We aim to show options and their respective advantages and disatvantages. We should try to converge to a more concrete implementation plan until the start of the campaign.
+:::
+### Catalog
+
+We aim to implement the **dataset list** from the requirements in form of a **data catalog**.
+A data catalog in our sense is a somewhat formalized way of listing datasets and a method to access those datasets.
+A catalog is machine readable and supports the goal of dataset accessibility.
+
+::::{grid} 1 1 2 2
+
+:::{grid-item-card} [Intake](https://intake.readthedocs.io)
+Tool for reading data, from Python ecosystem.
+
+* ✅ known and tested in EUREC4A and AC3
+* ✅ easy to create
+* ✅ compatible with any kind of data
+* ❌ limited to Python
+* ❌ unstable format (Intake 2 broke a lot of things)
+* 🤔 has room for creative hacks
+:::
+
+:::{grid-item-card} [STAC](https://stacspec.org/)
+
+SpatioTemporal Asset Catalogs, the STAC specification is a common language to describe geospatial information.
+
+* ✅ stable format
+* ✅ [integrations for multiple languages](https://stacspec.org/en/about/tools-resources/) exist
+* ✅ can be used with Intake
+* ✅ common set of earth observation related metadata is defined
+* ❌ more complicated to create (but tools exist)
+* ❌ can only be used for 
+:::
+::::
+
+In any case, the catalog should be accessible though a well-known public URL, such that users always know where to start.
+We suggest either `https://data.orcestra-campaign.org/catalog.yaml` or `https://data.orcestra-campaign.org/catalog.json`, depending on whether Intake or STAC will be chosen.
+
+We may want to use Continuous Integration tools to automatically build the actual catalog based on simpler source input files. This might be particularly relevant if we opt for STAC catalogs, as they require providing spatial and temporal extend for every dataset. We might want to automatically extract this information from the actual datasets if they follow e.g. CF-Conventions, thus simplifying catalog creation and improving consistency.
+
+### Storage and Access
+
+While the Catalog provides a unified access method to all the datasets, mostly independent of the underlying storage and access methods, the particular choices in this section will have an influence on practical data accessibility and maintenance effort.
+We can (and likely will have to) support multiple underlying storage and access methods.
+This section tries to briefly cover the advantages and disadvantages of those methods.
+
+::::{grid} 1 1 2 2
+:::{grid-item-card} HTTP / Object Store
+E.g. [Swift](https://docs.openstack.org/swift/train/api/object_api_v1_overview.html), [S3](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html) or just a static HTTP server.
+
+* ✅ HTTP as access protocol
+* ✅ compatible with about everything
+* ❌ prone to [link rot](https://en.wikipedia.org/wiki/Link_rot)
+* ❌ single point of failure
+* ❌ in general: no guarantees about data integrity or persistence
+:::
+
+:::{grid-item-card} DOI repo
+This includes e.g. [Pangea](https://pangaea.de), [Aeris](https://www.aeris-data.fr), [Zenodo](https://zenodo.org), etc...
+
+* ✅ DOI providers must state that they keep data available for a while
+* ❌ providing all required information may be a burden
+* ❌ DOI does not provide direct access to data thus we must fall back to direct HTTP links, effectively bypassing the DOI
+* ❌ single point of failure
+:::
+
+:::{grid-item-card} NextCloud / OwnCloud
+* ✅ easy to upload
+* ✅ can be installed on-site at the campaign
+* ❌ access performance may be sub-optimal
+* ❌ single point of failure
+* 🤔 easy way to create user accounts
+:::
+
+:::{grid-item-card} [IPFS](https://ipfs.tech)
+* ✅ can be installed on-site at the campaign
+* ✅ distributed, i.e. we can have multiple copies at different location (including local)
+* ✅ very fast access if data is cached locally
+* ✅ tracking data changes is easy due to the [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree) structure
+* ❌ requires setting up an [IPFS node](https://docs.ipfs.tech/install/ipfs-desktop/) on (or close to) the accessing machine for reasonable performance
+:::
+
+:::{grid-item-card} [OPeNDAP](https://www.opendap.org)
+* ✅ minimizes data transfer
+* ❌ very hard to cache
+* ❌ very hard to track changes
+* ❌ often poor performance due to high server load
+* ❌ many problematic data types
+:::
+::::
+
+### Tracking Progress
+Some form of a second list of *to-be-created* datasets in advance is likely helpful to track progress (e.g. as for [(AC)<sup>3</sup> campaign](https://igmk.github.io/how_to_ac3airborne/datasets.html#p5))
+
+### Good Datasets
+
+The implementation builds on top of [HowTo EUREC4A](https://howto.eurec4a.eu/) and [(AC)<sup>3</sup> Airborne](https://igmk.github.io/how_to_ac3airborne/intro.html).
+
+* few large datasets are better than many small datasets
+  * daily datasets are nice during creation, but <br/> full-campaign datasets are easier afterwards
+  * (large) datasets benefit from good chunking
+* Some datatypes [are problematic](https://howto.eurec4a.eu/netcdf_datatypes.html), you **should not** use these datatypes.
+
+
+### Special considerations on-site during the field campaign
+
+It would be great if we can fill and access the data catalog already during the field campaign.
+This might however require some special considerations, as we generally can't rely on a very fast internet connection.
+
+* We may use links to local copies of the datasets in the catalog
+* If using IPFS, things might work out automatically as IPFS would discover and access local copies.
