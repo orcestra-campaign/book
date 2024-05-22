@@ -138,11 +138,11 @@ SpatioTemporal Asset Catalogs, the STAC specification is a common language to de
 * ✅ can be used with Intake
 * ✅ common set of earth observation related metadata is defined
 * ❌ more complicated to create (but tools exist)
-* ❌ can only be used for 
+* ❌ can only be used for spatio-temporal datasets
 :::
 ::::
 
-In any case, the catalog should be accessible though a well-known public URL, such that users always know where to start.
+In any case, the catalog should be accessible through a well-known public URL, such that users always know where to start.
 We suggest either `https://data.orcestra-campaign.org/catalog.yaml` or `https://data.orcestra-campaign.org/catalog.json`, depending on whether Intake or STAC will be chosen.
 
 We may want to use Continuous Integration tools to automatically build the actual catalog based on simpler source input files. This might be particularly relevant if we opt for STAC catalogs, as they require providing spatial and temporal extend for every dataset. We might want to automatically extract this information from the actual datasets if they follow e.g. CF-Conventions, thus simplifying catalog creation and improving consistency.
@@ -165,7 +165,7 @@ E.g. [Swift](https://docs.openstack.org/swift/train/api/object_api_v1_overview.h
 :::
 
 :::{grid-item-card} DOI repo
-This includes e.g. [Pangea](https://pangaea.de), [Aeris](https://www.aeris-data.fr), [Zenodo](https://zenodo.org), etc...
+This includes e.g. [Pangaea](https://pangaea.de), [Aeris](https://www.aeris-data.fr), [Zenodo](https://zenodo.org), etc...
 
 * ✅ DOI providers must state that they keep data available for a while
 * ❌ providing all required information may be a burden
