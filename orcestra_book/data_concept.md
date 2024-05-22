@@ -1,13 +1,15 @@
 # Data Concept
 
-## Motivation
 We like to see ORCESTRA as **our common** field campaign.
 All should be able to use the gathered data.
 Together and for mutual benefit.
-The purpose of these goals is to learn from what worked and what didn't work during the EUREC4A field campaign and other projects.
 
-### Goals
+This page first focusses on the general **goals** we want to achieve, they should reflect general ideas of what we think a useful, practical datasystem should be capable of.
+The next section details on **requirements** we derive from the goals, in order to find a good **implementation**, which is described in the third part.
 
+## Goals
+
+The purpose of these goals is to have a well-working environment for data dissemination (both during and post campaign) and to learn from what worked and what didn't work during the EUREC4A field campaign and other previous projects.
 The goals are sorted in decreasing priority (i.e. 1 is the most important). We **aim for all of them**, but if we have to cut, we should cut at the end.
 
 1. **a *single* list of existing datasets**<br/>
