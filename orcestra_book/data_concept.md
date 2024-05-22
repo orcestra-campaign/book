@@ -86,7 +86,7 @@ Many formats can be read as an xarray Dataset. This includes e.g. netCDF, zarr, 
 
 * storage location has to provide a method to check if something changed
     * e.g. HTTP ETag, hash of content etc...
-* how to handle updates / changes to adataset?
+* how to handle updates / changes to a dataset?
     * ensure that dataset name changes on storage (e.g. version number, hash ...)
     * list / catalog may point to most recent version
 
