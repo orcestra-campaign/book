@@ -8,7 +8,7 @@ ORCESTRA is an international initiative that combines five different sub-campaig
 * [BOW-TIE - Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment](bowtie.md)
 * [CELLO - Cloud and EarthCARE caL/vaL Observations](cello.md)
 * [MAESTRO - Mesoscale organisation of tropical convection](maestro.md)
-* [PERCUSSION - Persistent EarthCare underflight studies of the ITCZ and organized convection](percusion.md)
+* [PERCUSION - Persistent EarthCare underflight studies of the ITCZ and organized convection](percusion.md)
 * [PICCOLO - Process investigation of clouds and convective organization over the tropical ocean](piccolo.md)
 * [SCORE - Sub-Cloud Observations of Rain Evaporation](score.md)
 
