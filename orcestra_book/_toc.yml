@@ -28,6 +28,7 @@ chapters:
     #- file: data_access
     - file: data_concept
     - file: hera5
+    - file: hifs
     - file: temperature_example
 #- file: results
 #  sections:
