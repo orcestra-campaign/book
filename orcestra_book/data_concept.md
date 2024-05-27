@@ -65,16 +65,17 @@ dataset = get(dataset_list, dataset_identifier)
 * The dataset **should** be accessible without credentials.
 * The dataset **should** be available publicly as soon as possible (ideally immediately after acquisition).
 * The dataset **should** be available publicly not later than one year after the campaign finished. (**TODO:** this point might be better placed in the data policy, we really want something like a "must" here, but in this section this would technically mean that no data can be added after a year, which we also don't want)
-* The dataset **must** be available as [`xarray.Dataset`](https://docs.xarray.dev/en/stable/user-guide/data-structures.html#dataset) (it **can** be available in different forms in addition).
-
-
-:::{tip}
-Many formats can be read as an xarray Dataset. This includes e.g. netCDF, zarr, GRIB, CSV, AMES FFI etc..., but it might require supplying an appropriate read routine.
-:::
+The dataset **must** be stored in one the following data formats:
+  * NetCDF
+  * Zarr
+  * CSV
+  * GRIB
+  * AMES FFI
+* It **can** be available in different forms in addition
+* The list of accepted data formats **can** be extended, if the data format is well standardized and readable by several common programming languages
 
 ### 3. datasets are **well-formed** and **analysis-ready**
 
-* You **should** stick to well-known formats (e.g. netCDF / zarr). The chosen format **must** be convertible to `xarray.Dataset`, see above.
 * You **should** follow standard metadata schemes ([CF-Conventions](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.11/cf-conventions.html))
 * You **may** designate data processing levels to help users understand the quality of the provided data. If you provide processing levels, the levels **should** follow the [EOSDIS data processing levels](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-information-policy/data-levels) scheme.
 * You **should** work with your own **published** datasets.
@@ -82,22 +83,19 @@ Many formats can be read as an xarray Dataset. This includes e.g. netCDF, zarr, 
 
 ### 4. incremental backups are possible
 
-*(this section is currently in an early stage)*
-
-* storage location has to provide a method to check if something changed
-    * e.g. HTTP ETag, hash of content etc...
-* how to handle updates / changes to a dataset?
-    * ensure that dataset name changes on storage (e.g. version number, hash ...)
-    * list / catalog may point to most recent version
+* You **must** provide a version number for your dataset
+* You *should* add a content identifier for your dataset (specify has algorithm?)
+* The catalog entry **should** point to the most recent version of the dataset
+* The storage location **may** provide a method to check if something changed ( e.g. HTTP ETag, ...)
 
 ### 5. datasets are on a shared, distributed system
 
-*(this section is currently in an early stage)*
+Use a distributed storage protocol to make datasets accessible e.g. [IPFS](https://ipfs.tech), [ONEDATA](https://onedata.org)
 
-use a distributed storage protocol to make datasets accessible
-e.g. [IPFS](https://ipfs.tech), [ONEDATA](https://onedata.org)
-
-*maybe needs more support from computing centers*
+:::{info}
+The implementation of this proposal is likely not ready in time.
+However, further investigation and feasibility studies may be carried out during the campaing.
+:::
 
 ### Closing remarks
 
@@ -115,6 +113,11 @@ This section is currently in exploratory stage. We aim to show options and their
 We aim to implement the **dataset list** from the requirements in form of a **data catalog**.
 A data catalog in our sense is a somewhat formalized way of listing datasets and a method to access those datasets.
 A catalog is machine readable and supports the goal of dataset accessibility.
+
+:::{note}
+The current decision is to **aim** for a STAC catalogue to benefit from the more robust format and the more language-agnostic feature set.
+However, if the creation of the catalogue proves to be too complicated in real-world applications, intake catalogs seems to be an acceptable fallback.
+:::
 
 ::::{grid} 1 1 2 2
 
