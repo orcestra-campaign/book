@@ -65,39 +65,33 @@ dataset = get(dataset_list, dataset_identifier)
 * The dataset **should** be accessible without credentials.
 * The dataset **should** be available publicly as soon as possible (ideally immediately after acquisition).
 * The dataset **should** be available publicly not later than one year after the campaign finished. (**TODO:** this point might be better placed in the data policy, we really want something like a "must" here, but in this section this would technically mean that no data can be added after a year, which we also don't want)
-* The dataset **must** be available as [`xarray.Dataset`](https://docs.xarray.dev/en/stable/user-guide/data-structures.html#dataset) (it **can** be available in different forms in addition).
-
-
-:::{tip}
-Many formats can be read as an xarray Dataset. This includes e.g. netCDF, zarr, GRIB, CSV, AMES FFI etc..., but it might require supplying an appropriate read routine.
-:::
+The dataset **must** be stored in one the following data formats:
+  * NetCDF
+  * Zarr
+* The list of accepted data formats **can** be extended, if the data format is well standardized and readable by several common programming languages
 
 ### 3. datasets are **well-formed** and **analysis-ready**
 
-* You **should** stick to well-known formats (e.g. netCDF / zarr). The chosen format **must** be convertible to `xarray.Dataset`, see above.
 * You **should** follow standard metadata schemes ([CF-Conventions](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.11/cf-conventions.html))
+* You **may** adhere to the [GEOM](https://en.wikipedia.org/wiki/Generic_Earth_Observation_Metadata_Standard) metadata standard. In the event of a conflict, the CF-Conventions **must** take precedence.
 * You **may** designate data processing levels to help users understand the quality of the provided data. If you provide processing levels, the levels **should** follow the [EOSDIS data processing levels](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-information-policy/data-levels) scheme.
 * You **should** work with your own **published** datasets.
 * Datasets **should** be reviewed across teams.
 
 ### 4. incremental backups are possible
 
-*(this section is currently in an early stage)*
-
-* storage location has to provide a method to check if something changed
-    * e.g. HTTP ETag, hash of content etc...
-* how to handle updates / changes to a dataset?
-    * ensure that dataset name changes on storage (e.g. version number, hash ...)
-    * list / catalog may point to most recent version
+* You **must** provide a version number for your dataset in the corresponding catalog metadata
+* You **should** provide the version number of your dataset in the dataset attributes
+* You **must not** provide any version information in the dataset name
+* You *should* add a content identifier for your dataset (specify has algorithm?)
+* The catalog entry **must** point to the most recent version of the dataset by default.
+* The catalog entry **should** point to previous versions if explicitly requested.
+* The storage location **should** provide a method to efficiently check if something changed (e.g. HTTP [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#etagif-none-match), [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#if-modified-since)...)
 
 ### 5. datasets are on a shared, distributed system
 
-*(this section is currently in an early stage)*
+Use a distributed storage protocol to make datasets accessible e.g. [IPFS](https://ipfs.tech), [ONEDATA](https://onedata.org)
 
-use a distributed storage protocol to make datasets accessible
-e.g. [IPFS](https://ipfs.tech), [ONEDATA](https://onedata.org)
-
-*maybe needs more support from computing centers*
 
 ### Closing remarks
 
@@ -115,6 +109,11 @@ This section is currently in exploratory stage. We aim to show options and their
 We aim to implement the **dataset list** from the requirements in form of a **data catalog**.
 A data catalog in our sense is a somewhat formalized way of listing datasets and a method to access those datasets.
 A catalog is machine readable and supports the goal of dataset accessibility.
+
+:::{note}
+The current decision is to **aim** for a STAC catalogue to benefit from the more robust format and the more language-agnostic feature set.
+However, if the creation of the catalogue proves to be too complicated in real-world applications, intake catalogs seems to be an acceptable fallback.
+:::
 
 ::::{grid} 1 1 2 2
 
