@@ -73,6 +73,7 @@ The dataset **must** be stored in one the following data formats:
 ### 3. datasets are **well-formed** and **analysis-ready**
 
 * You **should** follow standard metadata schemes ([CF-Conventions](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.11/cf-conventions.html))
+* You **may** adhere to the [GEOM](https://en.wikipedia.org/wiki/Generic_Earth_Observation_Metadata_Standard) metadata standard. In the event of a conflict, the CF-Conventions **must** take precedence.
 * You **may** designate data processing levels to help users understand the quality of the provided data. If you provide processing levels, the levels **should** follow the [EOSDIS data processing levels](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-information-policy/data-levels) scheme.
 * You **should** work with your own **published** datasets.
 * Datasets **should** be reviewed across teams.
