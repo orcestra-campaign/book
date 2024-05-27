@@ -68,10 +68,6 @@ dataset = get(dataset_list, dataset_identifier)
 The dataset **must** be stored in one the following data formats:
   * NetCDF
   * Zarr
-  * CSV
-  * GRIB
-  * AMES FFI
-* It **can** be available in different forms in addition
 * The list of accepted data formats **can** be extended, if the data format is well standardized and readable by several common programming languages
 
 ### 3. datasets are **well-formed** and **analysis-ready**
@@ -83,19 +79,18 @@ The dataset **must** be stored in one the following data formats:
 
 ### 4. incremental backups are possible
 
-* You **must** provide a version number for your dataset
+* You **must** provide a version number for your dataset in the corresponding catalog metadata
+* You **should** provide the version number of your dataset in the dataset attributes
+* You **must not** provide any version information in the dataset name
 * You *should* add a content identifier for your dataset (specify has algorithm?)
-* The catalog entry **should** point to the most recent version of the dataset
-* The storage location **may** provide a method to check if something changed ( e.g. HTTP ETag, ...)
+* The catalog entry **must** point to the most recent version of the dataset by default.
+* The catalog entry **should** point to previous versions if explicitly requested.
+* The storage location **should** provide a method to efficiently check if something changed (e.g. HTTP [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#etagif-none-match), [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#if-modified-since)...)
 
 ### 5. datasets are on a shared, distributed system
 
 Use a distributed storage protocol to make datasets accessible e.g. [IPFS](https://ipfs.tech), [ONEDATA](https://onedata.org)
 
-:::{info}
-The implementation of this proposal is likely not ready in time.
-However, further investigation and feasibility studies may be carried out during the campaing.
-:::
 
 ### Closing remarks
 
