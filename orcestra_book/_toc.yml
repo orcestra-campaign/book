@@ -12,6 +12,7 @@ chapters:
     - file: percusion
     - file: piccolo
     - file: score
+    - file: strings
 - file: science
   #sections:
     #- file: gate
