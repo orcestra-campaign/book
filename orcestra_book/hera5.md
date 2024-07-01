@@ -13,7 +13,7 @@ kernelspec:
 
 # ERA5 data on the HEALPix grid
 
-ERA5 data for selected variables has been restructured and remapped onto the HEALPix grid for the years 2010 to 2023.
+ERA5[^ack] data for selected variables has been restructured and remapped onto the HEALPix grid for the years 2010 to 2023.
 This dataset, which we call HERA5, is accessible through the [internal TCO catalog](https://gitlab.dkrz.de/tco/tcodata/-/blob/main/intake/internal.yaml) and can be **read and used by everyone**.
 HERA5 provides data at different temporal resolutions and enables an open and fast access to the data from everywhere and without a local copy.
 This notebook shows the access to the data and some basic usage examples.
@@ -183,3 +183,4 @@ fig.colorbar(im, label=f"{var.long_name} / {var.units}", shrink=0.7)
 * The HEALPix grid: [A short intro](https://easy.gems.dkrz.de/Processing/healpix/index.html#healpix)
 * [The `healpy` python package](https://healpy.readthedocs.io/en/latest/index.html)
 
+[^ack]: Contains modified Copernicus Climate Change Service information 2020. Neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.
