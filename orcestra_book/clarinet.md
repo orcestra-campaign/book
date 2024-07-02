@@ -1,5 +1,5 @@
-## CLARINET 
-### CLoud and Aerosol Remote sensing for EarThcare
+# CLARINET
+## CLoud and Aerosol Remote sensing for EarThcare
 
 *PIs: Dr. Annett Skupin (skupin@tropos.de) and Dr. Holger Baars (baars@tropos.de)*
 
