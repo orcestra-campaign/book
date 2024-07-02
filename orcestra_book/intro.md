@@ -7,6 +7,7 @@ The overarching objective of ORCESTRA is to better understand the physical mecha
 ORCESTRA is an international initiative that combines seven different sub-campaigns:
 * [BOW-TIE - Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment](bowtie.md)
 * [CELLO - Cloud and EarthCARE caL/vaL Observations](cello.md)
+* [CLARINET - CLoud and Aerosol Remote sensing for EarThcare](clarinet.md)
 * [MAESTRO - Mesoscale organisation of tropical convection](maestro.md)
 * [PERCUSION - Persistent EarthCare underflight studies of the ITCZ and organized convection](percusion.md)
 * [PICCOLO - Process Investigation of Clouds and Convective Organization over the atLantic Ocean](piccolo.md)
