@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron_font/Aileron-Regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron_font/Aileron-Italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron_font/Aileron-SemiBold-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron_font/Aileron-SemiBold-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron_font/Aileron-Bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron_font/Aileron-Bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+html {
+    --pst-font-family-heading: Aileron, var(--pst-font-family-base-system);
+    --pst-font-family-base: Aileron, var(--pst-font-family-base-system);
+}
