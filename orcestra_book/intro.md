@@ -4,7 +4,7 @@
 
 The overarching objective of ORCESTRA is to better understand the physical mechanisms that organize tropical convection at the mesoscale, influencing the structure and dynamics of the inter-tropical convergence zone (ITCZ). This includes the interaction of convective organization with tropical waves and air-sea interaction, and the impact of convective organization on climate and the Earth’s radiation budget and processes of tropical cyclogenesis. In addition to advancing understanding of tropical meteorology and atmospheric processes, ORCESTRA observations will help calibrate and validate satellite remote sensing (especially EarthCARE) and a new generation of global ocean-eddy and storm-resolving climate models.
 
-ORCESTRA is an international initiative that combines seven different sub-campaigns:
+ORCESTRA is an international initiative that combines different sub-campaigns:
 * [BOW-TIE - Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment](bowtie.md)
 * [CELLO - Cloud and EarthCARE caL/vaL Observations](cello.md)
 * [CLARINET - CLoud and Aerosol Remote sensing for EarThcare](clarinet.md)
