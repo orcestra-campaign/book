@@ -6,6 +6,6 @@ The ORCESTRA data are a product of the collective efforts and funding of various
 
 For publications using ORCESTRA data, please include this acknowledgement:
 
-> "The data used in this publication was collected during the ORCESTRA field campaign and is available through [insert institute name]. ORCESTRA is supported by the European Space Agency (ESA), the Max Planck Society (MPG), the German Research Foundation (DFG), and the German Aerospace Center (DLR)."
+> "The data used in this publication was collected during the ORCESTRA field campaign and is available through [insert institute name]. ORCESTRA is supported by the European Space Agency (ESA), the Max Planck Society (MPG), the German Research Foundation (DFG), the German Aerospace Center (DLR), the German Federal Ministry for Education and Research (BMBF), and the US National Science Foundation (NSF)."
 
 This approach ensures the recognition and respect for the significant efforts behind the data collection while promoting its open and respectful use.
