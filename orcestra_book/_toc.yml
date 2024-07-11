@@ -22,7 +22,7 @@ chapters:
   sections:
     - file: virtual_campaign
     - file: water_vapour_overview
-#- file: operation
+- file: operation
 - file: data
   sections:
     #- file: data_policy
