@@ -30,6 +30,7 @@ sphinx:
   local_extensions:
     apastyle: _ext/
     bracket_citation_style: _ext/
+    category_role: _ext/
     create_flight_table: _ext/
   config:
     bibtex_default_style: myapastyle

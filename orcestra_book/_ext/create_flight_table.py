@@ -11,10 +11,10 @@ from jinja2 import Template
 templ = """<!-- This file was created automatically -->
 # Operation
 
-Flight-ID | Date | Takeoff | Landing | PI | Nickname | Objectives
+Flight-ID | Date | Takeoff | Landing | PI | Nickname | Categories
 --- | --- | --- | --- | --- | --- | ---
 {% for k, v in flights.items() -%}
-[](flight_reports/{{ k }}) | {{ v["expr_date"] }} | {{ v["expr_takeoff"] }} | {{ v["expr_landing"] }} | {{ v["pi"] }} | {{ v["nickname"] }} | {{ v["objectives"]|join(', ') }}
+[](flight_reports/{{ k }}) | {{ v["expr_date"] }} | {{ v["expr_takeoff"] }} | {{ v["expr_landing"] }} | {{ v["pi"] }} | {{ v["nickname"] }} | {{ v["expr_categories"]|join(' ') }}
 {% endfor -%}
 """
 
@@ -22,12 +22,13 @@ Flight-ID | Date | Takeoff | Landing | PI | Nickname | Objectives
 def read_frontmatter(path):
     attrs = Frontmatter.read_file(path)["attributes"]
 
-    takeoff = datetime.fromisoformat(attrs["takeoff"])
-    landing = datetime.fromisoformat(attrs["landing"])
+    takeoff = attrs["takeoff"]
+    landing = attrs["landing"]
 
     attrs["expr_date"] = takeoff.strftime("%d %B %Y")
     attrs["expr_takeoff"] = takeoff.strftime("%X")
     attrs["expr_landing"] = landing.strftime("%X")
+    attrs["expr_categories"] = map(lambda s: f"{{cat}}`{s}`", attrs.get("categories", []))
 
     return attrs
 
