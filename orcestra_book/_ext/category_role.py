@@ -42,9 +42,22 @@ class BadgesRole(SphinxRole):
         return nodes, []
 
 
+class FrontmatterRole(SphinxRole):
+    def run(self):
+        """Access variables defined in document front matter."""
+        # TODO: It is likely not a good practice to parse the document again and again.
+        #   However, it is a working solution with no sensible performance degradation.
+        frontmatter = Frontmatter.read_file(
+            self.env.doc2path(self.env.docname)
+        )["attributes"]
+
+        return nodes.raw(text=frontmatter[self.text]), []
+
+
 def setup(app):
     app.add_role("cat", CategoryRole())
     app.add_role("badges", BadgesRole())
+    app.add_role("front", FrontmatterRole())
 
     return {
         "version": "0.1",
