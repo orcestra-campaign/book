@@ -4,7 +4,7 @@ import pathlib
 import subprocess
 from datetime import datetime
 
-from frontmatter import Frontmatter
+import yaml
 from jinja2 import Template
 
 
@@ -20,7 +20,8 @@ Flight-ID | Date | Takeoff | Landing | PI | Nickname | Categories
 
 
 def read_frontmatter(path):
-    attrs = Frontmatter.read_file(path)["attributes"]
+    with open(path, "r") as fp:
+        attrs = next(yaml.safe_load_all(fp))
 
     takeoff = attrs["takeoff"]
     landing = attrs["landing"]

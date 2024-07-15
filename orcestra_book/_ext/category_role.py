@@ -2,7 +2,6 @@
 from docutils import nodes
 
 import yaml
-from frontmatter import Frontmatter
 from sphinx.util.docutils import SphinxRole
 
 
@@ -33,9 +32,8 @@ class CategoryRole(SphinxRole):
 class BadgesRole(SphinxRole):
     def run(self):
         """(Re-)parse the frontmatter of the current document and create badges."""
-        categories = Frontmatter.read_file(
-            self.env.doc2path(self.env.docname)
-        )["attributes"].get("categories", [])
+        with open(self.env.doc2path(self.env.docname), "r") as fp:
+            categories = next(yaml.safe_load_all(fp)).get("categories", [])
 
         nodes = [create_badge(cat_id) for cat_id in categories]
 
@@ -47,9 +45,8 @@ class FrontmatterRole(SphinxRole):
         """Access variables defined in document front matter."""
         # TODO: It is likely not a good practice to parse the document again and again.
         #   However, it is a working solution with no sensible performance degradation.
-        frontmatter = Frontmatter.read_file(
-            self.env.doc2path(self.env.docname)
-        )["attributes"]
+        with open(self.env.doc2path(self.env.docname), "r") as fp:
+            frontmatter = next(yaml.safe_load_all(fp))
 
         return nodes.raw(text=frontmatter[self.text]), []
 
