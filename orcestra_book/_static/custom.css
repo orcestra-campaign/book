@@ -57,6 +57,11 @@ html {
   border-radius: 0.25em;
 }
 
+/* HACK: Fix spacing between span elements in "row view". */
+.badge + .badge {
+    margin-left: 0.25em;
+}
+
 .cat-a {
   background-color: #33691E;
   color: #fff;
