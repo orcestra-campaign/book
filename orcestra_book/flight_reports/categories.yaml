@@ -1,0 +1,46 @@
+categories:
+  ec_under:
+    long_name: "EarthCARE underpass"
+    tier: "a"
+  ec_track:
+    long_name: "Fly along EarthCARE track"
+    tier: "a"
+  two_circ:
+    long_name: "Two circles at 48mm"
+    tier: "a"
+  itcz_circ:
+    long_name: "Once circle inside the ITCZ"
+    tier: "a"
+  south:
+    long_name: "Southern extension (100km)"
+    tier: "b"
+  atr_circ:
+    long_name: "Circle around ATR"
+    tier: "b"
+  atr_over:
+    long_name: "ATR overpass"
+    tier: "b"
+  sar:
+    long_name: "SAR overpass"
+    tier: "b"
+  pace:
+    long_name: "PACE overpass"
+    tier: "b"
+  gpm:
+    long_name: "GPM/Radar satellite"
+    tier:  "b"
+  mindelo:
+    long_name: "Mindelo overpass"
+    tier: "b"
+  cloud_circ:
+    long_name: "Circle a cloud"
+    tier: "b"
+  curtain:
+    long_name: "Dropsonde curtain thought the ITCZ"
+    tier: "b"
+  radar:
+    long_name: "Radar calibration"
+    tier: "b"
+  cirrus:
+    long_name: "Cirrus transmissivity"
+    tier: "c"

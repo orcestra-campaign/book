@@ -1,32 +1,17 @@
 #!/usr/bin/env python3
 from docutils import nodes
 
+import yaml
 from frontmatter import Frontmatter
 from sphinx.util.docutils import SphinxRole
 
 
 def create_badge(cat_id):
     """Return an HTML node based on a category id."""
-    cat_tier = {
-       # Important objectives
-       "ec_under": "a",
-       "ec_track": "a",
-       "two_circ": "a",
-       "itcz_circ": "a",
-       # Semi-important objectives
-       "south": "b",
-       "atr_circ": "b",
-       "atr_over": "b",
-       "sar": "b",
-       "pace": "b",
-       "gpm": "b",
-       "mindels": "b",
-       "cloud_circ": "b",
-       "curtain": "b",
-       "radar": "b",
-       # Nice-to-have
-       "cirrus": "c",
-    }.get(cat_id, "unknown")
+    with open("orcestra_book/flight_reports/categories.yaml", "r") as fp:
+        cat_tier = {
+            key: attrs["tier"] for key, attrs in yaml.safe_load(fp)["categories"].items()
+        }.get(cat_id, "unknown")
 
     span = f'<span class="badge cat-{cat_tier} cat-{cat_id}">{cat_id}</span>'
     href = f'<a href="https://orcestra-campaign.org/search.html?q={cat_id}">{span}</a>'
