@@ -28,8 +28,10 @@ def create_badge(cat_id):
        "cirrus": "c",
     }.get(cat_id, "unknown")
 
+    span = f'<span class="badge cat-{cat_tier} cat-{cat_id}">{cat_id}</span>'
+    href = f'<a href="https://orcestra-campaign.org/search.html?q={cat_id}">{span}</a>'
     node = nodes.raw(
-        text=f'<span class="badge cat-{cat_tier} cat-{cat_id}">{cat_id}</span>',
+        text=href,
         format="html",
     )
 
