@@ -4,6 +4,7 @@
 title: ORCESTRA
 author: The ORCESTRA Community
 logo: logos/orcestra.png
+exclude_patterns: ["_templates/*"]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -30,8 +31,7 @@ sphinx:
   local_extensions:
     apastyle: _ext/
     bracket_citation_style: _ext/
-    category_role: _ext/
-    create_flight_table: _ext/
+    flight_reports: _ext/
   config:
     bibtex_default_style: myapastyle
     bibtex_reference_style: author_year_round
