@@ -14,6 +14,9 @@ chapters:
     - file: piccolo
     - file: score
     - file: strinqs
+- file: platforms
+  sections:
+  - file: halo
 - file: science
   #sections:
     #- file: gate
