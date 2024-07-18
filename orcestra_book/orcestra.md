@@ -4,23 +4,76 @@
 
 The overarching objective of ORCESTRA is to better understand the physical mechanisms that organize tropical convection at the mesoscale, including the interaction of convective organization with tropical waves and air-sea interaction, and the impact of convective organization on climate and the Earth’s radiation budget and processes of tropical cyclogenesis. In addition to advancing understanding of tropical meteorology and atmospheric processes, ORCESTRA observations will to help calibrate and validate satellite remote sensing (especially EarthCARE) and a new generation of global ocean-eddy and storm-resolving climate models.
 
-ORCESTRA is an international initiative that combines different sub-campaigns:
-* [BOW-TIE - Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment](bowtie.md)
-* [CELLO - Cloud and EarthCARE caL/vaL Observations](cello.md)
-* [CLARINET - CLoud and Aerosol Remote sensing for EarThcare](clarinet.md)
-* [MAESTRO - Mesoscale organisation of tropical convection](maestro.md)
-* [PERCUSION - Persistent EarthCare underflight studies of the ITCZ and organized convection](percusion.md)
-* [PICCOLO - Process investigation of clouds and convective organization over the tropical ocean](piccolo.md)
-* [SCORE - Sub-Cloud Observations of Rain Evaporation](score.md)
-* [STRINQS - Soundings and TuRbulent eddy measurements in the ITCZ with a Network of QuadcopterS](strinqs.md)
+## Sub-campaigns in ORCESTRA
 
-## Date and location
-ORCESTRA will happen in August and September 2024 in the tropical Atlantic region.
+ORCESTRA unites several sub-campaigns under its roof. The detailed scientific objectives of the sub-campaigns can be found on subpages respectively.
 
-```{figure} /figures/campaign_overview_scetch.jpeg
-:alt: ORCESTRA campaign overview with the main measurement platforms, preliminary flight and ship tracks plotted above the total water vapor field (ERA5) on 15th of August 2001 indicating the location of the ITCZ.
-:width: 800px
-:align: center
+````{grid} 4
 
-ORCESTRA campaign overview with the main measurement platforms, as well as preliminary flight and ship tracks plotted above the total water vapor field (ERA5) on 15th of August 2001 indicating the location of the ITCZ.
+```{grid-item-card} 
+:img-top: logos/01_BOWTIE.svg
+:img-alt: BOWTIE
+:link: https://orcestra-campaign.org/bowtie.html
+
+From 10 Aug to 24 Sep across the Atlantic Ocean
 ```
+
+```{grid-item-card}
+:img-top: logos/02_CELLO.svg
+:img-alt: CELLO
+:link: https://orcestra-campaign.org/cello.html
+
+From 10 Aug to 10 Sep in Cape Verde
+```
+
+```{grid-item-card}
+:img-top: logos/03_CLARINET.svg
+:img-alt: CLARINET
+:link: https://orcestra-campaign.org/clarinet.html
+
+In Aug and Sep in Mindelo, Cape Verde
+```
+
+```{grid-item-card}
+:img-top: logos/04_MAESTRO.svg
+:img-alt: MAESTRO
+:link: https://orcestra-campaign.org/maestro.html
+
+From 6 Aug to 13 Sep on Sal, Cape Verde
+```
+
+```{grid-item-card}
+:img-top: logos/05_PERCUSION.svg
+:img-alt: PERCUSION
+:link: https://orcestra-campaign.org/percusion.html
+
+From 8 Aug to 4 Sep on Sal, Cape Verde and from 5 to 30 Sep on Barbados
+```
+
+```{grid-item-card}
+:img-top: logos/06_PICCOLO.svg
+:img-alt: PICCOLO
+:link: https://orcestra-campaign.org/piccolo.html
+From 10 Aug to 24 Sep across the Atlantic Ocean
+```
+
+```{grid-item-card}
+:img-top: logos/07_SCORE.svg
+:img-alt: SCORE
+:link: https://orcestra-campaign.org/score.html
+
+In Aug and Sep on Barbados
+```
+
+```{grid-item-card}
+:img-top: logos/08_STRINQS.svg
+:img-alt: STRINQS
+:link: https://orcestra-campaign.org/strinqs.html
+From 10 Aug to 24 Sep across the Atlantic Ocean
+```
+
+````
+
+
+
+
