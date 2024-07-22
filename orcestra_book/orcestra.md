@@ -13,7 +13,8 @@ ORCESTRA unites several sub-campaigns under its roof. The detailed scientific ob
 ```{grid-item-card} 
 :img-top: logos/01_BOWTIE.svg
 :img-alt: BOWTIE
-:link: https://orcestra-campaign.org/bowtie.html
+:link: bowtie
+:link-type: doc
 
 From 10 Aug to 24 Sep across the Atlantic Ocean
 ```
@@ -21,7 +22,8 @@ From 10 Aug to 24 Sep across the Atlantic Ocean
 ```{grid-item-card}
 :img-top: logos/02_CELLO.svg
 :img-alt: CELLO
-:link: https://orcestra-campaign.org/cello.html
+:link: cello
+:link-type: doc
 
 From 10 Aug to 10 Sep in Cape Verde
 ```
@@ -29,7 +31,8 @@ From 10 Aug to 10 Sep in Cape Verde
 ```{grid-item-card}
 :img-top: logos/03_CLARINET.svg
 :img-alt: CLARINET
-:link: https://orcestra-campaign.org/clarinet.html
+:link: clarinet
+:link-type: doc
 
 In Aug and Sep in Mindelo, Cape Verde
 ```
@@ -37,7 +40,8 @@ In Aug and Sep in Mindelo, Cape Verde
 ```{grid-item-card}
 :img-top: logos/04_MAESTRO.svg
 :img-alt: MAESTRO
-:link: https://orcestra-campaign.org/maestro.html
+:link: maestro
+:link-type: doc
 
 From 6 Aug to 13 Sep on Sal, Cape Verde
 ```
@@ -45,7 +49,8 @@ From 6 Aug to 13 Sep on Sal, Cape Verde
 ```{grid-item-card}
 :img-top: logos/05_PERCUSION.svg
 :img-alt: PERCUSION
-:link: https://orcestra-campaign.org/percusion.html
+:link: percusion
+:link-type: doc
 
 From 8 Aug to 4 Sep on Sal, Cape Verde and from 5 to 30 Sep on Barbados
 ```
@@ -53,14 +58,17 @@ From 8 Aug to 4 Sep on Sal, Cape Verde and from 5 to 30 Sep on Barbados
 ```{grid-item-card}
 :img-top: logos/06_PICCOLO.svg
 :img-alt: PICCOLO
-:link: https://orcestra-campaign.org/piccolo.html
+:link: piccolo
+:link-type: doc
+
 From 10 Aug to 24 Sep across the Atlantic Ocean
 ```
 
 ```{grid-item-card}
 :img-top: logos/07_SCORE.svg
 :img-alt: SCORE
-:link: https://orcestra-campaign.org/score.html
+:link: score
+:link-type: doc
 
 In Aug and Sep on Barbados
 ```
@@ -68,7 +76,9 @@ In Aug and Sep on Barbados
 ```{grid-item-card}
 :img-top: logos/08_STRINQS.svg
 :img-alt: STRINQS
-:link: https://orcestra-campaign.org/strinqs.html
+:link: strinqs
+:link-type: doc
+
 From 10 Aug to 24 Sep across the Atlantic Ocean
 ```
 
