@@ -45,3 +45,40 @@ html {
     --pst-font-family-heading: Aileron, var(--pst-font-family-base-system);
     --pst-font-family-base: Aileron, var(--pst-font-family-base-system);
 }
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  font-size: tiny;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
+/* HACK: Fix spacing between span elements in "row view". */
+a:has(> span.badge) + a:has(> span.badge) {
+    margin-left: 0.25em;
+}
+
+.cat-a {
+  background-color: #33691E;
+  color: #fff;
+}
+
+.cat-b {
+  background-color: #8BC34A;
+  color: #333;
+}
+
+.cat-c {
+  background-color: #C5E1A5;
+  color: #333;
+}
+
+.cat-unknown {
+  background-color: #fff;
+  color: red;
+  font-style: italic;
+}
