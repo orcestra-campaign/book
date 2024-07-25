@@ -61,9 +61,14 @@ class BadgesRole(SphinxRole):
         fm = load_frontmatter(self.env.doc2path(self.env.docname))
         categories = fm.get("categories", [])
 
-        nodes = [create_badge(cat_id) for cat_id in categories]
+        node_list = [create_badge(cat_id) for cat_id in categories]
 
-        return nodes, []
+        node = nodes.raw(
+            text=" ".join(n.astext() for n in node_list),
+            format="html",
+        )
+
+        return [node], []
 
 
 class FrontmatterRole(SphinxRole):
