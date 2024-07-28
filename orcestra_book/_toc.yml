@@ -16,7 +16,13 @@ chapters:
     - file: strinqs
 - file: platforms
   sections:
+  - file: earthcare
   - file: halo
+  - file: atr42
+  - file: kingair
+  - file: bco
+  - file: cvao
+  - file: rvmeteor
 - file: science
   #sections:
     #- file: gate
