@@ -17,11 +17,14 @@ chapters:
 - file: science
   #sections:
     #- file: gate
-- file: strategy
+#- file: strategy
 - file: preparation
   sections:
-    - file: virtual_campaign
     - file: water_vapour_overview
+    - file: hera5
+    - file: hifs
+    - file: temperature_example
+    - file: virtual_campaign
 - file: operation
 - file: data
   sections:
@@ -29,9 +32,10 @@ chapters:
     #- file: data_creation
     #- file: data_access
     - file: data_concept
-    - file: hera5
-    - file: hifs
-    - file: temperature_example
+    #- file: water_vapour_overview
+    #- file: hera5
+    #- file: hifs
+    #- file: temperature_example
 #- file: results
 #  sections:
 #    - file: showcases
