@@ -81,6 +81,25 @@ class FrontmatterRole(SphinxRole):
         return nodes.raw(text=fm[self.text]), []
 
 
+class LogoRole(SphinxRole):
+    """Add a small campaign logo to the upper-right corner of a page."""
+    def run(self):
+        src = pathlib.Path(self.env.srcdir)
+
+        logo_path = list((src / "logos").glob(f"*_{self.text}.svg"))
+        doc_path = pathlib.Path(self.env.doc2path(self.env.docname))
+
+        if len(logo_path) == 0:
+            raise Exception(f"No logo found for {self.text}")
+        else:
+            rel_path = logo_path[0].relative_to(doc_path.parent, walk_up=True)
+
+            node = nodes.image(uri=rel_path.as_posix(), alt=f"{self.text} logo")
+            node['classes'].append('campaign-logo')  # Ad
+
+        return [node], []
+
+
 def collect_frontmatter(src):
     flights = (src / "reports").glob("*[0-9]*[a-z].md")
     func = partial(load_frontmatter, derive_flight=True)
@@ -119,6 +138,7 @@ def setup(app):
     app.add_role("flight-cat", FlightCategoryRole())
     app.add_role("badges", BadgesRole())
     app.add_role("front", FrontmatterRole())
+    app.add_role("logo", LogoRole())
 
     return {
         "version": "0.1",
