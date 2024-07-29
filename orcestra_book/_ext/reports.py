@@ -33,7 +33,7 @@ def load_frontmatter(path, derive_flight=False):
 @lru_cache
 def create_badge(src, cat_id):
     """Return an HTML node based on a category id."""
-    with open(src / "flight_reports" / "categories.yaml", "r") as fp:
+    with open(src / "reports" / "categories.yaml", "r") as fp:
         cat_tier = {
             key: attrs["tier"]
             for key, attrs in yaml.safe_load(fp)["categories"].items()
@@ -82,7 +82,7 @@ class FrontmatterRole(SphinxRole):
 
 
 def collect_frontmatter(src):
-    flights = (src / "flight_reports").glob("*[0-9]*[a-z].md")
+    flights = (src / "reports").glob("*[0-9]*[a-z].md")
     func = partial(load_frontmatter, derive_flight=True)
 
     return {fm["flight_id"]: fm for fm in map(func, sorted(flights))}

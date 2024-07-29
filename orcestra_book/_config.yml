@@ -31,7 +31,7 @@ sphinx:
   local_extensions:
     apastyle: _ext/
     bracket_citation_style: _ext/
-    flight_reports: _ext/
+    reports: _ext/
   config:
     bibtex_default_style: myapastyle
     bibtex_reference_style: author_year_round
