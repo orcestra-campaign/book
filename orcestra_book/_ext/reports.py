@@ -88,10 +88,22 @@ def collect_frontmatter(src):
     return {fm["flight_id"]: fm for fm in map(func, sorted(flights))}
 
 
+def collect_halo_refs(src, flight_id):
+    refs =  ", ".join(
+        f"[{t}](../{t}s/{flight_id})" for t in ("plan", "report")
+        if (src / f"{t}s" / f"{flight_id}.md").is_file()
+    )
+
+    return f"{flight_id} ({refs})"
+
+
 def write_flight_table(app):
     src = pathlib.Path(app.srcdir)
 
     frontmatters = collect_frontmatter(src)
+
+    for flight_id in frontmatters:
+        frontmatters[flight_id]["expr_refs"] = collect_halo_refs(src, flight_id)
 
     with open(src / "_templates" / "operation_halo.md", "r") as fp:
         templ = fp.read()
