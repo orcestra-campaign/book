@@ -31,9 +31,9 @@ def load_frontmatter(path, derive_flight=False):
 
 
 @lru_cache
-def create_badge(cat_id):
+def create_badge(src, cat_id):
     """Return an HTML node based on a category id."""
-    with open("orcestra_book/flight_reports/categories.yaml", "r") as fp:
+    with open(src / "flight_reports" / "categories.yaml", "r") as fp:
         cat_tier = {
             key: attrs["tier"]
             for key, attrs in yaml.safe_load(fp)["categories"].items()
@@ -51,17 +51,19 @@ def create_badge(cat_id):
 
 class CategoryRole(SphinxRole):
     def run(self):
-        node = create_badge(self.text)
+        src = pathlib.Path(self.env.srcdir)
+        node = create_badge(src, self.text)
 
         return [node], []
 
 
 class BadgesRole(SphinxRole):
     def run(self):
+        src = pathlib.Path(self.env.srcdir)
         fm = load_frontmatter(self.env.doc2path(self.env.docname))
         categories = fm.get("categories", [])
 
-        node_list = [create_badge(cat_id) for cat_id in categories]
+        node_list = [create_badge(src, cat_id) for cat_id in categories]
 
         node = nodes.raw(
             text=" ".join(n.astext() for n in node_list),
@@ -79,20 +81,22 @@ class FrontmatterRole(SphinxRole):
         return nodes.raw(text=fm[self.text]), []
 
 
-def collect_fronmatter():
-    flights = pathlib.Path("orcestra_book/flight_reports/").glob("*[0-9]*[a-z].md")
+def collect_frontmatter(src):
+    flights = (src / "flight_reports").glob("*[0-9]*[a-z].md")
     func = partial(load_frontmatter, derive_flight=True)
 
     return {fm["flight_id"]: fm for fm in map(func, sorted(flights))}
 
 
 def write_flight_table(app):
-    frontmatters = collect_fronmatter()
+    src = pathlib.Path(app.srcdir)
 
-    with open("orcestra_book/_templates/operation.md", "r") as fp:
+    frontmatters = collect_frontmatter(src)
+
+    with open(src / "_templates" / "operation.md", "r") as fp:
         templ = fp.read()
 
-    with open("orcestra_book/operation.md", "w") as fp:
+    with open(src / "operation.md", "w") as fp:
         t = Template(templ)
         fp.write(t.render(flights=frontmatters))
 
