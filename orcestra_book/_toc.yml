@@ -34,6 +34,7 @@ chapters:
 - file: operation
   sections:
     - file: operation/halo
+    - file: operation/rvmeteor
 - file: data
   sections:
     - file: data_policy
