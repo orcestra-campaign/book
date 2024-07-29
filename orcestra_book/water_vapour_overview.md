@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 
-# water vapour in campaign area
+# Water Vapour in Campaign Area
 
 We can use the `HERA5` dataset (ERA5 on HEALPix) to get a quick overview over the water vapour structure in the field campaign area.
 
