@@ -1,4 +1,6 @@
 name: orcestra_book
+channels:
+  - conda-forge
 dependencies:
   - python>=3.10
   - cartopy
