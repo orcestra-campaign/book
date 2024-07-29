@@ -93,10 +93,10 @@ def write_flight_table(app):
 
     frontmatters = collect_frontmatter(src)
 
-    with open(src / "_templates" / "operation.md", "r") as fp:
+    with open(src / "_templates" / "operation_halo.md", "r") as fp:
         templ = fp.read()
 
-    with open(src / "operation.md", "w") as fp:
+    with open(src / "operation" / "halo.md", "w") as fp:
         t = Template(templ)
         fp.write(t.render(flights=frontmatters))
 

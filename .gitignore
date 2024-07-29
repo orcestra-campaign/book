@@ -6,4 +6,4 @@ __pycache__/
 .ipynb_checkpoints
 
 # Auto-generated files
-orcestra_book/operation.md
+orcestra_book/operation/*
