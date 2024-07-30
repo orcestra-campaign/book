@@ -15,3 +15,4 @@ docutils==0.17.1  # see https://github.com/executablebooks/jupyter-book/issues/1
 easygems>=0.0.3
 cmocean
 jinja2
+orcestra

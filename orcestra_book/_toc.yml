@@ -32,6 +32,8 @@ chapters:
     - file: temperature_example
     - file: virtual_campaign
 - file: operation
+  sections:
+    - file: operation/halo
 - file: data
   sections:
     - file: data_policy

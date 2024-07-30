@@ -24,16 +24,16 @@ def load_frontmatter(path, derive_flight=False):
         frontmatter["expr_takeoff"] = takeoff.strftime("%X")
         frontmatter["expr_landing"] = landing.strftime("%X")
         frontmatter["expr_categories"] = map(
-            lambda s: f"{{cat}}`{s}`", frontmatter.get("categories", [])
+            lambda s: f"{{flight-cat}}`{s}`", frontmatter.get("categories", [])
         )
 
     return frontmatter
 
 
 @lru_cache
-def create_badge(src, cat_id):
-    """Return an HTML node based on a category id."""
-    with open(src / "flight_reports" / "categories.yaml", "r") as fp:
+def create_flight_badge(src, cat_id):
+    """Return an HTML node based on a flight category id."""
+    with open(src / "reports" / "flight_categories.yaml", "r") as fp:
         cat_tier = {
             key: attrs["tier"]
             for key, attrs in yaml.safe_load(fp)["categories"].items()
@@ -49,10 +49,10 @@ def create_badge(src, cat_id):
     return node
 
 
-class CategoryRole(SphinxRole):
+class FlightCategoryRole(SphinxRole):
     def run(self):
         src = pathlib.Path(self.env.srcdir)
-        node = create_badge(src, self.text)
+        node = create_flight_badge(src, self.text)
 
         return [node], []
 
@@ -63,7 +63,7 @@ class BadgesRole(SphinxRole):
         fm = load_frontmatter(self.env.doc2path(self.env.docname))
         categories = fm.get("categories", [])
 
-        node_list = [create_badge(src, cat_id) for cat_id in categories]
+        node_list = [create_flight_badge(src, cat_id) for cat_id in categories]
 
         node = nodes.raw(
             text=" ".join(n.astext() for n in node_list),
@@ -82,10 +82,19 @@ class FrontmatterRole(SphinxRole):
 
 
 def collect_frontmatter(src):
-    flights = (src / "flight_reports").glob("*[0-9]*[a-z].md")
+    flights = (src / "reports").glob("*[0-9]*[a-z].md")
     func = partial(load_frontmatter, derive_flight=True)
 
     return {fm["flight_id"]: fm for fm in map(func, sorted(flights))}
+
+
+def collect_halo_refs(src, flight_id):
+    refs =  ", ".join(
+        f"[{t}](../{t}s/{flight_id})" for t in ("plan", "report")
+        if (src / f"{t}s" / f"{flight_id}.md").is_file()
+    )
+
+    return f"{flight_id} ({refs})"
 
 
 def write_flight_table(app):
@@ -93,10 +102,13 @@ def write_flight_table(app):
 
     frontmatters = collect_frontmatter(src)
 
-    with open(src / "_templates" / "operation.md", "r") as fp:
+    for flight_id in frontmatters:
+        frontmatters[flight_id]["expr_refs"] = collect_halo_refs(src, flight_id)
+
+    with open(src / "_templates" / "operation_halo.md", "r") as fp:
         templ = fp.read()
 
-    with open(src / "operation.md", "w") as fp:
+    with open(src / "operation" / "halo.md", "w") as fp:
         t = Template(templ)
         fp.write(t.render(flights=frontmatters))
 
@@ -104,7 +116,7 @@ def write_flight_table(app):
 def setup(app):
     app.connect("builder-inited", write_flight_table)
 
-    app.add_role("cat", CategoryRole())
+    app.add_role("flight-cat", FlightCategoryRole())
     app.add_role("badges", BadgesRole())
     app.add_role("front", FrontmatterRole())
 
