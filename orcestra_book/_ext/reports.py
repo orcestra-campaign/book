@@ -81,11 +81,23 @@ class FrontmatterRole(SphinxRole):
         return nodes.raw(text=fm[self.text]), []
 
 
-def collect_frontmatter(src):
-    flights = (src / "reports").glob("*[0-9]*[a-z].md")
-    func = partial(load_frontmatter, derive_flight=True)
+class LogoRole(SphinxRole):
+    """Add a small campaign logo to the upper-right corner of a page."""
+    def run(self):
+        src = pathlib.Path(self.env.srcdir)
 
-    return {fm["flight_id"]: fm for fm in map(func, sorted(flights))}
+        logo_path = list((src / "logos").glob(f"*_{self.text}.svg"))
+        doc_path = pathlib.Path(self.env.doc2path(self.env.docname))
+
+        if len(logo_path) == 0:
+            raise Exception(f"No logo found for {self.text}")
+        else:
+            rel_path = logo_path[0].relative_to(doc_path.parent, walk_up=True)
+
+            node = nodes.image(uri=rel_path.as_posix(), alt=f"{self.text} logo")
+            node['classes'].append('campaign-logo')  # Ad
+
+        return [node], []
 
 
 def collect_halo_refs(src, flight_id):
@@ -99,8 +111,10 @@ def collect_halo_refs(src, flight_id):
 
 def write_flight_table(app):
     src = pathlib.Path(app.srcdir)
+    flights = (src / "reports").glob("HALO-[0-9]*[a-z].md")
 
-    frontmatters = collect_frontmatter(src)
+    func = partial(load_frontmatter, derive_flight=True)
+    frontmatters = {fm["flight_id"]: fm for fm in map(func, sorted(flights))}
 
     for flight_id in frontmatters:
         frontmatters[flight_id]["expr_refs"] = collect_halo_refs(src, flight_id)
@@ -113,12 +127,28 @@ def write_flight_table(app):
         fp.write(t.render(flights=frontmatters))
 
 
+def write_ship_table(app):
+    src = pathlib.Path(app.srcdir)
+    reports = (src / "reports").glob("METEOR-[0-9]*.md")
+
+    frontmatters = {fm["report_id"]: fm for fm in map(load_frontmatter, sorted(reports))}
+
+    with open(src / "_templates" / "operation_rvmeteor.md", "r") as fp:
+        templ = fp.read()
+
+    with open(src / "operation" / "rvmeteor.md", "w") as fp:
+        t = Template(templ)
+        fp.write(t.render(reports=frontmatters))
+
+
 def setup(app):
     app.connect("builder-inited", write_flight_table)
+    app.connect("builder-inited", write_ship_table)
 
     app.add_role("flight-cat", FlightCategoryRole())
     app.add_role("badges", BadgesRole())
     app.add_role("front", FrontmatterRole())
+    app.add_role("logo", LogoRole())
 
     return {
         "version": "0.1",
