@@ -73,14 +73,6 @@ class BadgesRole(SphinxRole):
         return [node], []
 
 
-class FrontmatterRole(SphinxRole):
-    def run(self):
-        """Access variables defined in document front matter."""
-        fm = load_frontmatter(self.env.doc2path(self.env.docname))
-
-        return nodes.raw(text=fm[self.text]), []
-
-
 class LogoRole(SphinxRole):
     """Add a small campaign logo to the upper-right corner of a page."""
     def run(self):
@@ -147,7 +139,6 @@ def setup(app):
 
     app.add_role("flight-cat", FlightCategoryRole())
     app.add_role("badges", BadgesRole())
-    app.add_role("front", FrontmatterRole())
     app.add_role("logo", LogoRole())
 
     return {
