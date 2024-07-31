@@ -31,7 +31,7 @@ PI: DLR-FX
 ```
 
 ```{dropdown} Dropsondes
-AVAPS dropsonde system using Vaisala RD-94 sondes to measure temperature with an accuracy of 0.2 ºC, humidity with an accuracy of 2 %RH, pressure with an accuracy of 0.4 hPa. Winds are derived from GPS position measurements with an estimated accuracy of  0.1 m/s. The receiver can track four sondes simultaneously.  For the measured descent time of about 750 s from a drop altitude of 9.5 km, the capability of the receiver allows a sonde to be launched roughly every three and a half minutes.
+AVAPS dropsonde system using Vaisala RD-94 sondes to measure temperature with an accuracy of 0.2 ºC, humidity with an accuracy of 2 %RH, pressure with an accuracy of 0.4 hPa. Winds are derived from GPS position measurements with an estimated accuracy of  0.1 m/s. The receiver can track 8 sondes simultaneously.
 
 ---
 
