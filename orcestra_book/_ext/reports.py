@@ -30,25 +30,6 @@ def load_frontmatter(path, derive_flight=False):
     return frontmatter
 
 
-class LogoRole(SphinxRole):
-    """Add a small campaign logo to the upper-right corner of a page."""
-    def run(self):
-        src = pathlib.Path(self.env.srcdir)
-
-        logo_path = list((src / "logos").glob(f"*_{self.text}.svg"))
-        doc_path = pathlib.Path(self.env.doc2path(self.env.docname))
-
-        if len(logo_path) == 0:
-            raise Exception(f"No logo found for {self.text}")
-        else:
-            rel_path = logo_path[0].relative_to(doc_path.parent, walk_up=True)
-
-            node = nodes.image(uri=rel_path.as_posix(), alt=f"{self.text} logo")
-            node['classes'].append('campaign-logo')  # Ad
-
-        return [node], []
-
-
 def collect_halo_refs(src, flight_id):
     refs =  ", ".join(
         f"[{t}](../{t}s/{flight_id})" for t in ("plan", "report")
@@ -93,8 +74,6 @@ def write_ship_table(app):
 def setup(app):
     app.connect("builder-inited", write_flight_table)
     app.connect("builder-inited", write_ship_table)
-
-    app.add_role("logo", LogoRole())
 
     return {
         "version": "0.1",
