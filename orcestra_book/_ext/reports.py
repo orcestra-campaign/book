@@ -1,137 +1,75 @@
-#!/usr/bin/env python3
-import os
 import pathlib
-import subprocess
-from datetime import datetime
-from docutils import nodes
-from functools import lru_cache, partial
+import re
+from collections import defaultdict
+from functools import lru_cache
 
 import yaml
 from jinja2 import Template
-from sphinx.util.docutils import SphinxRole
 
 
 @lru_cache
-def load_frontmatter(path, derive_flight=False):
+def load_frontmatter(path):
+    """Load and return the front matter section of a YAML file."""
+    print(path)
     with open(path, "r") as fp:
         frontmatter = next(yaml.safe_load_all(fp))
 
-    if derive_flight:
-        takeoff = frontmatter["takeoff"]
-        landing = frontmatter["landing"]
-
-        frontmatter["expr_date"] = takeoff.strftime("%d %B %Y")
-        frontmatter["expr_takeoff"] = takeoff.strftime("%X")
-        frontmatter["expr_landing"] = landing.strftime("%X")
-        frontmatter["expr_categories"] = map(
-            lambda s: f"{{flight-cat}}`{s}`", frontmatter.get("categories", [])
-        )
+    frontmatter["filepath"] = path.as_posix()
 
     return frontmatter
 
 
-@lru_cache
-def create_flight_badge(src, cat_id):
-    """Return an HTML node based on a flight category id."""
-    with open(src / "reports" / "flight_categories.yaml", "r") as fp:
-        cat_tier = {
-            key: attrs["tier"]
-            for key, attrs in yaml.safe_load(fp)["categories"].items()
-        }.get(cat_id, "unknown")
-
-    span = f'<span class="badge cat-{cat_tier} cat-{cat_id}">{cat_id}</span>'
-    href = f'<a href="https://orcestra-campaign.org/search.html?q={cat_id}">{span}</a>'
-    node = nodes.raw(
-        text=href,
-        format="html",
-    )
-
-    return node
+def fpath2id(fpath):
+    """Extract the ID (e.g. HALO-20240801a) from a given file path."""
+    return pathlib.Path(fpath).stem
 
 
-class FlightCategoryRole(SphinxRole):
-    def run(self):
-        src = pathlib.Path(self.env.srcdir)
-        node = create_flight_badge(src, self.text)
+def collect_all_metadata(src, subdirs=("plans", "reports"), pattern="*.md"):
+    """Collect front matter from Markdown files in various given locations."""
+    metadata = defaultdict(dict)
+    for subdir in subdirs:
+        for src_file in (src / subdir).glob(pattern):
+            subdir = (
+                subdir[:-1] if subdir.endswith("s") else subdir
+            )  # e.g. plans -> plan
+            metadata[fpath2id(src_file)][subdir] = load_frontmatter(src_file)
 
-        return [node], []
-
-
-class BadgesRole(SphinxRole):
-    def run(self):
-        src = pathlib.Path(self.env.srcdir)
-        fm = load_frontmatter(self.env.doc2path(self.env.docname))
-        categories = fm.get("categories", [])
-
-        node_list = [create_flight_badge(src, cat_id) for cat_id in categories]
-
-        node = nodes.raw(
-            text=" ".join(n.astext() for n in node_list),
-            format="html",
-        )
-
-        return [node], []
+    return metadata
 
 
-class FrontmatterRole(SphinxRole):
-    def run(self):
-        """Access variables defined in document front matter."""
-        fm = load_frontmatter(self.env.doc2path(self.env.docname))
+def consolidate_metadata(src, metadata):
+    """Merge duplicated data from flight plans and reports."""
+    latest_source = "report" if "report" in metadata else "plan"
 
-        return nodes.raw(text=fm[self.text]), []
+    for key in ("takeoff", "landing", "crew", "categories", "nickname"):
+        metadata[key] = metadata[latest_source][key]
 
+    metadata["pi"] = [
+        member["name"] for member in metadata["crew"] if member["job"].lower() == "pi"
+    ][0]
 
-class LogoRole(SphinxRole):
-    """Add a small campaign logo to the upper-right corner of a page."""
-    def run(self):
-        src = pathlib.Path(self.env.srcdir)
+    # Collect relative Sphinx links to flight plans and reports
+    refs = []
+    for k, v in metadata.items():
+        if isinstance(v, dict) and "filepath" in v:
+            relpath = pathlib.Path(v["filepath"]).relative_to(
+                src / "operation", walk_up=True
+            )
+            refs.append(f"[{k}]({relpath})")
 
-        logo_path = list((src / "logos").glob(f"*_{self.text}.svg"))
-        doc_path = pathlib.Path(self.env.doc2path(self.env.docname))
+    metadata["refs"] = refs
 
-        if len(logo_path) == 0:
-            raise Exception(f"No logo found for {self.text}")
-        else:
-            rel_path = logo_path[0].relative_to(doc_path.parent, walk_up=True)
-
-            node = nodes.image(uri=rel_path.as_posix(), alt=f"{self.text} logo")
-            node['classes'].append('campaign-logo')  # Ad
-
-        return [node], []
-
-
-def collect_halo_refs(src, flight_id):
-    refs =  ", ".join(
-        f"[{t}](../{t}s/{flight_id})" for t in ("plan", "report")
-        if (src / f"{t}s" / f"{flight_id}.md").is_file()
-    )
-
-    return f"{flight_id} ({refs})"
-
-
-def write_flight_table(app):
-    src = pathlib.Path(app.srcdir)
-    flights = (src / "reports").glob("HALO-[0-9]*[a-z].md")
-
-    func = partial(load_frontmatter, derive_flight=True)
-    frontmatters = {fm["flight_id"]: fm for fm in map(func, sorted(flights))}
-
-    for flight_id in frontmatters:
-        frontmatters[flight_id]["expr_refs"] = collect_halo_refs(src, flight_id)
-
-    with open(src / "_templates" / "operation_halo.md", "r") as fp:
-        templ = fp.read()
-
-    with open(src / "operation" / "halo.md", "w") as fp:
-        t = Template(templ)
-        fp.write(t.render(flights=frontmatters))
+    return metadata
 
 
 def write_ship_table(app):
+    """Collect all reports from RV METEOR and create an overview table."""
     src = pathlib.Path(app.srcdir)
-    reports = (src / "reports").glob("METEOR-[0-9]*.md")
+    metadata = collect_all_metadata(src)
 
-    frontmatters = {fm["report_id"]: fm for fm in map(load_frontmatter, sorted(reports))}
+    regex = re.compile("METEOR-[0-9]*")
+    # For now, only shipd **reports** are expected. May need to be adapted in future.
+    frontmatters = {k: v["report"] for k, v in metadata.items() if regex.match(k)}
 
     with open(src / "_templates" / "operation_rvmeteor.md", "r") as fp:
         templ = fp.read()
@@ -141,14 +79,29 @@ def write_ship_table(app):
         fp.write(t.render(reports=frontmatters))
 
 
+def write_flight_table(app=None):
+    """Collect all reports from HALO and create an overview table."""
+    # src = pathlib.Path(app.srcdir)
+    src = pathlib.Path("orcestra_book/")
+    metadata = collect_all_metadata(src)
+
+    regex = re.compile("HALO-[0-9]*[a-z]")
+    frontmatters = {
+        k: consolidate_metadata(src, v) for k, v in metadata.items() if regex.match(k)
+    }
+    print(frontmatters["HALO-20240810a"]["refs"])
+
+    with open(src / "_templates" / "operation_halo.md", "r") as fp:
+        templ = fp.read()
+
+    with open(src / "operation" / "halo.md", "w") as fp:
+        t = Template(templ)
+        fp.write(t.render(flights=frontmatters))
+
+
 def setup(app):
     app.connect("builder-inited", write_flight_table)
     app.connect("builder-inited", write_ship_table)
-
-    app.add_role("flight-cat", FlightCategoryRole())
-    app.add_role("badges", BadgesRole())
-    app.add_role("front", FrontmatterRole())
-    app.add_role("logo", LogoRole())
 
     return {
         "version": "0.1",

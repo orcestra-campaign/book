@@ -31,6 +31,9 @@ sphinx:
   local_extensions:
     apastyle: _ext/
     bracket_citation_style: _ext/
+    campaign_logos: _ext/
+    flight_categories: _ext/
+    front: _ext/
     reports: _ext/
   config:
     bibtex_default_style: myapastyle
