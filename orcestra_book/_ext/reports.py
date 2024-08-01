@@ -41,8 +41,12 @@ def consolidate_metadata(src, metadata):
     """Merge duplicated data from flight plans and reports."""
     latest_source = "report" if "report" in metadata else "plan"
 
-    for key in ("takeoff", "landing", "pi", "categories", "nickname"):
+    for key in ("takeoff", "landing", "crew", "categories", "nickname"):
         metadata[key] = metadata[latest_source][key]
+
+    metadata["pi"] = [
+        member["name"] for member in metadata["crew"] if member["job"].lower() == "pi"
+    ][0]
 
     # Collect relative Sphinx links to flight plans and reports
     refs = []
