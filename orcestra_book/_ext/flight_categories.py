@@ -3,7 +3,7 @@ from docutils import nodes
 from functools import lru_cache
 
 import yaml
-from sphinx.util.docutils import SphinxRole
+from sphinx.util.docutils import SphinxRole, SphinxDirective
 
 
 @lru_cache
@@ -36,6 +36,7 @@ def create_flight_badge(src, cat_id):
 
 class FlightCategoryRole(SphinxRole):
     """Create a badge based on a given flight category."""
+
     def run(self):
         src = pathlib.Path(self.env.srcdir)
         node = create_flight_badge(src, self.text)
@@ -43,8 +44,9 @@ class FlightCategoryRole(SphinxRole):
         return [node], []
 
 
-class BadgesRole(SphinxRole):
-    """Create a list of badges based on all categories defined in YAML fron matter."""
+class BadgesDirective(SphinxDirective):
+    """Create a list of badges based on all categories defined in YAML front matter."""
+
     def run(self):
         src = pathlib.Path(self.env.srcdir)
         fm = load_frontmatter(self.env.doc2path(self.env.docname))
@@ -57,12 +59,12 @@ class BadgesRole(SphinxRole):
             format="html",
         )
 
-        return [node], []
+        return [node]
 
 
 def setup(app):
     app.add_role("flight-cat", FlightCategoryRole())
-    app.add_role("badges", BadgesRole())
+    app.add_directive("badges", BadgesDirective)
 
     return {
         "version": "0.1",
