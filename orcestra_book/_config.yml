@@ -32,6 +32,7 @@ sphinx:
     apastyle: _ext/
     bracket_citation_style: _ext/
     campaign_logos: _ext/
+    crew_table: _ext/
     flight_categories: _ext/
     front: _ext/
     reports: _ext/
