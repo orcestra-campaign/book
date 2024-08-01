@@ -43,4 +43,5 @@ chapters:
   sections:
      - file: news/20240205_virtual-campaign.md
        title: Kick-off
+- file: coordination
 - file: references
