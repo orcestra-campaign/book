@@ -18,6 +18,7 @@ dependencies:
   - netcdf4
   - numpy
   - requests
+  - scipy<1.14.0 # required by easy.gems
   - xarray
   - zarr>=2.8.3
   - pip
