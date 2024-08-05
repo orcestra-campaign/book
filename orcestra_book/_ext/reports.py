@@ -2,6 +2,7 @@ import pathlib
 import re
 from collections import defaultdict
 from functools import lru_cache
+import datetime
 
 import yaml
 from jinja2 import Template
@@ -41,8 +42,12 @@ def consolidate_metadata(src, metadata):
     """Merge duplicated data from flight plans and reports."""
     latest_source = "report" if "report" in metadata else "plan"
 
-    for key in ("takeoff", "landing", "crew", "categories", "nickname"):
-        metadata[key] = metadata[latest_source][key]
+    for key in ("takeoff", "landing"):
+        metadata[key] = datetime.datetime.fromisoformat(metadata[latest_source][key])
+    for key in ("crew", "nickname"):
+        metadata[key] = metadata[latest_source].get(key, None)
+    for key in ("categories",):
+        metadata[key] = metadata[latest_source].get(key, [])
 
     metadata["pi"] = [
         member["name"] for member in metadata["crew"] if member["job"].lower() == "pi"
@@ -89,7 +94,6 @@ def write_flight_table(app=None):
     frontmatters = {
         k: consolidate_metadata(src, v) for k, v in metadata.items() if regex.match(k)
     }
-    print(frontmatters["HALO-20240810a"]["refs"])
 
     with open(src / "_templates" / "operation_halo.md", "r") as fp:
         templ = fp.read()
