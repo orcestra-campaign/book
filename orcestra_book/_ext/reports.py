@@ -41,8 +41,10 @@ def consolidate_metadata(src, metadata):
     """Merge duplicated data from flight plans and reports."""
     latest_source = "report" if "report" in metadata else "plan"
 
-    for key in ("takeoff", "landing", "crew", "categories", "nickname"):
-        metadata[key] = metadata[latest_source][key]
+    for key in ("takeoff", "landing", "crew", "nickname"):
+        metadata[key] = metadata[latest_source].get(key, None)
+    for key in ("categories",):
+        metadata[key] = metadata[latest_source].get(key, [])
 
     metadata["pi"] = [
         member["name"] for member in metadata["crew"] if member["job"].lower() == "pi"
