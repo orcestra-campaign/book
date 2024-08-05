@@ -35,7 +35,7 @@ jobs:
       with:
         path: ${{ env.CONDA }}/envs
         key:
-          conda-${{ runner.os }}--${{ runner.arch }}--${{ hashFiles('environment.yml', 'requirements.txt') }}-${{ env.CONDA_CACHE_NUMBER }}
+          conda-${{ runner.os }}--${{ runner.arch }}--${{ hashFiles('environment.yml') }}-${{ env.CONDA_CACHE_NUMBER }}
       id: conda_cache
     - name: install conda environment
       run:
@@ -48,16 +48,16 @@ jobs:
       with:
         path: ${{ env.CONDA }}/envs
         key:
-          conda-${{ runner.os }}--${{ runner.arch }}--${{ hashFiles('environment.yml', 'requirements.txt') }}-${{ env.CONDA_CACHE_NUMBER }}
+          conda-${{ runner.os }}--${{ runner.arch }}--${{ hashFiles('environment.yml') }}-${{ env.CONDA_CACHE_NUMBER }}
     - name: setting up notebook execution cache
       uses: actions/cache/restore@v3
       with:
         path: |
           orcestra_book/_build/.jupyter_cache
-        key: notebooks-${{ runner.os }}-${{ hashFiles('environment.yml', 'requirements.txt') }}-${{ github.run_id }}-${{ github.run_attempt }}
+        key: notebooks-${{ runner.os }}-${{ hashFiles('environment.yml') }}-${{ github.run_id }}-${{ github.run_attempt }}
         restore-keys: |
-          notebooks-${{ runner.os }}-${{ hashFiles('environment.yml', 'requirements.txt') }}-${{ github.run_id }}-
-          notebooks-${{ runner.os }}-${{ hashFiles('environment.yml', 'requirements.txt') }}-
+          notebooks-${{ runner.os }}-${{ hashFiles('environment.yml') }}-${{ github.run_id }}-
+          notebooks-${{ runner.os }}-${{ hashFiles('environment.yml') }}-
     - name: build book
       run: |
         conda info
@@ -68,7 +68,7 @@ jobs:
       with:
         path: |
           orcestra_book/_build/.jupyter_cache
-        key: notebooks-${{ runner.os }}-${{ hashFiles('environment.yml', 'requirements.txt') }}-${{ github.run_id }}-${{ github.run_attempt }}
+        key: notebooks-${{ runner.os }}-${{ hashFiles('environment.yml') }}-${{ github.run_id }}-${{ github.run_attempt }}
     - name: Archive build artifacts
       if: always()
       uses: actions/upload-artifact@v3
