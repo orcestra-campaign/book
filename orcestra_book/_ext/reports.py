@@ -91,7 +91,6 @@ def write_flight_table(app=None):
     frontmatters = {
         k: consolidate_metadata(src, v) for k, v in metadata.items() if regex.match(k)
     }
-    print(frontmatters["HALO-20240810a"]["refs"])
 
     with open(src / "_templates" / "operation_halo.md", "r") as fp:
         templ = fp.read()
