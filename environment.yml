@@ -6,6 +6,7 @@ dependencies:
   - cartopy
   - matplotlib
   - numpy
+  - netcdf4
   - pip
   - pip:
     - -r requirements.txt
