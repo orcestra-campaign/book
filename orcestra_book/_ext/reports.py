@@ -92,7 +92,9 @@ def write_flight_table(app=None):
 
     regex = re.compile("HALO-[0-9]*[a-z]")
     frontmatters = {
-        k: consolidate_metadata(src, v) for k, v in metadata.items() if regex.match(k)
+        k: consolidate_metadata(src, v)
+        for k, v in sorted(metadata.items())
+        if regex.match(k)
     }
 
     with open(src / "_templates" / "operation_halo.md", "r") as fp:
