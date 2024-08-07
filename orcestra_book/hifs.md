@@ -44,7 +44,7 @@ Now we can open the catalog and select the *HEALPix-ified IFS forecast* `HIFS`.
 
 ```{code-cell} ipython3
 cat = intake.open_catalog("https://tcodata.mpimet.mpg.de/internal.yaml")
-ds = cat.HIFS(refdate="2024-04-01").to_dask().pipe(egh.attach_coords)
+ds = cat.HIFS(datetime="2024-04-01").to_dask().pipe(egh.attach_coords)
 ds
 ```
 
@@ -61,7 +61,7 @@ The below plotting examples show some typical usecases and the respective [`heal
 We would like to plot the 2m air temperature at one location, the BCO.
 
 ```{code-cell} ipython3
-ds = cat.HIFS(refdate="2024-04-01").to_dask().pipe(egh.attach_coords)
+ds = cat.HIFS(datetime="2024-04-01").to_dask().pipe(egh.attach_coords)
 
 i_bco = hp.ang2pix(
     egh.get_nside(ds),
