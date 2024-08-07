@@ -86,8 +86,7 @@ def write_ship_table(app):
 
 def write_flight_table(app=None):
     """Collect all reports from HALO and create an overview table."""
-    # src = pathlib.Path(app.srcdir)
-    src = pathlib.Path("orcestra_book/")
+    src = pathlib.Path(app.srcdir)
     metadata = collect_all_metadata(src)
 
     regex = re.compile("HALO-[0-9]*[a-z]")
