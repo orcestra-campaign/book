@@ -11,7 +11,6 @@ from jinja2 import Template
 @lru_cache
 def load_frontmatter(path):
     """Load and return the front matter section of a YAML file."""
-    print(path)
     with open(path, "r") as fp:
         frontmatter = next(yaml.safe_load_all(fp))
 
