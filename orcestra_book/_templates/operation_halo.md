@@ -1,6 +1,8 @@
 <!-- This file was created automatically -->
 # HALO
 
+For an overview of all flight categories, [click here](flight_categories).
+
 Flight-ID | Date | Takeoff | Landing | PI | Nickname | Categories
 --- | --- | --- | --- | --- | --- | ---
 {% for k, v in flights.items() -%}
