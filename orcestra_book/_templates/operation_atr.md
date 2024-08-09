@@ -1,6 +1,8 @@
 <!-- This file was created automatically -->
 # ATR-42
 
+For an overview of all flight categories, [click here](flight_categories).
+
 Flight-ID | Date | Takeoff | Landing | PI | Categories
 --- | --- | --- | --- | --- | ---
 {% for k, v in flights.items() -%}
