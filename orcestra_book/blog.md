@@ -1,5 +1,32 @@
 # Blog
 
+---
+## #T-4
+
+Four days until ORCESTRA
+
+Today I went to the Ocean Science Center Mindelo (OSCM) to visit CLARINET.
+OSCM is a joint initiative between the German GEOMAR and the Instituto do Mar of Cape Verde focused on long-term observations and international collaboration.
+
+The center is located on the east side of Mindelo Bay, slightly hidden behind residential buildings. The large hall is decorated with artistic ocean impressions. 
+The TROPOS colleagues have their own laboratory and operate an impressive array of instruments on the roof. Passing by the numerous solar panels at the top, the instruments have an incredible view to the harbor and ocean. Tommy (Wind lidar) and Polly (Raman lidar) are accompanied by a Microwave radiometer (HATPRO), a Sunphotometer, a Cloud radar and radiation measurements — some dusted with salty sea spray and saharan sand. They are closely collaborating with the Cape Verdean Atmospheric Observatory (CVAO), managed by the Instituto Nacional de Meteorologia e Geofisica (INMG) of Cape Verde on the hill behind the hills where they are responsible of in-situ measurements.
+
+A newly built large platform next to the family of instruments is waiting to host a bigger cloud radar, which is still on the ship with the other containers for RV METEOR somewhere between Las Palmas and the Cape Verde Islands.  There is still no sight of the ship and the missing containers., but they are on their way at a relaxed speed of 10 knots per hours. While scientists and technicians here are conserving their energy, ready to spring into action the moment the containers arrive. Some have taken a day off and headed to the fishermans village at São Pedro to snorkel with turtles out in the sea.
+
+Gradually, more and more people are arriving, though fewer than expected as the flight schedule is tight and some have missed their flights.
+Let’s hope that RV METEOR won’t face any delays and will arrive safely tomorrow morning.
+
+A cool sea breeze is blowing into the bay. I’m stepping out to grab some dinner. The sky is already dark and slightly cloudy. Only the electrical lights illuminate the streets, buildings, and the harbor. Maybe I’ll catch a glimpse of Polly, shining green through the sky on the east side of the bay.
+
+```{figure} /figures/blog_T-4.jpg
+:alt: On the rooftop of OSCM
+:width: 800px
+:align: center
+
+On the rooftop of OSCM with some TROPOS colleagues and the instrument family.
+```
+
+---
 ## #T-5
 
 Five days until ORCESTRA
@@ -14,7 +41,7 @@ A slight wind breeze coming from the west brings coolness and ocean smell into t
 It’s time to end the day with the harbour view on the hotel rooftop and some refreshments…
 
 ```{figure} /figures/blog_T-5.jpg
-:alt: Airport in Sao Vicente.
+:alt: Airport in Sao Vicente, Cape Verde.
 :width: 800px
 :align: center
 
@@ -22,7 +49,6 @@ Airport in Sao Vicente, Cape Verde.
 ```
 
 ---
-
 ## Kick-off ORCESTRA with a dry run
 
 In eight sessions over the first weeks of 2024 a bunch of scientists across Europe and the United States met virtually. Atmospheric people faced oceanographic people, familiar faces greeted new faces, a new community was kicked-off: The ORCESTRA community.
