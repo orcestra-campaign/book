@@ -1,8 +1,52 @@
 # Blog
 
 Welcome to our campaign blog!
-Here, we share some impressions, challenges, successes and other insights apart from the measurements in the campaign. This blog tries to capture the most recent developments and updates, but a daily post is not guaranteed as the campaign progresses and the written words here represent the perspective of the writer behind.
-Anyhow, we hope you enjoy reading it and get a glimpse of our day-to-day experience!
+Here, I share some impressions, challenges, successes and other insights apart from the measurements in the campaign. This blog tries to capture the most recent developments and updates, but a daily post is not guaranteed as the campaign progresses and the written words here represent the perspective of the writer behind.
+Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experience!
+
+Cheers, Yu
+
+---
+## #T-3
+
+Three days until ORCESTRA
+
+RV METEOR has arrived! On the rooftop of the hotel I was staying at, one could see how the blue-white-orange colored ship had arrived in the morning. Later in the afternoon, I went to the harbor for a closer look. SEA-POL was stationed and assembled at the far corner of the harbor. The radar itself, nicknamed ‚Murmel‘ (mumble) by the RV METEOR crew, was carefully placed on a truck and slowly maneuvered through the labyrinth of containers.
+
+The research vessel is impressive, equipped with so many instruments and appliances that I can’t even begin to describe them all. After the containers, which arrived on time, were transported to the ship, they were lifted on board with the most precise crane operation I’ve ever seen.
+Finally, the first scientists and technicians could start their work. Even I got to do some hands-on work, helping in install the disdrometer above the sixth superstructure deck. But enough of words… photos convey more then words can describe. So here they are!
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T-30.jpg
+:img-alt: Transport of SEA-POL
+Transport of SEA-POL to RV METEOR...
+
+```
+
+```{card}
+:img-top: /figures/blog_T-31.jpg
+:img-alt: SEA-POL and Container transport
+... and followed by a container.
+
+```
+```{card}
+:img-top: /figures/blog_T-32.jpg
+:img-alt: Container lift onboard of RV Meteor.
+
+Container are lifted on the RV Meteor.
+
+```
+
+```{card}
+:img-top: /figures/blog_T-33.jpg
+:img-alt: RV Meteor
+
+RV Meteor. Can you find the installed disdrometer?
+
+```
+
+````
 
 ---
 ## #T-4
