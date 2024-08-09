@@ -7,6 +7,30 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T-2
+
+Two days until ORCESTRA
+
+After standing once more on the RV METEOR this morning, breathing the sea air in Mindelo Bay and watching the hustle and bustle in the harbor as the scientists began their work and one part of the ship crew leaving, I am now continuing my journey to Sal. Currently, I am writing these words in the waiting hall at the airport in Praia, looking out over the nearly empty airfield, except for two stairways leading to nowhere and some transport vehicles. One can see the deep blue ocean behind the runway. The air above ground flickers in the distance, as it does when it’s really hot outside.
+While waiting, I am checking my mails and catching up with some news.
+
+ATR has landed today! They departed yesterday from Toulouse with a stopover in the Canaries. MAESTRO will proceed as planned and practice their typical „MAESTRO flight pattern“ for the first mission on the 10th.
+
+CELLO also managed to overcome the issues with their instrument, which they discovered during a test flight a few days ago. Luckily, the issues were solved in the blink of an eye, and after another test flight, the instruments worked well. INCAS King Air is on its way shall arrive on Praia on the 10th. The crew will follow the day after.
+
+The plan has arrived and boarding is about to start. More on Sal!
+
+```{figure} /figures/blog_T-2.jpg
+:alt: ATR-42 on Sal
+:width: 800px
+:align: center
+
+ATR-42 has arrived in Sal! (*Photo by S.Bony*)
+```
+
+
+
+---
 ## #T-3
 
 Three days until ORCESTRA
