@@ -33,6 +33,7 @@ chapters:
     - file: virtual_campaign
 - file: operation
   sections:
+    - file: operation/atr
     - file: operation/halo
     - file: operation/rvmeteor
 - file: data

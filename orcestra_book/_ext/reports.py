@@ -84,23 +84,24 @@ def write_ship_table(app):
 
 
 def write_flight_table(app=None):
-    """Collect all reports from HALO and create an overview table."""
+    """Collect flight plans/reports to create overview tables for ATR and HALO."""
     src = pathlib.Path(app.srcdir)
     metadata = collect_all_metadata(src)
 
-    regex = re.compile("HALO-[0-9]*[a-z]")
-    frontmatters = {
-        k: consolidate_metadata(src, v)
-        for k, v in sorted(metadata.items())
-        if regex.match(k)
-    }
+    for plane in ("ATR", "HALO"):
+        regex = re.compile(f"{plane}-[0-9]*[a-z]")
+        frontmatters = {
+            k: consolidate_metadata(src, v)
+            for k, v in sorted(metadata.items())
+            if regex.match(k)
+        }
 
-    with open(src / "_templates" / "operation_halo.md", "r") as fp:
-        templ = fp.read()
+        with open(src / "_templates" / f"operation_{plane.lower()}.md", "r") as fp:
+            templ = fp.read()
 
-    with open(src / "operation" / "halo.md", "w") as fp:
-        t = Template(templ)
-        fp.write(t.render(flights=frontmatters))
+        with open(src / "operation" / f"{plane.lower()}.md", "w") as fp:
+            t = Template(templ)
+            fp.write(t.render(flights=frontmatters))
 
 
 def setup(app):
