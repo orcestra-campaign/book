@@ -16,7 +16,7 @@ def load_frontmatter(path):
 
 
 def get_flight_categories(src):
-    with open(src / "reports" / "flight_categories.yaml", "r") as fp:
+    with open(src / "operation" / "flight_categories.yaml", "r") as fp:
         return yaml.safe_load(fp)["categories"]
 
 

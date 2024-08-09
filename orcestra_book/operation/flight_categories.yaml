@@ -9,7 +9,7 @@ categories:
     long_name: "Two circles at 48mm"
     tier: "a"
   itcz_circ:
-    long_name: "Once circle inside the ITCZ"
+    long_name: "One circle inside the ITCZ"
     tier: "a"
   south:
     long_name: "Southern extension (100km)"
@@ -27,10 +27,16 @@ categories:
     long_name: "PACE underpass"
     tier: "b"
   gpm_under:
-    long_name: "GPM/Radar satellite"
+    long_name: "GPM/Radar underpass"
     tier:  "b"
-  mindelo:
-    long_name: "Mindelo overpass"
+  meteor:
+    long_name: "RV Meteor overpass"
+    tier: "b"
+  ocsm:
+    long_name: "Ocean Science Center Mindelo overpass"
+    tier: "b"
+  bco:
+    long_name: "Barbados Cloud Observatory overpass"
     tier: "b"
   cloud_circ:
     long_name: "Circle a cloud"
