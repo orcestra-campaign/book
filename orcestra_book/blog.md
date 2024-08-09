@@ -1,5 +1,9 @@
 # Blog
 
+Welcome to our campaign blog!
+Here, we share some impressions, challenges, successes and other insights apart from the measurements in the campaign. This blog tries to capture the most recent developments and updates, but a daily post is not guaranteed as the campaign progresses and the written words here represent the perspective of the writer behind.
+Anyhow, we hope you enjoy reading it and get a glimpse of our day-to-day experience!
+
 ---
 ## #T-4
 
