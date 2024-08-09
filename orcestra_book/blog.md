@@ -1,4 +1,6 @@
-# Kick-off ORCESTRA with a dry run
+# Blog
+
+## Kick-off ORCESTRA with a dry run
 
 In eight sessions over the first weeks of 2024 a bunch of scientists across Europe and the United States met virtually. Atmospheric people faced oceanographic people, familiar faces greeted new faces, a new community was kicked-off: The ORCESTRA community.
 
@@ -8,7 +10,7 @@ Under the roof of ORCESTRA, seven sub-campaigns, three in the air, one on land a
 
 During the dry run, questions regarding how to do science within technical constraints, how to adapt along the orbit of a satellite and how to coordinate across platforms were tackled. First flight patterns were simulated based on past data and satellite images, the ship track was tuned and useful data tools and data scripts were shared. 
 
-We not only had insights into objectives of individual [sub campaigns](../orcestra.md), likewise, did we learn about tools like [AERIS](https://observations.ipsl.fr/aeris/maestro/#/map), [TOOCAN](https://toocan.ipsl.fr), [MISVA](https://misva.aeris-data.fr), GOES and [pyorcestra](https://github.com/orcestra-campaign/pyorcestra) which will support us while preparing and operating the campaign.
+We not only had insights into objectives of individual [sub campaigns](orcestra.md), likewise, did we learn about tools like [AERIS](https://observations.ipsl.fr/aeris/maestro/#/map), [TOOCAN](https://toocan.ipsl.fr), [MISVA](https://misva.aeris-data.fr), GOES and [pyorcestra](https://github.com/orcestra-campaign/pyorcestra) which will support us while preparing and operating the campaign.
 
 Luckily, some doubts about coordinating across platforms were cleared up and the operation of ORCESTRA is becoming more real.
 

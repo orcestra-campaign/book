@@ -40,9 +40,6 @@ chapters:
   sections:
     - file: data_policy
     - file: data_concept
-- file: news
-  sections:
-     - file: news/20240205_virtual-campaign.md
-       title: Kick-off
+- file: blog
 - file: coordination
 - file: references
