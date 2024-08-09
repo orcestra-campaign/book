@@ -20,13 +20,13 @@ categories:
   atr_over:
     long_name: "ATR overpass"
     tier: "b"
-  sar:
-    long_name: "SAR overpass"
+  sar_under:
+    long_name: "SAR underpass"
     tier: "b"
-  pace:
-    long_name: "PACE overpass"
+  pace_under:
+    long_name: "PACE underpass"
     tier: "b"
-  gpm:
+  gpm_under:
     long_name: "GPM/Radar satellite"
     tier:  "b"
   mindelo:
