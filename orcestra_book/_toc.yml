@@ -36,6 +36,7 @@ chapters:
     - file: data_concept
     - file: hera5
     - file: hifs
+    - file: lam
     - file: water_vapour_overview
     - file: temperature_example
     - file: faq
