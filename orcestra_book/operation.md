@@ -27,3 +27,14 @@
 ```
 
 ````
+
+```{warning}
+At Sal Island the runway will be closed according to the following schedule (UTC):
+
+* Monday: 02:20–12:35
+* Tuesday: 02:20–09:45
+* Wednesday: 02:20–12:30
+* Thursday: 02:20–11:10
+* Friday: 02:20–10:00
+* Saturday: 02:50–08:00
+```
