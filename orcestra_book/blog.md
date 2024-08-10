@@ -7,7 +7,7 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
-## #T-2
+## #T−2
 
 Two days until ORCESTRA
 
@@ -31,7 +31,7 @@ ATR-42 has arrived in Sal! (*Photo by S.Bony*)
 
 
 ---
-## #T-3
+## #T−3
 
 Three days until ORCESTRA
 
@@ -73,7 +73,7 @@ RV Meteor. Can you find the installed disdrometer?
 ````
 
 ---
-## #T-4
+## #T−4
 
 Four days until ORCESTRA
 
@@ -99,7 +99,7 @@ On the rooftop of OSCM with some TROPOS colleagues and the instrument family.
 ```
 
 ---
-## #T-5
+## #T−5
 
 Five days until ORCESTRA
 
