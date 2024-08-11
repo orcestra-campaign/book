@@ -148,6 +148,7 @@ def check_flight_plan(app=None):
             k: datetime.datetime.fromisoformat(v["plan"]["takeoff"])
             for k, v in sorted(metadata.items())
             if regex.match(k)
+            if "plan" in v  # Only check flights with plan
         }
 
         for flight_id, takeoff in planned_takeoffs.items():
