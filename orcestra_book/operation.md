@@ -28,7 +28,9 @@
 
 ````
 
-```{warning}
+```{admonition} Airpot restrictions - Sal
+:class: warning dropdown
+
 At Sal Island the runway will be closed according to the following schedule (UTC):
 
 * Monday: 02:20–12:35
