@@ -1,3 +1,0 @@
-easygems>=0.0.3
-orcestra>0.0.8
-pybtex-apa-style
