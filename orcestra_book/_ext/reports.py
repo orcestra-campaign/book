@@ -1,11 +1,17 @@
 import pathlib
 import re
+import warnings
 from collections import defaultdict
 from functools import lru_cache
 import datetime
 
 import yaml
 from jinja2 import Template
+
+from sphinx.util import logging
+
+
+logger = logging.getLogger(__name__)
 
 
 @lru_cache
@@ -104,9 +110,57 @@ def write_flight_table(app=None):
             fp.write(t.render(flights=frontmatters))
 
 
+def is_valid_takeoff(date):
+    """Check if given takeoff time is in accordance with Sal Airport restrictions."""
+    restriction_by_weekday = {
+        0: datetime.time(12, 35),
+        1: datetime.time(9, 45),
+        2: datetime.time(12, 30),
+        3: datetime.time(11, 10),
+        4: datetime.time(10, 0),
+        5: datetime.time(8, 0),
+    }
+
+    to = restriction_by_weekday.get(date.weekday(), datetime.time(0, 0))
+    allowed = datetime.datetime(
+        date.year, date.month, date.day, to.hour, to.minute, tzinfo=datetime.UTC
+    )
+
+    # Represent local time as UTC-01
+    tz = datetime.timezone(datetime.timedelta(hours=-1))
+    plan = date.astimezone(tz)
+
+    # Only check flight plans on Sal.
+    if date < datetime.datetime(2024, 8, 10) or date > datetime.datetime(2024, 9, 5):
+        return True
+
+    return plan >= allowed
+
+
+def check_flight_plan(app=None):
+    """Check if flight plan is plausible."""
+    src = pathlib.Path(app.srcdir)
+    metadata = collect_all_metadata(src)
+
+    for plane in ("ATR", "HALO"):
+        regex = re.compile(f"{plane}-[0-9]*[a-z]")
+        planned_takeoffs = {
+            k: datetime.datetime.fromisoformat(v["plan"]["takeoff"])
+            for k, v in sorted(metadata.items())
+            if regex.match(k)
+        }
+
+        for flight_id, takeoff in planned_takeoffs.items():
+            if not is_valid_takeoff(takeoff):
+                logger.warn(
+                    f"{flight_id}: Planned takeoff time is in conflict with Airport restrictions!"
+                )
+
+
 def setup(app):
     app.connect("builder-inited", write_flight_table)
     app.connect("builder-inited", write_ship_table)
+    app.connect("builder-inited", check_flight_plan)
 
     return {
         "version": "0.1",
