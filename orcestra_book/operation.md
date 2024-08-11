@@ -39,4 +39,12 @@ At Sal Island the runway will be closed according to the following schedule (UTC
 * Thursday: 02:20–11:10
 * Friday: 02:20–10:00
 * Saturday: 02:50–08:00
+
+```
+
+```{admonition} Daily briefings
+:class: note
+
+The [daily briefings](dailybriefings.md) of ORCESTRA contain status updates, flight plans, weather briefing and more.
+
 ```
