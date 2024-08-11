@@ -1,0 +1,20 @@
+EDJA:
+  lat: 47.9888
+  lon: 10.2395
+  name: "Allg\xE4u Airport"
+  tzinfo: Europe/Berlin
+GVAC:
+  lat: 16.7414
+  lon: -22.9494
+  name: Amilcar Cabral International Airport
+  tzinfo: Atlantic/Cape_Verde
+GVNP:
+  lat: 14.9245
+  lon: -23.4935
+  name: Praia International Airport
+  tzinfo: Atlantic/Cape_Verde
+TBPB:
+  lat: 13.0746
+  lon: -59.4925
+  name: Grantley Adams International Airport
+  tzinfo: America/Barbados

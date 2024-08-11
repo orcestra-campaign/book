@@ -4,11 +4,12 @@ import warnings
 from collections import defaultdict
 from functools import lru_cache
 import datetime
+import zoneinfo
 
 import yaml
-from jinja2 import Template
+import jinja2
 
-from orcestra.utils import load_frontmatter
+from orcestra.utils import load_frontmatter, parse_datestr
 from sphinx.util import logging
 
 
@@ -33,11 +34,35 @@ def collect_all_metadata(src, subdirs=("plans", "reports"), pattern="*.md"):
     return metadata
 
 
+def get_local_time(dt, tz):
+    return dt.astimezone(zoneinfo.ZoneInfo(tz))
+
+
+def add_local_times(src, metadata):
+    times = (
+        ("takeoff", "departure_airport"),
+        ("landing", "arrival_airport"),
+    )
+
+    with open(src / "operation" / "airport_info.yaml", "r") as fp:
+        airport_info = yaml.safe_load(fp)
+
+    return {
+        **metadata,
+        **{
+            f"{time}_local": get_local_time(
+            dt=parse_datestr(metadata[time]),
+            tz=airport_info[metadata[airport]]["tzinfo"],
+        ) for time, airport in times
+        }
+    }
+
+
 def consolidate_metadata(src, metadata):
     """Merge duplicated data from flight plans and reports."""
     latest_source = "report" if "report" in metadata else "plan"
 
-    for key in ("takeoff", "landing"):
+    for key in ("takeoff", "landing", "departure_airport", "arrival_airport"):
         metadata[key] = metadata[latest_source][key]
     for key in ("crew", "nickname"):
         metadata[key] = metadata[latest_source].get(key, None)
@@ -47,6 +72,9 @@ def consolidate_metadata(src, metadata):
     metadata["pi"] = [
         member["name"] for member in metadata["crew"] if member["job"].lower() == "pi"
     ][0]
+
+    # Add local times for takeoff and landing
+    metadata = add_local_times(src, metadata)
 
     # Collect relative Sphinx links to flight plans and reports
     refs = []
@@ -60,6 +88,15 @@ def consolidate_metadata(src, metadata):
     metadata["refs"] = refs
 
     return metadata
+
+
+def _strftime_local_utc(dt_object):
+    """Return timestr with local time (LT) and UTC."""
+    # lt = f"{dt_object:%H:%M}\u00A0{dt_object.tzinfo}"
+    lt = f"{dt_object:%H:%M}\u00A0LT"
+    utc = f"{dt_object.astimezone(datetime.UTC):%H:%M}\u00A0UTC"
+
+    return f"**{lt}**<br>_{utc}_"
 
 
 def write_ship_table(app):
@@ -79,7 +116,10 @@ def write_ship_table(app):
         templ = fp.read()
 
     with open(src / "operation" / "rvmeteor.md", "w") as fp:
-        t = Template(templ)
+        env = jinja2.Environment()
+        env.filters["lt_utc"] = _strftime_local_utc
+
+        t = env.from_string(templ)
         fp.write(t.render(reports=frontmatters))
 
 
@@ -119,7 +159,10 @@ def write_flight_table(app=None):
             templ = fp.read()
 
         with open(meta["markdown"], "w") as fp:
-            t = Template(templ)
+            env = jinja2.Environment()
+            env.filters["lt_utc"] = _strftime_local_utc
+
+            t = env.from_string(templ)
             fp.write(t.render(flights=frontmatters))
 
 
