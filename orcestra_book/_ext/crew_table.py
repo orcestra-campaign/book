@@ -5,15 +5,7 @@ import yaml
 from docutils import nodes
 from docutils.parsers.rst import directives
 from sphinx.util.docutils import SphinxDirective
-
-
-@lru_cache
-def load_frontmatter(path):
-    """Load and return the front matter section of a YAML file."""
-    with open(path, "r") as fp:
-        frontmatter = next(yaml.safe_load_all(fp))
-
-    return frontmatter
+from orcestra.utils import load_frontmatter
 
 
 class CrewTableDirective(SphinxDirective):

@@ -8,21 +8,11 @@ import datetime
 import yaml
 from jinja2 import Template
 
+from orcestra.utils import load_frontmatter
 from sphinx.util import logging
 
 
 logger = logging.getLogger(__name__)
-
-
-@lru_cache
-def load_frontmatter(path):
-    """Load and return the front matter section of a YAML file."""
-    with open(path, "r") as fp:
-        frontmatter = next(yaml.safe_load_all(fp))
-
-    frontmatter["filepath"] = path.as_posix()
-
-    return frontmatter
 
 
 def fpath2id(fpath):
@@ -48,7 +38,7 @@ def consolidate_metadata(src, metadata):
     latest_source = "report" if "report" in metadata else "plan"
 
     for key in ("takeoff", "landing"):
-        metadata[key] = datetime.datetime.fromisoformat(metadata[latest_source][key])
+        metadata[key] = metadata[latest_source][key]
     for key in ("crew", "nickname"):
         metadata[key] = metadata[latest_source].get(key, None)
     for key in ("categories",):
@@ -164,7 +154,7 @@ def check_flight_plan(app=None):
     for plane in ("ATR", "HALO"):
         regex = re.compile(f"{plane}-[0-9]*[a-z]")
         for flight_id in filter(regex.match, metadata):
-            takeoff = datetime.datetime.fromisoformat(metadata[flight_id]["plan"]["takeoff"])
+            takeoff = metadata[flight_id]["plan"]["takeoff"]
             airport = metadata[flight_id]["plan"]["departure_airport"]
 
             if not is_valid_takeoff(takeoff, airport):
