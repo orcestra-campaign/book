@@ -7,6 +7,40 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T-1
+
+One day until ORCESTRA
+
+Being so used to the long, late and bright summer nights of northern Germany, I was amazed at how dark it was when I landed last night at 7pm - although it's no surprise.
+On my taxi ride to the hotel in the dark, I could only guess how vast and desolate the landscape seemed.
+This was proven true on my visit to the Instituto Nacional de Meteorologia e Geofisica (INMG), which is located near the airport, somewhere in the middle of nowhere.
+
+Sal reminds me a little of a dented frying pan - the few towns on Sal are on the coast, while in the centre of the island you get roasted, as there is no shade, just sand, rocks and dried shrubs. At the INMG we were warmly welcomed and given a tour of the grounds. The institute consists of three buildings, with the offices, meeting rooms and forecasting centre in the left building and the storage and laboratory on the right. Here, a group from MAESTRO are preparing everything for the launch of the radio sondes. The first launch will take place tonight! MAESTRO has finally cleared customs and is ready to make its first research flight tomorrow.
+
+Some exciting news: HALO has landed and everything went well.
+On the less positive side: PERCUSION is still struggling with customs and has only got one of three containers out. Work on the instruments will be limited over the next few days. The hope is to get the other containers out of customs on Monday.
+
+Speaking of hiccups: The liquid nitrogen generator was not handled carefully during transport, causing some damage. Troubleshooting will follow tomorrow. Fingers crossed!
+
+And that's all for now. I'm going for a quick swim before the sun sets and it's time for dinner...
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T-10.jpg
+:img-alt: INMG grounds
+Instituto Nacional de Meteorologia e Geofisica (INMG).
+
+```
+
+```{card}
+:img-top: /figures/blog_T-11.jpg
+:img-alt: HALO on ground.
+HALO on ground (*Photo by A.Minikin*)
+
+```
+````
+
+---
 ## #T−2
 
 Two days until ORCESTRA
