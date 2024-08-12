@@ -20,7 +20,7 @@ A first attempt at repairing the liquid nitrogen generator needed to calibrate t
 
 And the ATR made its first research flight, passing the OSCM and the RV METEOR in Mindelo. Unfortunately, the research vessel is not allowed to switch on its instrument in the harbour, so no data comparison for this day. But there will be a few more opportunities for coordinated passes to capture the vertical structure of the atmosphere from the sea surface to the stratosphere.
 
-```{figure} logos/orcestra.png
+```{figure} logos/ORCESTRA_all.png
 :alt: ORCESTRA logos
 :width: 800px
 :align: center
