@@ -5,32 +5,35 @@ categories:
   ec_track:
     long_name: "Fly along EarthCARE track"
     tier: "a"
-  two_circ:
-    long_name: "Two circles at 48mm"
+  north_circ:
+    long_name: "North of center ITCZ circle"
     tier: "a"
-  itcz_circ:
-    long_name: "One circle inside the ITCZ"
+  south_circ:
+    long_name: "South of center ITCZ circle"
+    tier: "a"
+  center_circ:
+    long_name: "Circle within the ITCZ"
     tier: "a"
   south:
-    long_name: "Southern extension (100km)"
+    long_name: "Southern extension (>100km)"
     tier: "b"
   atr_circ:
-    long_name: "Circle around ATR"
+    long_name: "Circle coordinated with ATR flight legs"
     tier: "b"
-  atr_over:
-    long_name: "ATR overpass"
+  curtain:
+    long_name: "joint straight and level leg between two or more aircraft"
     tier: "b"
   sar_under:
-    long_name: "SAR underpass"
+    long_name: "SAR coordination"
     tier: "b"
   pace_under:
-    long_name: "PACE underpass"
+    long_name: "PACE coordination"
     tier: "b"
   gpm_under:
-    long_name: "GPM/Radar underpass"
+    long_name: "GPM/Radar coordination"
     tier:  "b"
   meteor:
-    long_name: "RV Meteor overpass"
+    long_name: "RV Meteor coordination"
     tier: "b"
   ocsm:
     long_name: "Ocean Science Center Mindelo overpass"
