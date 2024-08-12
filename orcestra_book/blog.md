@@ -7,6 +7,62 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T0
+ORCESTRA is happening!
+
+Truthfully, the campaign started weeks ago, if you count the prep work. People have been here for a few days already, settling in, preparing and planning flights or installing instruments. Still, it is good to announce an official starting day for the orientation. Originally, today was chosen as the day when the RV METEOR would depart and all three aircraft would have arrived. But things turned out differently for various reasons, as mentioned in the previous posts.
+
+During our first general meeting, Bjorn emphasised that despite the different scientific objectives and their potential challenges, the campaign integrates the efforts and minds of all, and so coming together is crucial as it will help to complete the puzzle of understanding the behaviour of the wider tropics, especially the ITCZ, as the Earth warms.
+
+There was a significant change for BOWTIE, PICCOLO and STRINQS as the scientific crew were transferred to RV METEOR and spent their first night on RV METEOR - their home at sea for the next seven weeks as the missing containers hopefully arrive within the next two days. On a more positive note, some of the long-awaited airfreight shipments have arrived, slowly completing the collection of instruments.
+
+A first attempt at repairing the liquid nitrogen generator needed to calibrate the HAMP radar and radiometer was made earlier, and looked promising.
+
+And the ATR made its first research flight, passing the OSCM and the RV METEOR in Mindelo. Unfortunately, the research vessel is not allowed to switch on its instrument in the harbour, so no data comparison for this day. But there will be a few more opportunities for coordinated passes to capture the vertical structure of the atmosphere from the sea surface to the stratosphere.
+
+```{figure} logos/orcestra.png
+:alt: ORCESTRA logos
+:width: 800px
+:align: center
+
+All sub-campaign logos under the roof of ORCESTRA.
+
+```
+---
+## #T-1
+
+One day until ORCESTRA
+
+Being so used to the long, late and bright summer nights of northern Germany, I was amazed at how dark it was when I landed last night at 7pm - although it's no surprise.
+On my taxi ride to the hotel in the dark, I could only guess how vast and desolate the landscape seemed.
+This was proven true on my visit to the Instituto Nacional de Meteorologia e Geofisica (INMG), which is located near the airport, somewhere in the middle of nowhere.
+
+Sal reminds me a little of a dented frying pan - the few towns on Sal are on the coast, while in the centre of the island you get roasted, as there is no shade, just sand, rocks and dried shrubs. At the INMG we were warmly welcomed and given a tour of the grounds. The institute consists of three buildings, with the offices, meeting rooms and forecasting centre in the left building and the storage and laboratory on the right. Here, a group from MAESTRO are preparing everything for the launch of the radio sondes. The first launch will take place tonight! MAESTRO has finally cleared customs and is ready to make its first research flight tomorrow.
+
+Some exciting news: HALO has landed and everything went well.
+On the less positive side: PERCUSION is still struggling with customs and has only got one of three containers out. Work on the instruments will be limited over the next few days. The hope is to get the other containers out of customs on Monday.
+
+Speaking of hiccups: The liquid nitrogen generator was not handled carefully during transport, causing some damage. Troubleshooting will follow tomorrow. Fingers crossed!
+
+And that's all for now. I'm going for a quick swim before the sun sets and it's time for dinner...
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T-10.jpg
+:img-alt: INMG grounds
+Instituto Nacional de Meteorologia e Geofisica (INMG).
+
+```
+
+```{card}
+:img-top: /figures/blog_T-11.jpg
+:img-alt: HALO on ground.
+HALO on ground (*Photo by A.Minikin*)
+
+```
+````
+
+---
 ## #T−2
 
 Two days until ORCESTRA
