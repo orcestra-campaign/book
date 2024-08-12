@@ -7,6 +7,28 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T0
+ORCESTRA is happening!
+
+Truthfully, the campaign started weeks ago, if you count the prep work. People have been here for a few days already, settling in, preparing and planning flights or installing instruments. Still, it is good to announce an official starting day for the orientation. Originally, today was chosen as the day when the RV METEOR would depart and all three aircraft would have arrived. But things turned out differently for various reasons, as mentioned in the previous posts.
+
+During our first general meeting, Bjorn emphasised that despite the different scientific objectives and their potential challenges, the campaign integrates the efforts and minds of all, and so coming together is crucial as it will help to complete the puzzle of understanding the behaviour of the wider tropics, especially the ITCZ, as the Earth warms.
+
+There was a significant change for BOWTIE, PICCOLO and STRINQS as the scientific crew were transferred to RV METEOR and spent their first night on RV METEOR - their home at sea for the next seven weeks as the missing containers hopefully arrive within the next two days. On a more positive note, some of the long-awaited airfreight shipments have arrived, slowly completing the collection of instruments.
+
+A first attempt at repairing the liquid nitrogen generator needed to calibrate the HAMP radar and radiometer was made earlier, and looked promising.
+
+And the ATR made its first research flight, passing the OSCM and the RV METEOR in Mindelo. Unfortunately, the research vessel is not allowed to switch on its instrument in the harbour, so no data comparison for this day. But there will be a few more opportunities for coordinated passes to capture the vertical structure of the atmosphere from the sea surface to the stratosphere.
+
+```{figure} logos/orcestra.png
+:alt: ORCESTRA logos
+:width: 800px
+:align: center
+
+All sub-campaign logos under the roof of ORCESTRA.
+
+```
+---
 ## #T-1
 
 One day until ORCESTRA
