@@ -35,7 +35,7 @@ During our first general meeting, Bjorn emphasised that despite the different sc
 
 There was a significant change for BOWTIE, PICCOLO and STRINQS as the scientific crew were transferred to RV METEOR and spent their first night on RV METEOR - their home at sea for the next seven weeks as the missing containers hopefully arrive within the next two days. On a more positive note, some of the long-awaited airfreight shipments have arrived, slowly completing the collection of instruments.
 
-A first attempt at repairing the liquid nitrogen generator needed to calibrate the HAMP radar and radiometer was made earlier, and looked promising.
+A first attempt at repairing the liquid nitrogen generator needed to calibrate the HAMP radiometer was made earlier, and looked promising.
 
 And the ATR made its first research flight, passing the OSCM and the RV METEOR in Mindelo. Unfortunately, the research vessel is not allowed to switch on its instrument in the harbour, so no data comparison for this day. But there will be a few more opportunities for coordinated passes to capture the vertical structure of the atmosphere from the sea surface to the stratosphere.
 
