@@ -98,7 +98,7 @@ def write_flight_table(app=None):
         regex = re.compile(f"{plane}-[0-9]*[a-z]")
         frontmatters = {
             k: consolidate_metadata(src, v)
-            for k, v in sorted(metadata.items())
+            for k, v in sorted(metadata.items(), reverse=True)
             if regex.match(k)
         }
 
