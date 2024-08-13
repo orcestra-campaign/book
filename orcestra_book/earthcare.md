@@ -47,13 +47,16 @@ import pandas as pd
 import warnings 
 
 # Define timeframes for long term prediction (LTP) and preliminary (PRE)
-start_date = (datetime.now() - timedelta(days=1)).date()  # yesterday as starttime to ensure preliminary tracks are available
+start_date = datetime.now().date()
 dates_ltp = [start_date + timedelta(days=7) + timedelta(days=i) for i in range(14)]
 dates_pre = [start_date + timedelta(days=i) for i in range(7)]
 
 # Define which satellite predictions schould be used 
 issue_date_ltp = '2024-08-05'
-issue_date_pre = start_date
+issue_date_pre = pd.read_csv(
+    "https://sattracks.orcestra-campaign.org/index.csv",
+    parse_dates=["forecast_day"],
+).forecast_day.loc[0].strftime("%Y-%m-%d")
 
 # Ignore warning from using an old forecast. LTP forecast will always be older than latest PRE forecast
 warnings.filterwarnings("ignore") 
