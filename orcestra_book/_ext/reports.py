@@ -110,7 +110,7 @@ def write_flight_table(app=None):
             fp.write(t.render(flights=frontmatters))
 
 
-def is_valid_takeoff(date):
+def is_valid_takeoff(date, airport):
     """Check if given takeoff time is in accordance with Sal Airport restrictions."""
     restriction_by_weekday = {
         0: datetime.time(12, 35),
@@ -126,15 +126,11 @@ def is_valid_takeoff(date):
         date.year, date.month, date.day, to.hour, to.minute, tzinfo=datetime.UTC
     )
 
-    # Represent local time as UTC-01
-    tz = datetime.timezone(datetime.timedelta(hours=-1))
-    plan = date.astimezone(tz)
-
     # Only check flight plans on Sal.
-    if date < datetime.datetime(2024, 8, 10) or date > datetime.datetime(2024, 9, 5):
+    if airport != "GVAC":
         return True
 
-    return plan >= allowed
+    return date.astimezone(datetime.UTC) >= allowed
 
 
 def check_flight_plan(app=None):
@@ -144,14 +140,11 @@ def check_flight_plan(app=None):
 
     for plane in ("ATR", "HALO"):
         regex = re.compile(f"{plane}-[0-9]*[a-z]")
-        planned_takeoffs = {
-            k: datetime.datetime.fromisoformat(v["plan"]["takeoff"])
-            for k, v in sorted(metadata.items())
-            if regex.match(k)
-        }
+        for flight_id in filter(regex.match, metadata):
+            takeoff = datetime.datetime.fromisoformat(metadata[flight_id]["plan"]["takeoff"])
+            airport = metadata[flight_id]["plan"]["departure_airport"]
 
-        for flight_id, takeoff in planned_takeoffs.items():
-            if not is_valid_takeoff(takeoff):
+            if not is_valid_takeoff(takeoff, airport):
                 logger.warn(
                     f"{flight_id}: Planned takeoff time is in conflict with Airport restrictions!"
                 )
