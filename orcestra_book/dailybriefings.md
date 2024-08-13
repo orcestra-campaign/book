@@ -4,6 +4,55 @@ orphan: true
 
 # Daily briefings
 
+## ORCESTRA-20240813
+
+### General
+
+* General meeting shifted to 08:30 LT
+* Coordinated day Off tomorrow (14 August); anyone flying or touching HALO in the evening cannot attend the flight planning meeting on Friday
+* Outreach: Turtle watching activity planed by Enora and Basil
+* Mini symposium at INMG training center (register today!)
+
+### Flight updates
+
+**ATR 13 August**
+* First flight: 2 pm UTC earthCARE flight east of Sal
+* Second flight: SAR overpass
+
+Further
+* 15th August: East of Sal
+* 16th August: Sar overpass
+
+**HALO**
+* 16th August: West of Sal (potential ATR coordination east of Sal)
+
+**CELLO**
+* CELLO flies today
+
+### Status updates
+
+No updates.
+
+### Weather briefing
+
+**MAESTRO**
+
+* Dust layer over Sal
+* AEW ridge over/north of Sal
+* Weak precipitation predicted north of ITCZ
+* Strong African Easterly Wave on Friday east of Sal
+* 300 m (base cloud) to 700 m (cloud top) close to Sal
+
+**PERCUSION**
+
+PERCUSION forecasts are available at [weather.orcestra-campaign.org](https://weather.orcestra-campaign.org/briefings/20240813/main.html)
+* Hurricane formation in the East Atlantic
+* Eastery Wave (very intense) approaching
+* No deep convection predicted along HALO flight track
+* 16th of August: similar situation as on the 11th of August with a low pressure system; northern edge becoming increasingly uncertain during the course of the day
+
+
+---
 ## ORCESTRA-20240812
 
 ### Flight updates
