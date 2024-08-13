@@ -74,6 +74,7 @@ Furthermore ORCESTRA collaborates with local institutions on-site:
 
 * Deutsche Forschungsgemeinschaft ([DFG](https://www.dfg.de/en)), Germany
 * Deutsches Zentrum fuer Luft- und Raumfahrt ([DLR](https://www.dlr.de/en)), Germany
+* Dutch Research Council (NWO) -- through its Domain Science (ENW) Open Competition grants, Netherlands
 * European Space Agency (ESA)
 * European Research Council 
 * German Federal Ministry of Education and Research (BMBF), Germany
