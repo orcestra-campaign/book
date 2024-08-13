@@ -7,6 +7,25 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## CLARINET-01
+
+CLARINET is ready for the campaign start and to provide reference measurements from our stationary ground-based ACTRIS station at the OSCM at Mindelo.
+Already during the last two weeks, colleagues from TROPOS carried out maintenance at the instruments. Last week, we had the first crew change. For the duration of the campaign, the station will be permanently manned with two scientists from TROPOS to ensure the availability of the measurements and to fix problems immediately. Reaching this goal keeps us busy and we had to face already some shock moments when we woke up in the morning and recognized that the instruments did not measure during night due to power blackouts or internet breakdowns in the city.
+
+Fortunately, our instruments were working well when a great dust plume arrived just on time for the start of the campaign. Saharan dust up to heights of 6 km provided good conditions for the first research flight of the MAESTRO campaign but prohibited to see their aircraft passing over Mindelo, for which we had a look from our station at the roof top of the institute.
+
+Like many of the ORCESTRA people we are also eagerly awaiting the arrival of the container ship, which should bring us our new radar. Unfortunately, it cannot be set up anymore in time for this campaign. In the meantime, while everyone is waiting and all the instruments are doing well, from time to time, we welcome visitors from the other sub-campaigns at the OSCM to show them around and we also visited the Meteor as long as it is still in the harbour.
+
+```{figure} figures/blog_CLARINET01.jpg
+:alt: Trying to spot the SAFIRE ATR during their OSCM overflight in the hazy sky today over Mindelo
+:width: 800px
+:align: center
+
+Trying to spot the SAFIRE ATR during their OSCM overflight in the hazy sky today over Mindelo
+
+```
+
+---
 ## #T0
 ORCESTRA is happening!
 
