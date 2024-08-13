@@ -32,29 +32,50 @@ To achieve these scientific goals, EarthCARE orbits the Earth at an altitude of 
 
 EarthCARE is regularly crossing the measurement area, which allows for underflights with any of the aircrafts. Measurement data from the underflights is used to validate the EarthCARE measurements. On this page, we show tracks of EarthCARE in the vicinity of Sal island within the next two weeks for flight planning purposes. 
 
-First we define the timeframe and download the tracks for the next two week. 
+EarthCARE tracks are available as long term prediction (LTP) and preliminary (PRE). The PRE tracks are available for the next week and updated daily. The PRE tracks are available for five weeks and updated roughly every two weeks. To make the latest EarthCARE track predictions available, we plot PRE tracks for this week and LTP tracks for the two weeks after. 
+
+First, we load the track data 
 ```{code-cell} python3
 :tags: [hide-input]
-import orcestra 
-import orcestra.sat
+from orcestra import sat
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta, time
 import cartopy.crs as ccrs 
 from geopy.distance import geodesic 
 import numpy as np
 import pandas as pd
+import warnings 
 
-# Define week we want to look at the earthcare tracks for with given leadtime
-start_date = (datetime.now()).date()
-dates = [start_date + timedelta(days=i) for i in range(21)]
+# Define timeframes for long term prediction (LTP) and preliminary (PRE)
+start_date = (datetime.now() - timedelta(days=1)).date()  # yesterday as starttime to ensure preliminary tracks are available
+dates_ltp = [start_date + timedelta(days=7) + timedelta(days=i) for i in range(14)]
+dates_pre = [start_date + timedelta(days=i) for i in range(7)]
 
-# Load the tracks for the week
-tracks = {}
-for date in dates:
-    tracks[date] = orcestra.sat.SattrackLoader("EARTHCARE", "2024-08-05").get_track_for_day(date).sel(time=slice(datetime.combine(date, time(6, 0)), None))
+# Define which satellite predictions schould be used 
+issue_date_ltp = '2024-08-05'
+issue_date_pre = start_date
 
+# Ignore warning from using an old forecast. LTP forecast will always be older than latest PRE forecast
+warnings.filterwarnings("ignore") 
+
+
+# Load the tracks 
+tracks_ltp = {}
+tracks_pre = {}
+for date in dates_ltp:
+    tracks_ltp[date] = (
+        sat.SattrackLoader("EARTHCARE", issue_date_ltp, kind='LTP')
+        .get_track_for_day(date)
+        .sel(time=slice(datetime.combine(date, time(6, 0)), None))
+        )
+for date in dates_pre:
+    tracks_pre[date] = (
+        sat.SattrackLoader("EARTHCARE", issue_date_pre, kind='PRE')
+        .get_track_for_day(date)
+        .sel(time=slice(datetime.combine(date, time(6, 0)), None))
+    )
 ```
-Now we plot the tracks for this week and the next week.  
+Now we plot the PRE tracks for this week and the LTP tracks for the two weeks after. 
 
 ```{code-cell} python3
 :tags: [hide-input]
@@ -78,9 +99,18 @@ def plot_tracks(tracks, dates, ax):
         if len(track_lon) > 0:
             mid_index = len(track_lon) // 2
             track_time = pd.Timestamp(tracks[date].time.mean().values)
-            ax.annotate(f"{track_time.day}.{track_time.month}. {track_time.hour}:{track_time.minute}", xy=(track_lon[mid_index], track_lat[mid_index]), xytext=(-5, 1),
-                            textcoords='offset points', fontsize=9, color=line.get_color(),
-                            rotation=-100.8, rotation_mode='anchor', bbox=dict(facecolor='white', edgecolor='none'))
+            ax.annotate(
+                f"{track_time.day}.{track_time.month}. {track_time.hour}:{track_time.minute}",
+                xy=(track_lon[mid_index],
+                track_lat[mid_index]),
+                xytext=(-5, 1),
+                textcoords='offset points',
+                fontsize=9, 
+                color=line.get_color(),
+                rotation=-100.8, 
+                rotation_mode='anchor', 
+                bbox=dict(facecolor='white', edgecolor='none')
+                )
     # plot circle
     center = (16.735, -22.948) 
     radius_km = 250
@@ -95,11 +125,11 @@ def plot_tracks(tracks, dates, ax):
     gl.right_labels = False
 
 fig, axes = plt.subplots(1, 3, figsize=(14, 6), subplot_kw={'projection': ccrs.PlateCarree()}, sharex=True, sharey=True)
-plot_tracks(tracks, dates[:7], axes[0])
-axes[0].set_title('EarthCARE tracks for this week')
-plot_tracks(tracks, dates[7:14], axes[1])
-axes[1].set_title('EarthCARE tracks for next week')
-plot_tracks(tracks, dates[14:], axes[2])
-axes[2].set_title('EarthCARE tracks for the week after next')
+plot_tracks(tracks_pre, dates_pre, axes[0])
+axes[0].set_title('Tracks for this week from latest prediction')
+plot_tracks(tracks_ltp, dates_ltp[:7], axes[1])
+axes[1].set_title('Tracks for next week from long-term prediction')
+plot_tracks(tracks_ltp, dates_ltp[7:], axes[2])
+axes[2].set_title('Tracks in two weeks from long-term prediction')
 fig.tight_layout()
 ```
