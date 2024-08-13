@@ -7,6 +7,81 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T2
+
+Today has been a fairly quiet day, with the HALO and ATR on the ground and the focus shifting to the planning of the upcoming flight days.
+
+On a more encouraging note, the remaining two containers for PERCUSION finally cleared customs today, allowing us to get the equipment out and start unpacking.
+With the containers in place, our IT and data genius has begun installing the internal network, which will provide a more stable connection and later the ability to share data internally between the different teams.
+
+The liquid nitrogen generator, which is required for the calibration of the HAMP radiometer, remains a cause for concern. At least it is somehow functional and producing the liquid nitrogen, albeit at a reduced capacity.
+
+Bad news came today from the chief scientist of RV METEOR. The containers are now expected to arrive on 14 August, with the most likely departure date pushed back to 16 August. This delay is unfortunate, but we remain optimistic and ready to adjust our plans if necessary.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T2_0.jpg
+:img-alt: Daily briefing
+Morning briefing (*Photo by J. von Bismarck*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T2_1.jpg
+:img-alt: Container arriving for PERCUSION
+Container arriving for PERCUSION. (*Photo by A.Minikin*)
+
+```
+````
+
+---
+## #T1
+
+Today was an important milestone in the ORCESTRA campaign as HALO completed its first research flight together with ATR.
+
+The day started with the first morning briefing at 9:00 LT, where besides general announcements and status updates, the weather briefings for MAESTRO and PERCUSION were presented. The forecasts looked promising, showing that the edges of the ITCZ were actually quite close to where the climatology expected them to be. The flight plan for HALO, agreed 10 days earlier, was therefore surprisingly good.
+
+We are welcoming several guests for this week: A colleague from ESA is visiting to co-ordinate the EarthCARE commissioning activities.
+
+We will host five students from the [WASCAL programme](https://wascal.org/graduate-studies-programme/) who will be trained by MAESTRO colleagues in weather briefing and radio probe launch. A mini-symposium will be held at the INMG training centre on Friday 16 August at the end of the training.
+
+HALO's first mission took the crew south across the ITCZ. All the instruments on board worked well and the dropsondes were deployed successfully. In the end, HALO even managed to fly a circle coordinated with the ATR west of Sal. After a nine-hour flight, HALO landed safely at Sal. The atmosphere didn't disappoint, providing a variety of cloud types that were captured in some amateur photographs taken from HALO's window.
+
+In it’s second mission, the ATR flew their EarthCARE flight pattern, west of Sal, overpassing Mindelo again.
+
+There is still no sign of the arrival of containers for our shipborne components BOWTIE, PICCOLO and STRINQS. While they wait, the crew are preparing for good coordination with HALO in the physical world by practising it in the virtual world.
+
+The radiosonde team is still experiencing connectivity problems, sometimes losing contact with the sondes at altitudes of around 3km. The puzzling thing is that this has mostly happened during the day, while the sondes launched at night have mostly worked fine.
+
+The ORCESTRA family is finally complete, as the INCAS King Air has arrived in Praia on Santiago Island, followed by the CELLO crew.
+
+I am curious to see when the first coordination with all three aircraft will happen...
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T1_1.jpg
+:img-alt: HALO and ATR
+HALO and ATR on the ground before their flights (*Photo by A. Minikin*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T1_2.jpg
+:img-alt: HALO Crew.
+The HALO crew ready to take off! (*Photo by B. Mayer*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T1_3.jpg
+:img-alt: clouds from HALO
+Clouds from HALO (*Photo by H. Gloeckner*)
+
+```
+````
+
+
+---
 ## CLARINET-01
 
 CLARINET is ready for the campaign start and to provide reference measurements from our stationary ground-based ACTRIS station at the OSCM at Mindelo.
