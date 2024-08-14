@@ -7,6 +7,54 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T4
+
+Day off.
+
+---
+## #T3
+
+After the first days on Sal a few gathered to start the day with beach volleyball at 7:00 LT. We figured that a good time to do sport would be before 8:00 LT, before the sun heats up the surface - and combined with the comparatively mild humidity it is intolerable for any fast movements without melting like an ice cube…
+
+It seems the mission PIs had a similar thought, as today's flights were scheduled for later in the day, with the return well after sunset.
+The flights were ambitious: HALO had a 9-hour flight integrating five circles: the statistical circles north, centre and south of the ITCZ, plus two others coordinated with the ATR, which flew two flights - one for the EarthCARE underpass and the second for the SAR satellite underpass. Unfortunately, the INCAS KingAir had to cancel its planned flight due to cloud conditions not meeting the mission requirements.
+
+And believe it or not but HALO and ATR manage to meet EarthCARE right on schedule, at exactly 15:42 LT—how remarkable!
+
+Tomorrow, the airborne part of Sal will have a day off, with no flight-related work, allowing everyone to recharge and perhaps explore some of the hidden dirt of the island.
+
+Although RV Meteor is still not moving, instrumentation is getting more complete: The WindCube has arrived and is installed. The only missing pieces are the drones for STRINQS, the RAMAN lidar and the food. Hopes are high that they arrive tomorrow.
+
+At least the shipboard sub-campaigns were able to join virtually on PLANET - the software for real-time tracking and information exchange between passengers on board and the ground base.
+
+So there will be no post for tomorrow, but stay tuned for more updates in #T5!
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T3_1.png
+:img-alt: HALO, ATR and EarthCARE meeting.
+
+Virtual snapshot of HALO and ATR meeting EC right on schedule.
+
+```
+
+```{card}
+:img-top: /figures/blog_T3_0.jpg
+:img-alt: HALO overpass ATR
+HALO overpassing ATR on ground. (*Photo by B.Stevens*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T3_2.jpg
+:img-alt: Deep cloud emerging.
+
+Deep cloud evolving. (*Photo by B.Stevens*)
+
+```
+````
+
+---
 ## #T2
 
 Today has been a fairly quiet day, with the HALO and ATR on the ground and the focus shifting to the planning of the upcoming flight days.
