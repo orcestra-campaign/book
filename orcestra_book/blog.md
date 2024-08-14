@@ -23,6 +23,10 @@ And believe it or not but HALO and ATR manage to meet EarthCARE right on schedul
 
 Tomorrow, the airborne part of Sal will have a day off, with no flight-related work, allowing everyone to recharge and perhaps explore some of the hidden dirt of the island.
 
+Although RV Meteor is still not moving, instrumentation is getting more complete: The WindCube has arrived and is installed. The only missing pieces are the drones for STRINQS, the RAMAN lidar and the food. Hopes are high that they arrive tomorrow.
+
+At least the shipboard sub-campaigns were able to join virtually on PLANET - the software for real-time tracking and information exchange between passengers on board and the ground base.
+
 So there will be no post for tomorrow, but stay tuned for more updates in #T5!
 
 ````{card-carousel} 2
