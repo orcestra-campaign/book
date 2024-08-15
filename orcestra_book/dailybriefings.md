@@ -4,13 +4,67 @@ orphan: true
 
 # Daily briefings
 
+## ORCESTRA-20240815
+
+### Flight updates
+
+([**Link**](https://orcestra-campaign.org/operation.html#) to flight plans)
+
+**ATR [past, Tuesday]**
+
+* First time two flights by day - worked out well.
+  * First flight: Short on time, not all worked
+  * Second flight: Sentinel one Swath, all instruments worked perfectly
+
+**HALO [past, Tuesday]**
+
+* Most dropsonde launches detected. Good coordination with ATR.
+
+**ATR [upcoming]**
+* Today at 15.15 LT: Typical MAESTRO flight with SAR overpass
+* Tomorrow: Two flights, second one coordinated with HALO
+
+**HALO [upcoming]**
+* Tomorrow 10.15
+
+**KING Air [today]**
+* Flying today to the west, take off at 12.15
+
+### Status updates
+
+**Meteor:**
+* Containers arrived, Raman lidar being setup. Expected departure tonight.
+
+**Radiosondes:**
+* Successful launches from the beach side.
+
+### Weather briefing
+
+**MAESTRO**
+
+* Yesterdays sounding: dry with low cloud base & strong African easterly jet
+* Forecast evaluation: AROME represented clear-sky conditions very well. PW strongly increases, from 35 to 58 until tomorrow
+* Forecast: African Easterly wave arriving. weakening easterlies and turning to southerlies on 17th. Today some rising motion to the east. Tomorrow deeper convection, 17th passage of deep systems in the south. From tomorrow noon to Saturday noon deeper convection and precipitation expected. Cloud base near 300m and top at 500-1000m.
+
+**PERCUSION**
+
+PERCUSION forecasts are available at [weather.orcestra-campaign.org](https://weather.orcestra-campaign.org/briefings/20240815/main.html)
+* TC Ernesto now a hurrican
+* New wave reaching us soon.
+* Forecast:
+    * Today: broad moist margin to the east, but SAL still dry
+    * Tomorrow: original circles one degree off (should be moved 1º to the South.). ATR circle well placed. Sal inside moiste margins, cloud tops up to 12km and intensifying precipitation.
+    * Sunday: intense low-wind speed regions to the South that could be sampled by HALO. Northern most circle might be inside the moist margin though. Difficulty due to wave position being still uncertain.
+    * Dust: today 12 UTC strong dust event. With approaching wave the dust might be coiled up around Sal.
+
+---
 ## ORCESTRA-20240813
 
 ### General
 
 * General meeting shifted to 08:30 LT
 * Coordinated day Off tomorrow (14 August); anyone flying or touching HALO in the evening cannot attend the flight planning meeting on Friday
-* Outreach: Turtle watching activity planed by Enora and Basil
+* Outreach: Turtle watching activity planned by Enora and Basil
 * Mini symposium at INMG training center (register today!)
 
 ### Flight updates
