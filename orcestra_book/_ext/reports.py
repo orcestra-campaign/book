@@ -79,7 +79,11 @@ def write_ship_table(app):
 
     regex = re.compile("METEOR-[0-9]*")
     # For now, only shipd **reports** are expected. May need to be adapted in future.
-    frontmatters = {k: v["report"] for k, v in metadata.items() if regex.match(k)}
+    frontmatters = {
+        k: v["report"]
+        for k, v in sorted(metadata.items(), reverse=True)
+        if regex.match(k)
+    }
 
     with open(src / "_templates" / "operation_rvmeteor.md", "r") as fp:
         templ = fp.read()
