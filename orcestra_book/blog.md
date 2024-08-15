@@ -6,6 +6,53 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+
+---
+## #T5
+
+Hello everyone, after a well rested day off yesterday I am back with some updates and insights from the campaign.
+
+Activities during the day off varied from just hanging around and enjoying a relaxing day by the pool and sea, to others using the time to explore the island and enjoying Shark Bay or the Salinas, returning with a salty crust on their skin or new discoveries of where to go, what to see and what not to see or do.
+ During the last update a few things happened in between:
+
+The long awaited containers for RV METEOR finally(!) made their way to Mindelo and were unloaded late in the evening of 14 August. The RAMAN lidar was installed during the day so that the research vessel could set sail as soon as possible. In parallel, the crew on board set up a chain of people - both scientists and ship's crew - to get the missing food on board in the most efficient way, as the ship is already quite packed with scientific containers. BOWTIE also successfully launched its first radio sonde in the harbor. Further launches on a 12h frequency are planned for now, but the frequency will increase once RV METEOR is at sea.
+
+Although it was a day off for aircraft-related work, MAESTRO tried to troubleshoot the radio probe launches, as in the past they have had issues connecting to the sondes and losing the signal quite early. Apparently there are some frequency problems when launching close to the airport. When they tried to launch them elsewhere - away from air traffic - the signal remained as desired.
+
+As for today's flights, the ATR took off in the afternoon, flying their SAR underpass pattern. The KingAir - from the CELLO team - also had its first mission flight, arriving on the EarthCARE track on time despite some rack power issues.
+
+As for tomorrow, HALO will have a flight of almost 9.5 hours, while ATR is planning two flights. KingAir will remain on the ground, aiming for a next mission flight on 20 August.
+
+More for the general update, we've started the series of Science Seminars, where scientists from different groups will present their work and open it up for discussion and suggestions from other campaigners. As we have a visiting colleague from ESA, he introduced the broader EarthCARE campaign and how ORCESTRA fits into it. The second presentation was given by Nina Robbins, who introduced us to the topic of cold pools in the tropics and the appearance of cloud holes.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T5_1.png
+:img-alt: First RS launch from BOWTIE
+
+Test launching on RV METEOR. (*Photo by H.Segura*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T5_2.png
+:img-alt: Radio sonde launching from another location
+
+Launching radio sonde off-site. (*Photo by JL. Dufresne*)
+
+
+```
+
+```{card}
+:img-top: /figures/blog_T5_3.jpg
+:img-alt: Science seminar
+
+Nina presenting cold pools in the tropics and cloud holes.
+
+```
+````
+
+
 ---
 ## #T4
 
