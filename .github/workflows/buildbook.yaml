@@ -19,6 +19,8 @@ env:
 
 jobs:
   build:
+    # Only run scheduled jobs on the upstream repo
+    if: github.repository == 'orcestra-campaing/book' || github.event_name != 'schedule'
     runs-on: ubuntu-latest
     defaults:
       run:
