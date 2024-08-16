@@ -30,7 +30,7 @@ II.) Start **collecting tools/scripts/datasets** that are useful during the camp
 | --------   | -------- | --------------- |
 ||||
 | Jan, 11th | 2 pm |  Welcome and Introduction |
-| | 2:10 pm     | Overview talks + most recent flight/ship track ideas of (sub-)programs <br> ( [ORCESTRA](https://orcestra-campaign.org/preparation.html) / [MAESTRO](https://orcestra-campaign.org/maestro.html) / [PERCUSION](https://orcestra-campaign.org/percusion.html) / [BOW-TIE](https://orcestra-campaign.org/bowtie.html) / [PICCOLO](https://orcestra-campaign.org/piccolo.html) / [SCORE](https://orcestra-campaign.org/score.html) )    |
+| | 2:10 pm     | Overview talks + most recent flight/ship track ideas of (sub-)programs <br> ( [ORCESTRA](https://orcestra-campaign.org/preparation.html) / [MAESTRO](https://orcestra-campaign.org/maestro.html) / [PERCUSION](https://orcestra-campaign.org/percusion.html) / [BOW-TIE](https://orcestra-campaign.org/bowtie.html) / [PICCOLO](https://orcestra-campaign.org/piccolo.html) / [SCORE](https://orcestra-campaign.org/score.html) / [CELLO](https://orcestra-campaign.org/cello.html) )    |
 | | 4 pm    |  **break** |
 | | 4:20 pm     | Overview of boundary conditions for flight planning |
 | | 5:00 pm     | Topic collection, Group distribution  |

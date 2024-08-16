@@ -58,7 +58,6 @@ Furthermore ORCESTRA collaborates with local institutions on-site:
 * National Institute for Aerospace Research ([INCAS](http://www.incas.ro/)), Romania
 * Meteorological Institute Munich ([MIM](https://www.en.meteo.physik.uni-muenchen.de/index.html)) at LMU Munich, Germany
 * National Center for Space Studies ([CNES](https://cnes.fr/en)), France
-* National Institute for Aerospace Research ([INCAS](http://www.incas.ro/)), Romania
 * National Observatory of Athens ([NOA](https://www.noa.gr/en/)), Greece
 * [NOAA](https://psl.noaa.gov) Physical Science Laboratory, United States
 * Ocean Science Center Mindelo ([OSCM](https://www.oscm.cv)), Cabo Verde
