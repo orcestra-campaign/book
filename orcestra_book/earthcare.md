@@ -49,14 +49,15 @@ import warnings
 # Define timeframes for long term prediction (LTP) and preliminary (PRE)
 start_date = datetime.now().date()
 dates_ltp = [start_date + timedelta(days=7) + timedelta(days=i) for i in range(14)]
-dates_pre = [start_date + timedelta(days=i) for i in range(7)]
 
 # Define which satellite predictions schould be used 
 issue_date_ltp = '2024-08-05'
+# Always plot seven-day forecast of the most recently published prediction (PRE)
 issue_date_pre = pd.read_csv(
     "https://sattracks.orcestra-campaign.org/index.csv",
     parse_dates=["forecast_day"],
 ).forecast_day.loc[0].strftime("%Y-%m-%d")
+dates_pre = [datetime.fromisoformat(issue_date_pre) + timedelta(days=i) for i in range(7)]
 
 # Ignore warning from using an old forecast. LTP forecast will always be older than latest PRE forecast
 warnings.filterwarnings("ignore") 
