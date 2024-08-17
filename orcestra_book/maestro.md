@@ -60,17 +60,17 @@ With the ATR performing transects at multiple levels in rapid succession, MAESTR
 ![Cloud Geometry](./maestro_figures/cloud_geometry.png)
 
 2. Below clouds (coherent structures in sub-cloud layer)
-    * Turbulent vs mesoscale organization? Measure spatial heterogeneties.
-    * Subcloud structure vs clouds? Measure Coherent structures such as thermals and cold pools
+    * To assess turbulent vs mesoscale organization, measure spatial heterogeneties.
+    * To assess the subcloud structure vs clouds, measure Coherent structures such as thermals and cold pools
 ![Sub Cloud Layer](./maestro_figures/sub_cloud_layer.png)
 
 3. Around and in-between clouds
-    * Moist halo around clouds? Measure relative humidity `RH(x,z)`
+    * To assess moist halo around clouds, measure relative humidity `RH(x,z)`
     * Gravity waves? Measure clear-sky vertical velocity `w(x,z)`
 ![Around Clouds](./maestro_figures/around_clouds.png)
 
 4. Cloud ensembles and organization
-    * Subcloud vs top-down influences on cloud spacing? Measure large-scale and mesoscale vertical velocity `w(z)`, humidity variance `<q(x)*q(x')>`, and radiation budget
+    * To assess subcloud vs top-down influences on cloud spacing, measure large-scale and mesoscale vertical velocity `w(z)`, humidity variance `<q(x)*q(x')>`, and radiation budget
 ![Cloud Ensemble](./maestro_figures/cloud_ensemble.png)
 
 ### Integration into ORCESTRA
