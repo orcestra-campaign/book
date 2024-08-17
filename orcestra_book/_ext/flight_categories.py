@@ -4,15 +4,7 @@ from functools import lru_cache
 
 import yaml
 from sphinx.util.docutils import SphinxRole, SphinxDirective
-
-
-@lru_cache
-def load_frontmatter(path):
-    """Load and return the front matter section of a YAML file."""
-    with open(path, "r") as fp:
-        frontmatter = next(yaml.safe_load_all(fp))
-
-    return frontmatter
+from orcestra.utils import load_frontmatter
 
 
 def get_flight_categories(src):
