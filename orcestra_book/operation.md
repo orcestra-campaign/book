@@ -18,18 +18,18 @@
 
 ```
 
-```{grid-item-card} RV METEOR
-:img-bottom: figures/RV_METEOR.png
-:img-alt: RV Meteor
-:link: operation/rvmeteor
-:link-type: doc
-
-```
-
 ```{grid-item-card} King Air
 :img-bottom: figures/kingair-praia.jpg
 :img-alt: INCAS King Air
 :link: operation/kingair
+:link-type: doc
+
+```
+
+```{grid-item-card} RV METEOR
+:img-bottom: figures/RV_METEOR.png
+:img-alt: RV Meteor
+:link: operation/rvmeteor
 :link-type: doc
 
 ```
