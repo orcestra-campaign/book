@@ -8,6 +8,37 @@ Cheers, Yu
 
 
 ---
+## #T6
+
+It is almost unbelievable that RV METEOR is finally leaving after being stuck in Mindelo Bay for almost a week due to logistical delays. The scientific crew moved into their cabins on the ship six days ago, slowly getting used to their new surroundings and getting to know their cabin mates. Perhaps the delay was not so bad all in all, as it gave the crew a chance to enjoy the solid ground a little longer before they were trapped on a floating giant, surrounded by water, currents and more water for the next 40 days.
+ The research vessel left Mindelo Bay at 6:00 LT to head out into the wide Atlantic Ocean. At 19:00 LT they passed Ilha do Fogo, one of the southern islands of Cabo Verde and probably the last mainland they will see for the foreseeable future.
+
+Sadly, not everyone made it on to the ship. The drones were simply not delivered, and no matter how many considerations or scenarios they ran through, nothing seemed robust enough to secure the drones on board. So STRINQS won't be making the voyage for now - but they will be with us in our hearts and who knows - the campaign has only just begun. Maybe a miracle will happen and there will be a way for STRINQS to join us later on.
+
+Not only did BOWTIE and PICCOLO get an early start this morning, part of the PERCUSION team was up at 5:00LT to prepare the instruments for the HALO mission. The launch was delayed by one hour due to some technical problems. Despite the mission's ambitious schedule, HALO was able to take a shortcut and successfully coordinate with ATR, who had two flights scheduled for the day.
+
+In parallel, a mini-symposium was held at the INMG training centre as part of the student training. In addition to the presentations on ORCESTRA, the INMG presented its institutional work and the students themselves presented their areas of interest and the WASCAL programme. As special guests, some representatives of the Cape Verdean Biodiversity Association ([Project Biodiversity](https://www.projectbiodiversity.org/)) were invited and gave a presentation on how climate change is affecting the nesting of sea turtles on the islands. Interaction between the locals, scientists and students was encouraged over snacks and drinks.
+The training will end with a visit to the aircraft tomorrow, where the WASCAL students will get a glimpse of the operational side of the campaign: The story of the aircraft and its instruments.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T6_0.jpg
+:img-alt: RV METEOR leaving Mindelo Bay
+
+RV METEOR on its way to the open sea. (*Photo by D.Klocke*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T6_1.jpg
+:img-alt: WASCAL students at the Mini-Symposium
+
+WASCAL students helding a presentation at the Mini-Symposium.
+```
+````
+
+
+---
 ## #T5
 
 Hello everyone, after a well rested day off yesterday I am back with some updates and insights from the campaign.
