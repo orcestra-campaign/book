@@ -60,8 +60,17 @@ class CrewTableDirective(SphinxDirective):
         return [table]
 
 
+class CrewListDirective(SphinxDirective):
+    def run(self):
+        """Add crew member list."""
+        fm = load_frontmatter(self.env.doc2path(self.env.docname))
+
+        return [nodes.inline(text=", ".join(m["name"] for m in fm["crew"]))]
+
+
 def setup(app):
     app.add_directive("crew", CrewTableDirective)
+    app.add_directive("crew-list", CrewListDirective)
 
     return {
         "version": "0.1",
