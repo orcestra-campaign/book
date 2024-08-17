@@ -3,6 +3,7 @@ from functools import lru_cache
 import yaml
 
 from docutils import nodes
+from docutils.parsers.rst import directives
 from sphinx.util.docutils import SphinxDirective
 
 
@@ -16,16 +17,19 @@ def load_frontmatter(path):
 
 
 class CrewTableDirective(SphinxDirective):
+    option_spec = {
+        "columns": lambda arg: [item.strip() for item in arg.split(",")],
+    }
+
     def run(self):
         """Add crew member table."""
         # Access variables defined in document front matter.
-
+        columns = self.options.get("columns", ["job", "name"])
         fm = load_frontmatter(self.env.doc2path(self.env.docname))
         crew = fm["crew"]
-        table_dict = dict(
-            Name=[list(item.values())[0] for item in crew],
-            Job=[list(item.values())[1] for item in crew],
-        )
+        table_dict = {
+            key.capitalize(): [item.get(key, "---") for item in crew] for key in columns
+        }
 
         # create table with correct number of columns
         table = nodes.table()
