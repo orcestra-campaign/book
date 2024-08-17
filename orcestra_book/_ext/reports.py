@@ -98,18 +98,37 @@ def write_flight_table(app=None):
     src = pathlib.Path(app.srcdir)
     metadata = collect_all_metadata(src)
 
-    for plane in ("ATR", "HALO"):
-        regex = re.compile(f"{plane}-[0-9]*[a-z]")
+    meta_by_plane = {
+        "ATR": {
+            "regex": "ATR-[0-9]*[a-z]",
+            "template": src / "_templates" / "operation_atr.md",
+            "markdown": src / "operation" / "atr.md",
+        },
+        "HALO": {
+            "regex": "HALO-[0-9]*[a-z]",
+            "template": src / "_templates" / "operation_halo.md",
+            "markdown": src / "operation" / "halo.md",
+        },
+
+        "King Air": {
+            "regex": "KA-[0-9]*[a-z]",
+            "template": src / "_templates" / "operation_kingair.md",
+            "markdown": src / "operation" / "kingair.md",
+        },
+    }
+
+    for meta in meta_by_plane.values():
+        regex = re.compile(meta["regex"])
         frontmatters = {
             k: consolidate_metadata(src, v)
             for k, v in sorted(metadata.items(), reverse=True)
             if regex.match(k)
         }
 
-        with open(src / "_templates" / f"operation_{plane.lower()}.md", "r") as fp:
+        with open(meta["template"], "r") as fp:
             templ = fp.read()
 
-        with open(src / "operation" / f"{plane.lower()}.md", "w") as fp:
+        with open(meta["markdown"], "w") as fp:
             t = Template(templ)
             fp.write(t.render(flights=frontmatters))
 

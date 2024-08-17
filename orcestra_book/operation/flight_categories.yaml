@@ -50,6 +50,9 @@ categories:
   radar:
     long_name: "Radar calibration"
     tier: "b"
+  in_cloud:
+    long_name: "In-situ cloud measurements"
+    tier: "b"
   cirrus:
     long_name: "Cirrus transmissivity"
     tier: "c"

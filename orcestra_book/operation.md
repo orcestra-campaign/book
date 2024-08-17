@@ -1,6 +1,6 @@
 # Operation
 
-````{grid} 3
+````{grid} 4
 
 ```{grid-item-card} ATR-42
 :img-bottom: figures/SAFIRE_ATR42.jpeg
@@ -14,6 +14,14 @@
 :img-bottom: figures/HALO.jpg
 :img-alt: HALO
 :link: operation/halo
+:link-type: doc
+
+```
+
+```{grid-item-card} King Air
+:img-bottom: figures/kingair-praia.jpg
+:img-alt: INCAS King Air
+:link: operation/kingair
 :link-type: doc
 
 ```

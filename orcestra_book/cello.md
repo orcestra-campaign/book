@@ -2,7 +2,7 @@
 
 **Cloud and EarthCARE caL/vaL Observations**
 
-*Lead PIs: Robert O. David, Tim Carlsen, Trude Storelvmo (University of Oslo, Norway), Denisa-Elena Moaca, Sorin Vajaiac (INCAS, Bucharest, Romania)*
+*Lead PIs: Robert O. David, Tim Carlsen (University of Oslo, Norway), Magdalena Ardelean (INCAS, Bucharest, Romania)*
 
 CELLO is a Norwegian initiative that uses the Romanian [INCAS King Air](https://www.eufar.net/aircrafts/86) research aircraft to perform calibration and validation (cal/val) flights to quantify the quality of ESA’s/JAXA’s [EarthCARE](https://earth.esa.int/eogateway/missions/earthcare) (Cloud, Aerosol, and Radiation Explorer) satellite. EarthCARE (expected launch date: May 2024) offers the unique and powerful collocation of an atmospheric lidar, cloud profiling radar, multi-spectral imager and broadband radiometer to provide unprecedented data sets to advance our understanding of the role of clouds in the climate system. To fulfill EarthCARE’s mission objectives, cal/val efforts are of paramount importance to characterize and quality-check its cloud products.
 

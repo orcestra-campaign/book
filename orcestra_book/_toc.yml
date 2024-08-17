@@ -36,6 +36,7 @@ chapters:
     - file: operation/atr
     - file: operation/halo
     - file: operation/rvmeteor
+    - file: operation/kingair
 - file: data
   sections:
     - file: data_policy
