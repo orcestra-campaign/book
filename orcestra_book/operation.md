@@ -50,14 +50,6 @@ At Sal Island the runway will be closed according to the following schedule (UTC
 | Friday    | Aug 23, 30, Sep 6     | 02:20–10:00
 | Saturday  | Aug 24, 31, Sep 7 | 02:50–08:00
 
-
-<!-- * Monday    (Aug 19, 26, Sep 2, 9)  : 02:20–12:35
-* Tuesday   (Aug 20, 27, Sep 3, 10) : 02:20–09:45
-* Wednesday (Aug 21, 28, Sep 4, 11) : 02:20–12:30
-* Thursday  (Aug 22, 29, Sep 5, 12) : 02:20–11:10
-* Friday    (Aug 23, 30, Sep 6)     : 02:20–10:00
-* Saturday  (Aug 24, 31, Sep 7, 14) : 02:50–08:00 -->
-
 ```
 
 ```{admonition} Daily briefings
