@@ -50,9 +50,9 @@ At Sal Island the runway will be closed according to the following schedule (UTC
 
 ```
 
-```{admonition} Daily briefings
-:class: note
+```{admonition} Weather briefings
+:class: note dropdown
 
-The [daily briefings](dailybriefings.md) of ORCESTRA contain status updates, flight plans, weather briefing and more.
-
+* Weather briefings for **PERCUSION** are available on [weather.orcestra-campaign.org](https://weather.orcestra-campaign.org).
+* Weather briefings for **MASETRO** are available on [the operational center](https://observations.ipsl.fr/aeris/maestro/#/dataviz).
 ```
