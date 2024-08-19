@@ -44,7 +44,7 @@ categories:
   bco:
     long_name: "Barbados Cloud Observatory overpass"
     tier: "b"
-  cloud_circ:
+  c_cloud:
     long_name: "Circle a cloud"
     tier: "b"
   curtain:
