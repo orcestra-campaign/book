@@ -1,5 +1,12 @@
 # Coordination
 
+```{admonition} ORCESTRA Logos
+:class: tip
+
+All sub-campaign logos as well as our corporate identity can be downloaded in various formats [**here**](https://owncloud.gwdg.de/index.php/s/EGZ22PE8mjOAPHS).
+
+```
+
 **ORCESTRA coordination**
 
 * General coordination and communication: [Yuting Wu](mailto:yuting.wu@mpimet.mpg.de) (MPI-M Hamburg, DE)
