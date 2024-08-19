@@ -6,6 +6,37 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+---
+## #T7
+
+Today I accompanied the WASCAL students to the airport to visit the ATR and HALO. When we arrived at the airport, we had to walk quite a distance to get to the research aircraft as they are placed some distance away from the usual tourist air traffic. The WASCAL students seemed to enjoy the guided tour, where flight operations introduced them to the general aspects of the aircraft, followed by scientists on site giving them some insights into the instrument.
+In parallel, a ground day is used to work on the instruments and prepare them for the next mission. So far, the instruments have only experienced minor problems, which are known issues and will be dealt with as the campaign progresses.
+
+During the last mission flight, the battery in one of HALO's emergency lights failed. Luckily not a big deal. The replacement has already been ordered and will hopefully take less time to arrive than the containers or airfreight from the ship.
+
+The RV METEOR made its way to a Pirata buoy at 11.5N 23W and started deploying oceanographic instruments.
+oceanographic instruments. The radar continues to focus on convection.
+The sea seems to be quite rough with winds at 25 kt and some of the scientists are struggling with sea sickness. However, the conditions don't keep the tougher ones from fishing.
+
+The data server is up and running. Connected to the local network, the scientists can now access the data from the first flights. This leads to the next stage of the campaign: Data processing and the creation of the first Quicklooks.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T7_1.JPG
+:img-alt: Fishing on RV METEOR.
+
+Catching dinner by the Pirata buoy. (*Photo by D. Klocke*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T7_2.JPG
+:img-alt: ITCZ view on sea.
+
+ITCZ at sea by night. (*Photo by J.Ruppert*)
+
+```
+````
 
 ---
 ## #T6
