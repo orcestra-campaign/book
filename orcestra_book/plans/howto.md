@@ -1,15 +1,5 @@
 ---
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.12
-    jupytext_version: 1.7.1
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
-  orphan: true
+orphan: true
 ---
 
 # Making a Flight Plan for HALO
@@ -23,7 +13,7 @@ HALO flight planning involves several steps  Here we cover the technical aspects
 3. discuss the flight plan with the pilots (usually at 14hr) on the day before the flight (assuming this is not a day off), paying attention to any potential challenges or non-standard elements.
 4. provide detailed description of the flight plan to DLR-FX to be forwarded to the pilots the day before the flight.
 
-# The elmenets of the flight plan#
+# The elmenets of the flight plan
 
 * A flight plan is usually composed of standardized elements, such a legs, circles, or mayer pirouettes.  The essential elment of a flight plan is a waypoint in the form of coordinates as this is the basis of communication with ATC.  Waypoints can be discarded during a flight, but they are difficult to add.  Adding more waypoints builds in flexibility, but adding too many can be a source of confusiong.
 
@@ -34,7 +24,7 @@ HALO flight planning involves several steps  Here we cover the technical aspects
 * Coordinates are preferred in the format N23 15.3' for 23deg 15.2 minutes north.  Likewise W012 48.1' would correspond to 12deg 48.1 min west.
 * An example of a detailed description of a flight plan is provided as below.  Note that it makes use of standard definitions for different waypoints, and these should be checked to ensure that they don't differ from waypoints in the flightplan filed with Air Traffic Control (ATC)
 
-### Example of a "detailed description for pilots"
+## Example of a "detailed description for pilots"
 
 **Sequence and Transitions:**
 1. 10:30 UTC (LT+1) Take off from SAL
@@ -53,18 +43,18 @@ HALO flight planning involves several steps  Here we cover the technical aspects
 
 **Some coordinates:**
 
+```
 c_south:  003 13.96N, 032 53.18W
 c_north:  011  0.27N, 031 25.48W
 c_mid:    007  7.14N, 032  9.52W
 c_atr:    017 26.00N, 023 30.00W
 
-ec_north: 012 17.96N, 031 10.49W
+ec_north:  012 17.96N, 031 10.49W
 ec_south:  001 30.00N, 033 14.15W
 ec_under:  around 008 24.86N, 031 54.98W
+```
 
 **Possible Contingencies:**
 
 - fly onto `c_south` from north to save time.
 - perform `mayer_pirouettes` in `c_south` if congestus clouds can be identified.
-
-
