@@ -34,14 +34,6 @@
 
 ```
 
-```{grid-item-card} King Air
-:img-bottom: figures/kingair-praia.jpg
-:img-alt: INCAS King Air
-:link: operation/kingair
-:link-type: doc
-
-```
-
 ````
 
 ```{admonition} Airpot restrictions - Sal
