@@ -6,6 +6,99 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+---
+## #T8
+
+Today was the fifth flight for HALO, seven for the ATR and one for the KingAir. RV METEOR has covered almost 400 miles so far (if my calculations are correct) and is continuing her journey south, aiming to lay in one of HALO's circles on her upcoming mission.
+
+The sea remains rough and some of the scientists are still suffering from sea sickness. The forecast for the journey is to remain choppy - let's hope those affected either get used to it in time, or else the cruise ahead is going to be a lot more challenging than just being stuck on a swimming steamer.
+
+Not only did our fellow ship crew have a tough time, but today's mission flight was more turbulent than expected. ATR even cancelled their flight due to the challenging conditions. There was some really deep convection, with cloud heights of over 15km - higher than HALO can fly. But we were lucky. We were able to follow the flight track as planned with some minor adjustments.
+The images and what the instruments picked up should be very interesting, at least for some of them. For other instruments the conditions were probably less ideal. Not only were the convective conditions remarkable today, but so was the flight. Today's PI mission included a special manoeuvre in addition to the usual pattern: A double pirouette, nicknamed the Mayer pirouette.
+
+The first Quicklooks had already been created by the instrument operators and can be found in the flight reports. Quicklooks for this flight will follow soon, hopefully capturing some of the excitement the crew felt during the flight.
+
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T8_0.png
+:img-alt: ATR flights so far.
+
+Past ATR flights in one. (*Photo by N. Muray*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T8_1.jpeg
+:img-alt: hard-working scientists.
+
+A day at base. (*Photo by R. Vogel*)
+
+```
+````
+
+---
+## #T7
+
+Today I accompanied the WASCAL students to the airport to visit the ATR and HALO. When we arrived at the airport, we had to walk quite a distance to get to the research aircraft as they are placed some distance away from the usual tourist air traffic. The WASCAL students seemed to enjoy the guided tour, where flight operations introduced them to the general aspects of the aircraft, followed by scientists on site giving them some insights into the instrument.
+In parallel, a ground day is used to work on the instruments and prepare them for the next mission. So far, the instruments have only experienced minor problems, which are known issues and will be dealt with as the campaign progresses.
+
+During the last mission flight, the battery in one of HALO's emergency lights failed. Luckily not a big deal. The replacement has already been ordered and will hopefully take less time to arrive than the containers or airfreight from the ship.
+
+The RV METEOR made its way to a Pirata buoy at 11.5N 23W and started deploying oceanographic instruments.
+oceanographic instruments. The radar continues to focus on convection.
+The sea seems to be quite rough with winds at 25 kt and some of the scientists are struggling with sea sickness. However, the conditions don't keep the tougher ones from fishing.
+
+The data server is up and running. Connected to the local network, the scientists can now access the data from the first flights. This leads to the next stage of the campaign: Data processing and the creation of the first Quicklooks.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T7_1.JPG
+:img-alt: Fishing on RV METEOR.
+
+Catching dinner by the Pirata buoy. (*Photo by D. Klocke*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T7_2.JPG
+:img-alt: ITCZ view on sea.
+
+ITCZ at sea by night. (*Photo by J.Ruppert*)
+
+```
+````
+
+---
+## #T6
+
+It is almost unbelievable that RV METEOR is finally leaving after being stuck in Mindelo Bay for almost a week due to logistical delays. The scientific crew moved into their cabins on the ship six days ago, slowly getting used to their new surroundings and getting to know their cabin mates. Perhaps the delay was not so bad all in all, as it gave the crew a chance to enjoy the solid ground a little longer before they were trapped on a floating giant, surrounded by water, currents and more water for the next 40 days.
+ The research vessel left Mindelo Bay at 6:00 LT to head out into the wide Atlantic Ocean. At 19:00 LT they passed Ilha do Fogo, one of the southern islands of Cabo Verde and probably the last mainland they will see for the foreseeable future.
+
+Sadly, not everyone made it on to the ship. The drones were simply not delivered, and no matter how many considerations or scenarios they ran through, nothing seemed robust enough to secure the drones on board. So STRINQS won't be making the voyage for now - but they will be with us in our hearts and who knows - the campaign has only just begun. Maybe a miracle will happen and there will be a way for STRINQS to join us later on.
+
+Not only did BOWTIE and PICCOLO get an early start this morning, part of the PERCUSION team was up at 5:00LT to prepare the instruments for the HALO mission. The launch was delayed by one hour due to some technical problems. Despite the mission's ambitious schedule, HALO was able to take a shortcut and successfully coordinate with ATR, who had two flights scheduled for the day.
+
+In parallel, a mini-symposium was held at the INMG training centre as part of the student training. In addition to the presentations on ORCESTRA, the INMG presented its institutional work and the students themselves presented their areas of interest and the WASCAL programme. As special guests, some representatives of the Cape Verdean Biodiversity Association ([Project Biodiversity](https://www.projectbiodiversity.org/)) were invited and gave a presentation on how climate change is affecting the nesting of sea turtles on the islands. Interaction between the locals, scientists and students was encouraged over snacks and drinks.
+The training will end with a visit to the aircraft tomorrow, where the WASCAL students will get a glimpse of the operational side of the campaign: The story of the aircraft and its instruments.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T6_0.jpg
+:img-alt: RV METEOR leaving Mindelo Bay
+
+RV METEOR on its way to the open sea. (*Photo by D.Klocke*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T6_1.jpg
+:img-alt: WASCAL students at the Mini-Symposium
+
+WASCAL students helding a presentation at the Mini-Symposium.
+```
+````
+
 
 ---
 ## #T5

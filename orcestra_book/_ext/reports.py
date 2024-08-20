@@ -8,21 +8,11 @@ import datetime
 import yaml
 from jinja2 import Template
 
+from orcestra.utils import load_frontmatter
 from sphinx.util import logging
 
 
 logger = logging.getLogger(__name__)
-
-
-@lru_cache
-def load_frontmatter(path):
-    """Load and return the front matter section of a YAML file."""
-    with open(path, "r") as fp:
-        frontmatter = next(yaml.safe_load_all(fp))
-
-    frontmatter["filepath"] = path.as_posix()
-
-    return frontmatter
 
 
 def fpath2id(fpath):
@@ -48,7 +38,7 @@ def consolidate_metadata(src, metadata):
     latest_source = "report" if "report" in metadata else "plan"
 
     for key in ("takeoff", "landing"):
-        metadata[key] = datetime.datetime.fromisoformat(metadata[latest_source][key])
+        metadata[key] = metadata[latest_source][key]
     for key in ("crew", "nickname"):
         metadata[key] = metadata[latest_source].get(key, None)
     for key in ("categories",):
@@ -98,18 +88,37 @@ def write_flight_table(app=None):
     src = pathlib.Path(app.srcdir)
     metadata = collect_all_metadata(src)
 
-    for plane in ("ATR", "HALO"):
-        regex = re.compile(f"{plane}-[0-9]*[a-z]")
+    meta_by_plane = {
+        "ATR": {
+            "regex": "ATR-[0-9]*[a-z]",
+            "template": src / "_templates" / "operation_atr.md",
+            "markdown": src / "operation" / "atr.md",
+        },
+        "HALO": {
+            "regex": "HALO-[0-9]*[a-z]",
+            "template": src / "_templates" / "operation_halo.md",
+            "markdown": src / "operation" / "halo.md",
+        },
+
+        "King Air": {
+            "regex": "KA-[0-9]*[a-z]",
+            "template": src / "_templates" / "operation_kingair.md",
+            "markdown": src / "operation" / "kingair.md",
+        },
+    }
+
+    for meta in meta_by_plane.values():
+        regex = re.compile(meta["regex"])
         frontmatters = {
             k: consolidate_metadata(src, v)
             for k, v in sorted(metadata.items(), reverse=True)
             if regex.match(k)
         }
 
-        with open(src / "_templates" / f"operation_{plane.lower()}.md", "r") as fp:
+        with open(meta["template"], "r") as fp:
             templ = fp.read()
 
-        with open(src / "operation" / f"{plane.lower()}.md", "w") as fp:
+        with open(meta["markdown"], "w") as fp:
             t = Template(templ)
             fp.write(t.render(flights=frontmatters))
 
@@ -145,7 +154,7 @@ def check_flight_plan(app=None):
     for plane in ("ATR", "HALO"):
         regex = re.compile(f"{plane}-[0-9]*[a-z]")
         for flight_id in filter(regex.match, metadata):
-            takeoff = datetime.datetime.fromisoformat(metadata[flight_id]["plan"]["takeoff"])
+            takeoff = metadata[flight_id]["plan"]["takeoff"]
             airport = metadata[flight_id]["plan"]["departure_airport"]
 
             if not is_valid_takeoff(takeoff, airport):

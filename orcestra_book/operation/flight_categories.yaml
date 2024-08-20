@@ -5,19 +5,22 @@ categories:
   ec_track:
     long_name: "Fly along EarthCARE track"
     tier: "a"
-  north_circ:
+  ec_south:
+    long_name: "Extension (>100km) south of c_south along EarthCARE track"
+    tier: "b"
+  ec_north:
+    long_name: "Extension (>100km) north of c_north along EarthCARE track"
+    tier: "b"
+  c_north:
     long_name: "North of center ITCZ circle"
     tier: "a"
-  south_circ:
+  c_south:
     long_name: "South of center ITCZ circle"
     tier: "a"
-  center_circ:
+  c_mid:
     long_name: "Circle within the ITCZ"
     tier: "a"
-  south:
-    long_name: "Southern extension (>100km)"
-    tier: "b"
-  atr_circ:
+  c_atr:
     long_name: "Circle coordinated with ATR flight legs"
     tier: "b"
   curtain:
@@ -41,7 +44,7 @@ categories:
   bco:
     long_name: "Barbados Cloud Observatory overpass"
     tier: "b"
-  cloud_circ:
+  c_cloud:
     long_name: "Circle a cloud"
     tier: "b"
   curtain:
