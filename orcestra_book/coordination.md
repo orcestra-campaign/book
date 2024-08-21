@@ -12,16 +12,16 @@ All sub-campaign logos as well as our corporate identity can be downloaded in va
 * General coordination and communication: [Yuting Wu](mailto:yuting.wu@mpimet.mpg.de) (MPI-M Hamburg, DE)
 
 
-ORCESTRA consits of many coordinated components with independent objectives. The science leads for these are:
+ORCESTRA consits of eight coordinated components with independent objectives. The science leads for these are:
 
-* BOWTIE: [Daniel Klocke](mailto:daniel.klocke@mpimet.mpg.de) (MPI-M Hamburg, DE), [Marcus Dengler](mailto:mdengler@geomar.de) (Geomar Kiel, DE)
-* CELLO: [Tim Carlsen](mailto:tim.carlsen@geo.uio.no), [Robert Oscar David](mailto:r.o.david@geo.uio.no) (University of Oslo, Oslo, NO )
-* CLARINET: [Holger Baars](mailto:baars@tropos.de), [Annett Skupin](mailto:skupin@tropos.de) (TROPOS, Leipzig, DE)
-* MAESTRO: [Sandrine Bony](mailto:sandrine.bony@lmd.ipsl.fr) (LMD/IPSL & CNRS, Paris, FR), [Julien Delanoë](mailto:julien.delanoe@latmos.ipsl.fr)(LATMOS/IPSL, UVSQ, FR) 
-* PERCUSION: [Silke Gross](mailto:silke.gross@dlr.de) (DLR-PA, Oberpfaffenhofen, DE), [Bjorn Stevens](mailto:bjorn.stevens@mpimet.mpg.de), [Julia Windmiller](mailto:julia.windmiller@mpimet.mpg.de) (MPI-M Hamburg, DE) 
-* PICCOLO: [Allison Wing](mailto:awing@fsu.edu) (Florida State University, Florida, USA)
-* SCORE: [Raphaela Vogel](mailto:raphaela.vogel@uni-hamburg.de) (University of Hamburg, Hamburg, DE)
-* STRINQS: [Geet George](mailto:g.george@tudelft.nl) (TU Delft, Delft, NL)
+* **BOWTIE**: [Daniel Klocke](mailto:daniel.klocke@mpimet.mpg.de) (MPI-M Hamburg, DE), [Marcus Dengler](mailto:mdengler@geomar.de) (Geomar Kiel, DE)
+* **CELLO**: [Tim Carlsen](mailto:tim.carlsen@geo.uio.no), [Robert Oscar David](mailto:r.o.david@geo.uio.no) (University of Oslo, Oslo, NO )
+* **CLARINET**: [Holger Baars](mailto:baars@tropos.de), [Annett Skupin](mailto:skupin@tropos.de) (TROPOS, Leipzig, DE)
+* **MAESTRO**: [Sandrine Bony](mailto:sandrine.bony@lmd.ipsl.fr) (LMD/IPSL & CNRS, Paris, FR), [Julien Delanoë](mailto:julien.delanoe@latmos.ipsl.fr)(LATMOS/IPSL, UVSQ, FR)
+* **PERCUSION**: [Silke Gross](mailto:silke.gross@dlr.de) (DLR-PA, Oberpfaffenhofen, DE), [Bjorn Stevens](mailto:bjorn.stevens@mpimet.mpg.de), [Julia Windmiller](mailto:julia.windmiller@mpimet.mpg.de) (MPI-M Hamburg, DE)
+* **PICCOLO**: [Allison Wing](mailto:awing@fsu.edu) (Florida State University, Florida, USA)
+* **SCORE**: [Raphaela Vogel](mailto:raphaela.vogel@uni-hamburg.de) (University of Hamburg, Hamburg, DE)
+* **STRINQS**: [Geet George](mailto:g.george@tudelft.nl) (TU Delft, Delft, NL)
 
 Furthermore ORCESTRA collaborates with local institutions on-site:
 
