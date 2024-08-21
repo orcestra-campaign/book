@@ -20,6 +20,7 @@ dependencies:
   - numpy
   - requests
   - scipy<1.14.0 # required by easy.gems
+  - simplekml
   - xarray
   - zarr>=2.8.3
   - pip
