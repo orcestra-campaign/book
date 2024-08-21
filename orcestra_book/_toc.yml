@@ -38,6 +38,8 @@ chapters:
     - file: hifs
     - file: water_vapour_overview
     - file: temperature_example
+    - file: faq
+      title: FAQ
 - file: blog
 - file: coordination
 - file: references
