@@ -56,6 +56,15 @@ categories:
   in_cloud:
     long_name: "In-situ cloud measurements"
     tier: "b"
+  spiral:
+    long_name: "Spiral ascent/descent"
+    tier: "b"
+  spiral_mindelo:
+    long_name: "Spiral ascent/descent over Mindelo supersite"
+    tier: "b"
   cirrus:
     long_name: "Cirrus transmissivity"
+    tier: "c"
+  insitu_aerosol:
+    long_name: "In-situ aerosol measurements"
     tier: "c"
