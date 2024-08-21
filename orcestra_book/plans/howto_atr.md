@@ -28,7 +28,7 @@ With this flight template, we can begin flight planning.
     * This should include departure and arrival times, along with way points and flight levels for each leg.
     * Ideally, this should be submitted 3 days before the flight. However, this can be relaxed as the campaign progresses.
     * Here is an example of a flight plan submitted to the air traffic control (ATC).
-    ![ATC Flight Plan](./SAFIRE-ATR-20240820b.jpg)
+    ![ATC Flight Plan](./SAFIRE-ATR-20240820a.jpg)
     
 3. **Coordinate**
     * Begin discussing coordination with HALO and KingAir, if this has not already begun. Often these coordination plans are not finalized until the day before the flight.
@@ -58,10 +58,10 @@ With this flight template, we can begin flight planning.
 * **Coordinate**
     * Coordinate with HALO via PLANET. This is useful if circle location or the direction of flight along the circle needs to change. 
 * **Adjust on the fly**
-    * To a degree, the way points and flight levels can be amended if, for instance, clouds are not quite along the planned track, or the plane tookoff late and needs to save time, etc. One commond change is the flight levels, by a few hundred meters, when trying to locate cloud base.
+    * The way points and flight levels can be amended if, for instance, clouds are not quite along the planned track, or the plane tookoff late and needs to save time, etc. One commond change is the flight levels, by a few hundred meters, when trying to locate cloud base.
     * The ATR can also perform holding patterns between legs if required. (For instance, if HALO is launching dropsondes in front of the ATR).
     * HALO can skip dropsondes if the ATR is near and is unable to do a holding pattern
 
-### Après-Vol
+## Après-Vol
 * **Formal debrief** --- exchange notes on instrument performance, what was observed, and what can be refined for next time. Eventually, a flight report should be filed.
 * **Informal debrief** --- brag to your colleagues about how amazing the clouds were :)
