@@ -38,7 +38,6 @@ chapters:
     - file: hifs
     - file: water_vapour_overview
     - file: temperature_example
-    - file: virtual_campaign
 - file: blog
 - file: coordination
 - file: references
