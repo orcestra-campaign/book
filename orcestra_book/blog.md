@@ -6,6 +6,60 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+
+---
+## #Visit of the WASCAL students
+
+From August 11th to 17th, 2024, we the WASCAL Cabo Verde Students had the incredible opportunity to participate in the OCESTRA field campaign, an experience that was as enlightening as it was exciting. Coming from diverse backgrounds with little knowledge of meteorology, we were eager to dive into this new field, and the welcoming atmosphere made it all the more enjoyable.
+
+The campaign introduced us to the fascinating world of radiosonde. We learned how to launch a radiosonde, a crucial tool for measuring atmospheric parameters and, more importantly, how to interpret the data it collects. This was no small feat, but the patient guidance we received made the learning curve much smoother. The practical sessions were complemented by in-depth theoretical discussions, ensuring we grasped the processes how and why.
+
+Throughout the campaign, we were kept in the loop through daily weather briefings. These sessions updated us on the progress and challenges of the campaign and gave us insights into the weather patterns we were observing. During a mini-symposium that was held, we got the chance to speak about the WASCAL program and share our research interests with the team.
+
+The highlight of our experience came on the last day when we were entrusted with delivering the weather briefing ourselves. This was a testament to how much we had learned in such a short time, and it was incredibly rewarding to see our newfound knowledge in action.
+
+As if that wasn't exciting enough, we also visited the German aircraft (HALO) involved in the campaign. Stepping inside, we were shown the sophisticated instruments used for data collection, giving us a glimpse into the high-tech side of meteorology.
+In the end, this field campaign was more than just a learning experience it was an adventure that expanded our horizons and deepened our appreciation for the complexities of weather science. We left with new skills, new knowledge, and a renewed enthusiasm for the journey ahead.
+
+We would like to warmly thank the entire OCESTRA team for the opportunity they provided us to learn and deepen our understanding of atmospheric sciences. Thanks to you, we now have a clearer and more enriching perspective on this fascinating field.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_WASCAL00.jpg
+:img-alt: Group photo after the Mini-Symposium
+
+Group photo after the mini-symposium. (*Photo by K. Anonymous*)
+```
+
+```{card}
+:img-top: /figures/blog_WASCAL01.jpg
+:img-alt: Presentation of WASCAL program
+
+Presentation of the WASCAL program. (*Photo by P.Peyrille*)
+```
+
+```{card}
+:img-top: /figures/blog_WASCAL02.jpg
+:img-alt: Class session.
+
+Learning about the MAESTRO weather briefing. (*Photo by J. Lamah*)
+```
+
+```{card}
+:img-top: /figures/blog_WASCAL03.jpg
+:img-alt: Preparing launch of the radio sondes.
+
+Preparing the launch of a radio sonde. (*Photo by K.Djogli*)
+```
+
+```{card}
+:img-top: /figures/blog_WASCAL04.jpg
+:img-alt: Visit of the german aircraft HALO.
+
+Visit of the german aircraft HALO. (*Photo by K. Anonymous*)
+```
+````
+
 ---
 ## #T8
 
