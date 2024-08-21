@@ -24,13 +24,6 @@ chapters:
   - file: cvao
   - file: rvmeteor
 - file: science
-- file: preparation
-  sections:
-    - file: water_vapour_overview
-    - file: hera5
-    - file: hifs
-    - file: temperature_example
-    - file: virtual_campaign
 - file: operation
   sections:
     - file: operation/atr
@@ -41,6 +34,10 @@ chapters:
   sections:
     - file: data_policy
     - file: data_concept
+    - file: hera5
+    - file: hifs
+    - file: water_vapour_overview
+    - file: temperature_example
 - file: blog
 - file: coordination
 - file: references

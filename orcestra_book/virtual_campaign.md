@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 # Virtual Campaign (VC)
 
 **📅 When?** Thursday and Friday in January/February 2024 for four weeks
