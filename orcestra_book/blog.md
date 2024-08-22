@@ -8,6 +8,116 @@ Cheers, Yu
 
 
 ---
+## #T11 - All about radiosondes
+
+Rather than write about the ship or the aircrafts again, I would like to focus on an incredible talent among us. Enora Le Gall, part of the MAESTRO team, draws a comic strip describing the work of a radiosonde launcher. The launch of a radiosonde on land is regularly scheduled on a 6-hour frequency. On certain flight days, the frequency is increased to 3 hours.
+
+Without further ado, here is the story about "All about radiosondes":
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_RScomic_00.png
+:img-alt: All about radio sondes 1
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_01.png
+:img-alt: All about radio sondes 2
+
+```
+```{card}
+:img-top: /figures/blog_RScomic_02.png
+:img-alt: All about radio sondes 3
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_03.png
+:img-alt: All about radio sondes 4
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_04.png
+:img-alt: All about radio sondes 5
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_05.png
+:img-alt: All about radio sondes 6
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_06.png
+:img-alt: All about radio sondes 7
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_07.png
+:img-alt: All about radio sondes 8
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_08.png
+:img-alt: All about radio sondes 9
+
+```
+````
+
+The english translation can be found [here](https://www.instagram.com/p/C-pjxU2ITs0/?img_index=1).
+
+---
+## #T10
+
+PERCUSION is still waiting for the spare part to arrive. Until the battery for the emergency lighting is replaced, HALO is restricted to daylight operations. It was decided to cancel the planned EarthCARE under flight for today and replace it with a day off instead.
+
+However, the ATR-42 completed its flight, meeting EarthCARE northwest of SAL. KingAir also completed its second mission flight, including a spiral ascent, meeting EarthCARE and coordinating with ATR.
+
+After five days at sea, RV METEOR positioned itself along the EarthCARE orbit. Details of their daily oceanic and atmospheric measurements can be found in their [reports](https://orcestra-campaign.org/reports/METEOR-20240820.html).
+Later in the evening, an icebreaker event was organised to allow the scientific and ship's crew to connect outside the workspace.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T10_0.jpg
+:img-alt: The CELLO Crew.
+
+The CELLO Team. (*Photo by J. von Bismarck*)
+```
+
+```{card}
+:img-top: /figures/blog_T10_1.jpg
+:img-alt: Ice breaker event on RV Meteor.
+
+Ice breaker event on RV Meteor.(*Photo by D. Klocke*)
+```
+````
+
+---
+## #T9
+
+More or less I have the feeling that a routine is beginning to set in. We start with daily morning briefings, and you can tell the difference between ground days and flight days by the number of seats filled.
+
+From today we welcome four new students who will be with us until the beginning of September. Two students from the Caribbean Institute for Meteorology and Hydrology (CIMH) in Barbados have made the long journey, as have two PhD students from the University of Leeds in the UK. The former are interested in tropical waves and cloud aggregation, the latter in microphysics and cloud feedback. They will be joining us from now on, looking at the data and helping the MAESTRO team launch the radio sondes.
+
+Today we also had our second science seminar with two talks. Marius Rixen took us into the world of cloud halos, what they are and how they differ between shallow and deep clouds. Clara Bayley on the other hand gave us a brief introduction to the super droplet model called CLEO and how it can be used to study rain evaporation as an example of looking at cloud microphysics.
+
+RV METEOR continues to launch its radio sondes at 3-hour rhythm and is on course to meet HALO for its next flight.
+
+
+```{figure} /figures/blog_T9.jpg
+:alt: Sunset rainbow at sea.
+:width: 800px
+:align: center
+
+ (*Photo by A.Wing*)
+```
+
+---
 ## #Visit of the WASCAL students
 
 From August 11th to 17th, 2024, we the WASCAL Cabo Verde Students had the incredible opportunity to participate in the OCESTRA field campaign, an experience that was as enlightening as it was exciting. Coming from diverse backgrounds with little knowledge of meteorology, we were eager to dive into this new field, and the welcoming atmosphere made it all the more enjoyable.
