@@ -56,6 +56,10 @@ issue_date_ltp = '2024-08-05'
 issue_date_pre = pd.read_csv(
     "https://sattracks.orcestra-campaign.org/index.csv",
     parse_dates=["forecast_day"],
+).sort_values(
+    by="forecast_day",
+    ignore_index=True,
+    ascending=False,
 ).forecast_day.loc[0].strftime("%Y-%m-%d")
 dates_pre = [datetime.fromisoformat(issue_date_pre) + timedelta(days=i) for i in range(7)]
 
