@@ -7,6 +7,32 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T10
+
+PERCUSION is still waiting for the spare part to arrive. Until the battery for the emergency lighting is replaced, HALO is restricted to daylight operations. It was decided to cancel the planned EarthCARE under flight for today and replace it with a day off instead.
+
+However, the ATR-42 completed its flight, meeting EarthCARE northwest of SAL. KingAir also completed its second mission flight, including a spiral ascent, meeting EarthCARE and coordinating with ATR.
+
+After five days at sea, RV METEOR positioned itself along the EarthCARE orbit. Details of their daily oceanic and atmospheric measurements can be found in their [reports](https://orcestra-campaign.org/reports/METEOR-20240820.html).
+Later in the evening, an icebreaker event was organised to allow the scientific and ship's crew to connect outside the workspace.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T10_0.jpg
+:img-alt: The CELLO Crew.
+
+The CELLO Team. (*Photo by J. von Bismarck*)
+```
+
+```{card}
+:img-top: /figures/blog_T10_1.jpg
+:img-alt: Ice breaker event on RV Meteor.
+
+Ice breaker event on RV Meteor.(*Photo by D. Klocke*)
+```
+````
+
+---
 ## #T9
 
 More or less I have the feeling that a routine is beginning to set in. We start with daily morning briefings, and you can tell the difference between ground days and flight days by the number of seats filled.
