@@ -10,18 +10,19 @@ SWIFT_CONTAINER = (
 )
 
 VARINFO = {
-    "prw": "Precipitable water",
-    "hsws": "Surface wind speed",
-    "pr": "Precipitation flux",
-    "rlut": "Outgoing longwave radiation",
-    "clisvi": "Ice and snow water path",
     "cllvi": "Cloud liquid path",
+    "clisvi": "Ice and snow water path",
+    "prw": "Precipitable water",
+    "pr": "Precipitation flux",
+    "rsut": "Outgoing shortwave radiation",
+    "rlut": "Outgoing longwave radiation",
     "cresfc": "Cloud radiative effect (surface)",
     "cretoa": "Cloud radiative effect (TOA)",
-    "rsut": "Outgoing shortwave radiation",
-    "sconv": "Surface wind convergence",
+    "hsws": "Surface wind speed",
     "uas": "Zonal wind speed",
     "vas": "Meridional wind speed",
+    "sconv": "Surface wind convergence",
+    "all-in-one": "All contours at once",
 }
 
 
@@ -77,12 +78,12 @@ class LimitedAreaVideos(SphinxDirective):
             para = nodes.paragraph()
 
             src = get_source(dt_object, varname, zoom=2)
-            para += get_link_node(src, "(high-res)")
+            para += get_link_node(src, "(zoom-level-2 [2.5km])")
 
             para += nodes.Text(" ", " ")
 
             src = get_source(dt_object, varname, zoom=3)
-            para += get_link_node(src, "(native)")
+            para += get_link_node(src, "(zoom-level-3 [1.25km])")
 
             section_node += para
             node_list.append(section_node)
