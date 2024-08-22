@@ -33,8 +33,9 @@ def get_source(dt_object, varname, zoom=2, base_url=SWIFT_CONTAINER):
 
 def get_video_node(source_url, width=720):
     source = f"<source src={source_url}>"
+    poster = source_url.replace(".mp4", ".png")
     err = "Your browser does not support the video tag."
-    video = f"<video width='{width}' controls>  {source} type='mp4'/>{err}</video>"
+    video = f"<video width='{width}' controls poster={poster}>  {source} type='mp4'/>{err}</video>"
 
     raw_node = nodes.raw(
         rawsource="",
