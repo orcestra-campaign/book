@@ -6,6 +6,71 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+
+---
+## #T11 - All about radiosondes
+
+Rather than write about the ship or the aircrafts again, I would like to focus on an incredible talent among us. Enora Le Gall, part of the MAESTRO team, draws a comic strip describing the work of a radiosonde launcher. The launch of a radiosonde on land is regularly scheduled on a 6-hour frequency. On certain flight days, the frequency is increased to 3 hours.
+
+Without further ado, here is the story about "All about radiosondes":
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_RScomic_00.png
+:img-alt: All about radio sondes 1
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_01.png
+:img-alt: All about radio sondes 2
+
+```
+```{card}
+:img-top: /figures/blog_RScomic_02.png
+:img-alt: All about radio sondes 3
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_03.png
+:img-alt: All about radio sondes 4
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_04.png
+:img-alt: All about radio sondes 5
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_05.png
+:img-alt: All about radio sondes 6
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_06.png
+:img-alt: All about radio sondes 7
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_07.png
+:img-alt: All about radio sondes 8
+
+```
+
+```{card}
+:img-top: /figures/blog_RScomic_08.png
+:img-alt: All about radio sondes 9
+
+```
+````
+
+The english translation can be found [here](https://www.instagram.com/p/C-pjxU2ITs0/?img_index=1).
+
 ---
 ## #T10
 
