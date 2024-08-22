@@ -6,6 +6,25 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+---
+## #T9
+
+More or less I have the feeling that a routine is beginning to set in. We start with daily morning briefings, and you can tell the difference between ground days and flight days by the number of seats filled.
+
+From today we welcome four new students who will be with us until the beginning of September. Two students from the Caribbean Institute for Meteorology and Hydrology (CIMH) in Barbados have made the long journey, as have two PhD students from the University of Leeds in the UK. The former are interested in tropical waves and cloud aggregation, the latter in microphysics and cloud feedback. They will be joining us from now on, looking at the data and helping the MAESTRO team launch the radio sondes.
+
+Today we also had our second science seminar with two talks. Marius Rixen took us into the world of cloud halos, what they are and how they differ between shallow and deep clouds. Clara Bayley on the other hand gave us a brief introduction to the super droplet model called CLEO and how it can be used to study rain evaporation as an example of looking at cloud microphysics.
+
+RV METEOR continues to launch its radio sondes at 3-hour rhythm and is on course to meet HALO for its next flight.
+
+
+```{figure} /figures/blog_T9.jpg
+:alt: Sunset rainbow at sea.
+:width: 800px
+:align: center
+
+ (*Photo by A.Wing*)
+```
 
 ---
 ## #Visit of the WASCAL students
