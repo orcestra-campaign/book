@@ -1,3 +1,4 @@
+import pathlib
 from datetime import datetime, timedelta
 
 from docutils import nodes
@@ -91,8 +92,25 @@ class LimitedAreaVideos(SphinxDirective):
         return node_list
 
 
+class VideoOverview(SphinxDirective):
+    def run(self):
+        src = pathlib.Path(self.env.srcdir)
+
+        p = nodes.paragraph()
+        p["classes"].append("multi-column")
+        for doc in sorted((src / "lam").glob("*.md"), reverse=True):
+            href = doc.relative_to(src, walk_up=True).with_suffix(".html").as_posix()
+            datestr = datetime.fromisoformat(doc.stem).strftime("%Y-%m-%d")
+
+            p += get_link_node(source_url=href, message=datestr)
+            p += nodes.Text(" ", " ")
+
+        return [p]
+
+
 def setup(app):
     app.add_directive("lam-videos", LimitedAreaVideos)
+    app.add_directive("list-videos", VideoOverview)
 
     return {
         "version": "0.1",

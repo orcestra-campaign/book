@@ -36,8 +36,6 @@ chapters:
     - file: hera5
     - file: hifs
     - file: lam
-      sections:
-        - glob: lam/*
     - file: water_vapour_overview
     - file: temperature_example
     - file: faq
