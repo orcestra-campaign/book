@@ -35,6 +35,7 @@ sphinx:
     crew_table: _ext/
     flight_categories: _ext/
     front: _ext/
+    lam_videos: _ext/
     reports: _ext/
   config:
     bibtex_default_style: myapastyle
