@@ -13,8 +13,11 @@ dependencies:
   - healpy>=1.16.3
   - intake-xarray
   - intake[dataframe]<2.0.0 # since intake 0.6.1 to_dask() doesn't work anymore without the [dataframe] specification due to a missing msgpack dependency
+  - ipykernel
   - jinja2
   - jupyter-book
+  - jupyterlab
+  - jupytext
   - matplotlib
   - netcdf4
   - numpy
