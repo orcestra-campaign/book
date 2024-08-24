@@ -3,11 +3,11 @@
 This repo collects all information to the ORCESTRA campaign in the form of a book. For now, the rendered book (website) is deployed to **https://orcestra-campaign.org/**
 
 The book is thought to grow and include information on
-* the SCIENCE
-* the measurement STRATEGY
-* PREPARATIONS, e.g. the virtual flight campaign
-* DATA, including a data concept, data policy, data access and description
-* and many more...
+* the **science**
+* the measurement **strategy**
+* **data**, including a data concept, data policy, data access and description
+* the **flight planning** and **reports**
+* and much more...
 
 ## Contributing
 
