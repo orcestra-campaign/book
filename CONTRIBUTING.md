@@ -38,19 +38,6 @@ Ready to contribute? Here's how to set up the `ORCESTRA book` for local developm
 6. Commit your changes and push your branch to GitHub.
 7. Submit a pull request through the GitHub website.
 
-## Building the book
-
-To check your changes locally you can build the book from within the repo's root folder:
-
-```
-jupyter-book build orcestra_book/
-```
-
-A fully-rendered HTML version of the book will be built in `orcestra-book/_build/html/`.
-You can have a look at it by opening the `_build/html/index.html` file in your browser.
-In case the book builds without errors, but your changes don't seem to get rendered it might be due to the cache.
-You can force the book to be built from scratch by removing the existing `orcestra-book/_build/` directory before building the book.
-
 ## Code of Conduct
 
 Please note that the ORCESTRA book project is released with a [Contributor Code of Conduct](CONDUCT.md). By contributing to this project you agree to abide by its terms.
