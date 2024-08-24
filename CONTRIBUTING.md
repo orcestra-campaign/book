@@ -37,7 +37,3 @@ Ready to contribute? Here's how to set up the `ORCESTRA book` for local developm
 5. Build the book locally to see if the fully-rendered HTML version looks as intended (see below how to).
 6. Commit your changes and push your branch to GitHub.
 7. Submit a pull request through the GitHub website.
-
-## Code of Conduct
-
-Please note that the ORCESTRA book project is released with a [Contributor Code of Conduct](CONDUCT.md). By contributing to this project you agree to abide by its terms.
