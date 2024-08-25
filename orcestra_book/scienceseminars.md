@@ -15,10 +15,12 @@ On ground days we offer science talks to share the work of the scientists.
 |                 |   Clara Bayley (MPI-M)           | Modelling rain evaporation during EUREC$^4$A       |
 |                 |                |                 |
 | 23 Aug, 11 LT   |   Martin Singh  (Monash University)    | ITCZ edge intensification: insight from simplified modelling       |
-|                 |   Basile Poujol (LMD)     |   *tbd*      |
+|                 |   Basile Poujol (LMD)     |    Convective clouds as dipoles    |
 |                 |                |                 |
 | 26 Aug, 11 LT   |   Paula Romero Jure (University of Leeds)      | Physical drivers of high clouds' radiative effects in the Tropical Pacific   |
 |                 |   Ezri Alkilani-Brown (University of Leeds)    |  Quantifying graupel in deep convective clouds         |
+|                 |   Daniel Rowe (CMIH)             | The Relationship between Sea surface temperatures and tropical waves in the main developing region |
+|                 |   Chavez Pope (CMIH)             |Severe weather case catalogue for the Carribean  |
 |                 |                |                 |
 | 30 Aug, 11 LT   |     *tbd*      |  *tbd*          |
 |                 |     *tbd*      |  *tbd*          |
