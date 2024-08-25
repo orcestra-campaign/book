@@ -11,3 +11,13 @@ This way you can select `orcestra_book` as kernel to run your notebooks.
 conda activate orcestra_book
 ipython3 -m ipykernel install --user --name orcestra_book
 ```
+
+## Can I execute the notebooks interactively?
+
+Yes, you can! The [MyST](https://mystmd.org) can be opened directly in
+JupyterLab. Simply navigate to the location of the markdown file in the file
+browser within JUpyterLab and right click `Open With > Notebook'. When you 
+modify the notebook, the underlying markdown file is automatically synchronized.
+
+_Note: This requires `jupterlab` and `jupytext` being installed, which if you 
+are using an old environment might not be true._
