@@ -16,7 +16,8 @@ ipython3 -m ipykernel install --user --name orcestra_book
 
 Yes, you can! The [MyST](https://mystmd.org) can be opened directly in
 JupyterLab. Simply navigate to the location of the markdown file in the file
-browser and right click `Open With > Notebook'. When you modify the notebook,
-the underlying markdown file is automatically synchronized.
+browser within JUpyterLab and right click `Open With > Notebook'. When you 
+modify the notebook, the underlying markdown file is automatically synchronized.
 
-_Note: This requires `jupterlab` and `jupytext` being installed. This is true in an updated environment._
+_Note: This requires `jupterlab` and `jupytext` being installed, which if you 
+are using an old environment might not be true._
