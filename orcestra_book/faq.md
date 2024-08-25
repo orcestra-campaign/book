@@ -18,3 +18,5 @@ Yes, you can! The [MyST](https://mystmd.org) can be opened directly in
 JupyterLab. Simply navigate to the location of the markdown file in the file
 browser and right click `Open With > Notebook'. When you modify the notebook,
 the underlying markdown file is automatically synchronized.
+
+_Note: This requires `jupterlab` and `jupytext` being installed. This is true in an updated environment._
