@@ -23,7 +23,6 @@ chapters:
   - file: bco
   - file: cvao
   - file: rvmeteor
-- file: science
 - file: operation
   sections:
     - file: operation/atr
@@ -37,12 +36,10 @@ chapters:
     - file: hera5
     - file: hifs
     - file: lam
-      sections:
-        - glob: lam/*
     - file: water_vapour_overview
     - file: temperature_example
     - file: faq
       title: FAQ
 - file: blog
 - file: coordination
-- file: references
+

@@ -10,5 +10,5 @@ The whole dataset is stored on [Levante (DKRZ)](https://docs.dkrz.de/doc/levante
 
 ## Daily simulations
 
-```{tableofcontents}
+```{list-videos}
 ```

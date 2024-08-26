@@ -84,3 +84,7 @@ html {
   max-width: 150px;
   height: auto;
 }
+
+.multi-column {
+  column-width: 100px;
+}
