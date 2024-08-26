@@ -38,6 +38,12 @@ categories:
   meteor:
     long_name: "RV Meteor coordination"
     tier: "b"
+  halo:
+    long_name: "HALO coordination"
+    tier: "b"
+  atr:
+    long_name: "ATR coordination"
+    tier: "b"
   ocsm:
     long_name: "Ocean Science Center Mindelo overpass"
     tier: "b"
