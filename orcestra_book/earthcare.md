@@ -51,7 +51,8 @@ start_date = datetime.now().date()
 dates_ltp = [start_date + timedelta(days=7) + timedelta(days=i) for i in range(14)]
 
 # Define which satellite predictions schould be used 
-issue_date_ltp = '2024-08-05'
+issue_date_ltp = "2024-08-19"
+
 # Always plot seven-day forecast of the most recently published prediction (PRE)
 issue_date_pre = pd.read_csv(
     "https://sattracks.orcestra-campaign.org/index.csv",
