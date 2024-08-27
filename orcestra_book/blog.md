@@ -8,6 +8,23 @@ Cheers, Yu
 
 
 ---
+## #T13
+
+
+This morning began in a rather unusual way, with the building of a large sand castle. It was the last day that we had three toddlers on Sal at the same time. So the opportunity was taken to strengthen the bond between the toddlers, and some of the adults helped to build the castle out of a mixture of sand and water with a few buckets and their bare hands. But to be honest, I think the person who came up with this idea just wanted to build a sand castle for himself and used the toddlers as an excuse.
+ After this extraordinary morning, the third science seminar was on the agenda. This time, Martin Singh from Monash University, Australia, introduced us to his project on ITCZ edge intensification from the perspective of simplified modelling and how he could use the campaign data for his work. Basile Poujol from LMD/IPSL in France presented his PhD project on convective clouds and how considering them as dipoles could explain the near-cloud subsidence.
+
+In the afternoon I went to the airport, accompanied by a photographer who will be capturing and documenting parts of the campaign over the next five days. We'd invited the local airport staff from Cabo Verde Express to visit the French and German planes today, to give them an insight into our research and what the integrated instruments are measuring. The invitation was well received, with more people attending than expected. In the end, almost 20 people came. Luckily we had two aircraft to present, otherwise not everyone would have been able to see the full range of each aircraft.
+This also gave me the opportunity to take a look inside the ATR, which has a completely different layout than the HALO. To enter the ATR, you have to use the rear door and when you look inside the aircraft, the right-hand side is almost built up with instrument racks. There is even less room to move around than in the HALO. Originally, the aircraft was designed to carry up to 40 passengers, but due to the amount of instrumentation for this campaign, the seats are limited to seven scientists.
+
+RV Meteor had reached the southern edge of the ITCZ and would begin turning north later in the day. By the way, if you are curious about the measurements taken on the ship, here are some sources:
+* [Latest SEA-POL scan](https://seapol.colostate.edu/data/PICCOLO/)
+* [Radiosonde skewT plots](https://swiftbrowser.dkrz.de/public/dkrz_34406075a1684be9b56a2669a90730f2/ORCESTRA/BOWTIE/Radiosondes/figures/SkewT/)
+* [Position of the drift buoys](https://data.geomar.de/realtime/data/project/300434067159110/img/300434067159110_pos_105.png)
+* [Glider plots](https://gliderweb.geomar.de/)
+
+
+---
 
 ## #T12
 
