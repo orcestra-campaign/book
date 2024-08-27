@@ -12,6 +12,15 @@ conda activate orcestra_book
 ipython3 -m ipykernel install --user --name orcestra_book
 ```
 
+## How to update the orcestra_book environmeny?
+
+If you can't build your book, maybe some changes in the `environment.yml` were undertaken.
+You can update the environment as following:
+
+```bash
+conda env update -f environment.yml
+```
+
 ## Can I execute the notebooks interactively?
 
 Yes, you can! The [MyST](https://mystmd.org) can be opened directly in
