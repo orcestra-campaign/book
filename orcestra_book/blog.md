@@ -8,6 +8,26 @@ Cheers, Yu
 
 
 ---
+
+## #T12
+
+It's the twelfth day of the campaign and the first time all three aircraft have been in the air at the same time. The HALO flight was again ambitious. Five circles were flown - three circles to capture the ITCZ and two in coordination with the ATR - plus a turn to Mindelo to fly over the OSCM.
+ The EarthCARE flights were well coordinated with ATR and KingAir near Praia.
+
+We also have something new on the website: [LAMs](https://orcestra-campaign.org/lam.html)! These "limited area models" are daily hindcasts of the atmospheric conditions simulated by R. Fiévet, L. Linardakis and L. Kornblueh (MPI-M) with ICON. The simulation covers the campaign area (64W-8W, 4S-24N) with a horizontal resolution of 1.25 km. More information and the simulated animations are available.
+
+But the biggest news of all is that there is a chance for the STRINQS comeback! The drones finally(!) arrived in Mindelo a few days ago. The team waited there, not giving up hope of being able to join the campaign. And the wait has paid off! RV METEOR is currently steaming towards the southern edge of the ITCZ, but will then turn north towards Praia to pick up the STRINQS team and some spare parts for SEA-POL. In the meantime, the ship has started its own scientific discussions and has already deployed over 50 radio sondes.
+
+```{figure} /figures/blog_T12_0.png
+:alt: Limited area model.
+:width: 800px
+:align: center
+
+Example screenshot for a LAM simulation.
+```
+
+
+---
 ## #T11 - All about radiosondes
 
 Rather than write about the ship or the aircrafts again, I would like to focus on an incredible talent among us. Enora Le Gall, part of the MAESTRO team, draws a comic strip describing the work of a radiosonde launcher. The launch of a radiosonde on land is regularly scheduled on a 6-hour frequency. On certain flight days, the frequency is increased to 3 hours.
