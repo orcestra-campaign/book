@@ -40,33 +40,51 @@ First, we load the track data
 from orcestra import sat
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta, time
-import cartopy.crs as ccrs 
-from geopy.distance import geodesic 
+import cartopy.crs as ccrs
+from geopy.distance import geodesic
 import numpy as np
 import pandas as pd
-import warnings 
 
-# Define timeframes for long term prediction (LTP) and preliminary (PRE)
-start_date = datetime.now().date()
-dates_ltp = [start_date + timedelta(days=7) + timedelta(days=i) for i in range(14)]
 
-# Define which satellite predictions schould be used 
-issue_date_ltp = "2024-08-19"
-
-# Always plot seven-day forecast of the most recently published prediction (PRE)
-issue_date_pre = pd.read_csv(
+# Get most recent LTP forecast
+track_list = pd.read_csv(
     "https://sattracks.orcestra-campaign.org/index.csv",
     parse_dates=["forecast_day"],
-).sort_values(
-    by="forecast_day",
-    ignore_index=True,
-    ascending=False,
-).forecast_day.loc[0].strftime("%Y-%m-%d")
-dates_pre = [datetime.fromisoformat(issue_date_pre) + timedelta(days=i) for i in range(7)]
+)
+issue_date_ltp = (
+    track_list.where(track_list.kind == "LTP")
+    .dropna()
+    .sort_values(
+        by="forecast_day",
+        ignore_index=True,
+        ascending=False,
+    )
+    .forecast_day.loc[0]
+    .strftime("%Y-%m-%d")
+)
 
-# Ignore warning from using an old forecast. LTP forecast will always be older than latest PRE forecast
-warnings.filterwarnings("ignore") 
+# Get most recent PRE forecast
+issue_date_pre = (
+    track_list.where(track_list.kind == "PRE")
+    .dropna()
+    .sort_values(
+        by="forecast_day",
+        ignore_index=True,
+        ascending=False,
+    )
+    .forecast_day.loc[0]
+    .strftime("%Y-%m-%d")
+)
 
+
+# Define timeframes for long term prediction (LTP) and preliminary (PRE)
+dates_pre = [
+    datetime.fromisoformat(issue_date_pre) + timedelta(days=i) for i in range(7)
+]
+dates_ltp = [
+    datetime.fromisoformat(issue_date_pre) + timedelta(days=7) + timedelta(days=i)
+    for i in range(14)
+]
 
 # Load the tracks 
 tracks_ltp = {}
@@ -99,27 +117,56 @@ def generate_circle_points(center, radius_km, num_points=100):
 
     return circle_points
 
-def plot_tracks(tracks, dates, ax): 
+def annotate_time(ax, track, line):
+    mid_index = len(track.lon) // 2
+    track_time = pd.Timestamp(track.time.mean().values)
+    ax.annotate(
+        f"{track_time.day}.{track_time.month}. {track_time.hour}:{track_time.minute}",
+        xy=(track.lon[mid_index], track.lat[mid_index]),
+        xytext=(-5, 1),
+        textcoords="offset points",
+        fontsize=9,
+        color=line.get_color(),
+        rotation=-100.8,
+        rotation_mode="anchor",
+        bbox=dict(facecolor="white", edgecolor="none"),
+    )
+
+
+def plot_tracks(tracks, dates, ax):
     # plot tracks
     for date in dates:
-        track_lon = tracks[date].lon.values
-        track_lat = tracks[date].lat.values
-        line, = ax.plot(track_lon, track_lat, label=date, transform=ccrs.PlateCarree())
-        if len(track_lon) > 0:
-            mid_index = len(track_lon) // 2
-            track_time = pd.Timestamp(tracks[date].time.mean().values)
-            ax.annotate(
-                f"{track_time.day}.{track_time.month}. {track_time.hour}:{track_time.minute}",
-                xy=(track_lon[mid_index],
-                track_lat[mid_index]),
-                xytext=(-5, 1),
-                textcoords='offset points',
-                fontsize=9, 
+        # check if earthcare crosses the box two times
+        diff_time = tracks[date].time.diff("time") > pd.Timedelta("1m")
+        # plot two tracks if timedelta between datapoints is more than 1 minute
+        if diff_time.max():
+            idx_new_line = int(diff_time.argmax())
+            track_1 = tracks[date].isel(time=slice(None, idx_new_line))
+            (line,) = ax.plot(
+                track_1.lon.values,
+                track_1.lat.values,
+                transform=ccrs.PlateCarree()
+            )
+            if len(track_1.lon.values) > 10:
+                annotate_time(ax, track_1, line)
+            track_2 = tracks[date].isel(time=slice(idx_new_line + 1, None))
+            (line,) = ax.plot(
+                track_2.lon.values,
+                track_2.lat.values,
+                transform=ccrs.PlateCarree(),
                 color=line.get_color(),
-                rotation=-100.8, 
-                rotation_mode='anchor', 
-                bbox=dict(facecolor='white', edgecolor='none')
-                )
+            )
+            if len(track_2.lon.values) > 10:
+                annotate_time(ax, track_2, line)
+        else:
+            (line,) = ax.plot(
+                tracks[date].lon.values,
+                tracks[date].lat.values,
+                transform=ccrs.PlateCarree(),
+            )
+            if len(tracks[date].lon.values) > 0:
+                annotate_time(ax, tracks[date], line)
+
     # plot circle
     center = (16.735, -22.948) 
     radius_km = 250
