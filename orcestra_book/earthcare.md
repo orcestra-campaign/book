@@ -175,6 +175,7 @@ def plot_tracks(tracks, dates, ax):
     ax.plot(lons, lats, label=f'{radius_km} km circle', color='k')
 
     # pimp plot
+    ax.coastlines()
     gl = ax.gridlines(draw_labels=True)
     gl.top_labels = False
     gl.right_labels = False
