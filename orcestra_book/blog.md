@@ -8,6 +8,43 @@ Cheers, Yu
 
 
 ---
+## #T13
+
+
+This morning began in a rather unusual way, with the building of a large sand castle. It was the last day that we had three toddlers on Sal at the same time. So the opportunity was taken to strengthen the bond between the toddlers, and some of the adults helped to build the castle out of a mixture of sand and water with a few buckets and their bare hands. But to be honest, I think the person who came up with this idea just wanted to build a sand castle for himself and used the toddlers as an excuse.
+ After this extraordinary morning, the third science seminar was on the agenda. This time, Martin Singh from Monash University, Australia, introduced us to his project on ITCZ edge intensification from the perspective of simplified modelling and how he could use the campaign data for his work. Basile Poujol from LMD/IPSL in France presented his PhD project on convective clouds and how considering them as dipoles could explain the near-cloud subsidence.
+
+In the afternoon I went to the airport, accompanied by a photographer who will be capturing and documenting parts of the campaign over the next five days. We'd invited the local airport staff from Cabo Verde Express to visit the French and German planes today, to give them an insight into our research and what the integrated instruments are measuring. The invitation was well received, with more people attending than expected. In the end, almost 20 people came. Luckily we had two aircraft to present, otherwise not everyone would have been able to see the full range of each aircraft.
+This also gave me the opportunity to take a look inside the ATR, which has a completely different layout than the HALO. To enter the ATR, you have to use the rear door and when you look inside the aircraft, the right-hand side is almost built up with instrument racks. There is even less room to move around than in the HALO. Originally, the aircraft was designed to carry up to 40 passengers, but due to the amount of instrumentation for this campaign, the seats are limited to seven scientists.
+
+RV Meteor had reached the southern edge of the ITCZ and would begin turning north later in the day. By the way, if you are curious about the measurements taken on the ship, here are some sources:
+* [Latest SEA-POL scan](https://seapol.colostate.edu/data/PICCOLO/)
+* [Radiosonde skewT plots](https://swiftbrowser.dkrz.de/public/dkrz_34406075a1684be9b56a2669a90730f2/ORCESTRA/BOWTIE/Radiosondes/figures/SkewT/)
+* [Position of the drift buoys](https://data.geomar.de/realtime/data/project/300434067159110/img/300434067159110_pos_105.png)
+* [Glider plots](https://gliderweb.geomar.de/)
+
+
+---
+
+## #T12
+
+It's the twelfth day of the campaign and the first time all three aircraft have been in the air at the same time. The HALO flight was again ambitious. Five circles were flown - three circles to capture the ITCZ and two in coordination with the ATR - plus a turn to Mindelo to fly over the OSCM.
+ The EarthCARE flights were well coordinated with ATR and KingAir near Praia.
+
+We also have something new on the website: [LAMs](https://orcestra-campaign.org/lam.html)! These "limited area models" are daily hindcasts of the atmospheric conditions simulated by R. Fiévet, L. Linardakis and L. Kornblueh (MPI-M) with ICON. The simulation covers the campaign area (64W-8W, 4S-24N) with a horizontal resolution of 1.25 km. More information and the simulated animations are available.
+
+But the biggest news of all is that there is a chance for the STRINQS comeback! The drones finally(!) arrived in Mindelo a few days ago. The team waited there, not giving up hope of being able to join the campaign. And the wait has paid off! RV METEOR is currently steaming towards the southern edge of the ITCZ, but will then turn north towards Praia to pick up the STRINQS team and some spare parts for SEA-POL. In the meantime, the ship has started its own scientific discussions and has already deployed over 50 radio sondes.
+
+```{figure} /figures/blog_T12_0.png
+:alt: Limited area model.
+:width: 800px
+:align: center
+
+Example screenshot for a LAM simulation.
+```
+
+
+---
 ## #T11 - All about radiosondes
 
 Rather than write about the ship or the aircrafts again, I would like to focus on an incredible talent among us. Enora Le Gall, part of the MAESTRO team, draws a comic strip describing the work of a radiosonde launcher. The launch of a radiosonde on land is regularly scheduled on a 6-hour frequency. On certain flight days, the frequency is increased to 3 hours.
