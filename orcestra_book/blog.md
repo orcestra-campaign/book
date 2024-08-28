@@ -6,6 +6,43 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+
+---
+## #T17
+I don't have too much to blog about today, as the routine that has settled in makes it sometimes difficult to get excited every day, or to keep the enthusiasm at the same level. But that's OK. Sometimes days just go by without any big events. We alternate between flight days and ground days. And you know when it's a flight day without looking at the calendar because the rooms are less crowded, while on a ground day almost everyone is there and it's hard to find a place to work without cuddling with the neighbour - I'm exaggerating.
+
+Anyway, sometimes it's a blessing in disguise. As the drones arrived very late and RV METEOR decided to change course and head back to the Cape Verde Islands to board STRINQS, we had a rare opportunity to coordinate across all the moving platforms: EarthCARE, HALO, ATR, KingAir and RV Meteor. Even the whales joined in, circling the RV Meteor in the ocean...
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T17_0.png
+:img-alt: PLANET HALO and METEOR
+
+HALO (pink plane) flying over RV METEOR (green arrow) visualized on PLANET.
+
+```
+```{card}
+:img-top: /figures/blog_T17_1.png
+:img-alt: Spotting HALO contrail.
+
+Spotting the HALO contrail from the RV METEOR. (*Photo by J.Ruppert*)
+
+```
+```{card}
+:img-top: /figures/blog_T17_2.jpg
+:img-alt: KingAir spotting RV METEOR.
+
+KingAir spotting RV METEOR. (*Photo by T.Carlsen*)
+
+```
+```{card}
+:img-top: /figures/blog_T17_3.png
+:img-alt: Whales spotted.
+
+Whales joining the coordination. (*Photo by D.Austen*)
+```
+````
+
 ---
 ## #T16
 
