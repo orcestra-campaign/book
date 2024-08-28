@@ -118,21 +118,13 @@ However, the ATR-42 completed its flight, meeting EarthCARE northwest of SAL. Ki
 After five days at sea, RV METEOR positioned itself along the EarthCARE orbit. Details of their daily oceanic and atmospheric measurements can be found in their [reports](https://orcestra-campaign.org/reports/METEOR-20240820.html).
 Later in the evening, an icebreaker event was organised to allow the scientific and ship's crew to connect outside the workspace.
 
-````{card-carousel} 2
-```{card}
-:img-top: /figures/blog_T10_0.jpg
-:img-alt: The CELLO Crew.
+```{figure} /figures/blog_T10_0.jpg
+:alt: CELLO in Praia.
+:width: 800px
+:align: center
 
-The CELLO Team. (*Photo by J. von Bismarck*)
+CELLO in Praia. (*Photo by J. von Bismarck*)
 ```
-
-```{card}
-:img-top: /figures/blog_T10_1.jpg
-:img-alt: Ice breaker event on RV Meteor.
-
-Ice breaker event on RV Meteor.(*Photo by D. Klocke*)
-```
-````
 
 ---
 ## #T9
@@ -156,6 +148,8 @@ RV METEOR continues to launch its radio sondes at 3-hour rhythm and is on course
 
 ---
 ## #Visit of the WASCAL students
+
+*written by Khevine R., Patience A. M., Hannah D., Joachim L., Nogaye D.*
 
 From August 11th to 17th, 2024, we the WASCAL Cabo Verde Students had the incredible opportunity to participate in the OCESTRA field campaign, an experience that was as enlightening as it was exciting. Coming from diverse backgrounds with little knowledge of meteorology, we were eager to dive into this new field, and the welcoming atmosphere made it all the more enjoyable.
 
@@ -472,6 +466,8 @@ Clouds from HALO (*Photo by H. Gloeckner*)
 
 ---
 ## CLARINET-01
+
+*written by Henriette G.*
 
 CLARINET is ready for the campaign start and to provide reference measurements from our stationary ground-based ACTRIS station at the OSCM at Mindelo.
 Already during the last two weeks, colleagues from TROPOS carried out maintenance at the instruments. Last week, we had the first crew change. For the duration of the campaign, the station will be permanently manned with two scientists from TROPOS to ensure the availability of the measurements and to fix problems immediately. Reaching this goal keeps us busy and we had to face already some shock moments when we woke up in the morning and recognized that the instruments did not measure during night due to power blackouts or internet breakdowns in the city.
