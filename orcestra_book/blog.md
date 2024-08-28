@@ -6,10 +6,56 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+---
+## #T16
+
+*in construction...*
+
+---
+## #15 - First Impressions: Operating HAMP and Flying in HALO
+
+*written by Clara Bayley*
+
+I was first introduced to HALO at DLR for training before the transfer flight to SAL. Superficially, I liked the disconnect between the outside of the plane, which barring the unicorn horn looks like a private jet, and the inside, which looks something more like the inside of an American war plane in Vietnam War films. During the training though the sheer density of scientific instruments aboard HALO started to become apparent to me. In two days I learnt only the absolute essentials, and even then only about the radar, radiometer, and the dropsonde apparatus. Yet the complexity of each instrument went well beyond me and I felt like a kid again, following instructions from the manual word for word and needing to ask for help at the very first moment of doubt.
+
+I had my first experience flying on HALO during the transfer flight to SAL. To be honest it wasn’t all that climactic because I barely needed to do anything! I’d learnt the basics in order to be able to operate HAMP but I was the second (if not third) person on the plane who was in command of it, and so really all I did was watch the others and read my book. It didn’t help that we barely flew over any clouds that entire flight…
+
+As it turns out though, there couldn’t have been a better induction for me. At the last minute I was made the primary operator of HAMP on the first research flight and having so little experience I was naturally worried I might destroy one of the instruments and/or delete all the data by accident (two things which are, as I’d discovered during the training, surprisingly easy to do). But from watching the other members of the transfer flight, I’d picked up a few of the “tips and tricks” which make everything smooth and which no amount of training or manual reading can teach you. These things range from wearing long socks so you’re ankles don’t get cold all the way to what to name the folders for the radiometer data after each flight.
+
+By the great knowledge of those more experienced than me and a touch of good fortune, the first research flight was a great success. For me that wasn’t only because I’d done my job correctly but also because I’d started to learn more than just how to run the instruments I was assigned. I’d seen first hand the radar echos which flood the screen during deep convection, and what shallow precipitation and the melting level usually look like; I’d seen as well how the retrieval for column water vapour surged as we flew across the northern edge of the ITCZ. Those were some of the most fulfilling moments during my first experiences on HALO and I’ve only had more since.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogCB_T15_0.png
+:img-alt: HAMP calibration
+
+Holding the liquid nitrogen used to calibrate the radiometers aboard HALO while on training at DLR. (*Photo by E.Plesca*)
+
+```
+
+```{card}
+:img-top: /figures/blogCB_T15_1.png
+:img-alt: HAMP radar quicklook
+
+The radar reflectivity during the first research flight 15 minutes either side of the EarthCARE underpass.
+```
+
+```{card}
+:img-top: /figures/blogCB_T15_2.png
+:img-alt: Flying on HALO.
+
+Laughing as usual while on the sixth research flight. (*Photo by B. McKim*)
+
+```
+````
+
+---
+## #T14
+
+*in construction...*
 
 ---
 ## #T13
-
 
 This morning began in a rather unusual way, with the building of a large sand castle. It was the last day that we had three toddlers on Sal at the same time. So the opportunity was taken to strengthen the bond between the toddlers, and some of the adults helped to build the castle out of a mixture of sand and water with a few buckets and their bare hands. But to be honest, I think the person who came up with this idea just wanted to build a sand castle for himself and used the toddlers as an excuse.
  After this extraordinary morning, the third science seminar was on the agenda. This time, Martin Singh from Monash University, Australia, introduced us to his project on ITCZ edge intensification from the perspective of simplified modelling and how he could use the campaign data for his work. Basile Poujol from LMD/IPSL in France presented his PhD project on convective clouds and how considering them as dipoles could explain the near-cloud subsidence.
@@ -25,7 +71,6 @@ RV Meteor had reached the southern edge of the ITCZ and would begin turning nort
 
 
 ---
-
 ## #T12
 
 It's the twelfth day of the campaign and the first time all three aircraft have been in the air at the same time. The HALO flight was again ambitious. Five circles were flown - three circles to capture the ITCZ and two in coordination with the ATR - plus a turn to Mindelo to fly over the OSCM.
