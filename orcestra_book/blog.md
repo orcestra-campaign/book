@@ -6,10 +6,114 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+---
+## #T18
+Day off for the planes.
+
+But before I close my laptop and take my day off under the burning sun and clear skies to prepare myself mentally for our beach volleyball tournament in the afternoon, I have to shout out the biggest success of the day: STRINQS came on board the RV METEOR! Without any complications, the team and the drones were towed by a tugboat to the research vessel waiting in the sea near the island. To show their goodwill, the STRINQS team even brought fresh bananas on board - so dear RV METEOR crew! Enjoy your day and celebrate this reunion!
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T18_0.jpg
+:img-alt: Spotting RV Meteor from Praia.
+
+Spotting RV Meteor from Praia. (*Photo by R.David*)
+```
+
+```{card}
+:img-top: /figures/blog_T18_1.jpg
+:img-alt: Welcoming STINQS.
+
+Welcome on board of the RV METEOR, Team STRINQS! (*Photo by D.Klocke*)
+```
+````
+
+---
+## #T17
+I don't have too much to blog about today, as the routine that has settled in makes it sometimes difficult to get excited every day, or to keep the enthusiasm at the same level. But that's OK. Sometimes days just go by without any big events. We alternate between flight days and ground days. And you know when it's a flight day without looking at the calendar because the rooms are less crowded, while on a ground day almost everyone is there and it's hard to find a place to work without cuddling with the neighbour - I'm exaggerating.
+
+Anyway, sometimes it's a blessing in disguise. As the drones arrived very late and RV METEOR decided to change course and head back to the Cape Verde Islands to board STRINQS, we had a rare opportunity to coordinate across all the moving platforms: EarthCARE, HALO, ATR, KingAir and RV Meteor. Even the whales joined in, circling the RV Meteor in the ocean...
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T17_0.png
+:img-alt: PLANET HALO and METEOR
+
+HALO (pink plane) flying over RV METEOR (green arrow) visualized on PLANET.
+
+```
+```{card}
+:img-top: /figures/blog_T17_1.png
+:img-alt: Spotting HALO contrail.
+
+Spotting the HALO contrail from the RV METEOR. (*Photo by J.Ruppert*)
+
+```
+```{card}
+:img-top: /figures/blog_T17_2.jpg
+:img-alt: KingAir spotting RV METEOR.
+
+KingAir spotting RV METEOR. (*Photo by T.Carlsen*)
+
+```
+```{card}
+:img-top: /figures/blog_T17_3.png
+:img-alt: Whales spotted.
+
+Whales joining the coordination. (*Photo by D.Austen*)
+```
+````
+
+---
+## #T16
+
+*in construction...*
+
+---
+## #15 - First Impressions: Operating HAMP and Flying in HALO
+
+*written by Clara Bayley*
+
+I was first introduced to HALO at DLR for training before the transfer flight to SAL. Superficially, I liked the disconnect between the outside of the plane, which barring the unicorn horn looks like a private jet, and the inside, which looks something more like the inside of an American war plane in Vietnam War films. During the training though the sheer density of scientific instruments aboard HALO started to become apparent to me. In two days I learnt only the absolute essentials, and even then only about the radar, radiometer, and the dropsonde apparatus. Yet the complexity of each instrument went well beyond me and I felt like a kid again, following instructions from the manual word for word and needing to ask for help at the very first moment of doubt.
+
+I had my first experience flying on HALO during the transfer flight to SAL. To be honest it wasn’t all that climactic because I barely needed to do anything! I’d learnt the basics in order to be able to operate HAMP but I was the second (if not third) person on the plane who was in command of it, and so really all I did was watch the others and read my book. It didn’t help that we barely flew over any clouds that entire flight…
+
+As it turns out though, there couldn’t have been a better induction for me. At the last minute I was made the primary operator of HAMP on the first research flight and having so little experience I was naturally worried I might destroy one of the instruments and/or delete all the data by accident (two things which are, as I’d discovered during the training, surprisingly easy to do). But from watching the other members of the transfer flight, I’d picked up a few of the “tips and tricks” which make everything smooth and which no amount of training or manual reading can teach you. These things range from wearing long socks so you’re ankles don’t get cold all the way to what to name the folders for the radiometer data after each flight.
+
+By the great knowledge of those more experienced than me and a touch of good fortune, the first research flight was a great success. For me that wasn’t only because I’d done my job correctly but also because I’d started to learn more than just how to run the instruments I was assigned. I’d seen first hand the radar echos which flood the screen during deep convection, and what shallow precipitation and the melting level usually look like; I’d seen as well how the retrieval for column water vapour surged as we flew across the northern edge of the ITCZ. Those were some of the most fulfilling moments during my first experiences on HALO and I’ve only had more since.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogCB_T15_0.png
+:img-alt: HAMP calibration
+
+Holding the liquid nitrogen used to calibrate the radiometers aboard HALO while on training at DLR. (*Photo by E.Plesca*)
+
+```
+
+```{card}
+:img-top: /figures/blogCB_T15_1.png
+:img-alt: HAMP radar quicklook
+
+The radar reflectivity during the first research flight 15 minutes either side of the EarthCARE underpass.
+```
+
+```{card}
+:img-top: /figures/blogCB_T15_2.png
+:img-alt: Flying on HALO.
+
+Laughing as usual while on the sixth research flight. (*Photo by B. McKim*)
+
+```
+````
+
+---
+## #T14
+
+*in construction...*
 
 ---
 ## #T13
-
 
 This morning began in a rather unusual way, with the building of a large sand castle. It was the last day that we had three toddlers on Sal at the same time. So the opportunity was taken to strengthen the bond between the toddlers, and some of the adults helped to build the castle out of a mixture of sand and water with a few buckets and their bare hands. But to be honest, I think the person who came up with this idea just wanted to build a sand castle for himself and used the toddlers as an excuse.
  After this extraordinary morning, the third science seminar was on the agenda. This time, Martin Singh from Monash University, Australia, introduced us to his project on ITCZ edge intensification from the perspective of simplified modelling and how he could use the campaign data for his work. Basile Poujol from LMD/IPSL in France presented his PhD project on convective clouds and how considering them as dipoles could explain the near-cloud subsidence.
@@ -25,7 +129,6 @@ RV Meteor had reached the southern edge of the ITCZ and would begin turning nort
 
 
 ---
-
 ## #T12
 
 It's the twelfth day of the campaign and the first time all three aircraft have been in the air at the same time. The HALO flight was again ambitious. Five circles were flown - three circles to capture the ITCZ and two in coordination with the ATR - plus a turn to Mindelo to fly over the OSCM.
@@ -118,21 +221,13 @@ However, the ATR-42 completed its flight, meeting EarthCARE northwest of SAL. Ki
 After five days at sea, RV METEOR positioned itself along the EarthCARE orbit. Details of their daily oceanic and atmospheric measurements can be found in their [reports](https://orcestra-campaign.org/reports/METEOR-20240820.html).
 Later in the evening, an icebreaker event was organised to allow the scientific and ship's crew to connect outside the workspace.
 
-````{card-carousel} 2
-```{card}
-:img-top: /figures/blog_T10_0.jpg
-:img-alt: The CELLO Crew.
+```{figure} /figures/blog_T10_0.jpg
+:alt: CELLO in Praia.
+:width: 800px
+:align: center
 
-The CELLO Team. (*Photo by J. von Bismarck*)
+CELLO in Praia. (*Photo by J. von Bismarck*)
 ```
-
-```{card}
-:img-top: /figures/blog_T10_1.jpg
-:img-alt: Ice breaker event on RV Meteor.
-
-Ice breaker event on RV Meteor.(*Photo by D. Klocke*)
-```
-````
 
 ---
 ## #T9
@@ -156,6 +251,8 @@ RV METEOR continues to launch its radio sondes at 3-hour rhythm and is on course
 
 ---
 ## #Visit of the WASCAL students
+
+*written by Khevine R., Patience A. M., Hannah D., Joachim L., Nogaye D.*
 
 From August 11th to 17th, 2024, we the WASCAL Cabo Verde Students had the incredible opportunity to participate in the OCESTRA field campaign, an experience that was as enlightening as it was exciting. Coming from diverse backgrounds with little knowledge of meteorology, we were eager to dive into this new field, and the welcoming atmosphere made it all the more enjoyable.
 
@@ -472,6 +569,8 @@ Clouds from HALO (*Photo by H. Gloeckner*)
 
 ---
 ## CLARINET-01
+
+*written by Henriette G.*
 
 CLARINET is ready for the campaign start and to provide reference measurements from our stationary ground-based ACTRIS station at the OSCM at Mindelo.
 Already during the last two weeks, colleagues from TROPOS carried out maintenance at the instruments. Last week, we had the first crew change. For the duration of the campaign, the station will be permanently manned with two scientists from TROPOS to ensure the availability of the measurements and to fix problems immediately. Reaching this goal keeps us busy and we had to face already some shock moments when we woke up in the morning and recognized that the instruments did not measure during night due to power blackouts or internet breakdowns in the city.
