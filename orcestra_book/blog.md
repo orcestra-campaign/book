@@ -6,6 +6,27 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+---
+## #T18
+Day off for the planes.
+
+But before I close my laptop and take my day off under the burning sun and clear skies to prepare myself mentally for our beach volleyball tournament in the afternoon, I have to shout out the biggest success of the day: STRINQS came on board the RV METEOR! Without any complications, the team and the drones were towed by a tugboat to the research vessel waiting in the sea near the island. To show their goodwill, the STRINQS team even brought fresh bananas on board - so dear RV METEOR crew! Enjoy your day and celebrate this reunion!
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T18_0.jpg
+:img-alt: Spotting RV Meteor from Praia.
+
+Spotting RV Meteor from Praia. (*Photo by R.David*)
+```
+
+```{card}
+:img-top: /figures/blog_T18_1.jpg
+:img-alt: Welcoming STINQS.
+
+Welcome on board of the RV METEOR, Team STRINQS! (*Photo by D.Klocke*)
+```
+````
 
 ---
 ## #T17
