@@ -18,7 +18,7 @@ If you can't build your book, maybe some changes in the `environment.yml` were u
 You can update the environment as following:
 
 ```bash
-conda env update -f environment.yml
+conda update env -f environment.yml
 ```
 
 ## Can I execute the notebooks interactively?
