@@ -22,7 +22,8 @@ On ground days we offer science talks to share the work of the scientists.
 |                 |   Daniel Rowe (CMIH)             | The Relationship between Sea surface temperatures and tropical waves in the main developing region |
 |                 |   Chavez Pope (CMIH)             |Severe weather case catalogue for the Carribean  |
 |                 |                |                 |
-| 30 Aug, 11 LT   |     *tbd*      |  *tbd*          |
-|                 |     *tbd*      |  *tbd*          |
-|                 |     *tbd*      |  *tbd*          |
-
+| 30 Aug, 11 LT   |     Louis Netz (CNRS)      |  Organization of deep convection and morphology of tropical convective systems - Insights from satellite observations          |
+|                 |     Henriette Gebauer (TROPOS)      |  Preliminary results of CLARINET        |
+|                 |        |         |
+| 1 Sep, 10.15 LT |  ALL   | Preliminary results of different parts in ORCESTRA        |
+|                 |        |         |
