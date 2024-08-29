@@ -136,8 +136,12 @@ def annotate_time(ax, track, line):
 def plot_tracks(tracks, dates, ax):
     # plot tracks
     for date in dates:
+        if (time := tracks[date].time).size == 0:
+            # Don't attempt to plot tracks without data (e.g. night-time overpasses)
+            continue
+
         # check if earthcare crosses the box two times
-        diff_time = tracks[date].time.diff("time") > pd.Timedelta("1m")
+        diff_time = time.diff("time") > pd.Timedelta("1m")
         # plot two tracks if timedelta between datapoints is more than 1 minute
         if diff_time.max():
             idx_new_line = int(diff_time.argmax())
