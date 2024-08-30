@@ -1,9 +1,11 @@
 <!-- This file was created automatically -->
 # HALO
 
-```{admonition} How to plan a HALO flight
+```{admonition} How-to
 :class: info
-For an introduction to the HALO flight planning, [click here](../plans/howto)
+
+* [for mission PI and flight planning](../plans/howto)
+* [for Documentation Scientist](../plans/doc-sci)
 ```
 
 For an overview of all flight categories, [click here](flight_categories).
