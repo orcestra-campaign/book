@@ -110,7 +110,34 @@ Laughing as usual while on the sixth research flight. (*Photo by B. McKim*)
 ---
 ## #T14
 
-*in construction...*
+Today I visited the MAESTRO Radio Sonde (RS) team as they launched their balloons at the local meteorological institute, INMG.
+
+Looking back, I think the Radio Sonde team(s) should have had their own acronym. They are such a huge asset across all platforms:
+
+Members of MAESTRO, with some support from PERCUSION, launch RS every six hours on Sal without a day off. When HALO is flying, they even increase the frequency.
+Members of BOWTIE launch RS every three hours on their entire route across the Atlantic. And later in the campaign, PERCUSION/SCORE, supported by PICCOLO, will launch RS in Barbados at a frequency of six hours.
+Maybe something like HARP (High Ascending Radiosonde Profile) or BASS (Balloon Ascends Sonde Signal) would fit - it's really complicated to find a suitable instrument with a reasonable description...
+
+While I was fascinated by the RS team's use of a water bottle to estimate the amount of helium needed to fill the balloon - a very simple but very effective hack! - there was a meeting in parallel where the teams were talking about the scientific impetus and what they had observed so far. For example, why the observed precipitation water does not match the integrated water vapour, or why there were hardly any mesoconvective systems in the ITCZ, and some were surprised by the amount of dust in the ITCZ. Let's hope that some answers or explanations are hidden in the huge amount of data collected.
+
+The evening was accompanied by an open-air screening of a film about the local fishing community at the port of Palmeira, a town just north of Espargos - the largest town on Sal. The setting for the open-air screening was kept simple: Between the storage shed and the fishermen's workplace, we set up some plastic chairs borrowed from the snack bar next to the shed. The projection was onto a white sheet attached to a mesh wall that separated our screening from the snack bar TV. The two short videos shown were about the life and work of local fishermen in the Cape Verde Islands. The audience consisted of a few of us, some fishermen and curious locals. A discussion between some scientists and some fishermen followed the screening.
+
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T14_0.jpg
+:img-alt: RS - filling the balloon
+
+Filling the radio sonde balloon.
+```
+
+```{card}
+:img-top: /figures/blog_T14_1.jpg
+:img-alt: Open-air film screening.
+
+Open-air film screening.
+````
+
 
 ---
 ## #T13
