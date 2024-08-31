@@ -67,7 +67,44 @@ Whales joining the coordination. (*Photo by D.Austen*)
 ---
 ## #T16
 
-*in construction...*
+Today was a very successful flight day for MAESTRO! The initial flight track was designed to sample conditions behind the African Easterly Wave Trough. However, when they spotted some deep convective systems in reach, ATR decided to change their flight and left the originally planned track to follow the deep convective system to sample its development while flying around it. Judging by their reactions and expressions later that evening, they were very excited and it seemed to be one of their biggest successes so far.
+
+After this very successful day for MAESTRO, the previous SAFIRE crew is leaving with a big smile on their faces, while the new crew will build on this achievement and will embark on the next ones highly motivated.
+
+On a more general note, we have new guests from the Agence Nationale de l'Aviation Civile et de la Météorologie (ANACIM) in Senegal, who will be staying almost until the end of the MAESTRO part of the campaign to engage with their objectives.
+Today's scientific seminars were given by our two guests from the University of Leeds and two others from the CIMH in Barbados:  Ezri Alkilani-Brown is quantifying graupel in deep convective clouds, while Paula Romero Jure is investigating the physical drivers of the radiative effects of high clouds in the tropical Pacific.
+Chavez Pope showed us the ongoing catalogue of severe weather events for the Caribbean, while Daniel Row is investigating the relationship between SST and tropical waves in the main development region.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T16_0.png
+:img-alt: ATR went off course.
+
+ATR went off course. (*by E.Fons*)
+```
+
+```{card}
+:img-top: /figures/blog_T16_1.jpg
+:img-alt: Look out of the ATR.
+
+Look out of the ATR. (*Photo by G.Seurat*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T16_2.jpg
+:img-alt: Look out of the ATR 2.
+
+Look out of the ATR 2. (*Photo by S.Bony*)
+```
+
+```{card}
+:img-top: /figures/blog_T16_3.jpg
+:img-alt: Goodbye SAFIRE Team!
+
+Farewell to the first SAFIRE team. (*Photo by E.François*)
+```
+````
 
 ---
 ## #15 - First Impressions: Operating HAMP and Flying in HALO
