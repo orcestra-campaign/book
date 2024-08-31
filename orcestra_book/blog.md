@@ -7,6 +7,49 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T19 - Cloudscape Symphony
+
+*based on N. Rochetin observations while flying in HALO and put in shape with ChatGPT*
+
+
+Cirrus whispers above, \
+Deep towers rise to our left, \
+A skyline stretched, distorted, \
+Towers bending in zigzag shapes — \
+A surreal dance, a privilege to witness.
+
+The sky, sliced by delicate veils, \
+Thin layers of cloud, \
+Altocumulus drifting, slicing light. \
+Below, cumulus lines pop, \
+Scattered villages lost in the vast ocean.
+
+Far on the left, a clear line — \
+A shallow cloud horizon, fantastic, \
+While a CuNimb looms closer at ten, \
+Well-developed, brewing on the edge.
+
+Orographic clouds crown Cape Verde’s edge, \
+An anvil fading, memories above Praia. \
+For now, the sky is clear, \
+The ocean gazes up at us from below.
+
+But there, at eleven, deeper clouds gather, \
+And moisture thickens as we approach. \
+The sky shifts, telling its story — \
+A journey through layers of atmosphere.
+
+
+```{figure} /figures/blog_T19_0.jpg
+:alt: Clouds and Ocean
+:width: 800px
+:align: center
+
+Above the clouds -- below the ocen. (*Photo by J.Ruppert*)
+```
+
+
+---
 ## #T18
 Day off for the planes.
 
