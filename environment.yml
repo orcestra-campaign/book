@@ -29,6 +29,6 @@ dependencies:
   - zarr>=2.8.3
   - pip
   - pip:
-    - easygems>=0.0.3
-    - orcestra>=0.0.17
+    - easygems>=0.0.10
+    - orcestra>=0.0.19
     - pybtex-apa-style
