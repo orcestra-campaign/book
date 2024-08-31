@@ -6,6 +6,60 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+
+---
+## #T20
+
+It's 4.45am. Nine brave souls met at dawn in the wooden lobby, equipped with nothing more than what they were wearing. Their mission: To climb the highest mountain on the island: Monte Grande, with its impressive height of 405 metres. Their aim: to catch the sunrise over the island.
+
+The day was chosen wisely - or not. They managed to reach the top of the mountain, and fortunately there was no heat wave when they embarked on this adventure. But instead of achieving their initial goal, they have witnessed an even more spectacular phenomenon as the sky over Sal brightens: rain.
+
+For the less early risers among us, the day started as usual: with breakfast and the morning briefing, followed by a scientific seminar where Louis Netz introduced us to the method they use to identify cells in deep convective systems and how diverse the spatial organisation within the system can be. Some members of the CLARINET team joined us online and presented their preliminary results, where they have captured dust layers of different ages, partly covered by clouds, with Polly - their Raman lidar.
+
+The CLARINET presentation was a nice teaser for what is to come:  The seminar in two days, where different groups will present their preliminary results and attempts to answer some of the scientific questions they have faced during the course of the campaign and beyond.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T20_0.jpg
+:img-alt: Sunrise Hike.
+
+(*Photo by K.Peters*)
+
+```
+```{card}
+:img-top: /figures/blog_T20_1.jpg
+:img-alt: Sunrise Hike.
+
+(*Photo by B.Stevens*)
+
+```
+```{card}
+:img-top: /figures/blog_T20_2.jpg
+:img-alt: Sunrise Hike.
+
+(*Photo by C.Bayley*)
+```
+```{card}
+:img-top: /figures/blog_T20_3.jpg
+:img-alt: Sunrise Hike.
+
+(*Photo by B.Stevens*)
+```
+```{card}
+:img-top: /figures/blog_T20_4.jpg
+:img-alt: Sunrise Hike.
+
+(*Photo by J.Deutloff*)
+```
+
+```{card}
+:img-top: /figures/blog_T20_5.jpg
+:img-alt: Sunrise Hike.
+
+(*Photo by C.Bayley*)
+```
+````
+
 ---
 ## #T19 - Cloudscape Symphony
 
