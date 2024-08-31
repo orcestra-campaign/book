@@ -7,6 +7,49 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T19 - Cloudscape Symphony
+
+*based on N. Rochetin observations while flying in HALO and put in shape with ChatGPT*
+
+
+Cirrus whispers above, \
+Deep towers rise to our left, \
+A skyline stretched, distorted, \
+Towers bending in zigzag shapes — \
+A surreal dance, a privilege to witness.
+
+The sky, sliced by delicate veils, \
+Thin layers of cloud, \
+Altocumulus drifting, slicing light. \
+Below, cumulus lines pop, \
+Scattered villages lost in the vast ocean.
+
+Far on the left, a clear line — \
+A shallow cloud horizon, fantastic, \
+While a CuNimb looms closer at ten, \
+Well-developed, brewing on the edge.
+
+Orographic clouds crown Cape Verde’s edge, \
+An anvil fading, memories above Praia. \
+For now, the sky is clear, \
+The ocean gazes up at us from below.
+
+But there, at eleven, deeper clouds gather, \
+And moisture thickens as we approach. \
+The sky shifts, telling its story — \
+A journey through layers of atmosphere.
+
+
+```{figure} /figures/blog_T19_0.jpg
+:alt: Clouds and Ocean
+:width: 800px
+:align: center
+
+Above the clouds -- below the ocen. (*Photo by J.Ruppert*)
+```
+
+
+---
 ## #T18
 Day off for the planes.
 
@@ -67,7 +110,44 @@ Whales joining the coordination. (*Photo by D.Austen*)
 ---
 ## #T16
 
-*in construction...*
+Today was a very successful flight day for MAESTRO! The initial flight track was designed to sample conditions behind the African Easterly Wave Trough. However, when they spotted some deep convective systems in reach, ATR decided to change their flight and left the originally planned track to follow the deep convective system to sample its development while flying around it. Judging by their reactions and expressions later that evening, they were very excited and it seemed to be one of their biggest successes so far.
+
+After this very successful day for MAESTRO, the previous SAFIRE crew is leaving with a big smile on their faces, while the new crew will build on this achievement and will embark on the next ones highly motivated.
+
+On a more general note, we have new guests from the Agence Nationale de l'Aviation Civile et de la Météorologie (ANACIM) in Senegal, who will be staying almost until the end of the MAESTRO part of the campaign to engage with their objectives.
+Today's scientific seminars were given by our two guests from the University of Leeds and two others from the CIMH in Barbados:  Ezri Alkilani-Brown is quantifying graupel in deep convective clouds, while Paula Romero Jure is investigating the physical drivers of the radiative effects of high clouds in the tropical Pacific.
+Chavez Pope showed us the ongoing catalogue of severe weather events for the Caribbean, while Daniel Row is investigating the relationship between SST and tropical waves in the main development region.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T16_0.png
+:img-alt: ATR went off course.
+
+ATR went off course. (*by E.Fons*)
+```
+
+```{card}
+:img-top: /figures/blog_T16_1.jpg
+:img-alt: Look out of the ATR.
+
+Look out of the ATR. (*Photo by G.Seurat*)
+
+```
+
+```{card}
+:img-top: /figures/blog_T16_2.jpg
+:img-alt: Look out of the ATR 2.
+
+Look out of the ATR 2. (*Photo by S.Bony*)
+```
+
+```{card}
+:img-top: /figures/blog_T16_3.jpg
+:img-alt: Goodbye SAFIRE Team!
+
+Farewell to the first SAFIRE team. (*Photo by E.François*)
+```
+````
 
 ---
 ## #15 - First Impressions: Operating HAMP and Flying in HALO
@@ -110,7 +190,34 @@ Laughing as usual while on the sixth research flight. (*Photo by B. McKim*)
 ---
 ## #T14
 
-*in construction...*
+Today I visited the MAESTRO Radio Sonde (RS) team as they launched their balloons at the local meteorological institute, INMG.
+
+Looking back, I think the Radio Sonde team(s) should have had their own acronym. They are such a huge asset across all platforms:
+
+Members of MAESTRO, with some support from PERCUSION, launch RS every six hours on Sal without a day off. When HALO is flying, they even increase the frequency.
+Members of BOWTIE launch RS every three hours on their entire route across the Atlantic. And later in the campaign, PERCUSION/SCORE, supported by PICCOLO, will launch RS in Barbados at a frequency of six hours.
+Maybe something like HARP (High Ascending Radiosonde Profile) or BASS (Balloon Ascends Sonde Signal) would fit - it's really complicated to find a suitable instrument with a reasonable description...
+
+While I was fascinated by the RS team's use of a water bottle to estimate the amount of helium needed to fill the balloon - a very simple but very effective hack! - there was a meeting in parallel where the teams were talking about the scientific impetus and what they had observed so far. For example, why the observed precipitation water does not match the integrated water vapour, or why there were hardly any mesoconvective systems in the ITCZ, and some were surprised by the amount of dust in the ITCZ. Let's hope that some answers or explanations are hidden in the huge amount of data collected.
+
+The evening was accompanied by an open-air screening of a film about the local fishing community at the port of Palmeira, a town just north of Espargos - the largest town on Sal. The setting for the open-air screening was kept simple: Between the storage shed and the fishermen's workplace, we set up some plastic chairs borrowed from the snack bar next to the shed. The projection was onto a white sheet attached to a mesh wall that separated our screening from the snack bar TV. The two short videos shown were about the life and work of local fishermen in the Cape Verde Islands. The audience consisted of a few of us, some fishermen and curious locals. A discussion between some scientists and some fishermen followed the screening.
+
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T14_0.jpg
+:img-alt: RS - filling the balloon
+
+Filling the radio sonde balloon.
+```
+
+```{card}
+:img-top: /figures/blog_T14_1.jpg
+:img-alt: Open-air film screening.
+
+Open-air film screening.
+````
+
 
 ---
 ## #T13
@@ -322,7 +429,7 @@ The first Quicklooks had already been created by the instrument operators and ca
 :img-top: /figures/blog_T8_0.png
 :img-alt: ATR flights so far.
 
-Past ATR flights in one. (*Photo by N. Muray*)
+Past ATR flights in one. (*Photo by N. Maury*)
 
 ```
 
