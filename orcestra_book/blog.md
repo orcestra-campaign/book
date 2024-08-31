@@ -322,7 +322,7 @@ The first Quicklooks had already been created by the instrument operators and ca
 :img-top: /figures/blog_T8_0.png
 :img-alt: ATR flights so far.
 
-Past ATR flights in one. (*Photo by N. Muray*)
+Past ATR flights in one. (*Photo by N. Maury*)
 
 ```
 
