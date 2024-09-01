@@ -12,3 +12,17 @@ The whole dataset is stored on [Levante (DKRZ)](https://docs.dkrz.de/doc/levante
 
 ```{list-videos}
 ```
+
+<script>
+    let today = new Date();
+    // HACK: Simulations take a while... should be available with an 8-day offset
+    let week = new Date(1979, 1, 9) - new Date(1979, 1, 1);
+
+    document.querySelectorAll("#daily-simulations .reference.external").forEach(function(link) {
+        let linkDate = new Date(link.innerText);
+        // HACK: This should be replaced by properly checking an index of existing simulations
+        if (linkDate > (today - week)) {
+            link.parentNode.removeChild(link);
+        }
+    });
+</script>
