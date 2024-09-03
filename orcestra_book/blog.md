@@ -7,8 +7,47 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## CLARINET-02
+
+It is time again for an update from CLARINET and greetings from Mindelo. Since the Meteor left and all the others relocated to Sal, it feels quite empty here. The fact that Meteor started its trip means that the containership finally arrived. However, we are still waiting for our container, which is in the harbor of Mindelo since weeks and needs to be transported to the OSCM. This process is still ongoing as documents are missing and the responsible persons were on vacation. So, we continue waiting.
+
+During the last time, there were some days with rain at Mindelo and, generally, it is often cloudy. These are not optimal conditions for our lidar measurements, but for the cloud radar. However, some short cloud-free periods around some EarthCARE overpasses could be found and we also started to analyze our data for the periods of the different aircraft overflights. Comparisons with the data of CELLO and PERCUSION are already in progress. First preliminary results were presented in the science meetings last Friday and Sunday.
+
+Furthermore, this week, the last crew change at Mindelo takes place and leads us to the final phase of CLARINET. We will keep you updated!
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_CLARINET02_1.png
+:img-alt: Quicklook lidar.
+
+Raman lidar profiles for HALO-20240820a. (*by TROPOS*)
+```
+
+```{card}
+:img-top: /figures/blog_CLARINET02_2.png
+:img-alt: Case study lidar.
+
+Case study for HALO-20240820a. (*by TROPOS*)
+```
+````
+
+---
+## #T23
+
+Day off.
+
+---
+## #T22
+
+*1 September*
+
+---
 ## #T21
 
+Still in progress ...
+
+---
+## Special
 ### The dance of the ensemble lines - Ingenious system or pure chaos?
 
 <video width="700" controls="" poster="https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/ORCESTRA/static/tcwv-enfo-thumb.png">
