@@ -41,7 +41,7 @@ To manage the communication you should sit in the back with the dropsonde scient
  2. establish if the aircraft is steady on the track where the sondes are to be launhced. 
  3. identify hazards (e.g., weather, other aircrafts in the area) that might interrupt launching. 
 
- ### Track and documet launches:
+ ### Track and document launches:
 
  Here your role is to establish when drops should be made, and discuss with the dropsonde scientist when a lauch needs to be carried out.  To do this effectively it is important to track the aircraft heading, which could be a basis for dropping the sondes; watch the sonde spacing on Planet; and third, keep track of the time interval between sondes.
 
@@ -57,7 +57,7 @@ To manage the communication you should sit in the back with the dropsonde scient
   - confirm the 'launch detect' (with dropsonde scientist)
   - indicate if the launch was successful (launch detect), and if not respond as decided previously.
   - continue to monitor the evolving soundings to ensure it is collecing data.
-  - evaluate the data scientifically. Is their consistency around the circles? Do you see special features?
+  - evaluate the data scientifically. Is there consistency around the circles? Do you see special features?
   - discuss what you see with the sonde operator so that everyone remains alert.
   - if they aren't able to discuss with you because they are busy, let them. They don't let you wait on purpose.
 
@@ -65,4 +65,4 @@ To manage the communication you should sit in the back with the dropsonde scient
 
 The docu-scientist is responsible for the PI camera.  This means checking its readiness before the flight. Using it effectively to document conditions on the flight. And passing it to the HAMP operator at the end of the flight so that the data can be collected on the data-server.  
   
-In addition to photo-documentaiton the docu-scientist should maintain notes describing the evolving conditions, and documenting anomalies, also in the functioning of instrumentation or the execution of the flight plan. The docu-scientist can also be very helpful in managing communication within the flight, i.e., where we are on the circle, are their changes, can we change altitude, is this information being communicated to the crew? 
+In addition to photo-documentation the docu-scientist should maintain notes describing the evolving conditions, and documenting anomalies, also in the functioning of instrumentation or the execution of the flight plan. The docu-scientist can also be very helpful in managing communication within the flight, i.e., where we are on the circle, are there changes, can we change altitude, is this information being communicated to the crew? 
