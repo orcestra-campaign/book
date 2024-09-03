@@ -72,7 +72,8 @@ The CLARINET presentation was a nice teaser for what is to come:  The seminar in
 ````
 
 ---
-## #T19 - Cloudscape Symphony
+## #T19
+### Cloudscape Symphony
 
 *based on N. Rochetin observations while flying in HALO and put in shape with ChatGPT*
 
@@ -116,6 +117,7 @@ Above the clouds -- below the ocen. (*Photo by J.Ruppert*)
 
 ---
 ## #T18
+
 Day off for the planes.
 
 But before I close my laptop and take my day off under the burning sun and clear skies to prepare myself mentally for our beach volleyball tournament in the afternoon, I have to shout out the biggest success of the day: STRINQS came on board the RV METEOR! Without any complications, the team and the drones were towed by a tugboat to the research vessel waiting in the sea near the island. To show their goodwill, the STRINQS team even brought fresh bananas on board - so dear RV METEOR crew! Enjoy your day and celebrate this reunion!
@@ -138,6 +140,7 @@ Welcome on board of the RV METEOR, Team STRINQS! (*Photo by D.Klocke*)
 
 ---
 ## #T17
+
 I don't have too much to blog about today, as the routine that has settled in makes it sometimes difficult to get excited every day, or to keep the enthusiasm at the same level. But that's OK. Sometimes days just go by without any big events. We alternate between flight days and ground days. And you know when it's a flight day without looking at the calendar because the rooms are less crowded, while on a ground day almost everyone is there and it's hard to find a place to work without cuddling with the neighbour - I'm exaggerating.
 
 Anyway, sometimes it's a blessing in disguise. As the drones arrived very late and RV METEOR decided to change course and head back to the Cape Verde Islands to board STRINQS, we had a rare opportunity to coordinate across all the moving platforms: EarthCARE, HALO, ATR, KingAir and RV Meteor. Even the whales joined in, circling the RV Meteor in the ocean...
@@ -215,7 +218,8 @@ Farewell to the first SAFIRE team. (*Photo by E.François*)
 ````
 
 ---
-## #15 - First Impressions: Operating HAMP and Flying in HALO
+## #T15
+### First Impressions: Operating HAMP and Flying in HALO
 
 *written by Clara Bayley*
 
@@ -320,7 +324,8 @@ Example screenshot for a LAM simulation.
 
 
 ---
-## #T11 - All about radiosondes
+## #T11
+### All about radiosondes
 
 Rather than write about the ship or the aircrafts again, I would like to focus on an incredible talent among us. Enora Le Gall, part of the MAESTRO team, draws a comic strip describing the work of a radiosonde launcher. The launch of a radiosonde on land is regularly scheduled on a 6-hour frequency. On certain flight days, the frequency is increased to 3 hours.
 
@@ -422,7 +427,7 @@ RV METEOR continues to launch its radio sondes at 3-hour rhythm and is on course
 ```
 
 ---
-## #Visit of the WASCAL students
+## Visit of the WASCAL students
 
 *written by Khevine R., Patience A. M., Hannah D., Joachim L., Nogaye D.*
 
@@ -931,7 +936,8 @@ Airport in Sao Vicente, Cape Verde.
 ```
 
 ---
-## Kick-off ORCESTRA with a dry run
+## Kick-off
+###  Kick-off ORCESTRA with a dry run
 
 In eight sessions over the first weeks of 2024 a bunch of scientists across Europe and the United States met virtually. Atmospheric people faced oceanographic people, familiar faces greeted new faces, a new community was kicked-off: The ORCESTRA community.
 
