@@ -6,6 +6,17 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+---
+## #T21
+
+### The dance of the ensemble lines - Ingenious system or pure chaos?
+
+<video width="700" controls="" poster="https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/ORCESTRA/static/tcwv-enfo-thumb.png">
+  <source src="https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/ORCESTRA/static/tcwv-enfo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Sequence of images showing the IFS ensemble forecast for the integrated water vapor.  *Credits: L. Kluft*
 
 ---
 ## #T20
