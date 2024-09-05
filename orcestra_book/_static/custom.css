@@ -46,6 +46,17 @@ html {
     --pst-font-family-base: Aileron, var(--pst-font-family-base-system);
 }
 
+.bd-footer-content__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-item {
+    flex: 1 0 auto;
+}
+
 .badge {
   display: inline-block;
   padding: 0.25em 0.5em;
