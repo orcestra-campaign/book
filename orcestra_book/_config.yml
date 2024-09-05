@@ -50,3 +50,7 @@ html:
   use_repository_button: true
   home_page_in_navbar: false
   favicon: "logos/orcestra_favicon.png"
+  extra_footer: |
+    <p>
+    ORCESTRA is endorsed by GEWEX and WCRP
+    </p>
