@@ -8,6 +8,7 @@ import zoneinfo
 
 import yaml
 import jinja2
+from icalendar import Calendar, Event
 
 from orcestra.utils import load_frontmatter, parse_datestr
 from sphinx.util import logging
@@ -206,10 +207,63 @@ def check_flight_plan(app=None):
                 )
 
 
+def create_calendar(name, lang="EN"):
+    """Createa an empty iCal calendar"""
+    cal = Calendar()
+    cal.add("prodid", f"-//orcestra-campaign.org//{lang}")
+    cal.add("version", "2.0")
+    cal.add("x-wr-calname", name)
+    cal.add("REFRESH-INTERVAL;VALUE=DURATION", "P1D")
+
+    return cal
+
+
+def create_event(title, start, end, location):
+    """Create an iCal calendar event."""
+    event = Event()
+    event.add("summary", title)
+    event.add("uid", title)  # flight ids **must** be unique
+    event.add("dtstamp", datetime.datetime.now(datetime.UTC))
+    event.add("dtstart", start.astimezone(datetime.UTC))
+    event.add("dtend", end.astimezone(datetime.UTC))
+    event.add("location", location)
+
+    return event
+
+
+def export_flight_calendar(app):
+    src = pathlib.Path(app.srcdir)
+    with open(src / "operation" / "airport_info.yaml", "r") as fp:
+        airport_info = yaml.safe_load(fp)
+
+    metadata = collect_all_metadata(src)
+    frontmatters = {
+        k: consolidate_metadata(src, v)
+        for k, v in sorted(metadata.items(), reverse=True)
+        if "plan" in v and "flight_id" in v["plan"]
+    }
+
+    cal = create_calendar("ORCESTRA flight calendar")
+    for flight_id, md in frontmatters.items():
+        event = create_event(
+            title=flight_id,
+            start=md["takeoff"],
+            end=md["landing"],
+            location=airport_info.get(md["departure_airport"], {}).get(
+                "name", md["departure_airport"]
+            ),
+        )
+        cal.add_component(event)
+
+    with open(src / "operation" / "flights.ics", "wb") as fp:
+        fp.write(cal.to_ical())
+
+
 def setup(app):
     app.connect("builder-inited", write_flight_table)
     app.connect("builder-inited", write_ship_table)
     app.connect("builder-inited", check_flight_plan)
+    app.connect("builder-inited", export_flight_calendar)
 
     return {
         "version": "0.1",
