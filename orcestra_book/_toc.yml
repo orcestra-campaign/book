@@ -29,6 +29,7 @@ chapters:
     - file: operation/halo
     - file: operation/rvmeteor
     - file: operation/kingair
+    - file: flightplan_docs
 - file: data
   sections:
     - file: data_policy
