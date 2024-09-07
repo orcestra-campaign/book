@@ -46,7 +46,20 @@ Working on this too...
 ---
 ## #T21
 
-Still in progress ...
+Remember the idea that came up in the #T14 post? To create an acronym for the radio sounding team? People took it up and the brainstorming went on and on, ending up with SONATA - *Sounding Observations of the North Atlantic Tropical Atmosphere*.
+
+A really apt acronym, especially as it encompasses all sounding measurements - ascending and descending, dropped from an aircraft or lifted by a balloon. A sonata played by almost all the components of our ORCESTRA.
+
+The rest of the campaign followed a familiar rhythm. All the moving platforms were well orchestrated. RV METEOR swam along the EarthCare track, where HALO could overtake it, and then arranged a tandem flight with ATR, guided by KingAir. The latter two aircraft flew underneath the German aircraft, taking in-situ measurements of aerosols and clouds, after it had come back into range from sampling a rather narrow ITCZ.
+
+```{figure} /figures/blog_T21_0.jpeg
+:alt: Launch of radiosondes at INMG
+:width: 800px
+:align: center
+
+Launching radio sondes. (*Photo by MAESTRO*)
+```
+
 
 ---
 ## Special
