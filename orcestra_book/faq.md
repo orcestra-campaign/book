@@ -12,7 +12,7 @@ conda activate orcestra_book
 ipython3 -m ipykernel install --user --name orcestra_book
 ```
 
-## How to update the orcestra_book environmeny?
+## How to update the `orcestra_book` environment?
 
 If you can't build your book, maybe some changes in the `environment.yml` were undertaken.
 You can update the environment as following:
@@ -20,6 +20,14 @@ You can update the environment as following:
 ```bash
 conda update env -f environment.yml
 ```
+
+Please note, that sometimes a fresh install of the environment is a more robust approach.
+Simply remove your existing environment by running:
+```bash
+conda env remove -n orcestra_book
+```
+and re-install it using the `environment.yaml`.
+Your ipython kernels should still be able to find the "new" environment.
 
 ## Can I execute the notebooks interactively?
 
