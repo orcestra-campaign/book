@@ -39,9 +39,14 @@ Day off.
 ---
 ## #T22
 
-*1 September*
+It's the 1st of September. Just 24 days to go before RV Meteor - BOWTIE, PICCOLO and STRINQS - arrive in Barbados, ten days for MAESTRO and CELLO to continue their missions, five days before PERCUSION moves to Barbados and when SCORE will join them.
+CLARINET and SONATA continue as usual.
 
-Working on this too...
+Today we spent 2.5 hours before lunch looking at Quicklooks and discussing preliminary results. The session was intense and we went over time, but in the end it just showed the amount of work that has been done in the last three and a half weeks of the campaign. We had 19 different presentations, ranging from small videos showing the rise of a deep convective cell, to highlighting events of specific flight days, to categorising flight missions under different aspects. For the moment, the presentations are stored and accessible [here](https://owncloud.gwdg.de/index.php/s/4Qi9eab23Msjp4H).
+Imagine what more will be discovered when people actually have time to look at the data.
+
+Besides quicklooks and preliminary results, some have started to set up or improve workflows for data processing, e.g. for [*dropsondes*](https://github.com/orcestra-campaign/dropsondes) using the [*pydropsonde package*](https://github.com/atmdrops/pydropsonde) or a way to [how to process HAMP](https://github.com/JakobDeutloff/hamp_processing) - the radar and radiometer we have on the German aircraft.
+
 
 ---
 ## #T21
