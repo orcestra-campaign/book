@@ -7,6 +7,32 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T24
+
+Today was the last chance to orchestrate between all the moving platforms: RV METEOR managed to stay right in the middle of the centre circle. On its way back, HALO managed to overfly the KingAir and flew a circle around the ATR - again capturing some nice mesoscale convection along the way. Although construction work at the airport in the morning delayed HALO by about 30 minutes, it missed the EarthCARE underpass at the planned meeting point, but was caught close to RV METEOR - such a rare opportunity to see the vertical structure of the atmosphere from the outside of the Earth down to the surface.
+Here is a collection and estimation of some numbers during ORCESTRA so far:
+
+The campaign involves a collaboration across 4 continents, 30 nations, over 210 people from 50 institutions, including scientists, technicians, the flight crew, the ship's crew and many more.
+
+We've deployed about 120 radiosondes on Sal, another 156 radiosondes from the RV METEOR and dropped more than 542 radiosondes from the aircraft.
+
+In total, we had 39 research flights in 4 weeks, ranging from 2 to 10 flight hours, and passed EarthCARE 28 times.
+
+So far, STRINQS has flown 15 drones and made almost 90 oceanographic measurements (CTD - conductivity, temperature and depth measurements - and MSS - microstructure measurements in the ocean).
+
+There are also countless lidar and radar scans, radiometer measurements, spectral images and much more. I'm sure I've forgotten many instruments and measurements, but it's almost impossible to keep track of them all.
+
+And the campaign has just passed the halfway mark!
+
+```{figure} /figures/blog_T24_0.jpg
+:alt: Group photo Sal
+:width: 800px
+:align: center
+
+Group photo of the participants on Sal. (*Photo by T.Vostry*)
+```
+
+---
 ## CLARINET-02
 
 It is time again for an update from CLARINET and greetings from Mindelo. Since the Meteor left and all the others relocated to Sal, it feels quite empty here. The fact that Meteor started its trip means that the containership finally arrived. However, we are still waiting for our container, which is in the harbor of Mindelo since weeks and needs to be transported to the OSCM. This process is still ongoing as documents are missing and the responsible persons were on vacation. So, we continue waiting.
