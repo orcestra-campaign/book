@@ -1,5 +1,16 @@
 # Technical FAQ
 
+## How to create a local python environment?
+
+The ORCESTRA book [repository](http://github.com/orcestra-campaign/book) comes
+with an `environment.yml` that describes all Python packages that are needed to
+build the website.  You can createa a Python environment with all dependencies by
+using, e.g., `conda`:
+
+```bash
+conda env create -f environment.yml
+```
+
 ## How to use the build environment in Jupyter lab?
 
 If you are using Jupyter notebooks/lab to run Python code on your machine, you
