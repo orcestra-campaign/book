@@ -12,14 +12,14 @@ Most tropical rain is concentrated within a narrow latitudinal band known as the
 
 These variations in the ITCZ have been linked to changes in the atmosphere's energy balance, but this balance is itself hard to constrain --- it depends on mesoscale circulations which are notoriously difficult to measure (vertical winds are usually an order of magnitude smaller than horizontal winds). Without these observations, we are unable to constrain our theories and computer simulations, limiting our ability to predict future changes in the width and position of the ITCZ.
 
-Will the islands of Cape Verde, which lie at the edge of the ITCZ, get wetter or dryer in the next 50 years? What about about the Sahel? We cannot yet confidently say what will happen.
+Will the islands of Cape Verde, which lie at the edge of the ITCZ, get wetter or dryer in the next 50 years? What about the Sahel? We cannot yet confidently say what will happen.
 
-To break this deadlock, one of PERCUSION's scientific objectives is to measure the mesoscale vertical velocity $w$ at the center and edges of the ITCZ. Variability in $w$ will be characterized over 20+ flights between August and October in the East and West Atlantic. This will allow, for the first time, a process-level observational estimate of the ITCZ's circulation and energy export. With this information, we will be able to peer into the inner life of the ITCZ and understand why it billows and blows.
+To break this deadlock, one of PERCUSION's scientific objectives is to measure the mesoscale vertical velocity $w$ at the center and edges of the ITCZ. Variability in $w$ will be characterized over 20+ flights in August and September in the East and West Atlantic. This will allow, for the first time, a process-level observational estimate of the ITCZ's circulation and energy export. With this information, we will be able to peer into the inner life of the ITCZ and understand why it billows and blows.
 
 ```{admonition} Knowledge Check
 :class: tip dropdown
 
-Want to learn more? Then you are in the right place. Our goal here is to provide a minimal introduction to the science that motivates PERCUSION.
+Want to learn more? Then you are in the right place. Our goal here is to provide a minimal introduction to the science that motivates [PERCUSION](percusion.md).
 ```
 ### Energetic constraints on the ITCZ
 The ITCZ rainfall is fed by warm and moist surface trade winds. Their convergence leads to deep convective clouds that precipitate and detrain in the upper troposphere. This divergent air then sinks in the subtropics and returns to the ITCZ as a surface flow, completing the meridional Hadley circulation (Figure 1).
@@ -35,7 +35,7 @@ Thus, if one can understand where moist static energy is being exported ($\parti
 ```{admonition} Caution
 :class: warning dropdown
 
-The trouble is, as will soon see, that these theories are hard to constrain theoretically and observationally, which limits our ability to predict future changes in rainfall. Relevant questions such as how the width of the ITCZ change as a function of longitude also remain unclear. This calls for the need to improve our observations of moist static energy export and its efficiency.
+The trouble is, as we will soon see, that these theories are hard to constrain theoretically and observationally, which limits our ability to predict future changes in rainfall. Relevant questions such as how the width of the ITCZ change as a function of longitude also remain unclear. This calls for the need to improve our observations of moist static energy export and its efficiency.
 
 ```
 
@@ -87,12 +87,12 @@ The trouble with the energetic constraints on the ITCZ is that $\mathcal{M}$ dep
 ### The role of PERCUSION
 To overcome this challenge, PERCUSION seeks to measure the mesoscale circulations within and at the edges of the ITCZ. The key hypothesis is that measuring these circulations and their occurrence frequency, along with calculating the energy export, will advance our understanding of the changes in width and location of the ITCZ and improve our predictions of future rainfall.
 
-To do this, PERCUSSION follows the successful application of dropsonde circles during the EUREC4A campaign to infer mesoscale circulations (Bony, 2017). Dropsonde circles of about 130 km in radius will be placed at the center and the edges of the ITCZ on each of the 20+ flights planned for August - October 2024. The dropsondes measure the horizontal wind as a function of height (via a gps tracking the drift of the sonde), and then the mesocale vertical wind of the entire circle can be inferred from the divergence theorem.
+To do this, PERCUSION follows the successful application of dropsonde circles during the EUREC4A campaign to infer mesoscale circulations (Bony, 2017). Dropsonde circles of about 130 km in radius will be placed at the center and the edges of the ITCZ on each of the 20+ flights planned for August - September 2024. The dropsondes measure the horizontal wind as a function of height (via a gps tracking the drift of the sonde), and then the mesocale vertical wind of the entire circle can be inferred from the divergence theorem.
 
 ![](./figures/doldrums_hypotheses.jpg)
 *Figure 7. Potential causes for the low-wind speed events known as the "doldrums". Credit: Julia Windmiller.*
 
-In addition to pursuing a better understanding of the ITCZ, PERCUSSION hopes to use these budgets of moist static energy and observed mesoscale circulations to test hypothesized controls on convective aggregation such as the up-gradient horizontal transfer of moist static energy (Muller, 2022); and to test hypothesized circulation controls on the doldrums such as the association between subsiding air and surface wind divergence (Figure 7 and Windmiller, 2024).
+In addition to pursuing a better understanding of the ITCZ, PERCUSION hopes to use these budgets of moist static energy and observed mesoscale circulations to test hypothesized controls on convective aggregation such as the up-gradient horizontal transfer of moist static energy (Muller, 2022); and to test hypothesized circulation controls on the doldrums such as the association between subsiding air and surface wind divergence (Figure 7 and Windmiller, 2024).
 
 With PERCUSION, the ITCZ's inner life will be characterized to a degree not seen since the GATE field campaign took place exactly fifty years ago (Frank, 1983). GATE took place at the dawn of the era of General Circulation Models to help guide their development and use for understanding global climate change. Is it not fitting that PERCUSION will take place at the dawn of the era of Global Storm Resolving Models, guiding their development and helping us to understand regional climate change?
 
