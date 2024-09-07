@@ -49,3 +49,25 @@ modify the notebook, the underlying markdown file is automatically synchronized.
 
 _Note: This requires `jupterlab` and `jupytext` being installed, which if you 
 are using an old environment might not be true._
+
+
+## How to speedup execution of code cells
+
+Some code cells (e.g. in flight planning) need to fetch data from external
+servers. On slow Internet connections, this can increase the execution time of
+your code cells.
+
+You can speed this up by setting up a persistent local cache for `fsspec`. This
+can be done by modifying (or creating) the `fsspec` configuration file
+(`~/.config/fsspec/conf.json`):
+```
+{
+  "simplecache": {
+    "cache_storage": "/tmp/intake-cache"
+  }
+}
+```
+The above configuration enables a local cache in your `/tmp' directory. This
+cache should be persistent across kernel reboots, but should still be flushed
+by your operating system from time to time. You can use any other path if you
+want a fully persistent cache.
