@@ -7,6 +7,32 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T24
+
+Today was the last chance to orchestrate between all the moving platforms: RV METEOR managed to stay right in the middle of the centre circle. On its way back, HALO managed to overfly the KingAir and flew a circle around the ATR - again capturing some nice mesoscale convection along the way. Although construction work at the airport in the morning delayed HALO by about 30 minutes, it missed the EarthCARE underpass at the planned meeting point, but was caught close to RV METEOR - such a rare opportunity to see the vertical structure of the atmosphere from the outside of the Earth down to the surface.
+Here is a collection and estimation of some numbers during ORCESTRA so far:
+
+The campaign involves a collaboration across 4 continents, 30 nations, over 210 people from 50 institutions, including scientists, technicians, the flight crew, the ship's crew and many more.
+
+We've deployed about 120 radiosondes on Sal, another 156 radiosondes from the RV METEOR and dropped more than 542 radiosondes from the aircraft.
+
+In total, we had 39 research flights in 4 weeks, ranging from 2 to 10 flight hours, and passed EarthCARE 28 times.
+
+So far, STRINQS has flown 15 drones and made almost 90 oceanographic measurements (CTD - conductivity, temperature and depth measurements - and MSS - microstructure measurements in the ocean).
+
+There are also countless lidar and radar scans, radiometer measurements, spectral images and much more. I'm sure I've forgotten many instruments and measurements, but it's almost impossible to keep track of them all.
+
+And the campaign has just passed the halfway mark!
+
+```{figure} /figures/blog_T24_0.jpg
+:alt: Group photo Sal
+:width: 800px
+:align: center
+
+Group photo of the participants on Sal. (*Photo by T.Vostry*)
+```
+
+---
 ## CLARINET-02
 
 It is time again for an update from CLARINET and greetings from Mindelo. Since the Meteor left and all the others relocated to Sal, it feels quite empty here. The fact that Meteor started its trip means that the containership finally arrived. However, we are still waiting for our container, which is in the harbor of Mindelo since weeks and needs to be transported to the OSCM. This process is still ongoing as documents are missing and the responsible persons were on vacation. So, we continue waiting.
@@ -39,14 +65,32 @@ Day off.
 ---
 ## #T22
 
-*1 September*
+It's the 1st of September. Just 24 days to go before RV Meteor - BOWTIE, PICCOLO and STRINQS - arrive in Barbados, ten days for MAESTRO and CELLO to continue their missions, five days before PERCUSION moves to Barbados and when SCORE will join them.
+CLARINET and SONATA continue as usual.
 
-Working on this too...
+Today we spent 2.5 hours before lunch looking at Quicklooks and discussing preliminary results. The session was intense and we went over time, but in the end it just showed the amount of work that has been done in the last three and a half weeks of the campaign. We had 19 different presentations, ranging from small videos showing the rise of a deep convective cell, to highlighting events of specific flight days, to categorising flight missions under different aspects. For the moment, the presentations are stored and accessible [here](https://owncloud.gwdg.de/index.php/s/4Qi9eab23Msjp4H).
+Imagine what more will be discovered when people actually have time to look at the data.
+
+Besides quicklooks and preliminary results, some have started to set up or improve workflows for data processing, e.g. for [*dropsondes*](https://github.com/orcestra-campaign/dropsondes) using the [*pydropsonde package*](https://github.com/atmdrops/pydropsonde) or a way to [how to process HAMP](https://github.com/JakobDeutloff/hamp_processing) - the radar and radiometer we have on the German aircraft.
+
 
 ---
 ## #T21
 
-Still in progress ...
+Remember the idea that came up in the #T14 post? To create an acronym for the radio sounding team? People took it up and the brainstorming went on and on, ending up with SONATA - *Sounding Observations of the North Atlantic Tropical Atmosphere*.
+
+A really apt acronym, especially as it encompasses all sounding measurements - ascending and descending, dropped from an aircraft or lifted by a balloon. A sonata played by almost all the components of our ORCESTRA.
+
+The rest of the campaign followed a familiar rhythm. All the moving platforms were well orchestrated. RV METEOR swam along the EarthCare track, where HALO could overtake it, and then arranged a tandem flight with ATR, guided by KingAir. The latter two aircraft flew underneath the German aircraft, taking in-situ measurements of aerosols and clouds, after it had come back into range from sampling a rather narrow ITCZ.
+
+```{figure} /figures/blog_T21_0.jpeg
+:alt: Launch of radiosondes at INMG
+:width: 800px
+:align: center
+
+Launching radio sondes. (*Photo by MAESTRO*)
+```
+
 
 ---
 ## Special
