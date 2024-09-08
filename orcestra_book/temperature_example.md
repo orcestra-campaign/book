@@ -18,7 +18,7 @@ Let's see how temperature readings at BCO compare with the ERA5 reanalysis:
 
 ```{code-cell} ipython3
 import intake
-import healpy as hp
+import healpix as hp
 import matplotlib.pylab as plt
 
 cat = intake.open_catalog("https://tcodata.mpimet.mpg.de/internal.yaml")
