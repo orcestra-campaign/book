@@ -30,5 +30,5 @@ dependencies:
   - pip
   - pip:
     - easygems>=0.0.10
-    - orcestra>=0.0.19
+    - orcestra>=0.0.21
     - pybtex-apa-style
