@@ -36,6 +36,8 @@
 
 ````
 
+<a href="webcal://orcestra-campaign.org/flights.ics"><i class="fas fa-calendar-alt"></i> ORCESTRA flight calendar</a>
+
 ```{admonition} Airpot restrictions - Sal
 :class: warning dropdown
 
