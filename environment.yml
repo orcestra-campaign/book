@@ -10,7 +10,7 @@ dependencies:
   - docutils
   - fsspec!=0.9.0 # 0.9.0 has a bug which leads to incomplete reads via HTTP
   - geopy
-  - healpy>=1.16.3
+  - healpix
   - intake-xarray
   - intake[dataframe]<2.0.0 # since intake 0.6.1 to_dask() doesn't work anymore without the [dataframe] specification due to a missing msgpack dependency
   - ipykernel
@@ -29,6 +29,6 @@ dependencies:
   - zarr>=2.8.3
   - pip
   - pip:
-    - easygems>=0.0.10
+    - easygems>=0.0.11
     - orcestra>=0.0.21
     - pybtex-apa-style
