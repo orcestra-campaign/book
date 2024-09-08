@@ -11,7 +11,7 @@ kernelspec:
 
 +++ {"editable": true, "slideshow": {"slide_type": ""}}
 
-# flight plan python docs
+# Flight plan docs (Python)
 
 The `orcestra.flightplan` module provides a few functions to create flight plans in declarative and constructive style. It is based on defining waypoints and circles, forming a flight path.
 
