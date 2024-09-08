@@ -30,7 +30,7 @@ If you don't have the package installed, you can run the code cell below to inst
 First, let's import all packages that are required to run the full notebook.
 ```{code-cell} ipython3
 import intake
-import healpy as hp
+import healpix as hp
 import cmocean
 import numpy as np
 import xarray as xr
@@ -69,10 +69,6 @@ cat.HERA5.to_dask().pipe(egh.attach_coords)
 
 ## Plotting examples
 
-The below plotting examples show some typical usecases and the respective [`healpy`](https://healpy.readthedocs.io/en/latest/index.html) functions that are frequently used in the analysis.
-
-+++
-
 ### 2m temperature at the BCO in Aug-Sep 2020
 
 We would like to plot the 2m air temperature at one location, the BCO, in August and September 2020.
@@ -82,7 +78,7 @@ For this rather short time period, we would like to work with the hourly data. T
 era5 = cat.HERA5(time="PT1H").to_dask().pipe(egh.attach_coords)
 ```
 
-Next, we select the cell index that is the nearest neighbor to the BCO location using [`healpy.ang2pix()`](https://healpy.readthedocs.io/en/latest/generated/healpy.pixelfunc.ang2pix.html#healpy.pixelfunc.ang2pix).
+Next, we select the cell index that is the nearest neighbor to the BCO location using `healpix.ang2pix()`.
 ```{code-cell} ipython3
 i_bco = hp.ang2pix(
     egh.get_nside(era5),
@@ -144,24 +140,19 @@ ax.set_title("Relative humidity profile on 2020-08-20 (ORCESTRA region)")
 
 ### A snapshot of global SST
 
-using the [healpy.mollview()](https://healpy.readthedocs.io/en/latest/generated/healpy.visufunc.mollview.html) function
-
 ```{code-cell} ipython3
-hp.mollview(
+egh.healpix_show(
     era5["sst"].sel(time="2020-08-01T12:00:00", method="nearest"),
-    title="global SST on 2020-01-08 12:00",
     nest=egh.get_nest(era5),
-    flip="geo",
-    min=273,
-    max=303,
+    vmin=273,
+    vmax=303,
     cmap="cmo.thermal",
-    unit=era5["sst"].units,
 )
 ```
 
 ## Plotting the Atlantic basin only
 
-The `healpy` package only provides functions to plot the whole globe. However, in real-life analyses it is often necessary to constrain a plot to certain regions. The function `easygems.healpix_show()` allows to plot two-dimensional data onto a cartopy `GeoAxis` with arbitrary projection and extent.
+In real-life analyses it is often necessary to constrain a plot to certain regions. The function `easygems.healpix_show()` allows to plot two-dimensional data onto a cartopy `GeoAxis` with arbitrary projection and extent.
 
 ```{code-cell} ipython3
 era5 = cat.HERA5(time="P1M").to_dask().pipe(egh.attach_coords)
@@ -171,7 +162,7 @@ fig, ax = plt.subplots(figsize=(10, 6), subplot_kw={"projection": ccrs.PlateCarr
 ax.set_extent([-65, -5, -10, 25])
 ax.coastlines(lw=0.8)
 im = egh.healpix_show(
-    var.sel(time="2020-08").values,
+    var.sel(time="2020-08", method="nearest").values,
     method="linear",
     cmap="cmo.rain",
     vmin=0,
@@ -181,6 +172,5 @@ fig.colorbar(im, label=f"{var.long_name} / {var.units}", shrink=0.7)
 
 ## Further reading
 * The HEALPix grid: [A short intro](https://easy.gems.dkrz.de/Processing/healpix/index.html#healpix)
-* [The `healpy` python package](https://healpy.readthedocs.io/en/latest/index.html)
 
 [^ack]: Contains modified Copernicus Climate Change Service information 2020. Neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.
