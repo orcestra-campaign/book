@@ -28,7 +28,7 @@ The access and usage of the data is the same as for [HERA5](hera5.md), which you
 First, let's import all packages that are required to run the full notebook.
 ```{code-cell} ipython3
 import intake
-import healpy as hp
+import healpix as hp
 import cmocean
 import numpy as np
 import xarray as xr
@@ -51,10 +51,6 @@ ds
 +++
 
 ## Plotting examples
-
-The below plotting examples show some typical usecases and the respective [`healpy`](https://healpy.readthedocs.io/en/latest/index.html) functions that are frequently used in the analysis.
-
-+++
 
 ### 2m temperature at the BCO
 
