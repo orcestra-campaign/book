@@ -22,6 +22,7 @@ The job of the PI on HALO is to:
 ### Creating a flight plan
 
 Once you know what you want to do in principle it needs to be made precise.  This is usually done using standardized elements, such a legs, circles, etc..  The essential element of a flight plan is a waypoint in the form a LatLon object as this is the basis of communication with ATC.  Waypoints can be discarded during a flight, but they are difficult to add on the fly.  Adding more waypoints ahead of time builds in flexibility, but adding too many can be a source of confusion.
+For an overview of the `FlightPlan` Python API, please have a look at {doc}`../flightplan_docs`.
 
   - Be mindful of the standard elements (ec_under, ec_track, c_north, c_mid, c_south)
   - Be mindful of the general rule of flying the circles after the transect, this can be important to ensure we have enough time to get ATC permission for the circle and drops.
