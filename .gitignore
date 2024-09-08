@@ -4,6 +4,7 @@ _build
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints
+.git_token
 
 # Auto-generated files
 orcestra_book/operation/*
