@@ -8,13 +8,15 @@ orphan: true
 ![](./figures/ITCZ_ferrel.jpg)
 *Figure 1. William Ferrel's schematic depiction of Earth’s surface wind. Figure taken from Birner et al, 2014 and adapted from Ferrel, 1856.*
 
+PERCUSION aims to answer a grand question of climate science (Bony et al, 2015): what controls the position, strength, and variability of tropical rainbelts?
+
 Most tropical rain is concentrated within a narrow latitudinal band known as the Inter-Tropical Convergence Zone (ITCZ). This band shifts in position, width and longitude on timescales from days to millenia, with consequences for the billions of people who live within its reach.
 
 These variations in the ITCZ have been linked to changes in the atmosphere's energy balance, but this balance is itself hard to constrain --- it depends on mesoscale circulations which are notoriously difficult to measure (vertical winds are usually an order of magnitude smaller than horizontal winds). Without these observations, we are unable to constrain our theories and computer simulations, limiting our ability to predict future changes in the width and position of the ITCZ.
 
 Will the islands of Cape Verde, which lie at the edge of the ITCZ, get wetter or dryer in the next 50 years? What about the Sahel? We cannot yet confidently say what will happen.
 
-To break this deadlock, one of PERCUSION's scientific objectives is to measure the mesoscale vertical velocity $w$ at the center and edges of the ITCZ. Variability in $w$ will be characterized over 20+ flights in August and September in the East and West Atlantic. This will allow, for the first time, a process-level observational estimate of the ITCZ's circulation and energy export. With this information, we will be able to peer into the inner life of the ITCZ and understand why it billows and blows.
+To break this deadlock, one of PERCUSION's scientific objectives is to measure the mesoscale vertical velocity $w$ at the center and edges of the ITCZ. Variability in $w$ will be characterized over 20+ flights in August and September in the East and West Atlantic. When these dynamics are connected with quantties such as vorticity, divergence, surface fluxes and radiative heating, this will allow, for the first time, a process-level observational estimate of the ITCZ's circulation and energy export. With this information, we will be able to peer into the inner life of the ITCZ and understand why it billows and blows.
 
 ```{admonition} Knowledge Check
 :class: tip dropdown
@@ -24,7 +26,9 @@ Want to learn more? Then you are in the right place. Our goal here is to provide
 ### Energetic constraints on the ITCZ
 The ITCZ rainfall is fed by warm and moist surface trade winds. Their convergence leads to deep convective clouds that precipitate and detrain in the upper troposphere. This divergent air then sinks in the subtropics and returns to the ITCZ as a surface flow, completing the meridional Hadley circulation (Figure 1).
 
-To better understand the location and width of the ITCZ, it is helpful to consider energetic constraints. 
+The ITCZ is an emergent feature of Earth's atmosphere, one that involves precipitation, clouds, and winds. We could look at each of these quantities in isolation to study the ITCZ, but doing so would provide an incomplete picture, as in the story of blinfolded men describing an elephant. (One feels its tail and reports that the elephant is thin and ropy, one feels the side and reports that it is broad and leathery, etc.)
+
+To better understand the location and width of this emergent feature, it is helpful to start by considering energetic constraints which let us gloss over the intricate details of precipitation, clouds, and winds. (Later on, we will look at how these "details" can modify or complement energetic constraints.)
 
 For instance, the ITCZ receives more energy from the sun than it emits back out to space in the zonal- and annual-mean, so the ITCZ must be exporting energy in the vertically-integrated net. In particular, it is the vertically integrated moist static energy $\langle m \rangle = \langle c_p T + Lq + gz \rangle$, where $\langle \cdot \rangle$ denotes a vertical integral, that is being exported. (We study $m$ rather than other variables such as the dry static energy, because $m$ is approximately conserved during deep convection, making it ideal for studying its transport throughout the atmosphere.)
 
@@ -35,11 +39,9 @@ Thus, if one can understand where moist static energy is being exported ($\parti
 ```{admonition} Caution
 :class: warning dropdown
 
-The trouble is, as we will soon see, that these theories are hard to constrain theoretically and observationally, which limits our ability to predict future changes in rainfall. Relevant questions such as how the width of the ITCZ change as a function of longitude also remain unclear. This calls for the need to improve our observations of moist static energy export and its efficiency.
+The trouble is, as we will soon see, that these theories are hard to constrain observationally, which limits our ability to predict future changes in rainfall. Relevant questions such as how the width of the ITCZ change as a function of longitude also remain unclear. This calls for the need to improve our observations of moist static energy export and its efficiency.
 
 ```
-
-
 
 ### The trouble with Gross Moist Stability
 Look at the ITCZ in the zonal and annual mean and you will find a clearly defined band of precipitation and slow, convergent winds (Figure 2). 
@@ -84,40 +86,57 @@ The trouble with the energetic constraints on the ITCZ is that $\mathcal{M}$ dep
 **To summarize:** we know that Gross Moist Stability $\mathcal{M}$ is a key quantity in predicting the ITCZ's changes, but we don't understand it well because it is hidden within the ITCZ's inner life, that is, its dynamic and thermodynamic mesoscale structure.
 ```
 
-### The role of PERCUSION
-To overcome this challenge, PERCUSION seeks to measure the mesoscale circulations within and at the edges of the ITCZ. The key hypothesis is that measuring these circulations and their occurrence frequency, along with calculating the energy export, will advance our understanding of the changes in width and location of the ITCZ and improve our predictions of future rainfall.
+### Measurement philosophy
+To advance our understanding of what controls the position, strength and variability of the tropical rain belts, we must observe how clouds, winds, and precipitation couple to one another and influence the energetic budget we are trying to construct. Thus, PERCUSION is not only interested in observing the mesocale circulations within and at the edges of the ITCZ, but also surface fluxes of moisture and heat, the distribution of cloud condensates and atmospheric radiative heating, and the dynamical evolution of vorticity and divergence. 
 
 To do this, PERCUSION follows the successful application of dropsonde circles during the EUREC4A campaign to infer mesoscale circulations (Bony, 2017). Dropsonde circles of about 130 km in radius will be placed at the center and the edges of the ITCZ on each of the 20+ flights planned for August - September 2024. The dropsondes measure the horizontal wind as a function of height (via a gps tracking the drift of the sonde), and then the mesocale vertical wind of the entire circle can be inferred from the divergence theorem.
+
+We need to be able to identify the edges and the center of the ITCZ. Ideally, we should use a metric that is forecastable yet physically relevant. Although we will sometimes directly look at surface winds, clouds, and precipitation to identify the edges of the ITCZ; we choose to primarily look at precipitable water since it is bimodal --- its sharp geographic gradients separate the dry and moist regions of the tropics and often coincide with the convergent winds, clouds and precipitation associated with the ITCZ (Mapes 2018, Masunaga and Mapes 2020). 
+
+This bimodality is intriguing, since it is a key feature of self aggregation, an emergent property of clouds and circulation *par excellence* which is seen in idealized numerical models (Wing et al, 2018). What role do the processes that sharpen the gradients in dry and moist regions in idealized simulations play in reality? If they do play a role, are they temperature dependent like in idealized simulations? This would have implications for future rainfall and for radiative feedbacks since the areal ratio of moist to dry tropics is a regulator of Earth's climate stability (Pierrehumbert, 1995).
+
+We tend to use the steepest gradient in precipitable water to identify the edges of the ITCZ to allow for statistical sampling. However, assesing how controls on the edge of the ITCZ change over time requires a longer measurement period. To extend these measurements in space and time, a portion of each flight will coincide with an overpass of the new EarthCare "cloud observatory" satellite. The aircraft we fly on, HALO, was designed to carry a similar payload to EarthCare. By flying together, we help to validate EarthCare, which can provide us  with greater statistical insights into the relationships we observe with HALO, and additional measurements such as top of atmosphere energy balance and profiles of atmospheric radiative heating. This validation also enhances the confidence in EarthCare itself and will benefit the climate research community.
+
+### The role of PERCUSION
+Advancing our understanding of the position, strength and variability of the ITCZ requires an all-encompasing view of cloud-precipitation-circulation coupling; one that is qualitatively different from older "dry" theories of the Hadley Cell (Held and Hou, 1980; Lindzen and Hou, 1983). Consider what Edward Lorenz wrote in 1969: 
+
+> The previous generation was greatly concerned with the dynamics of pressure systems and talked about highs and lows. Today we have not lost interest in these systems but we tend to look upon them as circulation systems. This change in attitude has led to a deeper understanding of their dynamics. Perhaps the next generation will be talking about the dynamics of water systems.
+
+PERCUSION's guiding principle is that a deeper understanding of how clouds and moist processes interact with the circulation might help us think about large-scale and regional climate. Our theoretical framework is, for now, primarily based on conservation of moist static energy and gross moist stability -- a classical pillar of tropical meteorology. But this is not the only way to interpret our results. 
+
+We can use and test ideas from self aggregation by examining bimodality in column water vapor. We can test ideas of air-sea interactions (eg. Lindzen and Nigam, 1987; Philander et al, 1996). We can use dynamical ideas such as how the conservation of momentum impacts the evolution of vorticity and divergence, and study how this relates to the ITCZ by examining the connection between the doldrums, subsiding air, and surface wind divergence (Figure 7 and Windmiller, 2024). And by validating EarthCARE, we open up the possibility of tying process-level observations with long term climate change. 
+
+These examples illustrate how PERCUSION will provide the observations necessary to test many scientific hypotheseses, not just about the ITCZ but also regional and tropical climate more generally.
 
 ![](./figures/doldrums_hypotheses.jpg)
 *Figure 7. Potential causes for the low-wind speed events known as the "doldrums". Credit: Julia Windmiller.*
 
-In addition to pursuing a better understanding of the ITCZ, PERCUSION hopes to use these budgets of moist static energy and observed mesoscale circulations to test hypothesized controls on convective aggregation such as the up-gradient horizontal transfer of moist static energy (Muller, 2022); and to test hypothesized circulation controls on the doldrums such as the association between subsiding air and surface wind divergence (Figure 7 and Windmiller, 2024).
+PERCUSION will let us assess the realism of a new class of climate models that can study the interactions between the mesoscales and the general circulation (e.g. Klocke, 2017) and which have the chance to advance our skill in climate prediction (Slingo et al, 2022).
 
-With PERCUSION, the ITCZ's inner life will be characterized to a degree not seen since the GATE field campaign took place exactly fifty years ago (Frank, 1983). GATE took place at the dawn of the era of General Circulation Models to help guide their development and use for understanding global climate change. Is it not fitting that PERCUSION will take place at the dawn of the era of Global Storm Resolving Models, guiding their development and helping us to understand regional climate change?
-
-```{admonition} Remaining questions
-:class: warning dropdown
-
-* Should I go into more detail about the energetic constraints? (i.e. Kang et al, 2008; Schneider et al, 2014; Byrne and Schneider, 2016)
-* Why does $m(z)$ have a c-shape? Is it really okay to assume that $m$ is constant in the horizontal?
-* Should I include some example sonde profiles of $w(z)$? And should I provide a brief analysis of what they tell us? Or perhaps that should be its own page (at some point in the future)?
-* Why is $m$ conserved?
-
-```
+The ITCZ's inner life will be characterized to a degree not seen since the GATE field campaign took place exactly fifty years ago (Frank, 1983). GATE took place at the dawn of the era of General Circulation Models to help guide their development and use for understanding global climate change. Is it not fitting that PERCUSION will take place at the dawn of the era of Global Storm Resolving Models, guiding their development and helping us to understand regional climate change?
 
 ### References
 * **Birner et al, 2024** *The changing width of Earth’s tropical belt*
+* **Bony et al, 2015** *Clouds, circulation and climate sensitivity*
 * **Bony et al, 2017** *EUREC4A: A Field Campaign to Elucidate the Couplings Between Clouds, Convection and Circulation*
 * **Byrne and Schneider, 2016** *Narrowing of the ITCZ in a warming climate: Physical mechanisms*
 * **Ferrel, 1856** *Essay on the winds and ocean currents*
 * **Frank, 1983** *The Structure and Energetics of the East Atlantic Intertropical Convergence Zone*
+* **Held and Hou, 1980** *Nonlinear Axially Symmetric Circulations in a Nearly Inviscid Atmosphere*
 * **Held and Soden, 2006** *Robust Responses of the Hydrological Cycle to Global Warming*
 * **Kang et al, 2008** *The Response of the ITCZ to Extratropical Thermal Forcing: Idealized Slab-Ocean Experiments with a GCM*
+* **Klocke et al, 2017** *Rediscovery of the doldrums in storm-resolving simulations over the tropical Atlantic*
+* **Lindzen and Hou, 1988** *Hadley Circulations for Zonally Averaged Heating Centered off the Equator*
+* **Lindzen and Nigam, 1987** *On the Role of Sea Surface Temperature Gradients in Forcing Low-Level Winds and Convergence in the Tropics*
+* **Mapes et al, 2018** *The Meandering Margin of the Meteorological Moist Tropics*
+* **Masunage and Mapes, 2020** *A mechanism for the maintenance of sharp tropical margin*
 * **Masunaga, 2023** *The Edge Intensification of Eastern Pacific ITCZ Convection*
 * **Muller, 2022** *Spontaneous Aggregation of Convective Storms*
 * **Neelin and Held, 1987** *Modeling Tropical Convergence Based on the Moist Static Energy Budget*
+* **Pierrehumbert, 1995** *Thermostats, radiator fins, and the local runaway greenhouse effect*
+* **Philander et al, 1996** *Why the ITCZ Is Mostly North of the Equator*
 * **Raymond et al, 2009** *The Mechanics of Gross Moist Stability*
 * **Schneider et al, 2014** *Migrations and dynamics of the intertropical convergence zone*
+* **Slingo et al, 2022** *Ambitious partnership needed for reliable climate prediction*
 * **Windmiller, 2024** *The Calm and Variable Inner Life of the Atlantic Intertropical Convergence Zone: The Relationship Between the Doldrums and Surface Convergence*
-
+* **Wing et al, 2017** *Convective Self-Aggregation in Numerical Simulations: A Review*
