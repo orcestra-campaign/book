@@ -6,6 +6,7 @@
 
 * [for mission PI and flight planning](../plans/howto)
 * [for Documentation Scientist](../plans/doc-sci)
+* {doc}`../flightplan_docs`
 ```
 
 For an overview of all flight categories, [click here](flight_categories).
