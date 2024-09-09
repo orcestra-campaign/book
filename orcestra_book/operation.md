@@ -38,7 +38,7 @@
 
 <a href="webcal://orcestra-campaign.org/flights.ics"><i class="fas fa-calendar-alt"></i> ORCESTRA flight calendar</a>
 
-```{admonition} Airpot restrictions - Sal
+```{admonition} Airport restrictions - Sal
 :class: warning dropdown
 
 At Sal Island the runway will be closed according to the following schedule (UTC):
