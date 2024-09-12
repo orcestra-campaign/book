@@ -37,7 +37,8 @@ EarthCARE tracks are available as long term prediction (LTP) and preliminary (PR
 First, we load the track data 
 ```{code-cell} python3
 :tags: [hide-input]
-from orcestra import sat
+
+from orcestra import bco, sat
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta, time
 import cartopy.crs as ccrs
@@ -177,12 +178,8 @@ def plot_tracks(tracks, dates, ax):
             if len(tracks[date].lon.values) > 0:
                 annotate_time(ax, tracks[date], line)
 
-    # plot circle
-    center = (16.735, -22.948) 
-    radius_km = 250
-    circle_points = generate_circle_points(center, radius_km)
-    lats, lons = zip(*circle_points)
-    ax.plot(lons, lats, label=f'{radius_km} km circle', color='k')
+    ax.scatter(bco.lon, bco.lat, color="#0B257A", zorder=2)
+    ax.text(bco.lon + 0.5, bco.lat + 0.5, "BCO", weight="bold", color="#0B257A")
 
     # pimp plot
     ax.coastlines()
