@@ -23,7 +23,12 @@ On ground days we offer science talks to share the work of the scientists.
 |                 |   Chavez Pope (CMIH)             |Severe weather case catalogue for the Carribean  |
 |                 |                |                 |
 | 30 Aug, 11 LT   |     Louis Netz (CNRS)      |  Organization of deep convection and morphology of tropical convective systems - Insights from satellite observations          |
-|                 |     Henriette Gebauer (TROPOS)      |  Preliminary results of CLARINET        |
+|                 |     Henriette Gebauer (TROPOS)   |  Preliminary results of CLARINET        |
 |                 |        |         |
 | 1 Sep, 10.15 LT |  ALL   | Preliminary results of different parts in ORCESTRA        |
+|                 |        |         |
+| 11 Sep, 11 LT   |   Julia Windmiller (MPI-M)       |   The calm and variable inner life of the ITCZ: The relationship between the doldrums and surface convergence  |
+|                 |        |         |
+| 18 Sep, 11 LT   |    Wei-Ting Hsiao (FSU)          |   *tba*        |
+|                 |    Ankeem Dawes (CIMH)           |   *tba*        |
 |                 |        |         |
