@@ -94,7 +94,7 @@ for date in dates_ltp:
         # Apparently our forecasts stop right at the end of the campaign
         break
     tracks_ltp[date] = (
-        sat.SattrackLoader("EARTHCARE", issue_date_ltp, kind='LTP')
+        sat.SattrackLoader("EARTHCARE", issue_date_ltp, kind='LTP', roi="BARBADOS")
         .get_track_for_day(date)
         .sel(time=slice(datetime.combine(date, time(6, 0)), None))
         )
@@ -103,7 +103,7 @@ for date in dates_pre:
         # Apparently our forecasts stop right at the end of the campaign
         break
     tracks_pre[date] = (
-        sat.SattrackLoader("EARTHCARE", issue_date_pre, kind='PRE')
+        sat.SattrackLoader("EARTHCARE", issue_date_pre, kind='PRE', roi="BARBADOS")
         .get_track_for_day(date)
         .sel(time=slice(datetime.combine(date, time(6, 0)), None))
     )
