@@ -90,12 +90,18 @@ dates_ltp = [
 tracks_ltp = {}
 tracks_pre = {}
 for date in dates_ltp:
+    if date >= datetime(2024, 10, 1):
+        # Apparently our forecasts stop right at the end of the campaign
+        break
     tracks_ltp[date] = (
         sat.SattrackLoader("EARTHCARE", issue_date_ltp, kind='LTP')
         .get_track_for_day(date)
         .sel(time=slice(datetime.combine(date, time(6, 0)), None))
         )
 for date in dates_pre:
+    if date >= datetime(2024, 10, 1):
+        # Apparently our forecasts stop right at the end of the campaign
+        break
     tracks_pre[date] = (
         sat.SattrackLoader("EARTHCARE", issue_date_pre, kind='PRE')
         .get_track_for_day(date)
@@ -136,7 +142,7 @@ def annotate_time(ax, track, line):
 def plot_tracks(tracks, dates, ax):
     # plot tracks
     for date in dates:
-        if (time := tracks[date].time).size == 0:
+        if (date not in tracks) or (time := tracks[date].time).size == 0:
             # Don't attempt to plot tracks without data (e.g. night-time overpasses)
             continue
 
