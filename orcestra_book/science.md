@@ -16,13 +16,8 @@ These variations in the ITCZ have been linked to changes in the atmosphere's ene
 
 Will the islands of Cape Verde, which lie at the edge of the ITCZ, get wetter or dryer in the next 50 years? What about the Sahel? We cannot yet confidently say what will happen.
 
-To break this deadlock, one of PERCUSION's scientific objectives is to measure the mesoscale vertical velocity $w$ at the center and edges of the ITCZ. Variability in $w$ will be characterized over 20+ flights in August and September in the East and West Atlantic. Each of these flights will include an overpass from the new EarthCare satellite, thus allowing us to connect process-level observations with longer term measurements. When these dynamics are connected with quantties such as vorticity, divergence, cloud condensates, surface fluxes and radiative heating, this will allow, for the first time, a process-level observational estimate of the ITCZ's circulation and energy export. With this information, we will be able to peer into the inner life of the ITCZ and understand why it billows and blows.
+To break this deadlock, one of PERCUSION's scientific objectives is to measure the mesoscale vertical velocity $w$ at the center and edges of the ITCZ. When these dynamics are connected with quantities such as vorticity, divergence, cloud condensates, surface fluxes and radiative heating, this will allow, for the first time, a process-level observational estimate of the ITCZ's circulation and energy export. With this information, we will be able to peer into the inner life of the ITCZ and understand why it billows and blows.
 
-```{admonition} Knowledge Check
-:class: tip dropdown
-
-Want to learn more? Then you are in the right place. Our goal here is to provide a minimal introduction to the science that motivates [PERCUSION](percusion.md).
-```
 ### Energetic constraints on the ITCZ
 The ITCZ rainfall is fed by warm and moist surface trade winds. Their convergence leads to deep convective clouds that precipitate and detrain in the upper troposphere. This divergent air then sinks in the subtropics and returns to the ITCZ as a surface flow, completing the meridional Hadley circulation (Figure 1).
 
