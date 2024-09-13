@@ -7,6 +7,51 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T28
+
+### Postcard from Barbados
+*by Bjorn Stevens*
+
+We are on Barbados now, having arrived after a day delay on Friday (6 Sept). The lavanian landscape of a water parched Sal (Cape Verdes) – with its scattered and timid clouds who, even when they gather in groups, keep their hads low – has given way to a tropical splendor. I’ve never seen Barbados so green, its clouds so towering and frequent. In the low wind regions that we presently find ourselves in it is fascinating to see how the convection rises straight up like a column. Flying around it feels like [Totoros](https://en.wikipedia.org/wiki/My_Neighbor_Totoro) are everywhere. Suddenly, outside your aircraft window there they will be – watching you.
+
+Some days we fly over a sea of white as the clouds load the upper troposphere with their fine particulate. At the beginning of the campaign we wondered how thin layers of cirrus, at 16-18 km and well above the sea of white got there… but with a careful eye larger cousins of the Totoros could be seen shooting up over the veils, for short periods minutes to a few tens of minutes, before slipping back into the sublime.
+
+```{figure} /figures/blog_T28_0.jpeg
+:alt: Clouds like Totoro.
+:width: 800px
+:align: center
+
+Clouds like Totoro. (*Photo by B. Stevens*)
+```
+
+We’ve been fascinated by the humidity structure, which looks nothing like we taught ourselves. No ‘C’ is to be seen, rather the captial “I” of a fully moisture laden atmosphere of the doldrums, but not quite saturated, or the “W” where convection seems more spatially compact. Something to better understand. We’ve been measuring, slowly, sample after sample after sample the full vertical structure of the atmosphere as we glide around in circles.
+
+Ours are the first ever measurements of their kind, and hour after hour, day by day, as we unravel the vertical structure of the atmosphere we get more and more insight into the processes that govern the behavior of the rainbelts. Layers of super-cooled water at 7 km are some of the best indicators of nearby convection, but what’s maddening is how convection starts and stops at every level. Looking down, clouds don’t have bases. In the radar convective elements seem to shoot up out of a water laden sky, fully decoupled from the surface, and fall down, or detrain in thin stratified layers that mark their defeat in a perpetual competition for prominence. And where we find convection we find clear-skies, as the air collapses in the wake of convection, only for new convection to rise up along the boundaries.
+
+But we don’t only measure the clouds, but how vast and different the world can be. Sal, was an island that seems to be a place made only to lure tourists to sand, and how this is euphemistically interwoven with the poverty that inevitably debases the drive for riches. It wasn’t real life. Barbados, in contrast, where tourism is embedded organically in local life, feels different, more like a real place with people leading real lives … rather than where wayward souls gather on the ruins of volanos to exchange their wares.
+
+Our crew has been doing a great job, and it is impressive to see the many ways and willingness of everyone to contribute. Not a few of them despite suffering multiple bouts of food poisening, tropical ailments and the maddening world of international air-travel, with all-night flights routing people around the world to travel routes no longer frequented. I shouldn’t mention names, because all have been great and they can all share their own stories.
+
+```{figure} /figures/blog_T28_1.jpeg
+:alt: Crew on the first mission in Barbados.
+:width: 800px
+:align: center
+
+Crew on the first mission of Barbados. (*Photo by B.Stevens*)
+```
+Many things work well, but even so a great deal of the time we spend overcoming things that don’t, or that we are not used to. From finding liquid nitrogen, to getting our clothes, to finding a coffee or laundrymat. Racing to solve one problem, like sondes that don’t launch, generators that don’t generate, lidars that aren’t there, or drones that don’t come, and when they finally do they go away again. Just as one problem is solved another pops up and then the next one, like clouds at the edges of the cold pools alluded to above. Customs has been a constant challenge, from containers for ships not afriving, to our present situation where much of the material for the aircraft is stuck in customs for weeks. This forces us to improvise, and fear each day that an eventuality that can’t be solved and thus interrupts our patient sampling, flight by flight, circle by circle, sonde by sonde.
+
+There of course are many other stories, but HALO is taking off and soon the weather briefing starts, and, I have to find a coffee.
+
+```{figure} /figures/blog_T28_2.jpeg
+:alt: Cloud impression.
+:width: 800px
+:align: center
+
+Cloud impressions. (*Photo by B.Stevens*)
+```
+
+---
 ## #T27
 
 Transfer flight HALO - working on it...
