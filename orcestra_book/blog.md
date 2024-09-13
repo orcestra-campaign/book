@@ -7,6 +7,28 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+
+## #T25
+
+Today was a day off for MAESTRO. It was a shame to miss the last joint morning briefing on Sal between the German and French teams, as HALO will be leaving for Barbados tomorrow. On the other hand, the French team really deserve their day off, having flown six days in a row and four flights in three days before that.
+
+The PERCUSION members are already in full clean-up mode, tidying up their workstations and packing them back into boxes. Within the next two days, everything, including what is in the hangar, has to be put back in the container before customs checks are carried out.
+
+At the moment, a French film crew is here to shoot some scenes for their upcoming project. [*Look at sciences*](http://site.lookatsciences.com/en/home-us/) visited the EUREC4A campaign in 2020, where they produced the film *The Cloud People*, which has been shown at various film festivals. As one of the producers was part of the visiting film team, *The cloud people* was shown later in the afternoon. The film is an artistic summary of the first attempts of the camera to follow a cloud from it's being to it's passing and the connection of clouds to the history of humankind. It also captured some cultural aspects of Barbados and was a nice teaser for the PERCUSION team to get some first impressions of the Caribbean island where they will be heading next.
+
+RV METEOR began to head west, swimming towards the nearest Pirata buoy at 8N, 38W.
+Unfortunately, STRINQS lost one of their drones in the sea, despite the safety float ring. Also, the propeller of another drone caught fire. Fortunately, this should be fixable and can be replaced if the damage is not too extensive.
+Despite the delicate situation with the drones, the RV METEOR seems to be surrounded by a rich variety of weather conditions, ranging from rain, which turns from light spray to dripping from the roof, to doldrums, with sunny skies, calm seas and almost no wind.
+
+By the way, if you are curious if this campaign has attracted any attention outside of this website, check out the articles listed below:
+
+[ORCESTRA: Taking to the sea and sky for EarthCARE](https://blogs.esa.int/campaignearth/2024/08/21/earthcares-orcestra-takes-to-the-sea-and-sky/)
+[ORCESTRA: Half-time for the tropical cloud experiment](https://mpimet.mpg.de/en/communication/news/orcestra-half-time-for-the-tropical-cloud-experiment)
+[HALO under EarthCARE in tandem flight – measurement flights from aircraft and satellite](https://www.dlr.de/en/latest/news/2024/halo-under-earthcare-in-tandem-flight-measurement-flights-from-aircraft-and-satellite)
+[ORCESTRA: Sea Sickness and turbulence worth it for EarthCARE](https://blogs.esa.int/campaignearth/2024/09/09/orcestra-sea-sickness-and-turbulence-worth-it-for-earthcare/)
+
+
+---
 ## #T24
 
 Today was the last chance to orchestrate between all the moving platforms: RV METEOR managed to stay right in the middle of the centre circle. On its way back, HALO managed to overfly the KingAir and flew a circle around the ATR - again capturing some nice mesoscale convection along the way. Although construction work at the airport in the morning delayed HALO by about 30 minutes, it missed the EarthCARE underpass at the planned meeting point, but was caught close to RV METEOR - such a rare opportunity to see the vertical structure of the atmosphere from the outside of the Earth down to the surface.
