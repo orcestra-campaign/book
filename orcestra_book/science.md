@@ -4,7 +4,7 @@ orphan: true
 
 # Science
 
-## The scientific motivation for PERCUSION
+## Focus area: ITCZ position, strength, and variability
 ![](./figures/ITCZ_ferrel.jpg)
 *Figure 1. William Ferrel's schematic depiction of Earth’s surface wind. Figure taken from Birner et al, 2014 and adapted from Ferrel, 1856.*
 
