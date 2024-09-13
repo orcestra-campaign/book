@@ -7,6 +7,11 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T27
+
+Transfer flight HALO - working on it...
+
+---
 ## #T26
 
 It's 6:30LT. Time to get up, rush through breakfast and get ready for the transfer flight from Sal to Barbados. This time we have to go through the usual airport security procedure as we are leaving the country and our bags have to be checked.
