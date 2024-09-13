@@ -40,7 +40,6 @@ chapters:
     - file: lam
     - file: water_vapour_overview
     - file: temperature_example
-- file: science
 - file: blog
 - file: coordination
 - file: faq
