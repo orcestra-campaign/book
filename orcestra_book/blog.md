@@ -7,6 +7,40 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T26
+
+It's 6:30LT. Time to get up, rush through breakfast and get ready for the transfer flight from Sal to Barbados. This time we have to go through the usual airport security procedure as we are leaving the country and our bags have to be checked.
+This would be my first flight on HALO and the excitement was building as we got closer to take-off. As we waited in the back with our seat belts fastened, the take-off apparently took longer than usual. At one point the pilots spoke to the Mission PI and said they had found an error message and needed to check the engine first. The flight crew started to move, other members of flight operations came into HALO and discussed. At first we scientists just sat and waited, hoping that this would only take a few minutes. A few minutes later we were told that, depending on the nature of the technical problem, it could be repaired within an hour or two, or that HALO wouldn't fly today. We are free to go.
+
+Almost an hour has passed. HALO was still in park postition. The flight engineers have been doing things to the engine that I don't understand, but they seem to have found the problem. Now it's just a question of how exactly to fix it.
+
+Another 30 minutes passed. We've received word that HALO will be returning to the hangar. Although they have found the technical problem and fixed it for now, they will have to do some engine test runs on the ground. Pilots have a strict rule about how many hours they can work. And in order not to exceed the hours, there will be no transfer flight today.
+
+So unlucky. You could see in almost every face that this situation was not ideal and many of us were ready for Barbados. The flight crew had already left the country through passport control at the airport and there was no hotel to stay in. It was also not clear if we would be able to fly the next day or if we would have to stay longer on Sal...
+Once the scientific crew had overcome their first moment of shock, we grabbed our things, went through passport control again to enter Cape Verde and drove back to the hotel in the hope that they still had rooms available for at least one night.
+
+Back at the hotel, some French colleagues had just returned from their lunch break and were surprised to see us back. Due to the lack of convection around Sal, MAESTRO decided not to fly today. Instead, they planned to visit the turtle hatching station in the afternoon, as it is hatching season and many little turtles are expected. They even had the opportunity to release all the baby turtles into the sea. What a lovely activity!
+
+Later that evening, the PERCUSION crew received notification that the technical problem had been successfully resolved and that HALO was ready for the next day's transfer.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T26_0.jpg
+:img-alt: Scientific crew waiting for progress.
+
+Crew waiting for news.
+
+```
+```{card}
+:img-top: /figures/blog_T26_1.jpg
+:img-alt: Release of the baby turtle.
+
+Release of the baby turtles. (*Photo by E.Chauvin*)
+
+```
+````
+
+---
 
 ## #T25
 
