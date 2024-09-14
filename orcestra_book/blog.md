@@ -56,7 +56,36 @@ Look out of the cockpit.
 ---
 ## #T29
 
-working on it ...
+The start for PERCUSION here in Barbados has been a somewhat bumpy one. One reason could be the delay of the transfer flight. The first mission flight on Barbados felt a bit rushed as it came right after the transfer without the usual pre-flight meetings. Although the flight was trouble free, people seem to have been swamped by the immediate action. We followed up on the morning briefings we'd had in Sal, and you could tell from the faces who had just joined and was eager to contribute to the campaign, and who was already carrying a load from four weeks of campaigning.
+
+We also received news that the PERCUSION containers are still stuck in customs for an unknown time. But a delayed clearance of the containers seems to be usual for every campaign. Let's hope it doesn't take too long, as the equipment in the container is desperately needed to prepare the instruments for the flights. In Barbados, HALO won't be in a hangar and there's no shade to hide under at the airport. Just a paved area, heat and more paved areas.
+
+At the easternmost point of the island, measurements began as planned, with the first radio sonde launched two nights ago. The launch of the radio sondes is being conducted at the [Barbados Cloud Observatory](https://orcestra-campaign.org/bco.html) (BCO), which is equipped for standard meteorological measurements and has been operational since 2010. Here, between grassy areas, cliffs and the sound of the sea, large white balloons are released into the sky every 6 hours.
+
+While part of us settles in and adapts to a new location with different conditions, the ship heads north towards another rain band to reach the northern edge of the ITCZ. Fortunately, the rain passed quickly and they were able to enjoy their *Bergfest* - a traditional event where everyone on board celebrates reaching the halfway point of their voyage - and taste the freshly caught tuna from the night before.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T29_0.jpg
+:img-alt: Launch of first RS in Barbados.
+
+Launch of the first radio sonde on Barbados. (*Photo by M. Winkler*)
+```
+
+```{card}
+:img-top: /figures/blog_T29_1.jpg
+:img-alt: BCO
+
+BCO at Deebles point. (*Photo by M.Winkler*)
+```
+
+```{card}
+:img-top: /figures/blog_T29_2.jpg
+:img-alt: Raman lidar.
+
+Raman lidar and it's significant laser pointing into the sky. (*Photo by B.Stevens*)
+```
+````
 
 ---
 ## #T28
