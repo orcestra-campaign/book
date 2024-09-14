@@ -70,7 +70,7 @@ Some days we fly over a sea of white as the clouds load the upper troposphere wi
 
 ```{figure} /figures/blog_T28_0.jpeg
 :alt: Clouds like Totoro.
-:width: 800px
+:width: 600px
 :align: center
 
 Clouds like Totoro. (*Photo by B. Stevens*)
@@ -86,7 +86,7 @@ Our crew has been doing a great job, and it is impressive to see the many ways a
 
 ```{figure} /figures/blog_T28_1.jpeg
 :alt: Crew on the first mission in Barbados.
-:width: 800px
+:width: 600px
 :align: center
 
 Crew on the first mission of Barbados. (*Photo by B.Stevens*)
@@ -97,7 +97,7 @@ There of course are many other stories, but HALO is taking off and soon the weat
 
 ```{figure} /figures/blog_T28_2.jpeg
 :alt: Cloud impression.
-:width: 800px
+:width: 600px
 :align: center
 
 Cloud impressions. (*Photo by B.Stevens*)
