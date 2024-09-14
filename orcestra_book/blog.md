@@ -6,6 +6,58 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+
+---
+## #T30
+### It ain’t what you don’t know that gets you into trouble
+
+*by Brett McKim*
+
+Compared to the sleek lines and gleaming finish of the jet-engined HALO, the stubbier, propeller-driven ATR looks utilitarian, like it should be hauling cargo across a harsh landscape. And that is what it felt like onboard as we accelerated to take off — the cabin filled to the brim with metal boxes, dials, and lights; the windowed landscape dotted with a few ancient volcanoes and even fewer houses.
+
+The start and end of every flight is Sal, but the middle changes from day to day. It depends on the clouds. It depends on the phase of the African Easterly Wave, the phase of the Madden-Julian Oscillation, and who knows, maybe even the phase of the moon. The point is that every flight has the chance to offer something unexpected. This is why we are here, to see something that we don’t expect.
+
+I was on the second flight of the day. The plan was designed to sample the conditions behind the trough of the passing African Easterly Wave. But we already knew at take off that the plans had changed. The first flight of the day sampled a “golden case” of a rapidly growing convective cell to the south east. They witnessed the birth of a cloud, and so now, hours later, we were to return to see what had become of this cloud.
+
+As we approached the convective cell, flying at cloud base, the afternoon light gave way to gray fog. Then we ascended to about 6 km. Twenty minutes later, it dimmed to black. It began to rain, and then the plane began to shake. For 10 seconds I could feel my stomach and the 4-point seat belt keeping me in place. And then we were through. Some of the light came back, and the landscape to our left opened up, with a dark mass in the middle.
+
+It was our cloud, and it had grown! I looked up, I leaned in, and I looked higher still, and then I could see the top.
+
+And then I felt this vulnerability. We could not fly over the convection like HALO could, we could only fly through it, or around it. As someone who has been helplessly caught in a thunderstorm on top of a mountain, this felt eerily similar.
+
+But what I thought this cloud would like was not the image that laid before me. This cloud was surrounded by layers of low lying stratocumulus, and mid-levels stratus that we flew through. And the convecting cell never reached high enough, or perhaps never detrained enough, to produce the high altitude cirrus I would have expected.
+
+We passed the cloud unscathed, turned around and flew past it again. Now it was dark, and my only guide was BASTA, our horizontally pointing radar. It could still see the cloud, but I couldn’t.
+As the flight ended, I realized how the ATR, with its horizontal and vertical radars and lidars, among other things, is configured to sample the volume of air that surrounds it, in all directions, as opposed to HALO, which mainly looks down.
+
+Why does the ATR need to look in all directions? The essential idea is that we should be sampling the cloud with its environment. The two act back and forth on one another, in ways that cannot be anticipated if we just imagine that clouds are passively responding to the environment. That’s why we have to go out and observe it.
+
+Before this flight, I did not fully appreciate this two-way coupling. I used to think of clouds living in response to the large scale environment’s “cloud controlling factors”. But if these really have all the power, then who let the stratocumulus out of their enclosure and put it next to our convective cell? And who invited the altocumulus? Why should they exist in such numbers when large scale “cloud controlling factors” say otherwise?
+
+After the surprises of this flight, and the whole campaign, I realize I might be missing something important. I think I’ll need to rejig the puzzle pieces in my mind of how clouds, circulation, and climate fit together. As Mark Twain said, “It ain’t what you don’t know that gets you into trouble. It’s what you know for sure that just ain’t so.”
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogBMK_T30_0.png
+:img-alt: Brett in front of the ATR.
+
+In front of the ATR.
+
+```
+```{card}
+:img-top: /figures/blogBMK_T30_1.png
+:img-alt: Look out of the cockpit.
+
+Look out of the cockpit.
+```
+````
+
+
+---
+## #T29
+
+working on it ...
+
 ---
 ## #T28
 
