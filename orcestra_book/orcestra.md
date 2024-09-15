@@ -43,7 +43,7 @@ In Aug and Sep in Mindelo, Cape Verde
 :link: maestro
 :link-type: doc
 
-From 6 Aug to 13 Sep on Sal, Cape Verde
+From 10 Aug to 10 Sep on Sal, Cape Verde
 ```
 
 ```{grid-item-card}

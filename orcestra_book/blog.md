@@ -6,6 +6,193 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+
+---
+## #T30
+### It ain’t what you don’t know that gets you into trouble
+
+*by Brett McKim*
+
+Compared to the sleek lines and gleaming finish of the jet-engined HALO, the stubbier, propeller-driven ATR looks utilitarian, like it should be hauling cargo across a harsh landscape. And that is what it felt like onboard as we accelerated to take off — the cabin filled to the brim with metal boxes, dials, and lights; the windowed landscape dotted with a few ancient volcanoes and even fewer houses.
+
+The start and end of every flight is Sal, but the middle changes from day to day. It depends on the clouds. It depends on the phase of the African Easterly Wave, the phase of the Madden-Julian Oscillation, and who knows, maybe even the phase of the moon. The point is that every flight has the chance to offer something unexpected. This is why we are here, to see something that we don’t expect.
+
+I was on the second flight of the day. The plan was designed to sample the conditions behind the trough of the passing African Easterly Wave. But we already knew at take off that the plans had changed. The first flight of the day sampled a “golden case” of a rapidly growing convective cell to the south east. They witnessed the birth of a cloud, and so now, hours later, we were to return to see what had become of this cloud.
+
+As we approached the convective cell, flying at cloud base, the afternoon light gave way to gray fog. Then we ascended to about 6 km. Twenty minutes later, it dimmed to black. It began to rain, and then the plane began to shake. For 10 seconds I could feel my stomach and the 4-point seat belt keeping me in place. And then we were through. Some of the light came back, and the landscape to our left opened up, with a dark mass in the middle.
+
+It was our cloud, and it had grown! I looked up, I leaned in, and I looked higher still, and then I could see the top.
+
+And then I felt this vulnerability. We could not fly over the convection like HALO could, we could only fly through it, or around it. As someone who has been helplessly caught in a thunderstorm on top of a mountain, this felt eerily similar.
+
+But what I thought this cloud would like was not the image that laid before me. This cloud was surrounded by layers of low lying stratocumulus, and mid-levels stratus that we flew through. And the convecting cell never reached high enough, or perhaps never detrained enough, to produce the high altitude cirrus I would have expected.
+
+We passed the cloud unscathed, turned around and flew past it again. Now it was dark, and my only guide was BASTA, our horizontally pointing radar. It could still see the cloud, but I couldn’t.
+As the flight ended, I realized how the ATR, with its horizontal and vertical radars and lidars, among other things, is configured to sample the volume of air that surrounds it, in all directions, as opposed to HALO, which mainly looks down.
+
+Why does the ATR need to look in all directions? The essential idea is that we should be sampling the cloud with its environment. The two act back and forth on one another, in ways that cannot be anticipated if we just imagine that clouds are passively responding to the environment. That’s why we have to go out and observe it.
+
+Before this flight, I did not fully appreciate this two-way coupling. I used to think of clouds living in response to the large scale environment’s “cloud controlling factors”. But if these really have all the power, then who let the stratocumulus out of their enclosure and put it next to our convective cell? And who invited the altocumulus? Why should they exist in such numbers when large scale “cloud controlling factors” say otherwise?
+
+After the surprises of this flight, and the whole campaign, I realize I might be missing something important. I think I’ll need to rejig the puzzle pieces in my mind of how clouds, circulation, and climate fit together. As Mark Twain said, “It ain’t what you don’t know that gets you into trouble. It’s what you know for sure that just ain’t so.”
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogBMK_T30_0.png
+:img-alt: Brett in front of the ATR.
+
+In front of the ATR.
+
+```
+```{card}
+:img-top: /figures/blogBMK_T30_1.png
+:img-alt: Look out of the cockpit.
+
+Look out of the cockpit.
+```
+````
+
+
+---
+## #T29
+
+The start for PERCUSION here in Barbados has been a somewhat bumpy one. One reason could be the delay of the transfer flight. The first mission flight on Barbados felt a bit rushed as it came right after the transfer without the usual pre-flight meetings. Although the flight was trouble free, people seem to have been swamped by the immediate action. We followed up on the morning briefings we'd had in Sal, and you could tell from the faces who had just joined and was eager to contribute to the campaign, and who was already carrying a load from four weeks of campaigning.
+
+We also received news that the PERCUSION containers are still stuck in customs for an unknown time. But a delayed clearance of the containers seems to be usual for every campaign. Let's hope it doesn't take too long, as the equipment in the container is desperately needed to prepare the instruments for the flights. In Barbados, HALO won't be in a hangar and there's no shade to hide under at the airport. Just a paved area, heat and more paved areas.
+
+At the easternmost point of the island, measurements began as planned, with the first radio sonde launched two nights ago. The launch of the radio sondes is being conducted at the [Barbados Cloud Observatory](https://orcestra-campaign.org/bco.html) (BCO), which is equipped for standard meteorological measurements and has been operational since 2010. Here, between grassy areas, cliffs and the sound of the sea, large white balloons are released into the sky every 6 hours.
+
+While part of us settles in and adapts to a new location with different conditions, the ship heads north towards another rain band to reach the northern edge of the ITCZ. Fortunately, the rain passed quickly and they were able to enjoy their *Bergfest* - a traditional event where everyone on board celebrates reaching the halfway point of their voyage - and taste the freshly caught tuna from the night before.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T29_0.jpg
+:img-alt: Launch of first RS in Barbados.
+
+Launch of the first radio sonde on Barbados. (*Photo by M. Winkler*)
+```
+
+```{card}
+:img-top: /figures/blog_T29_1.jpg
+:img-alt: BCO
+
+BCO at Deebles point. (*Photo by M.Winkler*)
+```
+
+```{card}
+:img-top: /figures/blog_T29_2.jpg
+:img-alt: Raman lidar.
+
+Raman lidar and it's significant laser pointing into the sky. (*Photo by B.Stevens*)
+```
+````
+
+---
+## #T28
+
+### Postcard from Barbados
+*by Bjorn Stevens*
+
+We are on Barbados now, having arrived after a day delay on Friday (6 Sept). The lavanian landscape of a water parched Sal (Cape Verdes) – with its scattered and timid clouds who, even when they gather in groups, keep their hads low – has given way to a tropical splendor. I’ve never seen Barbados so green, its clouds so towering and frequent. In the low wind regions that we presently find ourselves in it is fascinating to see how the convection rises straight up like a column. Flying around it feels like [Totoros](https://en.wikipedia.org/wiki/My_Neighbor_Totoro) are everywhere. Suddenly, outside your aircraft window there they will be – watching you.
+
+Some days we fly over a sea of white as the clouds load the upper troposphere with their fine particulate. At the beginning of the campaign we wondered how thin layers of cirrus, at 16-18 km and well above the sea of white got there… but with a careful eye larger cousins of the Totoros could be seen shooting up over the veils, for short periods minutes to a few tens of minutes, before slipping back into the sublime.
+
+```{figure} /figures/blog_T28_0.jpeg
+:alt: Clouds like Totoro.
+:width: 600px
+:align: center
+
+Clouds like Totoro. (*Photo by B. Stevens*)
+```
+
+We’ve been fascinated by the humidity structure, which looks nothing like we taught ourselves. No ‘C’ is to be seen, rather the captial “I” of a fully moisture laden atmosphere of the doldrums, but not quite saturated, or the “W” where convection seems more spatially compact. Something to better understand. We’ve been measuring, slowly, sample after sample after sample the full vertical structure of the atmosphere as we glide around in circles.
+
+Ours are the first ever measurements of their kind, and hour after hour, day by day, as we unravel the vertical structure of the atmosphere we get more and more insight into the processes that govern the behavior of the rainbelts. Layers of super-cooled water at 7 km are some of the best indicators of nearby convection, but what’s maddening is how convection starts and stops at every level. Looking down, clouds don’t have bases. In the radar convective elements seem to shoot up out of a water laden sky, fully decoupled from the surface, and fall down, or detrain in thin stratified layers that mark their defeat in a perpetual competition for prominence. And where we find convection we find clear-skies, as the air collapses in the wake of convection, only for new convection to rise up along the boundaries.
+
+But we don’t only measure the clouds, but how vast and different the world can be. Sal, was an island that seems to be a place made only to lure tourists to sand, and how this is euphemistically interwoven with the poverty that inevitably debases the drive for riches. It wasn’t real life. Barbados, in contrast, where tourism is embedded organically in local life, feels different, more like a real place with people leading real lives … rather than where wayward souls gather on the ruins of volanos to exchange their wares.
+
+Our crew has been doing a great job, and it is impressive to see the many ways and willingness of everyone to contribute. Not a few of them despite suffering multiple bouts of food poisening, tropical ailments and the maddening world of international air-travel, with all-night flights routing people around the world to travel routes no longer frequented. I shouldn’t mention names, because all have been great and they can all share their own stories.
+
+```{figure} /figures/blog_T28_1.jpeg
+:alt: Crew on the first mission in Barbados.
+:width: 600px
+:align: center
+
+Crew on the first mission of Barbados. (*Photo by B.Stevens*)
+```
+Many things work well, but even so a great deal of the time we spend overcoming things that don’t, or that we are not used to. From finding liquid nitrogen, to getting our clothes, to finding a coffee or laundrymat. Racing to solve one problem, like sondes that don’t launch, generators that don’t generate, lidars that aren’t there, or drones that don’t come, and when they finally do they go away again. Just as one problem is solved another pops up and then the next one, like clouds at the edges of the cold pools alluded to above. Customs has been a constant challenge, from containers for ships not afriving, to our present situation where much of the material for the aircraft is stuck in customs for weeks. This forces us to improvise, and fear each day that an eventuality that can’t be solved and thus interrupts our patient sampling, flight by flight, circle by circle, sonde by sonde.
+
+There of course are many other stories, but HALO is taking off and soon the weather briefing starts, and, I have to find a coffee.
+
+```{figure} /figures/blog_T28_2.jpeg
+:alt: Cloud impression.
+:width: 600px
+:align: center
+
+Cloud impressions. (*Photo by B.Stevens*)
+```
+
+---
+## #T27
+
+Transfer flight HALO - working on it...
+
+---
+## #T26
+
+It's 6:30LT. Time to get up, rush through breakfast and get ready for the transfer flight from Sal to Barbados. This time we have to go through the usual airport security procedure as we are leaving the country and our bags have to be checked.
+This would be my first flight on HALO and the excitement was building as we got closer to take-off. As we waited in the back with our seat belts fastened, the take-off apparently took longer than usual. At one point the pilots spoke to the Mission PI and said they had found an error message and needed to check the engine first. The flight crew started to move, other members of flight operations came into HALO and discussed. At first we scientists just sat and waited, hoping that this would only take a few minutes. A few minutes later we were told that, depending on the nature of the technical problem, it could be repaired within an hour or two, or that HALO wouldn't fly today. We are free to go.
+
+Almost an hour has passed. HALO was still in park postition. The flight engineers have been doing things to the engine that I don't understand, but they seem to have found the problem. Now it's just a question of how exactly to fix it.
+
+Another 30 minutes passed. We've received word that HALO will be returning to the hangar. Although they have found the technical problem and fixed it for now, they will have to do some engine test runs on the ground. Pilots have a strict rule about how many hours they can work. And in order not to exceed the hours, there will be no transfer flight today.
+
+So unlucky. You could see in almost every face that this situation was not ideal and many of us were ready for Barbados. The flight crew had already left the country through passport control at the airport and there was no hotel to stay in. It was also not clear if we would be able to fly the next day or if we would have to stay longer on Sal...
+Once the scientific crew had overcome their first moment of shock, we grabbed our things, went through passport control again to enter Cape Verde and drove back to the hotel in the hope that they still had rooms available for at least one night.
+
+Back at the hotel, some French colleagues had just returned from their lunch break and were surprised to see us back. Due to the lack of convection around Sal, MAESTRO decided not to fly today. Instead, they planned to visit the turtle hatching station in the afternoon, as it is hatching season and many little turtles are expected. They even had the opportunity to release all the baby turtles into the sea. What a lovely activity!
+
+Later that evening, the PERCUSION crew received notification that the technical problem had been successfully resolved and that HALO was ready for the next day's transfer.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T26_0.jpg
+:img-alt: Scientific crew waiting for progress.
+
+Crew waiting for news.
+
+```
+```{card}
+:img-top: /figures/blog_T26_1.jpg
+:img-alt: Release of the baby turtle.
+
+Release of the baby turtles. (*Photo by E.Chauvin*)
+
+```
+````
+
+---
+
+## #T25
+
+Today was a day off for MAESTRO. It was a shame to miss the last joint morning briefing on Sal between the German and French teams, as HALO will be leaving for Barbados tomorrow. On the other hand, the French team really deserve their day off, having flown six days in a row and four flights in three days before that.
+
+The PERCUSION members are already in full clean-up mode, tidying up their workstations and packing them back into boxes. Within the next two days, everything, including what is in the hangar, has to be put back in the container before customs checks are carried out.
+
+At the moment, a French film crew is here to shoot some scenes for their upcoming project. [*Look at sciences*](http://site.lookatsciences.com/en/home-us/) visited the EUREC4A campaign in 2020, where they produced the film *The Cloud People*, which has been shown at various film festivals. As one of the producers was part of the visiting film team, *The cloud people* was shown later in the afternoon. The film is an artistic summary of the first attempts of the camera to follow a cloud from it's being to it's passing and the connection of clouds to the history of humankind. It also captured some cultural aspects of Barbados and was a nice teaser for the PERCUSION team to get some first impressions of the Caribbean island where they will be heading next.
+
+RV METEOR began to head west, swimming towards the nearest Pirata buoy at 8N, 38W.
+Unfortunately, STRINQS lost one of their drones in the sea, despite the safety float ring. Also, the propeller of another drone caught fire. Fortunately, this should be fixable and can be replaced if the damage is not too extensive.
+Despite the delicate situation with the drones, the RV METEOR seems to be surrounded by a rich variety of weather conditions, ranging from rain, which turns from light spray to dripping from the roof, to doldrums, with sunny skies, calm seas and almost no wind.
+
+By the way, if you are curious if this campaign has attracted any attention outside of this website, check out the articles listed below:
+
+[ORCESTRA: Taking to the sea and sky for EarthCARE](https://blogs.esa.int/campaignearth/2024/08/21/earthcares-orcestra-takes-to-the-sea-and-sky/)
+[ORCESTRA: Half-time for the tropical cloud experiment](https://mpimet.mpg.de/en/communication/news/orcestra-half-time-for-the-tropical-cloud-experiment)
+[HALO under EarthCARE in tandem flight – measurement flights from aircraft and satellite](https://www.dlr.de/en/latest/news/2024/halo-under-earthcare-in-tandem-flight-measurement-flights-from-aircraft-and-satellite)
+[ORCESTRA: Sea Sickness and turbulence worth it for EarthCARE](https://blogs.esa.int/campaignearth/2024/09/09/orcestra-sea-sickness-and-turbulence-worth-it-for-earthcare/)
+
+
 ---
 ## #T24
 

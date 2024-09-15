@@ -37,7 +37,8 @@ EarthCARE tracks are available as long term prediction (LTP) and preliminary (PR
 First, we load the track data 
 ```{code-cell} python3
 :tags: [hide-input]
-from orcestra import sat
+
+from orcestra import bco, sat
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta, time
 import cartopy.crs as ccrs
@@ -90,14 +91,20 @@ dates_ltp = [
 tracks_ltp = {}
 tracks_pre = {}
 for date in dates_ltp:
+    if date >= datetime(2024, 10, 1):
+        # Apparently our forecasts stop right at the end of the campaign
+        break
     tracks_ltp[date] = (
-        sat.SattrackLoader("EARTHCARE", issue_date_ltp, kind='LTP')
+        sat.SattrackLoader("EARTHCARE", issue_date_ltp, kind='LTP', roi="BARBADOS")
         .get_track_for_day(date)
         .sel(time=slice(datetime.combine(date, time(6, 0)), None))
         )
 for date in dates_pre:
+    if date >= datetime(2024, 10, 1):
+        # Apparently our forecasts stop right at the end of the campaign
+        break
     tracks_pre[date] = (
-        sat.SattrackLoader("EARTHCARE", issue_date_pre, kind='PRE')
+        sat.SattrackLoader("EARTHCARE", issue_date_pre, kind='PRE', roi="BARBADOS")
         .get_track_for_day(date)
         .sel(time=slice(datetime.combine(date, time(6, 0)), None))
     )
@@ -136,7 +143,7 @@ def annotate_time(ax, track, line):
 def plot_tracks(tracks, dates, ax):
     # plot tracks
     for date in dates:
-        if (time := tracks[date].time).size == 0:
+        if (date not in tracks) or (time := tracks[date].time).size == 0:
             # Don't attempt to plot tracks without data (e.g. night-time overpasses)
             continue
 
@@ -171,12 +178,8 @@ def plot_tracks(tracks, dates, ax):
             if len(tracks[date].lon.values) > 0:
                 annotate_time(ax, tracks[date], line)
 
-    # plot circle
-    center = (16.735, -22.948) 
-    radius_km = 250
-    circle_points = generate_circle_points(center, radius_km)
-    lats, lons = zip(*circle_points)
-    ax.plot(lons, lats, label=f'{radius_km} km circle', color='k')
+    ax.scatter(bco.lon, bco.lat, color="#0B257A", zorder=2)
+    ax.text(bco.lon + 0.5, bco.lat + 0.5, "BCO", weight="bold", color="#0B257A")
 
     # pimp plot
     ax.coastlines()
