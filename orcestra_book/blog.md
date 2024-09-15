@@ -6,6 +6,87 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+
+---
+## #T30
+### It ain’t what you don’t know that gets you into trouble
+
+*by Brett McKim*
+
+Compared to the sleek lines and gleaming finish of the jet-engined HALO, the stubbier, propeller-driven ATR looks utilitarian, like it should be hauling cargo across a harsh landscape. And that is what it felt like onboard as we accelerated to take off — the cabin filled to the brim with metal boxes, dials, and lights; the windowed landscape dotted with a few ancient volcanoes and even fewer houses.
+
+The start and end of every flight is Sal, but the middle changes from day to day. It depends on the clouds. It depends on the phase of the African Easterly Wave, the phase of the Madden-Julian Oscillation, and who knows, maybe even the phase of the moon. The point is that every flight has the chance to offer something unexpected. This is why we are here, to see something that we don’t expect.
+
+I was on the second flight of the day. The plan was designed to sample the conditions behind the trough of the passing African Easterly Wave. But we already knew at take off that the plans had changed. The first flight of the day sampled a “golden case” of a rapidly growing convective cell to the south east. They witnessed the birth of a cloud, and so now, hours later, we were to return to see what had become of this cloud.
+
+As we approached the convective cell, flying at cloud base, the afternoon light gave way to gray fog. Then we ascended to about 6 km. Twenty minutes later, it dimmed to black. It began to rain, and then the plane began to shake. For 10 seconds I could feel my stomach and the 4-point seat belt keeping me in place. And then we were through. Some of the light came back, and the landscape to our left opened up, with a dark mass in the middle.
+
+It was our cloud, and it had grown! I looked up, I leaned in, and I looked higher still, and then I could see the top.
+
+And then I felt this vulnerability. We could not fly over the convection like HALO could, we could only fly through it, or around it. As someone who has been helplessly caught in a thunderstorm on top of a mountain, this felt eerily similar.
+
+But what I thought this cloud would like was not the image that laid before me. This cloud was surrounded by layers of low lying stratocumulus, and mid-levels stratus that we flew through. And the convecting cell never reached high enough, or perhaps never detrained enough, to produce the high altitude cirrus I would have expected.
+
+We passed the cloud unscathed, turned around and flew past it again. Now it was dark, and my only guide was BASTA, our horizontally pointing radar. It could still see the cloud, but I couldn’t.
+As the flight ended, I realized how the ATR, with its horizontal and vertical radars and lidars, among other things, is configured to sample the volume of air that surrounds it, in all directions, as opposed to HALO, which mainly looks down.
+
+Why does the ATR need to look in all directions? The essential idea is that we should be sampling the cloud with its environment. The two act back and forth on one another, in ways that cannot be anticipated if we just imagine that clouds are passively responding to the environment. That’s why we have to go out and observe it.
+
+Before this flight, I did not fully appreciate this two-way coupling. I used to think of clouds living in response to the large scale environment’s “cloud controlling factors”. But if these really have all the power, then who let the stratocumulus out of their enclosure and put it next to our convective cell? And who invited the altocumulus? Why should they exist in such numbers when large scale “cloud controlling factors” say otherwise?
+
+After the surprises of this flight, and the whole campaign, I realize I might be missing something important. I think I’ll need to rejig the puzzle pieces in my mind of how clouds, circulation, and climate fit together. As Mark Twain said, “It ain’t what you don’t know that gets you into trouble. It’s what you know for sure that just ain’t so.”
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogBMK_T30_0.png
+:img-alt: Brett in front of the ATR.
+
+In front of the ATR.
+
+```
+```{card}
+:img-top: /figures/blogBMK_T30_1.png
+:img-alt: Look out of the cockpit.
+
+Look out of the cockpit.
+```
+````
+
+
+---
+## #T29
+
+The start for PERCUSION here in Barbados has been a somewhat bumpy one. One reason could be the delay of the transfer flight. The first mission flight on Barbados felt a bit rushed as it came right after the transfer without the usual pre-flight meetings. Although the flight was trouble free, people seem to have been swamped by the immediate action. We followed up on the morning briefings we'd had in Sal, and you could tell from the faces who had just joined and was eager to contribute to the campaign, and who was already carrying a load from four weeks of campaigning.
+
+We also received news that the PERCUSION containers are still stuck in customs for an unknown time. But a delayed clearance of the containers seems to be usual for every campaign. Let's hope it doesn't take too long, as the equipment in the container is desperately needed to prepare the instruments for the flights. In Barbados, HALO won't be in a hangar and there's no shade to hide under at the airport. Just a paved area, heat and more paved areas.
+
+At the easternmost point of the island, measurements began as planned, with the first radio sonde launched two nights ago. The launch of the radio sondes is being conducted at the [Barbados Cloud Observatory](https://orcestra-campaign.org/bco.html) (BCO), which is equipped for standard meteorological measurements and has been operational since 2010. Here, between grassy areas, cliffs and the sound of the sea, large white balloons are released into the sky every 6 hours.
+
+While part of us settles in and adapts to a new location with different conditions, the ship heads north towards another rain band to reach the northern edge of the ITCZ. Fortunately, the rain passed quickly and they were able to enjoy their *Bergfest* - a traditional event where everyone on board celebrates reaching the halfway point of their voyage - and taste the freshly caught tuna from the night before.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T29_0.jpg
+:img-alt: Launch of first RS in Barbados.
+
+Launch of the first radio sonde on Barbados. (*Photo by M. Winkler*)
+```
+
+```{card}
+:img-top: /figures/blog_T29_1.jpg
+:img-alt: BCO
+
+BCO at Deebles point. (*Photo by M.Winkler*)
+```
+
+```{card}
+:img-top: /figures/blog_T29_2.jpg
+:img-alt: Raman lidar.
+
+Raman lidar and it's significant laser pointing into the sky. (*Photo by B.Stevens*)
+```
+````
+
 ---
 ## #T28
 
@@ -18,7 +99,7 @@ Some days we fly over a sea of white as the clouds load the upper troposphere wi
 
 ```{figure} /figures/blog_T28_0.jpeg
 :alt: Clouds like Totoro.
-:width: 800px
+:width: 600px
 :align: center
 
 Clouds like Totoro. (*Photo by B. Stevens*)
@@ -34,7 +115,7 @@ Our crew has been doing a great job, and it is impressive to see the many ways a
 
 ```{figure} /figures/blog_T28_1.jpeg
 :alt: Crew on the first mission in Barbados.
-:width: 800px
+:width: 600px
 :align: center
 
 Crew on the first mission of Barbados. (*Photo by B.Stevens*)
@@ -45,7 +126,7 @@ There of course are many other stories, but HALO is taking off and soon the weat
 
 ```{figure} /figures/blog_T28_2.jpeg
 :alt: Cloud impression.
-:width: 800px
+:width: 600px
 :align: center
 
 Cloud impressions. (*Photo by B.Stevens*)
