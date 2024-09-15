@@ -54,5 +54,5 @@ html:
   favicon: "logos/orcestra_favicon.png"
   extra_footer: |
     <p>
-    ORCESTRA is endorsed by <img src="_static/gewex.jpg"></img> and <img src="_static/wcrp.png"></img>
+    ORCESTRA is endorsed by <img src="_static/gewex.jpg" height="16x"></img> and <img src="_static/wcrp.png" height="48x"></img>
     </p>
