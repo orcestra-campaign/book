@@ -6,6 +6,107 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+---
+## #T33
+### Impressions from RV METEOR I
+
+*by Delián Colon Burgos*
+
+Hello! My name is Delián, and I am an atmospheric science master’s student at Colorado State University, and part of the PICCOLO team on the RV Meteor. I work with the SEA-POL radar on board, which is a C-band polarimetric radar. Our instrument allows us to study the properties of precipitation and convective organization, so you can imagine we get really excited on rainy days!!
+Being on the RV Meteor for the past couple of weeks has been an incredible experience! First, it has been so fascinating being able to experience the weather in the ITCZ, including going through squall lines, easterly waves, and mesoscale convective systems, and matching that with what we see on the radar! Coming into this experience I was expecting to see a lot of deep convection, but it has been interesting to see that most of the convection is shallow and congestus, which doesn’t seem strong from satellite imagery but is able to sustain itself for hours and drop significant amounts of rain over us.
+
+Apart from being fascinated by all the weather around me, I am really enjoying life on board, and getting to know the other scientists, students, and crew. Coming from the meteorology side, it has been really cool to learn about the science that other people are passionate about, including topics within oceanography and microbiology, and the instruments they are using. On my free time I have enjoyed spending time at the pool (yes, we have a small pool on deck, recently upgraded with bubbles), doing tabata with other people from the crew, engaging in game nights, and giving salsa lessons.
+
+This has been such a unique learning experience, and I feel so grateful to be a part of it!  I can’t wait to see what the end of the cruise brings!
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogDCB_0.png
+:img-alt: Delián in front of the RV Meteor.
+
+Delián in front of the RV Meteor. (*Photo by unknown*)
+
+```
+```{card}
+:img-top: /figures/blogDCB_1.jpg
+:img-alt: View of a squall line heading toward us, on August 31st.
+
+View of a squall line heading toward us, on August 31st. (*Photo by D. Colon Burgos*)
+
+```
+```{card}
+:img-top: /figures/blogDCB_2.JPG
+:img-alt: The PICCOLO team on the RV Meteor.
+
+The PICCOLO team on the RV Meteor. (*Photo by unknown*)
+
+```
+```{card}
+:img-top: /figures/blogDCB_3.png
+:img-alt: Data captured by SEA-POL during an easterly wave on September 3rd.
+
+Data captured by SEA-POL during an easterly wave on September 3rd. (*Figure by D. Colon Burgos*)
+
+```
+````
+
+---
+## #T32
+
+*working on it...*
+
+---
+## #T31
+
+PERCUSION day off.
+
+MAESTRO has been fairly quiet over the last few days. The convection around Sal has been less than attractive in recent days. But not for today. And what wonderful timing! For their last and final two flights, some wonderful convective systems from shallow to deep showed up in their flight range. And of course they took their chance and well... The photos say more than words can describe.
+
+On a different note: It rained on Sal! And not just some drizzle that disappeared faster than you could identify it as rain. It was a heavy downpour, where you could get soaked in a matter of minutes. What a way to end the campaign on Sal.
+
+CELLO had its last research flight on 7 September. Today, the INCAS King Air is heading home - and so is the CELLO crew.
+
+In every family there is always one child who is rather unlucky. And in the ORCESTRA family, that child seems to be STRINQS. At first it took them ages to get their drones. Then, after slowly getting to grips with flying three drones at once, they had a run of bad luck: one drone disappeared into the deep sea, another caught fire and a third got lost too, leaving them with just one drone. Eventually, the STRINQS team decided to cease operations. At least they were able to complete almost 20 flights and collect some data. The post analysis will show what came out of this experiment...
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T31_0.png
+:img-alt: PLANET screenshot
+
+PLANET screenshot (*Photo by B.McKim*)
+
+```
+```{card}
+:img-top: /figures/blog_T31_1.jpeg
+:img-alt: Cloud impressions
+
+(*Photo by G.Seurat*)
+
+```
+```{card}
+:img-top: /figures/blog_T31_2.jpeg
+:img-alt: Cloud impressions
+
+(*Photo by G.Seurat*)
+
+```
+```{card}
+:img-top: /figures/blog_T31_3.jpeg
+:img-alt: Cloud impressions
+
+(*Photo by G.Seurat*)
+
+```
+```{card}
+:img-top: /figures/blog_T31_4.jpeg
+:img-alt: Cloud impressions
+
+(*Photo by G.Seurat*)
+
+```
+
+````
+
 
 ---
 ## #T30
