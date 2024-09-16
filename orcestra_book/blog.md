@@ -6,6 +6,58 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 
 Cheers, Yu
 
+---
+## #T31
+
+PERCUSION day off.
+
+MAESTRO has been fairly quiet over the last few days. The convection around Sal has been less than attractive in recent days. But not for today. And what wonderful timing! For their last and final two flights, some wonderful convective systems from shallow to deep showed up in their flight range. And of course they took their chance and well... The photos say more than words can describe.
+
+On a different note: It rained on Sal! And not just some drizzle that disappeared faster than you could identify it as rain. It was a heavy downpour, where you could get soaked in a matter of minutes. What a way to end the campaign on Sal.
+
+CELLO had its last research flight on 7 September. Today, the INCAS King Air is heading home - and so is the CELLO crew.
+
+In every family there is always one child who is rather unlucky. And in the ORCESTRA family, that child seems to be STRINQS. At first it took them ages to get their drones. Then, after slowly getting to grips with flying three drones at once, they had a run of bad luck: one drone disappeared into the deep sea, another caught fire and a third got lost too, leaving them with just one drone. Eventually, the STRINQS team decided to cease operations. At least they were able to complete almost 20 flights and collect some data. The post analysis will show what came out of this experiment...
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T31_0.png
+:img-alt: PLANET screenshot
+
+PLANET screenshot (*Photo by B.McKim*)
+
+```
+```{card}
+:img-top: /figures/blog_T31_1.jpeg
+:img-alt: Cloud impressions
+
+(*Photo by G.Seurat*)
+
+```
+```{card}
+:img-top: /figures/blog_T31_2.jpeg
+:img-alt: Cloud impressions
+
+(*Photo by G.Seurat*)
+
+```
+```{card}
+:img-top: /figures/blog_T31_3.jpeg
+:img-alt: Cloud impressions
+
+(*Photo by G.Seurat*)
+
+```
+```{card}
+:img-top: /figures/blog_T31_4.jpeg
+:img-alt: Cloud impressions
+
+(*Photo by G.Seurat*)
+
+```
+
+````
+
 
 ---
 ## #T30
