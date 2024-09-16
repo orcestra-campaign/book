@@ -5,7 +5,7 @@
 
 import easygems.healpix as egh
 import numpy as np
-import healpy as hp
+import healpix as hp
 import xarray as xr
 
 SPEED_THRESHOLD = 3  # m/s
