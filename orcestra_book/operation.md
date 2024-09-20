@@ -1,6 +1,6 @@
 # Operation
 
-````{grid} 4
+````{grid} 5
 
 ```{grid-item-card} ATR-42
 :img-bottom: figures/SAFIRE_ATR42_320x.jpeg
@@ -30,6 +30,14 @@
 :img-bottom: figures/RV_METEOR_320x.png
 :img-alt: RV Meteor
 :link: operation/rvmeteor
+:link-type: doc
+
+```
+
+```{grid-item-card} Radiosondes
+:img-bottom: figures/Radiosonde.jpg
+:img-alt: Radiosondes
+:link: operation/radiosonde
 :link-type: doc
 
 ```
