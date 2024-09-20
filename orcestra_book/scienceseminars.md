@@ -5,6 +5,7 @@ orphan: true
 # ORCESTRA Science Seminars
 
 On ground days we offer science talks to share the work of the scientists.
+The slides of the talks are provided [here](https://owncloud.gwdg.de/index.php/s/AFQtKx3woLhjOlb).
 
 |    When         |      Who       |    What         |
 | --------------- | -------------- | --------------- |
@@ -29,6 +30,9 @@ On ground days we offer science talks to share the work of the scientists.
 |                 |        |         |
 | 11 Sep, 11 LT   |   Julia Windmiller (MPI-M)       |   The calm and variable inner life of the ITCZ: The relationship between the doldrums and surface convergence  |
 |                 |        |         |
-| 18 Sep, 11 LT   |    Wei-Ting Hsiao (FSU)          |   *tba*        |
-|                 |    Ankeem Dawes (CIMH)           |   *tba*        |
+| 16 Sep, 14 LT   |   André Ehrlich (LIM)            |   Quantifying the drivers of large-scale cloud radiative effects and EC-MSI Validation |
+|                 |        |         |
+| 18 Sep, 16 LT   |    Ankeem Dawes (CIMH)           |   Application of the Data Assimilation Research Testbed (DART) in Meteorology with the Weather Research and Forecasting Model (WRF)      |
+|                 |        |         |
+| 20 Sep, 11 LT   |    Wei-Ting Hsiao (FSU)          |   Spatially and temporally non-uniform convective-radiative feedback over the tropics       |
 |                 |        |         |
