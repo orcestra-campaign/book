@@ -118,7 +118,7 @@ Meeting on Barbados.
 
 PERCUSION day off.
 
-MAESTRO has been fairly quiet over the last few days. The convection around Sal has been less than attractive in recent days. But not for today. And what wonderful timing! For their last and final two flights, some wonderful convective systems from shallow to deep showed up in their flight range. And of course they took their chance and well... The photos say more than words can describe.
+MAESTRO has been fairly quiet over the last few days. The convection around Sal has been less than attractive in recent days. But not for today. And what wonderful timing! For their last and final two flights, some wonderful convective systems from shallow to deep showed up in their flight range. And of course they took their chance and well... The photos say more than words can describe: Catching some nice deep convection, organized and popcorn convection, with a wide variety of different clouds and wonderful radar echoes.
 
 On a different note: It rained on Sal! And not just some drizzle that disappeared faster than you could identify it as rain. It was a heavy downpour, where you could get soaked in a matter of minutes. What a way to end the campaign on Sal.
 
