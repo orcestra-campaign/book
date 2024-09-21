@@ -37,7 +37,7 @@
 ```{grid-item-card} Radiosondes
 :img-bottom: figures/Radiosonde.jpg
 :img-alt: Radiosondes
-:link: operation/radiosonde
+:link: operation/radiosondes
 :link-type: doc
 
 ```
