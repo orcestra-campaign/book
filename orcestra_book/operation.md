@@ -34,10 +34,11 @@
 
 ```
 
-```{grid-item-card} Radiosondes
-:img-bottom: figures/Radiosondes.jpg
-:img-alt: Radiosondes
-:link: operation/radiosondes
+
+```{grid-item-card} BCO Radiosondes
+:img-bottom: figures/Radiosonde.jpg
+:img-alt: BCO Radiosondes
+:link: operation/BCO_Radiosondes
 :link-type: doc
 
 ```

@@ -29,7 +29,7 @@ chapters:
     - file: operation/halo
     - file: operation/rvmeteor
     - file: operation/kingair
-    - file: operation/radiosondes
+    - file: operation/BCO_Radiosondes
     - file: flightplan_docs
       title: Flight plan docs
 - file: data
