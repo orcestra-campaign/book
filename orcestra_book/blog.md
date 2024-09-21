@@ -94,7 +94,24 @@ Data captured by SEA-POL during an easterly wave on September 3rd. (*Figure by D
 ---
 ## #T32
 
-*working on it...*
+While MAESTRO has started packing its containers on Sal, PERCUSION is still waiting for its container to arrive on the other side of the Atlantic. At least one container has made its way to the BCO and the launch of the radio sondes is ensured! The team has even decided to increase the launch frequency to every three hours from tomorrow.
+
+In the absence of the container containing all the equipment needed to prepare the aircraft for each flight and the data servers, some of the team have been brainstorming and canvassing the island over the last few days to find alternative ways of preparing the instruments for a flight or setting up a data server. For one group of instruments in particular, the data server is vital, as they produce an enormous amount of data - several TB per flight - and if it's not properly copied and stored, they can't continue measuring. And just as a reminder: Data is incredibly valuable in science. Without data, especially in the field of observations, how can we work?
+Fortunately, since we have the BCO on Barbados, we have some expert technicians who know the island and know where and what to get, and fortunately the improvised data server is working and is a proper workaround for now.
+
+So we are starting to settle into our new environment. Today was a day of many meetings between different subgroups and across groups.
+
+It should also be noted that for this part of the campaign, some of the early career scientists will get their chance to design their own flight and be a mission PI themselves! What an exciting and challenging role.
+
+```{figure} /figures/blog_T32_0.JPG
+:alt: Meeting in Barbados.
+:width: 600px
+:align: center
+
+Meeting on Barbados.
+
+```
+
 
 ---
 ## #T31
