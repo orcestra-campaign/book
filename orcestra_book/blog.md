@@ -7,6 +7,47 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+
+## #T35
+### Impressions from RV METEOR II
+
+*by Owen O'Driscoll*
+
+I have been requested to share my perception of life and work onboard the R/V Meteor. This I have attempted to recount without too much embellishment. Fortunately life onboard involves fewer eyepatches and barnacles than pop culture had led me to expect. Particularly striking upon entry are the maze of corridors, stairs and doors that appear nothing short of a labyrinth. These quickly become familiar however, especially those leading towards the heart of the ship: the mess hall. Aside from keeping everyone fed, the mess serves a more subtle purpose as the on-board clock. Measurement schedules are regulated so as not to coincide with afternoon "cake time", Thursday lunch ice creams or any of the Sunday specials. After a while, days become discernible by their menus more than anything.
+
+Among the many leisurely activities and amenities on board one can count the sauna, a gym, frequent table tennis and darts competitions, star gazing, tuna fishing, engine room tours, a glider calibration tub---read make-shift swimming pool---and much more. But rather than facilities, it is my fellow shipmates, crew and scientists, that make this journey a memorable one. Things only come to a head during breakfast when the highly controlled supply of yoghurts (a commodity more valuable than bandwidth!) leads to a frenzied storm at the buffet line. However, even during this recurring darkest hour, there are those capable of sharing what little yoghurt they were able to obtain with those still less fortunate.
+
+With a bit of luck one can spot quite some wildlife from on deck. The aforementioned tuna have been seen jumping across the air-sea interface in an effort to catch the more frequently-spotted flying fish. The occasional bird stops by on the ship as well. But as soon as you get attached and give it a name, they depart. The only sign of other humans is the sporadic appearance of a container ship on the horizon, or the train of visible satellites passing overhead during a clear night sky. Some people claim to have seen whales on this voyage! These people are not to be trusted however, I have seen less pixelated videos of Bigfoot than of these phantom mammals...
+
+At any hour on the ship someone is taking measurements of something. For practical reasons we from Team STRINQS made measurements when the ship was stationary. That made operating our meteorological drones a bit easier. Getting the drones on the ship to begin with was nothing short of a Herculean logistical task. But that Odyssey is best left for another day. The drones are quite unlike those commonly spotted at the beach or elsewhere: despite weighing several kilograms they are capable of flying up several kilometers whilst profiling the boundary layer temperature, humidity and wind vectors. At first we flew just one drone to acquaint ourselves with takeoffs and landings from a wobbly platform, but steadily we built our confidence and tested the limits of these machines at night, during heavy winds and downpour. In doing so we were joined by local talent on board. Eager to take to the skies we flew up to three drones simultaneously and for a short while the Meteor was akin to an aircraft carrier with a proper flight deck, ground crew, call signs and an impromptu aircraft control tower.
+
+This accomplishment was soon followed by a stroke of misfortune: successive battery failures prevented further simultaneous flights and an engine fire reduced our flight-ready drones from four to three. But worse was yet to come. That same day a mysterious communication disruption was soon followed by one of the drones plunging into the deep (which we can only assume to be related to flying too close to the sun). Yet another close brush with fate involving a third drone (and an unfortunate GPS failure) reduced our drone number to one. Though, unlike Icarus, this drone could be recovered with most of its wings still attached. With our last "bird" suffering from instrument failures (reducing the flight-capable drone tally to zero!) it was time to cut our loses and assess the observations acquired so far. Hopefully this is where the story of STRINQS and Icarus diverge, so that we, unlike Icarus' father Daedalus, will take to the skies once more.
+
+PS: Please send fresh apples \
+PPS: They should really add Mythos to the Ship's library
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogOOD_T35_0.jpg
+:img-alt: STRINQS I
+
+(*Photo by O.O'Driscoll*)
+```
+```{card}
+:img-top: /figures/blogOOD_T35_1.jpg
+:img-alt: STRINGQS II
+
+(*Photo by O.O'Driscoll*)
+```
+````
+
+
+---
+## #T34
+
+*work in progress*
+
+---
 ## #T33
 ### Impressions from RV METEOR I
 
