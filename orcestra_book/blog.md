@@ -7,7 +7,43 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T37
+### Impressions from RV METEOR III
 
+*by James Ruppert*
+
+I’ve always thought that gravity was a constant. I swear, gravity is only supposed to appear in the vertical dimension of the equations governing my body.  But right now, it is unmistakably a variable, sideways force. Laughable or maddening, depending on the time and day. When trying to sleep, to shower, or maintain some grace while ascending and descending the flights of stairs of our multi-deck existence. Quite humorous yesterday evening when, during our group tabata workout, Lennéa’s pull-ups suddenly took on an impressive 5º tilt before my very eyes.
+
+Wake up. Thoughts of coffee. Brötchen. Pfannkuchen. Race to one of the few, prized yoghurts bestowed upon us today. Work. Fresh air. Enjoy the 10-knot breeze. More coffee. Daily meeting. Oh my, lunchtime already. Mahlzeit! More work. Fresh air. Toll…Kaffee und Kuchen. Stoked. Good grief, dinner time already. What’s the menu tonight? Roasted lamb?? Epic. Oy vey…my heart goes out to the vegetarians.
+
+Rolling, pitching, heaving. New vocabulary used to characterize the day. Well, no, that was likely not a new form of cloud that SEAPOL just observed…just the poor dish being tossed off her mark by literal kilometers with a 5º roll. Ouch.
+
+Here, in the middle of the tropical Atlantic, we watch as unprecedented new data pours in. Sharing in the joy and excitement for all comes next. I’m now among the small fraction of humans who can say they’ve chased and punched through an ITCZ. We’ve now experienced the stratiform-ey rains of an easterly wave-turned tropical depression, shortly after it exited West Africa. That was the most doldrum-ey easterly wave I’ve ever ridden. Okay, also the only, but still…a bit surprising.
+
+The clouds do not disappoint. The sunsets and sunrises do not get old. How wildly absurd that one can fall into routine, even mundane experiences at times, while existing merrily and comfortably in the middle of the tropical Atlantic, many days’ travel from the nearest civilization. Ferried in ridiculous comfort, all things considered, without a modicum of hunger or thirst. Enough bread stocking our freezers to survive, I’m convinced, for decades.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogJR_T37_0.JPG
+:img-alt: Dolphins spotted.
+
+Welcomed to the open ocean by a large pod of common dolphins (Delphinus delphis) playing in the waves of Meteor’s wake. (*Photo by J.Ruppert*)
+```
+```{card}
+:img-top: /figures/blogJR_T37_1.JPG
+:img-alt: SEA-POL scan.
+
+SEAPOL’s dynamic platform stabilizer meets her match in the ~2.5m swells south of the Atlantic ITCZ. (*Photo by J.Ruppert*)
+```
+```{card}
+:img-top: /figures/blogJR_T37_2.png
+:img-alt: METEOR track sofar.
+
+Home stretch. (*Photo by J.Ruppert*)
+```
+````
+
+---
 ## #T36
 ### Photo Series RV METEOR
 
@@ -45,7 +81,7 @@ Cheers, Yu
 
 ```
 ````
-*Photos by James Ruppert*
+*Photos by J.Ruppert*
 
 ---
 ## #T35
