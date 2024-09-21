@@ -9,28 +9,31 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nisl nec urna
 ---
 
 <details>
-  <summary><h3>ORCESTRA at BCO:</h3></summary>
-
-  <summary><h4>The BCO Radiosonde Team</h4></summary>
+  <summary><strong>ORCESTRA at BCO:</strong></summary>
+  
+  <strong>The BCO Radiosonde Team</strong>
+  <br>
 
   | ![Team1](../figures/Collage1.jpg) | ![Team2](../figures/Collage2.jpg) |
   |:---------------------------------:|:---------------------------------:|
 
-
 </details>
 
 <details>
-  <summary><h3>ORCESTRA versus EUREc4A:</h3></summary>
+  <summary><strong>ORCESTRA versus EUREC4A:</strong></summary>
   
   Comparison between ORCESTRA and EUREC4A.
-
+  <br>
   ![ORCESTRA_vs_EUREC4A](../figures/All_Variables_EUREC4A_vs_ORCESTRA.png)
-  
+
 </details>
 
 <details>
-  <summary><h3>How good was IFS forecasting:</h3></summary>
+  <summary><strong>How good was IFS forecasting:</strong></summary>
   
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget pharetra ex. Cras vel urna nec nulla cursus aliquet.
-  
+  ![BCO Radiosondes](../figures/IFS_evaluation_IWV_Sal.png)
+  Comparison of IWV from IFS forecasts and radiosondes measurements.
+
 </details>
+
+
