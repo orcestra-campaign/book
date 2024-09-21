@@ -66,7 +66,8 @@ On a different note: It rained on Sal! And not just some drizzle that disappeare
 
 CELLO had its last research flight on 7 September. Today, the INCAS King Air is heading home - and so is the CELLO crew.
 
-In every family there is always one child who is rather unlucky. And in the ORCESTRA family, that child seems to be STRINQS. At first it took them ages to get their drones. Then, after slowly getting to grips with flying three drones at once, they had a run of bad luck: one drone disappeared into the deep sea, another caught fire and a third got lost too, leaving them with just one drone. Eventually, the STRINQS team decided to cease operations. At least they were able to complete almost 20 flights and collect some data. The post analysis will show what came out of this experiment...
+In every family there is always one child who is rather unlucky. And in the ORCESTRA family, that child seems to be STRINQS. At first it took them ages to get their drones. Then, after slowly getting to grips with flying three drones at once, they had a run of bad luck: one drone disappeared into the deep sea, another caught fire and a third encountered to have some communication issues, leaving them with one functional drone.
+Eventually, the STRINQS team decided to cease operations. At least they were able to complete around 40 flights and collect some data. They go back with three drones but many more lessons learnt from the experience. Maybe STRINQS sacrifice to the goddess of the ocean helped to keep worse away from the other childrens of ORCESTRA...
 
 ````{card-carousel} 2
 ```{card}
