@@ -8,6 +8,46 @@ Cheers, Yu
 
 ---
 
+## #T36
+### Photo Series RV METEOR
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogJR_T36_0.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_1.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_2.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_3.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_4.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_5.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_6.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_7.JPG
+
+```
+````
+*Photos by James Ruppert*
+
+---
 ## #T35
 ### Impressions from RV METEOR II
 
