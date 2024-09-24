@@ -37,3 +37,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nisl nec urna
 </details>
 
 
+<details>
+  <summary><strong>African Easterly waves passing on top of Sal:</strong></summary>
+  
+
+</details>
+
