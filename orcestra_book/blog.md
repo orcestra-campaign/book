@@ -7,6 +7,123 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T37
+### Impressions from RV METEOR III
+
+*by James Ruppert*
+
+I’ve always thought that gravity was a constant. I swear, gravity is only supposed to appear in the vertical dimension of the equations governing my body.  But right now, it is unmistakably a variable, sideways force. Laughable or maddening, depending on the time and day. When trying to sleep, to shower, or maintain some grace while ascending and descending the flights of stairs of our multi-deck existence. Quite humorous yesterday evening when, during our group tabata workout, Lennéa’s pull-ups suddenly took on an impressive 5º tilt before my very eyes.
+
+Wake up. Thoughts of coffee. Brötchen. Pfannkuchen. Race to one of the few, prized yoghurts bestowed upon us today. Work. Fresh air. Enjoy the 10-knot breeze. More coffee. Daily meeting. Oh my, lunchtime already. Mahlzeit! More work. Fresh air. Toll…Kaffee und Kuchen. Stoked. Good grief, dinner time already. What’s the menu tonight? Roasted lamb?? Epic. Oy vey…my heart goes out to the vegetarians.
+
+Rolling, pitching, heaving. New vocabulary used to characterize the day. Well, no, that was likely not a new form of cloud that SEAPOL just observed…just the poor dish being tossed off her mark by literal kilometers with a 5º roll. Ouch.
+
+Here, in the middle of the tropical Atlantic, we watch as unprecedented new data pours in. Sharing in the joy and excitement for all comes next. I’m now among the small fraction of humans who can say they’ve chased and punched through an ITCZ. We’ve now experienced the stratiform-ey rains of an easterly wave-turned tropical depression, shortly after it exited West Africa. That was the most doldrum-ey easterly wave I’ve ever ridden. Okay, also the only, but still…a bit surprising.
+
+The clouds do not disappoint. The sunsets and sunrises do not get old. How wildly absurd that one can fall into routine, even mundane experiences at times, while existing merrily and comfortably in the middle of the tropical Atlantic, many days’ travel from the nearest civilization. Ferried in ridiculous comfort, all things considered, without a modicum of hunger or thirst. Enough bread stocking our freezers to survive, I’m convinced, for decades.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogJR_T37_0.JPG
+:img-alt: Dolphins spotted.
+
+Welcomed to the open ocean by a large pod of common dolphins (Delphinus delphis) playing in the waves of Meteor’s wake. (*Photo by J.Ruppert*)
+```
+```{card}
+:img-top: /figures/blogJR_T37_1.JPG
+:img-alt: SEA-POL scan.
+
+SEAPOL’s dynamic platform stabilizer meets her match in the ~2.5m swells south of the Atlantic ITCZ. (*Photo by J.Ruppert*)
+```
+```{card}
+:img-top: /figures/blogJR_T37_2.png
+:img-alt: METEOR track sofar.
+
+Home stretch. (*Photo by J.Ruppert*)
+```
+````
+
+---
+## #T36
+### Photo Series RV METEOR
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogJR_T36_0.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_1.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_2.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_3.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_4.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_5.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_6.JPG
+
+```
+```{card}
+:img-top: /figures/blogJR_T36_7.JPG
+
+```
+````
+*Photos by J.Ruppert*
+
+---
+## #T35
+### Impressions from RV METEOR II
+
+*by Owen O'Driscoll*
+
+I have been requested to share my perception of life and work onboard the R/V Meteor. This I have attempted to recount without too much embellishment. Fortunately life onboard involves fewer eyepatches and barnacles than pop culture had led me to expect. Particularly striking upon entry are the maze of corridors, stairs and doors that appear nothing short of a labyrinth. These quickly become familiar however, especially those leading towards the heart of the ship: the mess hall. Aside from keeping everyone fed, the mess serves a more subtle purpose as the on-board clock. Measurement schedules are regulated so as not to coincide with afternoon "cake time", Thursday lunch ice creams or any of the Sunday specials. After a while, days become discernible by their menus more than anything.
+
+Among the many leisurely activities and amenities on board one can count the sauna, a gym, frequent table tennis and darts competitions, star gazing, tuna fishing, engine room tours, a glider calibration tub---read make-shift swimming pool---and much more. But rather than facilities, it is my fellow shipmates, crew and scientists, that make this journey a memorable one. Things only come to a head during breakfast when the highly controlled supply of yoghurts (a commodity more valuable than bandwidth!) leads to a frenzied storm at the buffet line. However, even during this recurring darkest hour, there are those capable of sharing what little yoghurt they were able to obtain with those still less fortunate.
+
+With a bit of luck one can spot quite some wildlife from on deck. The aforementioned tuna have been seen jumping across the air-sea interface in an effort to catch the more frequently-spotted flying fish. The occasional bird stops by on the ship as well. But as soon as you get attached and give it a name, they depart. The only sign of other humans is the sporadic appearance of a container ship on the horizon, or the train of visible satellites passing overhead during a clear night sky. Some people claim to have seen whales on this voyage! These people are not to be trusted however, I have seen less pixelated videos of Bigfoot than of these phantom mammals...
+
+At any hour on the ship someone is taking measurements of something. For practical reasons we from Team STRINQS made measurements when the ship was stationary. That made operating our meteorological drones a bit easier. Getting the drones on the ship to begin with was nothing short of a Herculean logistical task. But that Odyssey is best left for another day. The drones are quite unlike those commonly spotted at the beach or elsewhere: despite weighing several kilograms they are capable of flying up several kilometers whilst profiling the boundary layer temperature, humidity and wind vectors. At first we flew just one drone to acquaint ourselves with takeoffs and landings from a wobbly platform, but steadily we built our confidence and tested the limits of these machines at night, during heavy winds and downpour. In doing so we were joined by local talent on board. Eager to take to the skies we flew up to three drones simultaneously and for a short while the Meteor was akin to an aircraft carrier with a proper flight deck, ground crew, call signs and an impromptu aircraft control tower.
+
+This accomplishment was soon followed by a stroke of misfortune: successive battery failures prevented further simultaneous flights and an engine fire reduced our flight-ready drones from four to three. But worse was yet to come. That same day a mysterious communication disruption was soon followed by one of the drones plunging into the deep (which we can only assume to be related to flying too close to the sun). Yet another close brush with fate involving a third drone (and an unfortunate GPS failure) reduced our drone number to one. Though, unlike Icarus, this drone could be recovered with most of its wings still attached. With our last "bird" suffering from instrument failures (reducing the flight-capable drone tally to zero!) it was time to cut our loses and assess the observations acquired so far. Hopefully this is where the story of STRINQS and Icarus diverge, so that we, unlike Icarus' father Daedalus, will take to the skies once more.
+
+PS: Please send fresh apples \
+PPS: They should really add Mythos to the Ship's library
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blogOOD_T35_0.jpg
+:img-alt: STRINQS I
+
+(*Photo by O.O'Driscoll*)
+```
+```{card}
+:img-top: /figures/blogOOD_T35_1.jpg
+:img-alt: STRINGQS II
+
+(*Photo by O.O'Driscoll*)
+```
+````
+
+
+---
+## #T34
+
+*work in progress*
+
+---
 ## #T33
 ### Impressions from RV METEOR I
 
@@ -53,20 +170,38 @@ Data captured by SEA-POL during an easterly wave on September 3rd. (*Figure by D
 ---
 ## #T32
 
-*working on it...*
+While MAESTRO has started packing its containers on Sal, PERCUSION is still waiting for its container to arrive on the other side of the Atlantic. At least one container has made its way to the BCO and the launch of the radio sondes is ensured! The team has even decided to increase the launch frequency to every three hours from tomorrow.
+
+In the absence of the container containing all the equipment needed to prepare the aircraft for each flight and the data servers, some of the team have been brainstorming and canvassing the island over the last few days to find alternative ways of preparing the instruments for a flight or setting up a data server. For one group of instruments in particular, the data server is vital, as they produce an enormous amount of data - several TB per flight - and if it's not properly copied and stored, they can't continue measuring. And just as a reminder: Data is incredibly valuable in science. Without data, especially in the field of observations, how can we work?
+Fortunately, since we have the BCO on Barbados, we have some expert technicians who know the island and know where and what to get, and fortunately the improvised data server is working and is a proper workaround for now.
+
+So we are starting to settle into our new environment. Today was a day of many meetings between different subgroups and across groups.
+
+It should also be noted that for this part of the campaign, some of the early career scientists will get their chance to design their own flight and be a mission PI themselves! What an exciting and challenging role.
+
+```{figure} /figures/blog_T32_0.JPG
+:alt: Meeting in Barbados.
+:width: 600px
+:align: center
+
+Meeting on Barbados.
+
+```
+
 
 ---
 ## #T31
 
 PERCUSION day off.
 
-MAESTRO has been fairly quiet over the last few days. The convection around Sal has been less than attractive in recent days. But not for today. And what wonderful timing! For their last and final two flights, some wonderful convective systems from shallow to deep showed up in their flight range. And of course they took their chance and well... The photos say more than words can describe.
+MAESTRO has been fairly quiet over the last few days. The convection around Sal has been less than attractive in recent days. But not for today. And what wonderful timing! For their last and final two flights, some wonderful convective systems from shallow to deep showed up in their flight range. And of course they took their chance and well... The photos say more than words can describe: Catching some nice deep convection, organized and popcorn convection, with a wide variety of different clouds and wonderful radar echoes.
 
 On a different note: It rained on Sal! And not just some drizzle that disappeared faster than you could identify it as rain. It was a heavy downpour, where you could get soaked in a matter of minutes. What a way to end the campaign on Sal.
 
 CELLO had its last research flight on 7 September. Today, the INCAS King Air is heading home - and so is the CELLO crew.
 
-In every family there is always one child who is rather unlucky. And in the ORCESTRA family, that child seems to be STRINQS. At first it took them ages to get their drones. Then, after slowly getting to grips with flying three drones at once, they had a run of bad luck: one drone disappeared into the deep sea, another caught fire and a third got lost too, leaving them with just one drone. Eventually, the STRINQS team decided to cease operations. At least they were able to complete almost 20 flights and collect some data. The post analysis will show what came out of this experiment...
+In every family there is always one child who is rather unlucky. And in the ORCESTRA family, that child seems to be STRINQS. At first it took them ages to get their drones. Then, after slowly getting to grips with flying three drones at once, they had a run of bad luck: one drone disappeared into the deep sea, another caught fire and a third encountered to have some communication issues, leaving them with one functional drone.
+Eventually, the STRINQS team decided to cease operations. At least they were able to complete around 40 flights and collect some data. They go back with three drones but many more lessons learnt from the experience. Maybe STRINQS sacrifice to the goddess of the ocean helped to keep worse away from the other childrens of ORCESTRA...
 
 ````{card-carousel} 2
 ```{card}
