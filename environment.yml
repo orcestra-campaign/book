@@ -25,7 +25,7 @@ dependencies:
   - netcdf4
   - numpy
   - requests
-  - scipy<1.14.0 # required by easy.gems
+  - scipy
   - simplekml
   - topojson
   - xarray
