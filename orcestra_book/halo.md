@@ -54,8 +54,7 @@ PI: [Manfred Wendisch](mailto:m.wendisch@uni-leipzig.de)([LIM](https://www.physe
 ```
 
 ```{dropdown} specMACS 
-The spectrometer of the Munich Aerosol Cloud Scanner (specMACS) consists of two camera systems, both looking nadir, one in the visible/near-infrared (400 nm to  1000 nm), and another in the short-wave infrared (1000 nm to 2500 nm). The systems produce a spectrally resolved line image with 1312 pixels covering a 32.7º field of view in the visible/near infrared, and with 320 pixels covering a 35.5º field of view in the short-wave infrared. 
-
+The spectrometer of the Munich Aerosol Cloud Scanner (specMACS) consists of two hyperspectral cameras, both looking downward, one in the visible/near-infrared (400 nm to  1000 nm), and another in the short-wave infrared (1000 nm to 2500 nm). The cameras produce a spectrally resolved line image with 1312 pixels covering a 32.7 degree field of view in the visible/near infrared, and with 320 pixels covering a 35.5 degree field of view in the short-wave infrared. In addition, there are two downward-looking 2D RGB polarization resolving cameras with a maximum combined field of view of 91 x 117 degree in along-track and across-track direction, respectively. For this campaign, specMACS was extended by two sideward-looking 2D RGB polarization resolving cameras such that the total across-track field of view of all four polarization resolving cameras is about 220 degree.
 ---
 PI: [Bernhard Mayer](mailto:bernhard.mayer@lmu.de)([LMU](https://www.en.meteo.physik.uni-muenchen.de/index.html))
 ```
