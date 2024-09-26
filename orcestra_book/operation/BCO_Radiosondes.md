@@ -30,12 +30,12 @@ This section introduces the data collected from radiosondes during the ORCESTRA 
 
 <details>
   <summary><strong>How good was IFS forecasting ?</strong></summary>
-  The IFS (Integrated Forecasting System from ECMWF) was utilized throughout the campaign to plan flights and monitor the synoptic situation. Integrated water vapor data was obtained both from the forecasts and radiosondes, enabling direct comparisons to assess the accuracy of both the soundings and the forecasts. Additionally, radiosondes were launched every six hours from Grantley Adams Airport in Barbados. These observations can also be compared with the LAM (Limited Area Model), which was initialized with IFS data and ran continuously during the campaign.
+  The IFS (Integrated Forecasting System from ECMWF) was utilized throughout the campaign to plan flights and monitor the synoptic situation. Integrated water vapor data was obtained both from the forecasts and radiosondes, enabling direct comparisons to assess the accuracy of both the soundings and the forecasts. Additionally, radiosondes were launched every six hours from Grantley Adams Airport in Barbados. These observations can also be compared with the LAM (Limited Area Model), which was initialized with IFS data and ran continuously during the campaign. Furthermore, HALO flew on the 23rd of September very close to the BCO. We selected the dropsonde that was launched the closest to the BCO, and compared its IWV with the other products.
 
   All of these datasets are compared in the plot below:
   ![BCO Radiosondes](../figures/IFS_evaluation.png)
 
-  Our observations consistently show higher moisture levels compared to other products. At the BCO, the measurements taken from the airport closely align with the IFS model. Since these observations were made further inland, where land influences may contribute to atmospheric drying, this could explain the consistent moisture difference.
+  Our observations consistently show higher moisture levels compared to other products. At the BCO, the measurements taken from the airport closely align with the IFS model. Since these observations were made further inland, where land influences may contribute to atmospheric drying, this could explain the consistent moisture difference. Additionally, it seems that the dropsonde and radiosondes measurements are consistent as they show a very similar value on the 23rd of September.
 
   On Sal, a similar dry bias is observed in the IFS model, which is also reflected in the LAM. This is expected, as the LAM is initialized with IFS data and then runs for 48-hour periods. 
 
