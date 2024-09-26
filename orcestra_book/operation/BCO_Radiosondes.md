@@ -19,7 +19,7 @@ This part of the campaign was made possible thanks to the invaluable support of 
 
 
 <details>
-  <summary style="font-size: 25px;"><strong>ORCESTRA versus EUREC4A:</strong></summary>
+  <summary style="font-size: 20px;"><strong>ORCESTRA versus EUREC4A:</strong></summary>
 
   ![ORCESTRA_vs_EUREC4A](../figures/00.1_Map_BCO_eur_vs_orc_no_gridlines.png)
   <br>
@@ -30,7 +30,7 @@ This part of the campaign was made possible thanks to the invaluable support of 
 </details>
 
 <details>
-  <summary style="font-size: 25px;"><strong>BCO versus Sal:</strong></summary>
+  <summary style="font-size: 20px;"><strong>BCO versus Sal:</strong></summary>
 
   ![ORCESTRA_vs_EUREC4A](../figures/01.4_airT_and_rh_BCO_vs_Sal.png){width=85%}
   <br>
@@ -39,7 +39,7 @@ This part of the campaign was made possible thanks to the invaluable support of 
 </details>
 
 <details>
-  <summary style="font-size: 25px;"><strong>How good was IFS forecasting ?</strong></summary>
+  <summary style="font-size: 20px;"><strong>How good was IFS forecasting ?</strong></summary>
   The IFS (Integrated Forecasting System from ECMWF) was utilized throughout the campaign to plan flights and monitor the synoptic situation. Integrated water vapor data was obtained both from the forecasts and radiosondes, enabling direct comparisons to assess the accuracy of both the soundings and the forecasts. Additionally, radiosondes were launched every six hours from Grantley Adams Airport in Barbados. These observations can also be compared with the LAM (Limited Area Model), which was initialized with IFS data and ran continuously during the campaign.
 
   All of these datasets are compared in the plot below:
@@ -54,7 +54,7 @@ This part of the campaign was made possible thanks to the invaluable support of 
 
 
 <details>
-  <summary style="font-size: 25px;"><strong>African Easterly waves passing on top of Sal:</strong></summary>
+  <summary style="font-size: 20px;"><strong>African Easterly waves passing on top of Sal:</strong></summary>
 
   As before, IWV is derived from radiosonde measurements. The dates of African Easterly Wave (AEW) passages over Sal have been identified and analyzed to study their impact on IWV. Typically, dry phases are observed ahead of the AEW, followed by more humid conditions after its passage. The wave axis crossing is marked by a sharp increase in moisture. As expected, the cyclonic circulation of the AEW drives dry air southward to the west of the wave axis, while moist air is transported northward to the east, leading to an increase in IWV over Sal.
 
