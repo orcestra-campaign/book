@@ -1,5 +1,3 @@
-<!-- This file was created automatically -->
-
 ![BCO Radiosondes](../figures/BCO_section/Plots/BCO_07_SEP_2024.jpg)
 
 # ORCESTRA at BCO
