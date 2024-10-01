@@ -34,7 +34,6 @@ jobs:
         activate-environment: orcestra_book
         auto-activate-base: false
         use-mamba: true
-        miniforge-variant: Mambaforge
         miniforge-version: latest
     - name: restore conda environment from cache
       uses: actions/cache/restore@v4
