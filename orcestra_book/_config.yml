@@ -37,6 +37,7 @@ sphinx:
     front: _ext/
     lam_videos: _ext/
     reports: _ext/
+    track_animations: _ext/
   config:
     bibtex_default_style: myapastyle
     bibtex_reference_style: author_year_round
