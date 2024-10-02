@@ -1,8 +1,20 @@
+import requests
 from docutils import nodes
 from sphinx.util.docutils import SphinxDirective
 
 
 SWIFT_CONTAINER = "https://swift.dkrz.de/v1/dkrz_948e7d4bbfbb445fbff5315fc433e36a/ORCESTRA/static/flight_animations"
+
+
+def url_exists(url):
+    response = requests.head(url)
+
+    try:
+        response.raise_for_status()
+    except requests.HTTPError:
+        return False
+    else:
+        return True
 
 
 class TrackAnimation(SphinxDirective):
@@ -14,6 +26,15 @@ class TrackAnimation(SphinxDirective):
 
     def run(self):
         flight_id = self.options["flight_id"]
+        src = f"{SWIFT_CONTAINER}/{flight_id}.mp4"
+
+        if not url_exists(src):
+            warning_node = self.state.document.reporter.warning(
+                f"Could not reach track animation at: {src}",
+                line=self.lineno,
+            )
+            return [warning_node]
+
         width = self.options.get("width", 576)
         justify = self.options.get("justify", "center")
 
