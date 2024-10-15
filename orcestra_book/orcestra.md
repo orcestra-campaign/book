@@ -7,16 +7,16 @@ The overarching objective of ORCESTRA is to better understand the physical mecha
 ## Sub-campaigns in ORCESTRA
 
 ORCESTRA unites several sub-campaigns under its roof. The detailed scientific objectives of the sub-campaigns can be found on subpages respectively.
+The campaign took place on the Cape Verde Islands, Barbados and all across the Atlantic Ocean from 10 August to 30 September, 2024.
 
 ````{grid} 4
 
-```{grid-item-card} 
+```{grid-item-card}
 :img-top: logos/01_BOWTIE.svg
 :img-alt: BOWTIE
 :link: bowtie
 :link-type: doc
 
-From 10 Aug to 24 Sep across the Atlantic Ocean
 ```
 
 ```{grid-item-card}
@@ -25,7 +25,6 @@ From 10 Aug to 24 Sep across the Atlantic Ocean
 :link: cello
 :link-type: doc
 
-From 10 Aug to 10 Sep in Cape Verde
 ```
 
 ```{grid-item-card}
@@ -34,7 +33,6 @@ From 10 Aug to 10 Sep in Cape Verde
 :link: clarinet
 :link-type: doc
 
-In Aug and Sep in Mindelo, Cape Verde
 ```
 
 ```{grid-item-card}
@@ -43,7 +41,6 @@ In Aug and Sep in Mindelo, Cape Verde
 :link: maestro
 :link-type: doc
 
-From 10 Aug to 10 Sep on Sal, Cape Verde
 ```
 
 ```{grid-item-card}
@@ -52,7 +49,6 @@ From 10 Aug to 10 Sep on Sal, Cape Verde
 :link: percusion
 :link-type: doc
 
-From 8 Aug to 4 Sep on Sal, Cape Verde and from 5 to 30 Sep on Barbados
 ```
 
 ```{grid-item-card}
@@ -61,7 +57,6 @@ From 8 Aug to 4 Sep on Sal, Cape Verde and from 5 to 30 Sep on Barbados
 :link: piccolo
 :link-type: doc
 
-From 10 Aug to 24 Sep across the Atlantic Ocean
 ```
 
 ```{grid-item-card}
@@ -70,7 +65,6 @@ From 10 Aug to 24 Sep across the Atlantic Ocean
 :link: score
 :link-type: doc
 
-In Aug and Sep on Barbados
 ```
 
 ```{grid-item-card}
@@ -79,7 +73,6 @@ In Aug and Sep on Barbados
 :link: strinqs
 :link-type: doc
 
-From 10 Aug to 24 Sep across the Atlantic Ocean
 ```
 
 ````
