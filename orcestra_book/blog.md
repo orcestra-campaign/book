@@ -7,6 +7,36 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+
+## CLARINET-03
+*by Henriette Gebauer*
+
+With a further change of the crew at Mindelo, we started the 3rd phase of CLARINET. This was also the most intense part of the project on-site. Finally, our container, which had been stuck in the harbor of Mindelo for a couple of weeks, was transported to the OSCM. Now, the challenging task was to unpack everything, install the new 35 GHz radar as well as the disdrometer, and disassemble the existing 94 GHz radar to pack it into the container for shipping back to Germany – all within less than two weeks. But of course, no stress – Cabo Verde! Lunch break is lunch break, although the time is running.😉 However, the team at Mindelo did a fantastic job and finished everything just in time before their departure on 15 September. With that, the on-site phase of the CLARINET campaign came to an end, but the main work of data analysis has just begun and will keep us busy for some more weeks and months.
+
+But for now, bye bye from Team CLARINET – Ronny, Annett, Henriette, Felix, Tom, Benedikt and all, who supported us intensely from home!
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_CLARINET03_1.jpg
+:img-alt: New Radar
+
+Installing the new rader. (*Photo by TROPOS*)
+```
+```{card}
+:img-top: /figures/blog_CLARINET03_2.jpg
+:img-alt: New radar set on the roof of OSCM
+
+New radar set on the roof of OSCM. (*Photo by TROPOS*)
+
+```
+````
+
+---
+
+## #T38
+Day off.
+
+---
 ## #T37
 ### Impressions from RV METEOR III
 
