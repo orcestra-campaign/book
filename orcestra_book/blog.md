@@ -488,6 +488,8 @@ Group photo of the participants on Sal. (*Photo by T.Vostry*)
 ---
 ## CLARINET-02
 
+*by Henriette Gebauer*
+
 It is time again for an update from CLARINET and greetings from Mindelo. Since the Meteor left and all the others relocated to Sal, it feels quite empty here. The fact that Meteor started its trip means that the containership finally arrived. However, we are still waiting for our container, which is in the harbor of Mindelo since weeks and needs to be transported to the OSCM. This process is still ongoing as documents are missing and the responsible persons were on vacation. So, we continue waiting.
 
 During the last time, there were some days with rain at Mindelo and, generally, it is often cloudy. These are not optimal conditions for our lidar measurements, but for the cloud radar. However, some short cloud-free periods around some EarthCARE overpasses could be found and we also started to analyze our data for the periods of the different aircraft overflights. Comparisons with the data of CELLO and PERCUSION are already in progress. First preliminary results were presented in the science meetings last Friday and Sunday.
@@ -1285,7 +1287,7 @@ Clouds from HALO (*Photo by H. Gloeckner*)
 ---
 ## CLARINET-01
 
-*written by Henriette G.*
+*by Henriette Gebauer*
 
 CLARINET is ready for the campaign start and to provide reference measurements from our stationary ground-based ACTRIS station at the OSCM at Mindelo.
 Already during the last two weeks, colleagues from TROPOS carried out maintenance at the instruments. Last week, we had the first crew change. For the duration of the campaign, the station will be permanently manned with two scientists from TROPOS to ensure the availability of the measurements and to fix problems immediately. Reaching this goal keeps us busy and we had to face already some shock moments when we woke up in the morning and recognized that the instruments did not measure during night due to power blackouts or internet breakdowns in the city.
