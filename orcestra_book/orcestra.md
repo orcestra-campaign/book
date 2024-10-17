@@ -1,6 +1,6 @@
 # ORCESTRA overview
 
-**Organized Convection and EarthCare Studies over the Tropical Atlantic**
+**Organized Convection and EarthCARE Studies over the Tropical Atlantic**
 
 The overarching objective of ORCESTRA is to better understand the physical mechanisms that organize tropical convection at the mesoscale, including the interaction of convective organization with tropical waves and air-sea interaction, and the impact of convective organization on climate and the Earth’s radiation budget and processes of tropical cyclogenesis. In addition to advancing understanding of tropical meteorology and atmospheric processes, ORCESTRA observations will to help calibrate and validate satellite remote sensing (especially EarthCARE) and a new generation of global ocean-eddy and storm-resolving climate models.
 
