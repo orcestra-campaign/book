@@ -1,6 +1,6 @@
 # The ORCESTRA campaign
 
-**ORCESTRA - Organized Convection and EarthCare Studies over the Tropical Atlantic**
+**ORCESTRA - Organized Convection and EarthCARE Studies over the Tropical Atlantic**
 
 
 ```{admonition} Overall objectives of the ORCESTRA campaign    
