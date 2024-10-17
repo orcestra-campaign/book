@@ -12,7 +12,7 @@ This part of the campaign was made possible thanks to the invaluable support of 
 
 ## The BCO Radiosonde Team
 
-![Collage1](../figures/BCO_section/Team/collage.jpg)
+![Collage1](../figures/BCO_section/Team/collage_low_res.jpg)
 
 <details>
   <summary style="font-size: 20px;"><strong>ORCESTRA versus EUREC4A:</strong></summary>
