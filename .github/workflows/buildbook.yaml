@@ -88,7 +88,7 @@ jobs:
 
   publish:
     needs: build
-    if: "always() && (github.event_name == 'schedule'  && github.repository_owner == 'orcestra-campaign') || (github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository_owner == 'orcestra-campaign')"
+    if: "always() && github.repository_owner == 'orcestra-campaign' && (github.event_name == 'schedule' || (github.event_name == 'push' && github.ref == 'refs/heads/main'))"
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
