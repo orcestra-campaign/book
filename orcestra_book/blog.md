@@ -7,6 +7,46 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T43
+
+Even though it was officially a day off, many scientists gathered not only to enjoy the view of the east coast, but also to show their unity by organising the Open House at BCO, where the public was invited to look around the observatory and learn about its history. There were several tours of the instruments and around the observatory. As a surprise guest, the RV METEOR appeared on the horizon, earlier than expected! Actually, it was expected to arrive early in the morning of the following day. The early arrival of the RV METEOR gave the Open House a special touch.
+
+In addition, we had planned an additional launch of radio sonde where the students could get a glimpse of the experimental side in science. As the launch is synchronised with the one from the ship, I imagined a white balloon going up from the ship at the same time.
+
+Later, when the sun went down and the world around started to get dark, and if you looked up and closely, you could see two green beams of light going straight up into the sky - a rare moment during this campaign when both LIDARs, one on the ground and one on board the ship, were communicating with the clouds at the same place...
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T43_0.jpg
+:img-alt: Spotting RV METEOR
+
+Trying to spot RV METEOR.
+```
+
+```{card}
+:img-top: /figures/blog_T43_1.jpg
+:img-alt: Open House BCO
+
+Open House at BCO. (*Photo by T.Vostry*)
+```
+
+```{card}
+:img-top: /figures/blog_T43_2.jpg
+:img-alt: Preparing the launch of the radio sonde.
+
+Preparing the radio sonde launch. (*Photo by T.Vostry*)
+```
+
+```{card}
+:img-top: /figures/blog_T43_3.jpg
+:img-alt: RV METER and BCO.
+
+The RV METEOR anchoring close to BCO.
+```
+````
+
+
+---
 ## #T42
 
 ### Impressions from above the clouds
