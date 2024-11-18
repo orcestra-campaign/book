@@ -7,7 +7,118 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T43
 
+Even though it was officially a day off, many scientists gathered not only to enjoy the view of the east coast, but also to show their unity by organising the Open House at BCO, where the public was invited to look around the observatory and learn about its history. There were several tours of the instruments and around the observatory. As a surprise guest, the RV METEOR appeared on the horizon, earlier than expected! Actually, it was expected to arrive early in the morning of the following day. The early arrival of the RV METEOR gave the Open House a special touch.
+
+In addition, we had planned an additional launch of radio sonde where the students could get a glimpse of the experimental side in science. As the launch is synchronised with the one from the ship, I imagined a white balloon going up from the ship at the same time.
+
+Later, when the sun went down and the world around started to get dark, and if you looked up and closely, you could see two green beams of light going straight up into the sky - a rare moment during this campaign when both LIDARs, one on the ground and one on board the ship, were communicating with the clouds at the same place...
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T43_0.jpg
+:img-alt: Spotting RV METEOR
+
+Trying to spot RV METEOR.
+```
+
+```{card}
+:img-top: /figures/blog_T43_1.jpg
+:img-alt: Open House BCO
+
+Open House at BCO. (*Photo by T.Vostry*)
+```
+
+```{card}
+:img-top: /figures/blog_T43_2.jpg
+:img-alt: Preparing the launch of the radio sonde.
+
+Preparing the radio sonde launch. (*Photo by T.Vostry*)
+```
+
+```{card}
+:img-top: /figures/blog_T43_3.jpg
+:img-alt: RV METER and BCO.
+
+The RV METEOR anchoring close to BCO.
+```
+````
+
+
+---
+## #T42
+
+### Impressions from above the clouds
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T42_0.jpg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_1.jpg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_2.jpg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_3.jpeg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_4.jpeg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_5.jpeg
+
+```
+````
+*Photos by B.Stevens*
+
+---
+## #T41
+
+*missing*
+
+---
+## #T40
+
+I am not sure if it was mentioned before, but for the second part of PERCUSION, the circle of Mission PIs - the lead scientist for a research flight - has been expanded. Now, early career scientists have the opportunity to master the tasks of a Mission PI, from composing a flight pattern, through discussions with flight operations, to selecting their crew.
+Today's flight was record-breaking in two ways: First, it is an all-female flight! At least in the science crew. And secondly, 80 sondes were dropped during the mission. The average number of sondes dropped on previous flights is around 50.
+
+Drop sondes are a very efficient tool for capturing atmospheric profiles from aircraft flight level down to the surface. After being initialised in the aircraft, the sonde is ejected through a tube with a sliding mechanism. A parachute opens to slow the descent, while its back provides data on pressure, temperature and relative humidity, as well as wind direction and speed.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T40_0.jpg
+:img-alt: All female science crew.
+
+All female science crew. (*Photo by C.Bayley*)
+```
+
+```{card}
+:img-top: /figures/blog_T40_1.jpg
+:img-alt: Dropsonde
+
+Dropsonde descending. (*Photo by VAISALA*)
+```
+````
+
+---
+## #T39
+
+*missing*
+
+---
 ## CLARINET-03
 *by Henriette Gebauer*
 
@@ -32,7 +143,6 @@ New radar set on the roof of OSCM. (*Photo by TROPOS*)
 ````
 
 ---
-
 ## #T38
 Day off.
 
@@ -151,7 +261,7 @@ PPS: They should really add Mythos to the Ship's library
 ---
 ## #T34
 
-*work in progress*
+*missing*
 
 ---
 ## #T33
