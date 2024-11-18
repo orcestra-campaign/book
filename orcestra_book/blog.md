@@ -9,16 +9,47 @@ Cheers, Yu
 ---
 ## #T42
 
+### Impressions from above the clouds
 
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T42_0.jpg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_1.jpg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_2.jpg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_3.jpeg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_4.jpeg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_5.jpeg
+
+```
+````
+*Photos by B.Stevens*
 
 ---
-
 ## #T41
 
 *missing*
 
 ---
-
 ## #T40
 
 I am not sure if it was mentioned before, but for the second part of PERCUSION, the circle of Mission PIs - the lead scientist for a research flight - has been expanded. Now, early career scientists have the opportunity to master the tasks of a Mission PI, from composing a flight pattern, through discussions with flight operations, to selecting their crew.
