@@ -7,12 +7,47 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
-## #T39
+## #T42
+
+
+
+---
+
+## #T41
 
 *missing*
 
 ---
 
+## #T40
+
+I am not sure if it was mentioned before, but for the second part of PERCUSION, the circle of Mission PIs - the lead scientist for a research flight - has been expanded. Now, early career scientists have the opportunity to master the tasks of a Mission PI, from composing a flight pattern, through discussions with flight operations, to selecting their crew.
+Today's flight was record-breaking in two ways: First, it is an all-female flight! At least in the science crew. And secondly, 80 sondes were dropped during the mission. The average number of sondes dropped on previous flights is around 50.
+
+Drop sondes are a very efficient tool for capturing atmospheric profiles from aircraft flight level down to the surface. After being initialised in the aircraft, the sonde is ejected through a tube with a sliding mechanism. A parachute opens to slow the descent, while its back provides data on pressure, temperature and relative humidity, as well as wind direction and speed.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T40_0.jpg
+:img-alt: All female science crew.
+
+All female science crew. (*Photo by C.Bayley*)
+```
+
+```{card}
+:img-top: /figures/blog_T40_1.jpg
+:img-alt: Dropsonde
+
+Dropsonde descending. (*Photo by VAISALA*)
+```
+````
+
+---
+## #T39
+
+*missing*
+
+---
 ## CLARINET-03
 *by Henriette Gebauer*
 
@@ -37,7 +72,6 @@ New radar set on the roof of OSCM. (*Photo by TROPOS*)
 ````
 
 ---
-
 ## #T38
 Day off.
 
