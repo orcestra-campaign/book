@@ -7,6 +7,11 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T39
+
+*missing*
+
+---
 
 ## CLARINET-03
 *by Henriette Gebauer*
@@ -151,7 +156,7 @@ PPS: They should really add Mythos to the Ship's library
 ---
 ## #T34
 
-*work in progress*
+*missing*
 
 ---
 ## #T33
