@@ -54,6 +54,25 @@ jobs:
         path: ${{ env.CONDA }}/envs
         key:
           conda-${{ runner.os }}--${{ runner.arch }}--${{ hashFiles('environment.yml') }}-${{ env.CONDA_CACHE_NUMBER }}
+    - name: install IPFS
+      run: |
+        wget -q https://dist.ipfs.tech/kubo/${IPFS_VERSION}/kubo_${IPFS_VERSION}_linux-amd64.tar.gz
+        tar -xvzf kubo_${IPFS_VERSION}_linux-amd64.tar.gz
+        pushd kubo
+        sudo bash install.sh
+        popd
+        ipfs --version
+      env:
+        IPFS_VERSION: v0.32.1
+    - name: init IPFS
+      run: |
+        ipfs init --profile server,announce-off
+    - name: configure known IPFS peers
+      run: |
+        wget -q https://raw.githubusercontent.com/orcestra-campaign/ipfs_tools/refs/heads/main/scripts/add_peers.py -O - | python - -f https://raw.githubusercontent.com/orcestra-campaign/ipfs_tools/refs/heads/main/known_peers.yaml
+    - name: run IPFS in background
+      run: |
+        ipfs daemon 2>ipfs.log | grep -i -o -m1 'Daemon is ready' & tail -F --pid=$! ipfs.log
     - name: setting up notebook execution cache
       uses: actions/cache/restore@v4
       with:
