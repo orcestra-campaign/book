@@ -10,6 +10,7 @@ exclude_patterns: ["_templates/*"]
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: cache
+  timeout: 60
 
 # Define the name of the latex output file for PDF builds
 latex:
