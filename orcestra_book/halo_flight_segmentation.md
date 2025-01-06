@@ -7,6 +7,8 @@ kernelspec:
   display_name: Python 3 (ipykernel)
   language: python
   name: python3
+execution:
+  timeout: 600
 ---
 
 # HALO's flight segmentation
