@@ -7,6 +7,32 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T44
+
+One week remains for the campaign in the tropics. And although we are having our 18th research flight, there are still things one can get excited about - beside of weather and cloud conditions.
+Today, HALO has the rare opportunity to fly over BCO and the RV METEOR as the ship is anchoring very close to the BCO for the next 24 hours.
+
+After staying close to the observation and measuring a few miles away from shore, BOWTIE/PICCOLO/STRINQS officially ended their measurements - and so the shipborne campaign - with the last launch of the radio sonde at 18 UTC. With that, the ship has launched 327 sondes during their research cruise.
+
+I can’t imagine how it must feel for the crew on board… Having the same people around for over six weeks, following the rhythm of the Atlantic waves, listening to the melody of water knocking on the bow of the ship, rain drumming on the roof, observing the tunes in grey and blue. And now, the voyage is coming to an end.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T44_0.jpg
+:img-alt: Can you spot all three platforms?
+
+Can you spot all three platforms?
+```
+```{card}
+:img-top: /figures/blog_T44_1.jpg
+:img-alt: Launch of the final radio sonde on the ship.
+
+Launch of the final radio sonde on the ship.
+```
+````
+
+
+---
 ## #T43
 
 Even though it was officially a day off, many scientists gathered not only to enjoy the view of the east coast, but also to show their unity by organising the Open House at BCO, where the public was invited to look around the observatory and learn about its history. There were several tours of the instruments and around the observatory. As a surprise guest, the RV METEOR appeared on the horizon, earlier than expected! Actually, it was expected to arrive early in the morning of the following day. The early arrival of the RV METEOR gave the Open House a special touch.
