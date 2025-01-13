@@ -7,7 +7,270 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T50
 
+Some duties back in Germany called HALO one evening earlier home as planned. With the farewell of HALO and its leaving of the island, the campaign in the tropics comes to an end. Only some minor clean-ups remain and the containers needs to be shipped back to Germany.
+ Although the main campaign time is over, one sub-campaign will come back after a month of break. PERCUSION has a third phase, starting in the beginning of November with seven more research flights following the EarthCARE track taking off from HALOs home base: Oberpfaffenhofen.
+
+Some final remarks at the end of the daily campaign blog: Beside issues with getting containers in time, the instruments didn’t rebel and little hiccups with the aircraft(s) didn’t stop us from reaching the aimed amount of research flights.  Every group could sample data: some as desired, others rather unexpected, but who knows how useful they can turn out to be if one looks from a different angle.
+Meeting EarthCARE worked out in most of the cases perfectly even if EarthCARE had some manoeuvre shifts in the first weeks of the campaign. We did manage to have several coordinated activities across platforms, but with communication more in advance this could be improved.
+
+If the campaign was a full success or not, only future work and a proper analysis of data will tell.
+From first quicklooks and intermediate conclusions, some of the data seem promising and exciting to work with. The adventurous time of the experiment is over but the real work just has started and will keep the campaign spirit alive in the form of data.
+
+```{figure} /figures/blog_T50.jpg
+:alt: Farewell from the group on Barbados
+:width: 600px
+:align: center
+
+Farewell by ORCESTRA on Barbados. (*Photo by T.Vostry*)
+```
+
+
+
+---
+## #T49
+
+Today the last research flight of HALO in the tropics was conducted. Except for the flight crew, who had to prepare themselves and their instruments for the flight, the morning was rather calm for the others. No morning nor weather briefing since no more research flights were planned in close future.
+
+I guess, people are quite looking forward to going home - for some it has been two months since they left for this campaign and committed their whole time being in the tropics, experiencing the practical side of research.
+
+
+---
+## #T48
+
+*missing*
+
+---
+## #T47
+
+### Cloud perspective at sea
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T47_0.jpg
+
+*Photo by G.George*
+```
+```{card}
+:img-top: /figures/blog_T47_1.jpg
+
+*Photo by A.Wing*
+```
+```{card}
+:img-top: /figures/blog_T47_2.jpg
+
+*Photo by A.Wing*
+```
+```{card}
+:img-top: /figures/blog_T47_3.jpg
+
+*Photo by M.Lovato*
+```
+```{card}
+:img-top: /figures/blog_T47_4.jpg
+
+*Photo by A.Wing*
+```
+````
+
+
+---
+## #T46
+
+This day was all about representation and reunion.
+
+In the afternoon we had an official visit on the RV Meteor organised. Among the visitors were representatives of the foreign affairs in Barbados, the director of the Caribbean Institute for Meteorology and Hydrology, the honorary consul among others.
+After the greeting by the captain, a tour around the ship was given by the first and second officer followed by presentations from the chief scientist and the campaign lead. The official visit ended with coffee and cake, while exchanging thoughts among the different groups.
+
+In the early evening, all remaining sub campaigns - BOWTIE, PERCUSION, PICCOLO, SCORE, STRINQS - came together for a lively symposium: Exchanging new discoveries, complementing perspectives from different platforms, sharing ideas and setting connections.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T46_0.jpg
+:img-alt: Official Visit RV METEOR - greetings.
+
+Greeting by the captain during the official Visit. (*Photo by T.Vostry*)
+```
+```{card}
+:img-top: /figures/blog_T46_1.jpg
+:img-alt: Official Visit RV METEOR.
+
+Chitchat with representatives during the official visit. (*Photo by T.Vostry*)
+```
+
+```{card}
+:img-top: /figures/blog_T46_2.jpg
+:img-alt: Symposium
+
+Symposium in the evening. (*Photo by T.Vostry*)
+````
+
+---
+## #T45
+
+41 days at sea and today is the day where the RV METEOR anchors in the port of Bridgetown - can you believe it? The first steps back on solid ground after a long voyage at sea. It must feel strange at first, having solid ground below oneself again - no counterbalance of steady motions of the ocean. Is there something opposite like sea sickness - land sickness maybe?
+
+However, there is not too much time to rest. The ship must leave the port in three days with a new crew and a new mission. The supporting team of technicians was already waiting in front of the port, eager to deinstall the instruments and to pack the container. The main deinstallation was done during the past days still at sea while heading to the island. The rest was done within one day except for SEAPOL where the PICCOLO team needs to unscrew the radar into it’s single plates again.
+
+While there is some action happening on and around the RV METEOR, we had some other excitement going on around todays scheduled flight. Due to unknown reasons, HALO was refuelled way too much and consequently was too heavy for take-off. Meanwhile, waiting for the aircraft to become lighter, an alternative route was discussed and two hours later HALO could finally lift into the sky.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T45_0.jpg
+:img-alt: Back on solid ground.
+
+Back on solid ground. (*Photo by anonymous*)
+```
+```{card}
+:img-top: /figures/blog_T45_1.JPG
+:img-alt: Dismantling the SEA-POL radar.
+
+Dismantling the SEA-POL radar.
+
+```
+````
+
+
+---
+## #T44
+
+One week remains for the campaign in the tropics. And although we are having our 18th research flight, there are still things one can get excited about - beside of weather and cloud conditions.
+Today, HALO has the rare opportunity to fly over BCO and the RV METEOR as the ship is anchoring very close to the BCO for the next 24 hours.
+
+After staying close to the observation and measuring a few miles away from shore, BOWTIE/PICCOLO/STRINQS officially ended their measurements - and so the shipborne campaign - with the last launch of the radio sonde at 18 UTC. With that, the ship has launched 327 sondes during their research cruise.
+
+I can’t imagine how it must feel for the crew on board… Having the same people around for over six weeks, following the rhythm of the Atlantic waves, listening to the melody of water knocking on the bow of the ship, rain drumming on the roof, observing the tunes in grey and blue. And now, the voyage is coming to an end.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T44_0.jpg
+:img-alt: Can you spot all three platforms?
+
+Can you spot all three platforms?
+```
+```{card}
+:img-top: /figures/blog_T44_1.jpg
+:img-alt: Launch of the final radio sonde on the ship.
+
+Launch of the final radio sonde on the ship. (*Photo by A.Wing*)
+```
+````
+
+
+---
+## #T43
+
+Even though it was officially a day off, many scientists gathered not only to enjoy the view of the east coast, but also to show their unity by organising the Open House at BCO, where the public was invited to look around the observatory and learn about its history. There were several tours of the instruments and around the observatory. As a surprise guest, the RV METEOR appeared on the horizon, earlier than expected! Actually, it was expected to arrive early in the morning of the following day. The early arrival of the RV METEOR gave the Open House a special touch.
+
+In addition, we had planned an additional launch of radio sonde where the students could get a glimpse of the experimental side in science. As the launch is synchronised with the one from the ship, I imagined a white balloon going up from the ship at the same time.
+
+Later, when the sun went down and the world around started to get dark, and if you looked up and closely, you could see two green beams of light going straight up into the sky - a rare moment during this campaign when both LIDARs, one on the ground and one on board the ship, were communicating with the clouds at the same place...
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T43_0.jpg
+:img-alt: Spotting RV METEOR
+
+Trying to spot RV METEOR.
+```
+
+```{card}
+:img-top: /figures/blog_T43_1.jpg
+:img-alt: Open House BCO
+
+Open House at BCO. (*Photo by T.Vostry*)
+```
+
+```{card}
+:img-top: /figures/blog_T43_2.jpg
+:img-alt: Preparing the launch of the radio sonde.
+
+Preparing the radio sonde launch. (*Photo by T.Vostry*)
+```
+
+```{card}
+:img-top: /figures/blog_T43_3.jpg
+:img-alt: RV METER and BCO.
+
+The RV METEOR anchoring close to BCO.
+```
+````
+
+
+---
+## #T42
+
+### Impressions from above the clouds
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T42_0.jpg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_1.jpg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_2.jpg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_3.jpeg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_4.jpeg
+
+```
+
+```{card}
+:img-top: /figures/blog_T42_5.jpeg
+
+```
+````
+*Photos by B.Stevens*
+
+---
+## #T41
+
+*missing*
+
+---
+## #T40
+
+I am not sure if it was mentioned before, but for the second part of PERCUSION, the circle of Mission PIs - the lead scientist for a research flight - has been expanded. Now, early career scientists have the opportunity to master the tasks of a Mission PI, from composing a flight pattern, through discussions with flight operations, to selecting their crew.
+Today's flight was record-breaking in two ways: First, it is an all-female flight! At least in the science crew. And secondly, 80 sondes were dropped during the mission. The average number of sondes dropped on previous flights is around 50.
+
+Drop sondes are a very efficient tool for capturing atmospheric profiles from aircraft flight level down to the surface. After being initialised in the aircraft, the sonde is ejected through a tube with a sliding mechanism. A parachute opens to slow the descent, while its back provides data on pressure, temperature and relative humidity, as well as wind direction and speed.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T40_0.jpg
+:img-alt: All female science crew.
+
+All female science crew. (*Photo by C.Bayley*)
+```
+
+```{card}
+:img-top: /figures/blog_T40_1.jpg
+:img-alt: Dropsonde
+
+Dropsonde descending. (*Photo by VAISALA*)
+```
+````
+
+---
+## #T39
+
+*missing*
+
+---
 ## CLARINET-03
 *by Henriette Gebauer*
 
@@ -32,7 +295,6 @@ New radar set on the roof of OSCM. (*Photo by TROPOS*)
 ````
 
 ---
-
 ## #T38
 Day off.
 
@@ -151,7 +413,7 @@ PPS: They should really add Mythos to the Ship's library
 ---
 ## #T34
 
-*work in progress*
+*missing*
 
 ---
 ## #T33
