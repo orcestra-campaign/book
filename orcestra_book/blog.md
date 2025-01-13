@@ -7,6 +7,63 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T46
+
+This day was all about representation and reunion.
+
+In the afternoon we had an official visit on the RV Meteor organised. Among the visitors were representatives of the foreign affairs in Barbados, the director of the Caribbean Institute for Meteorology and Hydrology, the honorary consul among others.
+After the greeting by the captain, a tour around the ship was given by the first and second officer followed by presentations from the chief scientist and the campaign lead. The official visit ended with coffee and cake, while exchanging thoughts among the different groups.
+
+In the early evening, all remaining sub campaigns - BOWTIE, PERCUSION, PICCOLO, SCORE, STRINQS - came together for a lively symposium: Exchanging new discoveries, complementing perspectives from different platforms, sharing ideas and setting connections.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T46_0.jpg
+:img-alt: Official Visit RV METEOR - greetings.
+
+Greeting by the captain during the official Visit. (*Photo by T.Vostry*)
+```
+```{card}
+:img-top: /figures/blog_T46_1.jpg
+:img-alt: Official Visit RV METEOR.
+
+Chitchat with representatives during the official visit. (*Photo by T.Vostry*)
+```
+
+```{card}
+:img-top: /figures/blog_T46_2.jpg
+:img-alt: Symposium
+
+Symposium in the evening. (*Photo by T.Vostry*)
+````
+
+---
+## #T45
+
+41 days at sea and today is the day where the RV METEOR anchors in the port of Bridgetown - can you believe it? The first steps back on solid ground after a long voyage at sea. It must feel strange at first, having solid ground below oneself again - no counterbalance of steady motions of the ocean. Is there something opposite like sea sickness - land sickness maybe?
+
+However, there is not too much time to rest. The ship must leave the port in three days with a new crew and a new mission. The supporting team of technicians was already waiting in front of the port, eager to deinstall the instruments and to pack the container. The main deinstallation was done during the past days still at sea while heading to the island. The rest was done within one day except for SEAPOL where the PICCOLO team needs to unscrew the radar into it’s single plates again.
+
+While there is some action happening on and around the RV METEOR, we had some other excitement going on around todays scheduled flight. Due to unknown reasons, HALO was refuelled way too much and consequently was too heavy for take-off. Meanwhile, waiting for the aircraft to become lighter, an alternative route was discussed and two hours later HALO could finally lift into the sky.
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T45_0.jpg
+:img-alt: Back on solid ground.
+
+Back on solid ground. (*Photo by anonymous*)
+```
+```{card}
+:img-top: /figures/blog_T45_1.JPG
+:img-alt: Dismantling the SEA-POL radar.
+
+Dismantling the SEA-POL radar.
+
+```
+````
+
+
+---
 ## #T44
 
 One week remains for the campaign in the tropics. And although we are having our 18th research flight, there are still things one can get excited about - beside of weather and cloud conditions.
@@ -27,7 +84,7 @@ Can you spot all three platforms?
 :img-top: /figures/blog_T44_1.jpg
 :img-alt: Launch of the final radio sonde on the ship.
 
-Launch of the final radio sonde on the ship.
+Launch of the final radio sonde on the ship. (*Photo by A.Wing*)
 ```
 ````
 
