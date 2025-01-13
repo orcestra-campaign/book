@@ -7,6 +7,41 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T50
+
+Some duties back in Germany called HALO one evening earlier home as planned. With the farewell of HALO and its leaving of the island, the campaign in the tropics comes to an end. Only some minor clean-ups remain and the containers needs to be shipped back to Germany.
+ Although the main campaign time is over, one sub-campaign will come back after a month of break. PERCUSION has a third phase, starting in the beginning of November with seven more research flights following the EarthCARE track taking off from HALOs home base: Oberpfaffenhofen.
+
+Some final remarks at the end of the daily campaign blog: Beside issues with getting containers in time, the instruments didn’t rebel and little hiccups with the aircraft(s) didn’t stop us from reaching the aimed amount of research flights.  Every group could sample data: some as desired, others rather unexpected, but who knows how useful they can turn out to be if one looks from a different angle.
+Meeting EarthCARE worked out in most of the cases perfectly even if EarthCARE had some manoeuvre shifts in the first weeks of the campaign. We did manage to have several coordinated activities across platforms, but with communication more in advance this could be improved.
+
+If the campaign was a full success or not, only future work and a proper analysis of data will tell.
+From first quicklooks and intermediate conclusions, some of the data seem promising and exciting to work with. The adventurous time of the experiment is over but the real work just has started and will keep the campaign spirit alive in the form of data.
+
+```{figure} /figures/blog_T50.jpg
+:alt: Farewell from the group on Barbados
+:width: 600px
+:align: center
+
+Farewell by ORCESTRA on Barbados. (*Photo by T.Vostry*)
+```
+
+
+
+---
+## #T49
+
+Today the last research flight of HALO in the tropics was conducted. Except for the flight crew, who had to prepare themselves and their instruments for the flight, the morning was rather calm for the others. No morning nor weather briefing since no more research flights were planned in close future.
+
+I guess, people are quite looking forward to going home - for some it has been two months since they left for this campaign and committed their whole time being in the tropics, experiencing the practical side of research.
+
+
+---
+## #T48
+
+*missing*
+
+---
 ## #T47
 
 ### Cloud perspective at sea
