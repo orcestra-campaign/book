@@ -7,6 +7,40 @@ Anyhow, I hope you enjoy reading it and get a glimpse of our day-to-day experien
 Cheers, Yu
 
 ---
+## #T47
+
+### Cloud perspective at sea
+
+````{card-carousel} 2
+```{card}
+:img-top: /figures/blog_T47_0.jpg
+
+*Photo by G.George*
+```
+```{card}
+:img-top: /figures/blog_T47_1.jpg
+
+*Photo by A.Wing*
+```
+```{card}
+:img-top: /figures/blog_T47_2.jpg
+
+*Photo by A.Wing*
+```
+```{card}
+:img-top: /figures/blog_T47_3.jpg
+
+*Photo by M.Lovato*
+```
+```{card}
+:img-top: /figures/blog_T47_4.jpg
+
+*Photo by A.Wing*
+```
+````
+
+
+---
 ## #T46
 
 This day was all about representation and reunion.
