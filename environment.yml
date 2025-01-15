@@ -13,7 +13,7 @@ dependencies:
   - geopy
   - healpix
   - icalendar
-  - intake-xarray
+  - intake-xarray<=0.7.0
   - intake>=0.7.0,<2.0.0
   - ipykernel
   - ipywidgets
