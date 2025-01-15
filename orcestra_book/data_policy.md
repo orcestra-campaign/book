@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 # Data Policy
 
 ORCESTRA encourages free use and access to its data and relies on the integrity of the scientific community to ensure that this open data policy does not diminish the contributions of those who collected these data.

@@ -34,14 +34,18 @@ chapters:
       title: Flight plan docs
 - file: data
   sections:
-    - file: data_policy
-    - file: data_concept
-    - file: hera5
-    - file: hifs
-    - file: water_vapour_overview
-    - file: temperature_example
     - file: halo_flight_segmentation
+      title: Ex 1 - Segment a flight
+    - file: hera5
+      title: Ex 2 - ERA5 data
+    - file: water_vapour_overview
+      title: Ex 3 - Water vapour structure
+    - file: temperature_example
+      title: Ex 4 - Temperature comparison
     - file: iwv_comparison
+      title: Ex 5 - IWV comparison
+    - file: hifs
+      title: Ex 6 - IFS forecasts
 - file: blog
 - file: lam
   title: Simulations
