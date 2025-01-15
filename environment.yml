@@ -29,7 +29,7 @@ dependencies:
   - simplekml
   - topojson
   - xarray
-  - zarr>=2.8.3
+  - zarr>=2.8.3,<3
   - pip
   - pip:
     - easygems>=0.0.11
