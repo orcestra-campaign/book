@@ -11,8 +11,8 @@ kernelspec:
 
 # IWV comparison
 
-ORCESTRA focusses on the area of the Inter-Tropical Convergence Zone (ITCZ), which we've commonly identified by areas of high integrated water vapour (IWV).
-We've used this quantity extensively during {doc}`Flight Planning <operation>` and obviously several instruments measuring IWV have been deployed.
+ORCESTRA focuses on the area of the Inter-Tropical Convergence Zone (ITCZ), which we've commonly identified by areas of high integrated water vapour (IWV).
+We've used this quantity extensively during {doc}`Flight Planning <operation>` and several instruments measuring IWV have been deployed.
 This notebook compares a few instruments which measured IWV during the campaign.
 
 We'll first import some required libraries and set up the `root` path to the ORCESTRA data collection to a stable version.
