@@ -41,6 +41,7 @@ chapters:
     - file: water_vapour_overview
     - file: temperature_example
     - file: halo_flight_segmentation
+    - file: iwv_comparison
 - file: blog
 - file: lam
   title: Simulations
