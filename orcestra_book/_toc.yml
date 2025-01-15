@@ -34,8 +34,6 @@ chapters:
       title: Flight plan docs
 - file: data
   sections:
-    - file: data_policy
-    - file: data_concept
     - file: hera5
     - file: hifs
     - file: water_vapour_overview
