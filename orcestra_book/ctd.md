@@ -23,7 +23,9 @@ import matplotlib.pyplot as plt
 import xarray as xr
 
 
-ds = xr.open_dataset("ipns://latest.orcestra-campaign.org/products/METEOR/CTD.zarr", engine="zarr")
+# root = "ipns://latest.orcestra-campaign.org"
+root = "ipfs://Qmc1HU87eV2gKLaaiJsPuumpo6SQwLe9sPy3xVgEDywnFs"
+ds = xr.open_dataset(f"{root}/products/METEOR/CTD.zarr", engine="zarr")
 
 fig, ax = plt.subplots(figsize=(12, 8), subplot_kw={"projection": ccrs.PlateCarree()})
 ax.set_extent([-65, -5, -10, 25], crs=ccrs.PlateCarree())
