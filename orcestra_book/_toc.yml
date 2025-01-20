@@ -46,6 +46,8 @@ chapters:
       title: Ex 5 - IWV comparison
     - file: hifs
       title: Ex 6 - IFS forecasts
+    - file: ctd
+      title: Ex 7 - CTD measurements
 - file: blog
 - file: lam
   title: Simulations
