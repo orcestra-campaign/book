@@ -23,7 +23,7 @@ import xarray as xr
 import matplotlib.pylab as plt
 
 # root = "ipns://latest.orcestra-campaign.org"
-root = "ipfs://QmU8L1tadPd7E7h8Rz3fmoF9DYYWj33NuBRqsEwGqCeWBp"
+root = "ipfs://Qmbx6KSDfviFFi7f5XXQLB6MSTPhWnN1rNkCCKhyhaa7CA"
 ```
 
 ## relative occurrence over entire campaign period
@@ -51,7 +51,6 @@ At least some of the data is still in early processing stages, so you still migh
 Although the instruments broadly agree, we can already see some features of the measurement principle. E.g.:
 
 * The microwave retrieval (HAMP) produces artificially high values when flying over land (instead of ocean). These values have not yet been removed and are visible in the histogram.
-* Sometimes, the dropsondes didn't measure humidity at all vertical levels (sometimes even none at all). These values have not yet been masked in the current dataset.
 * The lower IWV values of hamp (e.g. < 30 kg/m2) correspond to the 3rd phase of ORCESTRA, which was based in Europe (see next figure). This period was not covered by RV Meteor and used fewer dropsondes.
 
 ```{code-cell} ipython3
