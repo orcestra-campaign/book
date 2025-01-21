@@ -162,6 +162,16 @@ ec_time = sum([s["end"] - s["start"]
 print(ec_time)
 ```
 
+### Total time of coordination with Meteor
+
+```{code-cell} ipython3
+meteor_time = sum([s["end"] - s["start"]
+               for s in segments
+               if "meteor_coordination" in s["kinds"]
+              ], datetime.timedelta())
+print(meteor_time)
+```
+
 ## Events
 Events are different from segments in having only **one** timestamp. Examples are the usual "EC meeting points" or station / ship overpasses.
 
