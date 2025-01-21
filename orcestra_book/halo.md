@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 # HALO
 
 The German High Altitude and Long-Range Research Aircraft (HALO) is a modified Gulfstream G550 and 

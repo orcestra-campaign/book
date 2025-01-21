@@ -1,4 +1,8 @@
-# INCAS KingAir
+---
+orphan: true
+---
+
+# King Air - INCAS
 
 The aircraft is operated by the romanian National Institute for Aerospace Research. Details can be found on https://www.eufar.net/aircrafts/86/details/
 

@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 # ATR-42
 
 The French ATR-42 is a bi turbo-prop aircraft from SAFIRE that has the capability of flying in the lower troposphere (ceiling at about 8 km) with a maximum range of about 1000 km. It will fly a series of legs within the sub-cloud layer, near cloud base and in the mid-troposphere. The legs will be about 200 km long, and will sample shallow and deep convective clouds together with their environment. A particularity of the aircraft instrumentation is that it will include multi-directional remote sensing, including sideways and vertically-pointing lidars and radars that will probe the atmosphere horizontally and vertically, aiming at characterizing the cloud geometry (horizontal and vertical), horizontal distributions of water vapor, temperature, clouds and aerosols, cloud microphysical and optical properties (liquid and ice water content, particle size distribution, scattering phase function), and the three-dimensional wind around the aircraft. 

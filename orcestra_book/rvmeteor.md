@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 # RV Meteor
 
 METEOR is Germany's third largest research vessel and is used for basic research in a number of scientific disciplines, including the study of the atmosphere, the water column, marine organisms and the ocean floor. 

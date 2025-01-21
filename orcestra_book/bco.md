@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 # BCO
 
 The Barbados Cloud Observatory (BCO) is largely defined by a cluster of instruments at Ragged Point, a promontory on the windward coast of Barbados. This location is well situated to observe the air masses carried by the trade winds over the Atlantic Ocean. The measurement station at Ragged Point has been in operation since April 1, 2010, and is equipped with standard meteorological instruments (measuring e.g. temperature, humidity, pressure, wind, rain rate, solar irradiance) and several remote sensing instruments to study the vertical distribution of overpassing clouds, aerosols and water vapor as a function of the large-scale environment. The BCO provides the long-term context for intensive observations, which will be combined with measurements from other platforms to achieve the campaign objectives. 
