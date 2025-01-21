@@ -10,6 +10,14 @@
 * {doc}`../plans/howto_groundsupport`
 ```
 
+```{admonition} Background information
+:class: seealso
+
+[Check this out](../halo), if you like to know more about the platform and its instrumentation.
+```
+
+## Planning and Reporting
+
 For an overview of all flight categories, [click here](flight_categories).
 
 Flight-ID | Date | Takeoff | Landing | PI | Nickname | Categories

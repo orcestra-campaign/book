@@ -2,11 +2,17 @@
 
 # ORCESTRA at BCO
 
-The ORCESTRA field campaign, conducted at the Barbados Cloud Observatory (BCO) between September 7 and 28, 2024, brought together a team of 20 scientists dedicated to advancing our understanding of tropical weather systems and the interplay of clouds, moisture, and winds. Over the course of the campaign, 141 radiosondes were launched, providing critical data for investigating atmospheric processes in the tropical Atlantic. 
+The ORCESTRA field campaign, conducted at the Barbados Cloud Observatory (BCO) between September 7 and 28, 2024, brought together a team of 20 scientists dedicated to advancing our understanding of tropical weather systems and the interplay of clouds, moisture, and winds. Over the course of the campaign, 141 radiosondes were launched, providing critical data for investigating atmospheric processes in the tropical Atlantic.
 
 This webpage presents an overview of the data collected, highlights initial findings, and lays the groundwork for future analyses that could deepen our understanding of tropical climate dynamics. Explore the sections below to delve into comparisons between different campaigns, analyze forecast accuracy, and understand how African Easterly Waves influence the local weather.
 
 This part of the campaign was made possible thanks to the invaluable support of Friedhelm Jansen and Björn Brügmann, whose technical expertise ensured the success of the radiosonde launches.
+
+```{admonition} Background information
+:class: seealso
+
+[Check this out](../bco), if you like to know more about the platform and its instrumentation.
+```
 
 ---
 

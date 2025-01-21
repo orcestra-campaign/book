@@ -6,6 +6,14 @@
 For an introduction to the ATR flight planning, [click here](../plans/howto_atr)
 ```
 
+```{admonition} Background information
+:class: seealso
+
+[Check this out](../atr42), if you like to know more about the platform and its instrumentation.
+```
+
+## Planning and Reporting
+
 For an overview of all flight categories, [click here](flight_categories).
 
 Flight-ID | Date | Takeoff | Landing | PI | Categories
