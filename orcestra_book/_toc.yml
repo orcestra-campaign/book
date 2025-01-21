@@ -49,8 +49,6 @@ chapters:
     - file: ctd
       title: Ex 7 - CTD measurements
 - file: blog
-- file: lam
-  title: Simulations
 - file: coordination
 - file: faq
   title: Tech FAQ
