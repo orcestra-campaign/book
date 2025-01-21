@@ -1,13 +1,14 @@
 # Operation
 
-````{grid} 5
 
-```{grid-item-card} ATR-42
-:img-bottom: figures/SAFIRE_ATR42_320x.jpeg
-:img-alt: ATR
-:link: operation/atr
+The ORCESTRA field campaign in summer 2024 encompasses one satellite, three aircrafts, one ship and two observatories.
+
+````{grid} 3
+```{grid-item-card} EarthCARE
+:img-bottom: figures/EarthCARE_320x.jpg
+:img-alt: EarthCare
+:link: earthcare
 :link-type: doc
-
 ```
 
 ```{grid-item-card} HALO
@@ -15,15 +16,34 @@
 :img-alt: HALO
 :link: operation/halo
 :link-type: doc
-
 ```
 
-```{grid-item-card} King Air
-:img-bottom: figures/kingair-praia_320x.jpg
-:img-alt: INCAS King Air
+```{grid-item-card} ATR-42
+:img-bottom: figures/SAFIRE_ATR42_320x.jpeg
+:img-alt: ATR-42
+:link: operation/atr
+:link-type: doc
+```
+
+```{grid-item-card} INCAS King Air
+:img-bottom: figures/INCAS_KingAir_320x.jpeg
+:img-alt: KingAir
 :link: operation/kingair
 :link-type: doc
+```
 
+```{grid-item-card} BCO
+:img-bottom: figures/BCO_320x.png
+:img-alt: BCO
+:link: operation/BCO_Radiosondes
+:link-type: doc
+```
+
+```{grid-item-card} CVAO
+:img-bottom: figures/CVAO_320x.jpg
+:img-alt: CVAO
+:link: cvao
+:link-type: doc
 ```
 
 ```{grid-item-card} RV METEOR
@@ -31,47 +51,43 @@
 :img-alt: RV Meteor
 :link: operation/rvmeteor
 :link-type: doc
-
 ```
-
-
-```{grid-item-card} BCO Radiosondes
-:img-bottom: figures/Radiosondes.jpg
-:img-alt: BCO Radiosondes
-:link: operation/BCO_Radiosondes
-:link-type: doc
-
-```
-
 ````
+
+---
 
 <a href="webcal://orcestra-campaign.org/flights.ics"><i class="fas fa-calendar-alt"></i> ORCESTRA flight calendar</a>
 
-```{admonition} Airport restrictions - Sal
-:class: warning dropdown
+---
 
-At Sal Island the runway will be closed according to the following schedule (UTC):
+````{admonition} Supporting operation
+:class: important dropdown
+```{admonition} Naming scheme for aircraft measurements
+:class: note dropdown
 
-|Day of Week| Date                  | Airport Closed
-| --------  | -------               | -------
-| Monday    | Aug 19, 26, Sep 2, 9  | 02:20–12:35
-| Tuesday   | Aug 20, 27, Sep 3, 10 | 02:20–09:45
-| Wednesday | Aug 21, 28, Sep 4, 11 | 02:20–12:30
-| Thursday  | Aug 22, 29, Sep 5, 12 | 02:20–11:10
-| Friday    | Aug 23, 30, Sep 6     | 02:20–10:00
-| Saturday  | Aug 24, 31, Sep 7 | 02:50–08:00
+The naming scheme `<aircraft>-<year><month><day><letter>` (i.e. _HALO-20240810a_) shall serve as a clean and future-proof way to identify flights. The `<letter>` in the end of the scheme will distinguish between cases, when several flights will take place in one day.
 
+For quicklook data the terminus `QL_<aircraft>-<year><month><day><letter>_<instrument>_<Version: Vxx>` is recommended.
 ```
 
 ```{admonition} Weather briefings
-:class: note dropdown
+:class: seealso dropdown
 
 * Weather briefings for **PERCUSION** are available on [weather.orcestra-campaign.org](https://weather.orcestra-campaign.org).
 * Weather briefings for **MAESTRO** are available on [the operational center](https://observations.ipsl.fr/aeris/maestro/#/dataviz).
 ```
 
 ```{admonition} ORCESTRA Science Seminars
-:class: tip dropdown
+:class: seealso dropdown
 
-The schedule of our science seminars are found [here](scienceseminars).
+The schedule of our science seminars can be found [here](scienceseminars).
 ```
+````
+
+## Useful links
+
+- [AERIS](https://observations.ipsl.fr/aeris/maestro/#/map) - Flight track planning tool shaped for MAESTRO
+- [MISVA](https://misva.aeris-data.fr/en/homepage/) - Monitoring and forecast of IntraSeasonal Variability over Africa
+- [pyorcestra](https://github.com/orcestra-campaign/pyorcestra) - A python package created for ORCESTRA purposes
+- [TOOCAN](https://toocan.ipsl.fr/) - Tracking and characterizing mesoscale convective systems
+
