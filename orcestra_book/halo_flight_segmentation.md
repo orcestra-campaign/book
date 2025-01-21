@@ -194,6 +194,13 @@ ec_dist = [e["distance"] for e in events if "ec_underpass" in e["kinds"]]
 ec_dist
 ```
 
+Mean distance in meters:
+
+```{code-cell} ipython3
+import numpy as np
+print(int(np.mean(ec_dist)))
+```
+
 Which flights do not have an ec_event?
 
 ```{code-cell} ipython3
