@@ -51,7 +51,7 @@ segments = [{**s,
            ]
 ```
 
-### List available segment `kinds`
+### Listing available segment `kinds`
 
 ```{code-cell} ipython3
 kinds = set(k for s in segments for k in s["kinds"])
