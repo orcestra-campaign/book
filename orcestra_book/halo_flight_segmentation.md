@@ -218,3 +218,21 @@ ax.set_xlabel("Distance / m")
 ax.set_ylabel("Frequency")
 ax.spines[['right', 'top']].set_visible(False)
 ```
+
+### Overpasses of ground measurement stations
+
++++
+
+Five CVAO overpasses:
+
+```{code-cell} ipython3
+cvao_flights = [e['flight_id'] for e in events if 'cvao_overpass' in e['kinds']]
+cvao_flights
+```
+
+Two BCO overpasses:
+
+```{code-cell} ipython3
+bco_flights = [e['flight_id'] for e in events if 'bco_overpass' in e['kinds']]
+bco_flights
+```
