@@ -47,8 +47,6 @@ chapters:
     - file: hifs
       title: Ex 6 - IFS forecasts
 - file: blog
-- file: lam
-  title: Simulations
 - file: coordination
 - file: faq
   title: Tech FAQ

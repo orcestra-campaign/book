@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 # Limited area model
 
 To support the campaign, we perform daily hindcasts of the atmospheric conditions in the campaign region.
