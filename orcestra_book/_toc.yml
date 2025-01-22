@@ -47,8 +47,6 @@ chapters:
       title: ERA5 data
     - file: water_vapour_overview
       title: Water vapour structure
-    - file: temperature_example
-      title: Temperature comparison
     - file: iwv_comparison
       title: IWV comparison
     - file: hifs
