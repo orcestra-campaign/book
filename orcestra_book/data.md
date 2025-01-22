@@ -40,11 +40,6 @@ If you like to find out more about our **data concept**, have a look [here](data
 💡 Do you want to [contribute](https://github.com/orcestra-campaign/book/blob/main/CONTRIBUTING.md) or did you figure out that your data is missing? Feel free to [open an issue](https://github.com/orcestra-campaign/book/issues/new) or [contact us](mailto:yuting.wu@mpimet.mpg.de).
 
 
-### Working with the data
-
-If you like to work with the data, feel free to have a look into the script examples (marked with *Ex [NN]*) listed in the left column below the data section. Also feel free to contribute with your own script to this website.
-
-
 ### Supporting data
 #### Numerical simulations - Limited area model
 
