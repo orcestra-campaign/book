@@ -37,6 +37,7 @@ chapters:
     - file: data_concept
     - file: attribute_convention
       title: Attribute Convention
+    - file: data_policy
 - file: examples
   sections:
     - file: halo_flight_segmentation
