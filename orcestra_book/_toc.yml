@@ -35,6 +35,7 @@ chapters:
 - file: data
   sections:
     - file: data_concept
+    - file: ipfs
     - file: attribute_convention
       title: Attribute Convention
     - file: data_policy
