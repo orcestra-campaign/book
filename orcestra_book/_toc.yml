@@ -42,7 +42,7 @@ chapters:
 - file: how_to
   sections:
     - file: halo_flight_segmentation
-      title: Segment a flight
+      title: Flight segmentation
     - file: hera5
       title: ERA5 data
     - file: water_vapour_overview
