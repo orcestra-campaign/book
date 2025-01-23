@@ -3,10 +3,8 @@ jupytext:
   text_representation:
     extension: .md
     format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.16.0
 kernelspec:
-  display_name: Python 3
+  display_name: Python 3 (ipykernel)
   language: python
   name: python3
 ---
@@ -28,6 +26,7 @@ If you don't have the package installed, you can run the code cell below to inst
 ## Loading the data from the catalog
 
 First, let's import all packages that are required to run the full notebook.
+
 ```{code-cell} ipython3
 import intake
 import healpix as hp
@@ -78,21 +77,20 @@ For this rather short time period, we would like to work with the hourly data. T
 era5 = cat.HERA5(time="PT1H").to_dask().pipe(egh.attach_coords)
 ```
 
-Next, we select the cell index that is the nearest neighbor to the BCO location using `healpix.ang2pix()`.
+Next, we want to see how temperature readings at BCO (WXT) compare with the ERA5 reanalysis.
+We select the cell index that is the nearest neighbor to the BCO location using `healpix.ang2pix()`.
+
 ```{code-cell} ipython3
-i_bco = hp.ang2pix(
-    egh.get_nside(era5),
-    -59.42875, # longitude at BCO
-    13.16264, # latitude at BCO
-    nest=egh.get_nest(era5),
-    lonlat=True,
-)
+wxt = cat.BCO.surfacemet_wxt_v1.to_dask()
+i_bco = hp.ang2pix(egh.get_nside(era5), wxt.lon, wxt.lat, nest=egh.get_nest(era5), lonlat=True)
 ```
 
-Now, we can plot the time series by selecting the respective cell as well as the time range.
+Now, we can plot the time series by selecting the respective cell as well as a time range:
 
 ```{code-cell} ipython3
-era5["2t"].sel(cell=i_bco, time=slice("2020-08", "2020-09")).plot()
+era5["2t"].isel(cell=i_bco).sel(time="2020-08").plot(label="ERA5")
+(wxt["T"].sel(time="2020-08").resample(time="1h").mean() + 273.15).plot(label="WXT")
+plt.legend();
 ```
 
 ### Evolution of the moisture field at BCO
@@ -152,22 +150,24 @@ egh.healpix_show(
 
 ## Plotting the Atlantic basin only
 
-In real-life analyses it is often necessary to constrain a plot to certain regions. The function `easygems.healpix_show()` allows to plot two-dimensional data onto a cartopy `GeoAxis` with arbitrary projection and extent.
+In real-life analyses it is often necessary to constrain a plot to certain regions.
+The function `easygems.healpix_show()` allows to plot two-dimensional data onto a cartopy `GeoAxis` with arbitrary projection and extent.
+Here, we plot contour lines of the integrated water-vapor (IWV), which plays a crucial role in the flight planning of PERCUSION.
 
 ```{code-cell} ipython3
-era5 = cat.HERA5(time="P1M").to_dask().pipe(egh.attach_coords)
-var = era5["tp"]
+era5 = cat.HERA5(time="PT1H").to_dask().pipe(egh.attach_coords)
+iwv = era5["tcwv"].sel(time="2020-08", method="nearest")
 
 fig, ax = plt.subplots(figsize=(10, 6), subplot_kw={"projection": ccrs.PlateCarree()})
+ax.gridlines(draw_labels=True, dms=True, x_inline=False, y_inline=False, alpha=0.25)
 ax.set_extent([-65, -5, -10, 25])
 ax.coastlines(lw=0.8)
-im = egh.healpix_show(
-    var.sel(time="2020-08", method="nearest").values,
-    method="linear",
-    cmap="cmo.rain",
-    vmin=0,
-)
-fig.colorbar(im, label=f"{var.long_name} / {var.units}", shrink=0.7)
+
+im = egh.healpix_show(iwv, cmap="Blues", vmin=45, vmax=70)
+fig.colorbar(im, label=f"{iwv.long_name} / {iwv.units}", shrink=0.7)
+
+clines = egh.healpix_contour(iwv, levels=[45, 50, 55], colors="k", linewidths=1, alpha=0.5)
+ax.clabel(clines, inline=True, fontsize=10, colors="k", fmt="%d");
 ```
 
 ## Further reading
