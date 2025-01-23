@@ -218,18 +218,12 @@ ax.legend(loc=0);
 
 ### Overpasses of ground measurement stations
 
-+++
-
-Five CVAO overpasses:
-
 ```{code-cell} ipython3
 cvao_flights = [e['flight_id'] for e in events if 'cvao_overpass' in e['kinds']]
-cvao_flights
+print(f"{len(cvao_flights)} CVAO overpasses during {set(cvao_flights)}")
 ```
-
-Two BCO overpasses:
 
 ```{code-cell} ipython3
 bco_flights = [e['flight_id'] for e in events if 'bco_overpass' in e['kinds']]
-bco_flights
+print(f"{len(bco_flights)} BCO overpasses during {set(bco_flights)}")
 ```
