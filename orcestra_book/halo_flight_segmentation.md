@@ -204,8 +204,8 @@ print(int(np.mean(ec_dist)))
 Which flights do not have an ec_event?
 
 ```{code-cell} ipython3
-flight_ids_events = [e["flight_id"] for e in events]
-set(flight_ids) - set(flight_ids_events)
+flight_ids_ec_event = [e["flight_id"] for e in events if "ec_underpass" in e["kinds"]]
+set(flight_ids) - set(flight_ids_ec_event)
 ```
 
 #### Histogram of distance HALO - EarthCARE during meeting point
