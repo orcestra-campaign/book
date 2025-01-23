@@ -39,7 +39,7 @@ chapters:
     - file: attribute_convention
       title: Attribute Convention
     - file: data_policy
-- file: examples
+- file: how_to
   sections:
     - file: halo_flight_segmentation
       title: Segment a flight
