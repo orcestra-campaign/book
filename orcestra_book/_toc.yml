@@ -34,20 +34,27 @@ chapters:
       title: Flight plan docs
 - file: data
   sections:
+    - file: data_concept
+    - file: ipfs
+    - file: attribute_convention
+      title: Attribute Convention
+    - file: data_policy
+- file: how_to
+  sections:
     - file: halo_flight_segmentation
-      title: Ex 1 - Segment a flight
+      title: Flight segmentation
     - file: hera5
-      title: Ex 2 - ERA5 data
+      title: ERA5 data
     - file: water_vapour_overview
-      title: Ex 3 - Water vapour structure
+      title: Water vapour structure
     - file: temperature_example
-      title: Ex 4 - Temperature comparison
+      title: Temperature comparison
     - file: iwv_comparison
-      title: Ex 5 - IWV comparison
+      title: IWV comparison
     - file: hifs
-      title: Ex 6 - IFS forecasts
+      title: IFS forecasts
     - file: ctd
-      title: Ex 7 - CTD measurements
+      title: CTD measurements
 - file: blog
 - file: coordination
 - file: faq
