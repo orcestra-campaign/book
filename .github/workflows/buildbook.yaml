@@ -82,10 +82,6 @@ jobs:
         restore-keys: |
           notebooks-${{ runner.os }}-${{ hashFiles('environment.yml') }}-${{ github.run_id }}-
           notebooks-${{ runner.os }}-${{ hashFiles('environment.yml') }}-
-    - name: Invalidate EarthCARE cache
-      if: github.event_name == 'schedule'
-      # Invalidate the cache for the EarthCARE track to always show the latest prediction
-      run: jcache notebook -p orcestra_book/_build/.jupyter_cache/ invalidate orcestra_book/earthcare.md
     - name: build book
       run: |
         conda info
