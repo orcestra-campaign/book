@@ -51,7 +51,7 @@ segments = [{**s,
            ]
 ```
 
-### List available segment `kinds`
+### Listing available segment `kinds`
 
 ```{code-cell} ipython3
 kinds = set(k for s in segments for k in s["kinds"])
@@ -162,6 +162,16 @@ ec_time = sum([s["end"] - s["start"]
 print(ec_time)
 ```
 
+### Total time of coordination with Meteor
+
+```{code-cell} ipython3
+meteor_time = sum([s["end"] - s["start"]
+               for s in segments
+               if "meteor_coordination" in s["kinds"]
+              ], datetime.timedelta())
+print(meteor_time)
+```
+
 ## Events
 Events are different from segments in having only **one** timestamp. Examples are the usual "EC meeting points" or station / ship overpasses.
 
@@ -181,23 +191,39 @@ How well did HALO manage to meet with EathCARE?
 
 ```{code-cell} ipython3
 ec_dist = [e["distance"] for e in events if "ec_underpass" in e["kinds"]]
-ec_dist
 ```
 
 Which flights do not have an ec_event?
 
 ```{code-cell} ipython3
-flight_ids_events = [e["flight_id"] for e in events]
-set(flight_ids) - set(flight_ids_events)
+flight_ids_ec_event = [e["flight_id"] for e in events if "ec_underpass" in e["kinds"]]
+set(flight_ids) - set(flight_ids_ec_event)
 ```
 
 #### Histogram of distance HALO - EarthCARE during meeting point
 
 ```{code-cell} ipython3
+import numpy as np
+
 fig, ax = plt.subplots()
 
-ax.hist(ec_dist)
+ax.hist(ec_dist, bins=20)
+ax.axvline(x=np.median(ec_dist), c="C1", label=f"median: {int(np.median(ec_dist))} m")
+ax.axvline(x=np.mean(ec_dist), c="C1", ls=":", label=f"mean: {int(np.mean(ec_dist))} m")
 ax.set_xlabel("Distance / m")
 ax.set_ylabel("Frequency")
 ax.spines[['right', 'top']].set_visible(False)
+ax.legend(loc=0);
+```
+
+### Overpasses of ground measurement stations
+
+```{code-cell} ipython3
+cvao_flights = [e['flight_id'] for e in events if 'cvao_overpass' in e['kinds']]
+print(f"{len(cvao_flights)} CVAO overpasses during {set(cvao_flights)}")
+```
+
+```{code-cell} ipython3
+bco_flights = [e['flight_id'] for e in events if 'bco_overpass' in e['kinds']]
+print(f"{len(bco_flights)} BCO overpasses during {set(bco_flights)}")
 ```
