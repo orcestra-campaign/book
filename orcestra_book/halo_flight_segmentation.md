@@ -191,14 +191,6 @@ How well did HALO manage to meet with EathCARE?
 
 ```{code-cell} ipython3
 ec_dist = [e["distance"] for e in events if "ec_underpass" in e["kinds"]]
-ec_dist
-```
-
-Mean distance in meters:
-
-```{code-cell} ipython3
-import numpy as np
-print(int(np.mean(ec_dist)))
 ```
 
 Which flights do not have an ec_event?
@@ -211,12 +203,17 @@ set(flight_ids) - set(flight_ids_ec_event)
 #### Histogram of distance HALO - EarthCARE during meeting point
 
 ```{code-cell} ipython3
+import numpy as np
+
 fig, ax = plt.subplots()
 
-ax.hist(ec_dist)
+ax.hist(ec_dist, bins=20)
+ax.axvline(x=np.median(ec_dist), c="C1", label=f"median: {int(np.median(ec_dist))} m")
+ax.axvline(x=np.mean(ec_dist), c="C1", ls=":", label=f"mean: {int(np.mean(ec_dist))} m")
 ax.set_xlabel("Distance / m")
 ax.set_ylabel("Frequency")
 ax.spines[['right', 'top']].set_visible(False)
+ax.legend(loc=0);
 ```
 
 ### Overpasses of ground measurement stations
