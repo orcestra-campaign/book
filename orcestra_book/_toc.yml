@@ -51,6 +51,8 @@ chapters:
       title: IFS forecasts
     - file: ctd
       title: CTD measurements
+    - file: ec_track
+      title: EarthCARE tracks
 - file: blog
 - file: coordination
 - file: faq
