@@ -14,6 +14,11 @@ kernelspec:
 
 EarthCARE regularly flew over the measurement area, allowing each of the aircraft to fly underneath. The data from the underflights are used to validate the EarthCARE measurements. This page shows how to compare EarthCARE and HALO tracks.
 
+```{note}
+In this example, we use the EarthCARE orbit **predictions** as used for flight planning during ORCESTRA.
+With EarthCARE data being public, other ways to obtain the actual (past) orbits should be available at some point.
+```
+
 First, we load the track data. EarthCARE tracks are available for different regions of interest (`roi`) and forecast days.
 You can check [sattracks.orcestra-campaign.org](http://sattracks.orcestra-campaign.org) for an overview of all available forecasts.
 
