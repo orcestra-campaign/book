@@ -14,24 +14,6 @@ chapters:
     - file: piccolo
     - file: score
     - file: strinqs
-- file: platforms
-  sections:
-  - file: earthcare
-  - file: halo
-  - file: atr42
-  - file: kingair
-  - file: bco
-  - file: cvao
-  - file: rvmeteor
-- file: operation
-  sections:
-    - file: operation/atr
-    - file: operation/halo
-    - file: operation/rvmeteor
-    - file: operation/kingair
-    - file: operation/BCO_Radiosondes
-    - file: flightplan_docs
-      title: Flight plan docs
 - file: data
   sections:
     - file: data_concept
@@ -53,7 +35,24 @@ chapters:
       title: CTD measurements
     - file: ec_track
       title: EarthCARE tracks
-- file: blog
-- file: coordination
 - file: faq
   title: Tech FAQ
+- file: operation
+  sections:
+    - file: operation/halo
+    - file: operation/atr
+    - file: operation/kingair
+    - file: operation/rvmeteor
+    - file: operation/BCO_Radiosondes
+- file: platforms
+  sections:
+  - file: earthcare
+  - file: halo
+  - file: atr42
+  - file: kingair
+  - file: bco
+  - file: cvao
+  - file: rvmeteor
+- file: coordination
+  title: Members
+- file: blog
