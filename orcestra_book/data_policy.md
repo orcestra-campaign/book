@@ -6,6 +6,6 @@ ORCESTRA data are a product of the collective efforts of various independent res
 
 For publications using ORCESTRA data, please include this acknowledgement:
 
-> "ORCESTRA was made possible thanks to the support of the Max Planck Society (MPG), the European Research Counceil through Grant No. (XXX), the German Research Foundation (DFG), the German Aerospace Center (DLR), the German Federal Ministry for Education and Research (BMBF), the French National Centre for Scientific Research (CNRS), the European Space Agency (ESA), and the US National Science Foundation (NSF), through Grant No. YYY".  [The specific data used in this study was made available by instution/person XY thanks with partial support from agency XYZ]
+> "ORCESTRA was made possible thanks to the support of the Max Planck Society (MPG), the European Research Counceil through Grant No. 101098063, the German Research Foundation (DFG), the German Aerospace Center (DLR), the German Federal Ministry for Education and Research (BMBF), the French National Centre for Scientific Research (CNRS), the Dutch Research Council (NWO), the European Space Agency (ESA), and the US National Science Foundation (NSF), through the Award No. 2331199, 2331202 and 2331200".  [The specific data used in this study was made available by instution/person XY thanks with partial support from agency XYZ]
 
 To ensure the recognition of contributions to the data collection, while promoting its open and respectful use.
