@@ -2,18 +2,18 @@
 
 ````{grid} 5
 
-```{grid-item-card} ATR-42
-:img-bottom: figures/SAFIRE_ATR42_320x.jpeg
-:img-alt: ATR
-:link: operation/atr
-:link-type: doc
-
-```
-
 ```{grid-item-card} HALO
 :img-bottom: figures/HALO_320x.jpg
 :img-alt: HALO
 :link: operation/halo
+:link-type: doc
+
+```
+
+```{grid-item-card} ATR-42
+:img-bottom: figures/SAFIRE_ATR42_320x.jpeg
+:img-alt: ATR
+:link: operation/atr
 :link-type: doc
 
 ```
@@ -34,7 +34,6 @@
 
 ```
 
-
 ```{grid-item-card} BCO Radiosondes
 :img-bottom: figures/Radiosondes.jpg
 :img-alt: BCO Radiosondes
@@ -45,33 +44,52 @@
 
 ````
 
+---
+
 <a href="webcal://orcestra-campaign.org/flights.ics"><i class="fas fa-calendar-alt"></i> ORCESTRA flight calendar</a>
 
-```{admonition} Airport restrictions - Sal
-:class: warning dropdown
+---
 
-At Sal Island the runway will be closed according to the following schedule (UTC):
-
-|Day of Week| Date                  | Airport Closed
-| --------  | -------               | -------
-| Monday    | Aug 19, 26, Sep 2, 9  | 02:20–12:35
-| Tuesday   | Aug 20, 27, Sep 3, 10 | 02:20–09:45
-| Wednesday | Aug 21, 28, Sep 4, 11 | 02:20–12:30
-| Thursday  | Aug 22, 29, Sep 5, 12 | 02:20–11:10
-| Friday    | Aug 23, 30, Sep 6     | 02:20–10:00
-| Saturday  | Aug 24, 31, Sep 7 | 02:50–08:00
-
-```
+````{admonition} Operational support
+:class: important
 
 ```{admonition} Weather briefings
-:class: note dropdown
-
-* Weather briefings for **PERCUSION** are available on [weather.orcestra-campaign.org](https://weather.orcestra-campaign.org).
+:class: seealso dropdown
 * Weather briefings for **MAESTRO** are available on [the operational center](https://observations.ipsl.fr/aeris/maestro/#/dataviz).
+* Weather briefings for **PERCUSION** are available on [weather.orcestra-campaign.org](https://weather.orcestra-campaign.org).
 ```
 
 ```{admonition} ORCESTRA Science Seminars
-:class: tip dropdown
-
-The schedule of our science seminars are found [here](scienceseminars).
+:class: seealso dropdown
+The schedule of our science seminars can be found [here](scienceseminars).
 ```
+
+```{admonition} Flight planning
+:class: note dropdown
+* [ATR-42 flight planning](plans/howto_atr)
+* [HALO flight planning](flightplan_docs)
+```
+
+```{admonition} Naming scheme for aircraft measurements
+:class: note dropdown
+The naming scheme `<aircraft>-<year><month><day><letter>` (i.e. _HALO-20240810a_) shall serve as a clean and future-proof way to identify flights. The `<letter>` in the end of the scheme will distinguish between cases, when several flights will take place in one day.
+For quicklook data the terminus `QL_<aircraft>-<year><month><day><letter>_<instrument>_<Version: Vxx>` is recommended.
+```
+
+````
+
+## Useful links
+
+- [AERIS](https://observations.ipsl.fr/aeris/maestro/#/map) - Flight track planning tool shaped for MAESTRO
+- [MISVA](https://misva.aeris-data.fr/en/homepage/) - Monitoring and forecast of IntraSeasonal Variability over Africa
+- [pyorcestra](https://github.com/orcestra-campaign/pyorcestra) - A python package created for ORCESTRA purposes
+- [TOOCAN](https://toocan.ipsl.fr/) - Tracking and characterizing mesoscale convective systems
+- [MAESTRO operational center](https://observations.ipsl.fr/aeris/maestro/#/map)
+
+
+
+
+
+
+
+
