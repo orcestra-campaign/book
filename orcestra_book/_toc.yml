@@ -35,6 +35,8 @@ chapters:
       title: CTD measurements
     - file: ec_track
       title: EarthCARE tracks
+    - file: flightplan_docs
+      title: Flight planning
 - file: faq
   title: Tech FAQ
 - file: operation
