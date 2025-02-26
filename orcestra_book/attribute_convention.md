@@ -48,3 +48,4 @@ For additional metadata we encourage to follow [CF](https://cfconventions.org) a
 * `BCO`
 * `CVAO`
 * `RV METEOR`
+* `INMG`
