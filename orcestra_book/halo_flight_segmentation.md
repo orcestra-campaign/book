@@ -71,7 +71,7 @@ from orcestra.flightplan import sal, tbpb
 
 def get_halo_position_attitude(flight_id):
     root = "ipns://latest.orcestra-campaign.org/products/HALO/position_attitude"
-    return (xr.open_dataset(f"{root}/{flight_id}.zarr", engine="zarr")
+    return (xr.open_dataset(f"{root}.zarr", engine="zarr")
             .reset_coords().resample(time="1s").mean().load())
 
 def kinds2color(kinds):
