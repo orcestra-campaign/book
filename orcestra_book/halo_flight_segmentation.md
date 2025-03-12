@@ -105,14 +105,14 @@ for s in meta["HALO"][flight_id]["segments"]:
 for k in ["circle", "straight_leg", "ec_track", "atr_coordination"]:
     ax.plot([], [], color=kinds2color(k), label=k)
 
-plt.scatter(sal.lon, sal.lat, marker="o", color="k")
-plt.annotate("SAL", (sal.lon, sal.lat))
+ax.scatter(sal.lon, sal.lat, marker="o", color="k")
+ax.annotate("SAL", (sal.lon, sal.lat))
 
 ax.set_xlabel("longitude / °")
 ax.set_ylabel("latitude / °")
 ax.spines[['right', 'top']].set_visible(False)
 ax.legend()
-plt.title(flight_id);
+ax.set_title(flight_id);
 ```
 
 ### Plotting all segments of a specific kind
