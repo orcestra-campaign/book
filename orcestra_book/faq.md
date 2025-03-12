@@ -5,7 +5,7 @@
 The ORCESTRA book [repository](http://github.com/orcestra-campaign/book) comes
 with an `environment.yml` that describes all Python packages that are needed to
 build the website.  You can createa a Python environment with all dependencies by
-using, e.g., `micromamba`:
+using, e.g., [`micromamba`](https://mamba.readthedocs.io):
 
 ```bash
 micromamba env create -f environment.yml
