@@ -5,10 +5,10 @@
 The ORCESTRA book [repository](http://github.com/orcestra-campaign/book) comes
 with an `environment.yml` that describes all Python packages that are needed to
 build the website.  You can createa a Python environment with all dependencies by
-using, e.g., `conda`:
+using, e.g., `micromamba`:
 
 ```bash
-conda env create -f environment.yml
+micromamba env create -f environment.yml
 ```
 
 ## How to use the build environment in Jupyter lab?
@@ -19,7 +19,7 @@ can install the `orcestra_book` environment as an ipython kernel.
 This way you can select `orcestra_book` as kernel to run your notebooks.
 
 ```bash
-conda activate orcestra_book
+micromamba activate orcestra_book
 ipython3 -m ipykernel install --user --name orcestra_book
 ```
 
@@ -29,13 +29,13 @@ If you can't build your book, maybe some changes in the `environment.yml` were u
 You can update the environment as following:
 
 ```bash
-conda update env -f environment.yml
+micromamba update env -f environment.yml
 ```
 
 Please note, that sometimes a fresh install of the environment is a more robust approach.
 Simply remove your existing environment by running:
 ```bash
-conda env remove -n orcestra_book
+micromamba env remove -n orcestra_book
 ```
 and re-install it using the `environment.yaml`.
 Your ipython kernels should still be able to find the "new" environment.
