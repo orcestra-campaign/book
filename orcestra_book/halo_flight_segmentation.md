@@ -69,6 +69,20 @@ import xarray as xr
 import matplotlib.pyplot as plt
 from orcestra.flightplan import sal, tbpb
 
+
+def get_halo_position(freq="1s"):
+    """Return the HALO position at a given time frequency."""
+    # root = "ipns://latest.orcestra-campaign.org"
+    root = "ipfs://QmWyyXuoTGJbf9MGSEjsfAdZzX8fWPfJByDgTb1yR9LWUg"
+    return (
+        xr.open_dataset(f"{root}/products/HALO/position_attitude.zarr", engine="zarr")
+        .reset_coords(("lat", "lon"))[["lat", "lon"]]
+        .resample(time=freq)
+        .mean()
+        .load()
+    )
+
+
 def kinds2color(kinds):
     if "circle" and "atr_coordination" in kinds:
         return "C2"
@@ -80,9 +94,7 @@ def kinds2color(kinds):
 ```
 
 ```{code-cell} ipython3
-ds = xr.open_dataset(
-    "ipns://latest.orcestra-campaign.org/products/HALO/position_attitude.zarr"
-    , engine="zarr")['lat']['lon'].reset_coords().resample(time="1s").mean().load()
+ds = get_halo_position()
 
 flight_id = "HALO-20240811a"
 fig, ax = plt.subplots()
