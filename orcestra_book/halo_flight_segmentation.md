@@ -32,13 +32,13 @@ meta = get_flight_segments()
 flight_ids = [flight_id
               for flights in meta.values()
               for flight_id in flights]
-print(f"Totel number of flights: {len(flight_ids)}")
+print(f"Total number of flights: {len(flight_ids)}")
 flight_ids
 ```
 
 ## Segments
 
-Sometimes it may be useful to have a flat list of segments, irrespective of which flight or platformt they belong to. So we build it here:
+Sometimes it may be useful to have a flat list of segments, irrespective of which flight or platform they belong to. So we build it here:
 
 ```{code-cell} ipython3
 segments = [{**s,
@@ -69,10 +69,19 @@ import xarray as xr
 import matplotlib.pyplot as plt
 from orcestra.flightplan import sal, tbpb
 
-def get_halo_position_attitude(flight_id):
-    root = "ipns://latest.orcestra-campaign.org/products/HALO/position_attitude"
-    return (xr.open_dataset(f"{root}/{flight_id}.zarr", engine="zarr")
-            .reset_coords().resample(time="1s").mean().load())
+
+def get_halo_position(freq="1s"):
+    """Return the HALO position at a given time frequency."""
+    # root = "ipns://latest.orcestra-campaign.org"
+    root = "ipfs://QmWyyXuoTGJbf9MGSEjsfAdZzX8fWPfJByDgTb1yR9LWUg"
+    return (
+        xr.open_dataset(f"{root}/products/HALO/position_attitude.zarr", engine="zarr")
+        .reset_coords(("lat", "lon"))[["lat", "lon"]]
+        .resample(time=freq)
+        .mean()
+        .load()
+    )
+
 
 def kinds2color(kinds):
     if "circle" and "atr_coordination" in kinds:
@@ -85,25 +94,25 @@ def kinds2color(kinds):
 ```
 
 ```{code-cell} ipython3
-flight = "HALO-20240811a"
-ds = get_halo_position_attitude(flight)
+ds = get_halo_position()
 
+flight_id = "HALO-20240811a"
 fig, ax = plt.subplots()
-for s in meta["HALO"][flight]["segments"]:
+for s in meta["HALO"][flight_id]["segments"]:
     t = slice(s["start"], s["end"])
     ax.plot(ds.lon.sel(time=t), ds.lat.sel(time=t), c=kinds2color(s["kinds"]))#, label=s["name"])
 
 for k in ["circle", "straight_leg", "ec_track", "atr_coordination"]:
     ax.plot([], [], color=kinds2color(k), label=k)
 
-plt.scatter(sal.lon, sal.lat, marker="o", color="k")
-plt.annotate("SAL", (sal.lon, sal.lat))
+ax.scatter(sal.lon, sal.lat, marker="o", color="k")
+ax.annotate("SAL", (sal.lon, sal.lat))
 
 ax.set_xlabel("longitude / °")
 ax.set_ylabel("latitude / °")
 ax.spines[['right', 'top']].set_visible(False)
 ax.legend()
-plt.title(flight);
+ax.set_title(flight_id);
 ```
 
 ### Plotting all segments of a specific kind
@@ -113,7 +122,6 @@ fig, ax = plt.subplots()
 kind = "circle"
 
 for f in flight_ids:
-    ds = get_halo_position_attitude(f)
     for s in segments:
         if kind in s["kinds"] and f==s["flight_id"]:
             t = slice(s["start"], s["end"])
