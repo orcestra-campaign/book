@@ -5,11 +5,11 @@
 ```{admonition} Available data
 :class: tip
 
-- available for **FS METEOR**: [`/products/METEOR`](https://ipfs.io/ipns/latest.orcestra-campaign.org/products/METEOR/)
+- for **FS METEOR**: [`/products/METEOR`](https://ipfs.io/ipns/latest.orcestra-campaign.org/products/METEOR/)
 
-- available for  **HALO**: [`/products/HALO`](https://ipfs.io/ipns/latest.orcestra-campaign.org/products/HALO/)
+- for  **HALO**: [`/products/HALO`](https://ipfs.io/ipns/latest.orcestra-campaign.org/products/HALO/)
 
-- available for  **SONATA**: [`/products/BCO`](https://ipfs.io/ipns/latest.orcestra-campaign.org/products/BCO) //  [`/products/SAL`](https://ipfs.io/ipns/latest.orcestra-campaign.org/products/SAL)
+- for  **SONATA**: [`/products/BCO`](https://ipfs.io/ipns/latest.orcestra-campaign.org/products/BCO) //  [`/products/SAL`](https://ipfs.io/ipns/latest.orcestra-campaign.org/products/SAL)
 
 ```
 
