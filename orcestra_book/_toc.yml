@@ -37,6 +37,8 @@ chapters:
       title: EarthCARE tracks
     - file: flightplan_docs
       title: Flight planning
+    - file: lam_examples
+      title: Limited area model
 - file: faq
   title: Tech FAQ
 - file: operation
