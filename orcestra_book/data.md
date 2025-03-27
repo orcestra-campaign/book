@@ -11,6 +11,8 @@
 
 - for  **SONATA**: [`/products/BCO`](https://ipfs.io/ipns/latest.orcestra-campaign.org/products/BCO) //  [`/products/SAL`](https://ipfs.io/ipns/latest.orcestra-campaign.org/products/SAL)
 
+- limited area [ICON simulations](lam.md) _(requires [Levante](https://docs.dkrz.de/doc/levante/index.html) access)_
+
 ```
 
 ### Data Browser
