@@ -23,10 +23,11 @@ You can then add data to your local IPFS node using the `ipfs add' command.
 
 The following options are recommended when adding data:
 ```sh
-ipfs add --recursive --hidden --raw-leaves --quieter </path/to/data>
+ipfs add --recursive --hidden --raw-leaves --chunker=size-1048576 --quieter </path/to/data>
 ```
 This command will add trees recursively and will also include hidden files, which is important for Zarr v2, as crucial metadata is stored in hidden files (e.g. `.zarray`).
 The `--raw-leaves` option tells IPFS to store data blocks on the lowest level in a raw format instead of wrapping them in more complex [IPLD](https://ipld.io) data types.
 This doesn't have any direct effect on the user side, but allows for easier reuse of individual data blocks when handling the data on the backend.
+The `--chunker=size-1048576` increases the maximum internal block size from the default of 256KB to 1MB (which is the maximum safely transferrable by IPFS). This also doesn't have a direct user-visible effect, but will improve performance.
 
 The command returns a Content Identifier (CID) of your data, which you can then use to access and share the data.
