@@ -26,16 +26,16 @@ To obtain data from the IPFS network, you need access to an [IPFS Gateway](https
 We recommend that you use your own local gateway for faster access and local caching.
 The simplest solution is to install [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/), which provides a graphical user interface and runs a [Kubo daemon](https://docs.ipfs.tech/install/command-line/) in the background.
 
-If you are unable to install software on your machine (e.g. work laptop), you can configure IPFS to use the public HTTPS gateway by setting:
+If you are **unable** to install software on your machine (e.g. work laptop), you can configure IPFS to use the public HTTPS gateway by setting:
 ```
 export IPFS_GATEWAY=https://ipfs.io
 ```
 :::
 
 :::{grid-item-card} High-performance Computer
-You should check, whether your HPC centre provides an IPFS gateway (i.e. whether `IPFS_GATEWAY` is set).
+You should check, whether your HPC centre provides an IPFS gateway (e.g. whether `IPFS_GATEWAY` is set).
 
-If this is not the case, you can configure IPFS to use the public HTTPS gateway by setting:
+If this is **not** the case, you can configure IPFS to use the public HTTPS gateway by setting:
 ```
 export IPFS_GATEWAY=https://ipfs.io
 ```
