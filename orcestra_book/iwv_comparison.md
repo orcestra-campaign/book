@@ -25,7 +25,7 @@ import xarray as xr
 import matplotlib.pylab as plt
 
 # root = "ipns://latest.orcestra-campaign.org"
-root = "ipfs://Qmbx6KSDfviFFi7f5XXQLB6MSTPhWnN1rNkCCKhyhaa7CA"
+root = "ipfs://QmNUqnfu7dDYFn6MjRq5wC4EJNNtNDiX5XFShuREMiLuMF"
 ```
 
 ## relative occurrence over entire campaign period
@@ -36,10 +36,10 @@ This can be confirmed by the following histogram:
 
 ```{code-cell} ipython3
 sources = [("METEOR GNSS", "METEOR/GNSS_IWV.zarr", "iwv"),
-           ("HALO HAMP", "HALO/iwv/*.zarr", "IWV"),
+           ("HALO HAMP", "HALO/HAMP/full_iwv.zarr", "IWV"),
            ("HALO dropsondes", "HALO/dropsondes/Level_3/PERCUSION_Level_3.zarr", "iwv")]
 for label, path, var in sources:
-    ds = xr.open_mfdataset(f"{root}/products/{path}", engine="zarr")
+    ds = xr.open_dataset(f"{root}/products/{path}", engine="zarr")
     plt.hist(ds[var], bins=40, range=(0,100), density=True, histtype="step", label=label);
 plt.xlabel("IWV / kg m-2")
 plt.ylabel("relative occurance")
@@ -59,7 +59,7 @@ Although the instruments broadly agree, we can already see some features of the 
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 
-ds = xr.open_mfdataset(f"{root}/products/HALO/iwv/*.zarr", engine="zarr")   
+ds = xr.open_dataset(f"{root}/products/HALO/HAMP/full_iwv.zarr", engine="zarr")
 low_iwv = ds.where(ds.IWV.compute() < 30, drop="True")
 
 fig = plt.figure()
