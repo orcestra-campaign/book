@@ -43,7 +43,7 @@ export IPFS_GATEWAY=https://ipfs.io
 ::::
 
 If you want to access the ORCESTRA data using Python, you will need to install the [`ipfsspec>=0.6.0`](http://pypi.org/project/ipfsspec/) package.
-It is highly recommended to install `ipfsspec` using pip, the version provided via `conda-forge` is outdated.
+It is essential to install `ipfsspec` using pip, the version provided via `conda-forge` is outdated and **broken**.
 
 You can check that your setup is complete by running the following python snippet, which will load the BAHAMAS Quick Look data for the ORCESTRA campaign:
 ```py
