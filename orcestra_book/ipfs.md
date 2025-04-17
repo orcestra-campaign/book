@@ -56,7 +56,7 @@ ds = xr.open_dataset("ipfs://bafybeiadmnra665v3yflqz7ekjq3sgzt2bpb2ytz4dsu34ggf3
 
 To add data to IPFS, you need to install and run a local IPFS client, e.g. [kubo](https://docs.ipfs.tech/install/command-line/).
 The local client will usually start a local gateway and connect to it.
-You can then add data to your local IPFS node using the `ipfs add' command.
+You can then add data to your local IPFS node using the `ipfs add` command.
 
 The following options are recommended when adding data:
 ```sh
