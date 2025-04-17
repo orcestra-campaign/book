@@ -8,12 +8,49 @@ While IPFS has more than one use case, its main use case is for publishing data 
 
 ## IPFS@ORCESTRA
 
-The latest version of the dataset is available at `/ipns/latest.orcestra-campaign.org`.
-For a first overview, and to browse the data, checkout the public gateway: **https://ipfs.io/ipns/latest.orcestra-campaign.org**.
+The latest version of the dataset is available via:
 
-It is recommended to use your own [local gateway](https://docs.ipfs.tech/concepts/ipfs-gateway/#gateway-providers) for an accelerated access.
+Subsystem | Name/Path
+--- | ---
+[IPNS](https://docs.ipfs.tech/concepts/ipns/) | `/ipns/latest.orcestra-campaign.org`
+HTTP gateway | https://latest.orcestra-campaign.org
 
 You can find an overview presentation about the usage of IPFS during ORCESTRA [here](https://orcestra-campaign.github.io/ipfs_intro/#/title-slide).
+
+## Accessing data with IPFS
+
+To obtain data from the IPFS network, you need access to an [IPFS Gateway](https://docs.ipfs.tech/concepts/ipfs-gateway).
+
+::::{grid} 1 1 2 2
+:::{grid-item-card} Local machine
+We recommend that you use your own local gateway for faster access and local caching.
+The simplest solution is to install [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/), which provides a graphical user interface and runs a [Kubo daemon](https://docs.ipfs.tech/install/command-line/) in the background.
+
+If you are **unable** to install software on your machine (e.g. work laptop), you can configure IPFS to use the public HTTPS gateway by setting:
+```
+export IPFS_GATEWAY=https://ipfs.io
+```
+:::
+
+:::{grid-item-card} High-performance Computer
+You should check, whether your HPC centre provides an IPFS gateway (e.g. whether `IPFS_GATEWAY` is set).
+
+If this is **not** the case, you can configure IPFS to use the public HTTPS gateway by setting:
+```
+export IPFS_GATEWAY=https://ipfs.io
+```
+:::
+::::
+
+If you want to access the ORCESTRA data using Python, you will need to install the [`ipfsspec>=0.6.0`](http://pypi.org/project/ipfsspec/) package.
+It is essential to install `ipfsspec` using pip, the version provided via `conda-forge` is outdated and **broken**.
+
+You can check that your setup is complete by running the following python snippet, which will load the BAHAMAS Quick Look data for the ORCESTRA campaign:
+```py
+import xarray as xr
+
+ds = xr.open_dataset("ipfs://bafybeiadmnra665v3yflqz7ekjq3sgzt2bpb2ytz4dsu34ggf3gxd2nn5m", engine="zarr")
+```
 
 ## Adding data to IPFS
 
