@@ -11,9 +11,33 @@ While IPFS has more than one use case, its main use case is for publishing data 
 The latest version of the dataset is available at `/ipns/latest.orcestra-campaign.org`.
 For a first overview, and to browse the data, checkout the public gateway: **https://ipfs.io/ipns/latest.orcestra-campaign.org**.
 
-It is recommended to use your own [local gateway](https://docs.ipfs.tech/concepts/ipfs-gateway/#gateway-providers) for an accelerated access.
 
 You can find an overview presentation about the usage of IPFS during ORCESTRA [here](https://orcestra-campaign.github.io/ipfs_intro/#/title-slide).
+
+## Accessing data with IPFS
+
+To obtain data from the IPFS network, you need access to an [IPFS Gateway](https://docs.ipfs.tech/concepts/ipfs-gateway).
+
+::::{grid} 1 1 2 2
+:::{grid-item-card} Local machine
+We recommend that you use your own local gateway for faster access and local caching.
+The simplest solution is to install [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/), which provides a graphical user interface and runs a [Kubo daemon](https://docs.ipfs.tech/install/command-line/) in the background.
+
+If you are unable to install software on your machine (e.g. work laptop), you can configure IPFS to use the public HTTPS gateway by setting:
+```
+export IPFS_GATEWAY=https://ipfs.io
+```
+:::
+
+:::{grid-item-card} High-performance Computer
+You should check, whether your HPC centre provides an IPFS gateway (i.e. whether `IPFS_GATEWAY` is set).
+
+If this is not the case, you can configure IPFS to use the public HTTPS gateway by setting:
+```
+export IPFS_GATEWAY=https://ipfs.io
+```
+:::
+::::
 
 ## Adding data to IPFS
 
