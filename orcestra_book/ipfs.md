@@ -8,9 +8,12 @@ While IPFS has more than one use case, its main use case is for publishing data 
 
 ## IPFS@ORCESTRA
 
-The latest version of the dataset is available at `/ipns/latest.orcestra-campaign.org`.
-For a first overview, and to browse the data, checkout the public gateway: **https://ipfs.io/ipns/latest.orcestra-campaign.org**.
+The latest version of the dataset is available via:
 
+Subsystem | Name/Path
+--- | ---
+[IPNS](https://docs.ipfs.tech/concepts/ipns/) | `/ipns/latest.orcestra-campaign.org`
+HTTP gateway | https://latest.orcestra-campaign.org
 
 You can find an overview presentation about the usage of IPFS during ORCESTRA [here](https://orcestra-campaign.github.io/ipfs_intro/#/title-slide).
 
