@@ -25,6 +25,8 @@ chapters:
   sections:
     - file: halo_flight_segmentation
       title: Flight segmentation
+    - file: inspecting_attributes
+      title: Global attributes
     - file: hera5
       title: ERA5 data
     - file: iwv_comparison
