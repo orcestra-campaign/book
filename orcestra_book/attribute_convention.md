@@ -11,6 +11,11 @@ For additional metadata not covered by this convention we recommend following th
 
 ## Global attributes
 
+The following section lists a selection of required and recommended global attributes for datasets.
+The required attributes are essential for the [ORCESTRA Data Browser](https://browser.orcestra-campaign.org) to render proper landing pages.
+
+If an attribute is undefined, it is recommended not to set it instead of using empty strings.
+
 Key | Value
 --- | ---
 `title` | Short phrase or sentence describing the dataset
@@ -24,8 +29,6 @@ Key | Value
 `license` | [SPDX-ID](https://spdx.org/licenses/)
 `references` | Comma-separated list of URL/DOI to extended information <br/>Published or web-based references that describe the data or methods used to produce it.
 `keywords` | Comma-separated list of keywords
-
-Undefined attributes **should not** be set.
 
 
 ## Valid `project` values
