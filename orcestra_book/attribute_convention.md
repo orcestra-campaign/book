@@ -7,6 +7,8 @@ The goal of this convention is to define a minimal set of global attributes for 
 * Automatically retrieve contact information for any dataset
 * Create a summary table with all datasets and some key metadata
 
+For additional metadata not covered by this convention we recommend following the [CF](https://cfconventions.org) and [ACDD](https://wiki.esipfed.org/Attribute_Convention_for_Data_Discovery_1-3) conventions.
+
 ## Global attributes
 
 Key | Value
@@ -25,7 +27,6 @@ Key | Value
 
 Undefined attributes **should not** be set.
 
-For additional metadata we encourage to follow [CF](https://cfconventions.org) and [ACDD](https://wiki.esipfed.org/Attribute_Convention_for_Data_Discovery_1-3) conventions
 
 ## Valid `project` values
 
