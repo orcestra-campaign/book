@@ -40,6 +40,7 @@ Key | Value
 `institution` | Institution responsible for the dataset
 `instrument` | Instrument used to measure the data (may be set in addition to `source`)
 `creator_id` | Comma-separated list of identifiers (e.g. ORCID)
+`Conventions` | A comma-separated list of the conventions that are followed by the dataset, e.g., 'ACDD-1.3, CF-1.12'.
 
 ## Valid `project` values
 
