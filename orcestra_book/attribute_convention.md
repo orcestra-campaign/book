@@ -36,7 +36,7 @@ Key | Value
 `history` | Audit trail for modifications to the original data
 `references` | Comma-separated list of URL/DOI to extended information <br/>Published or web-based references that describe the data or methods used to produce it.
 `keywords` | Comma-separated list of keywords
-`processing_level` | Processing level of the dataset (cf. eg. [NASA](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/data-processing-levels))
+`processing_level` | A textual description of the processing (or quality control) level of the data.
 `institution` | Institution responsible for the dataset
 `instrument` | Institute used to measure the data (may be set in addition to `source`)
 `creator_id` | Comma-separated list of identifiers (e.g. ORCID)
