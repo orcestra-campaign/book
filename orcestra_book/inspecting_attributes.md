@@ -12,7 +12,7 @@ kernelspec:
 # Inspecting dataset attributes
 
 The datasets collected during ORCESTRA follow a common [Attribute Convention](attribute_convention), which means that certain global attributes can be expected to be set.
-These can be used by downstream applications to automatically retrieve metadata from a dataset.
+These can be used by downstream applications to automatically retrieve metadata from a dataset, but are also intended to help scientists in their day-to-day work.
 
 The [ORCESTRA Data Browser](https://browser.orcestra-campaign.org), for example, retrieves all necessary information to render a landing page directly from the dataset.
 But the global attributes can also be helpful for scientists to get a better overview of a dataset.
@@ -32,10 +32,12 @@ pprint(ds_ctd.attrs)
 ```
 
 But we can also extract individual keys to extract information that is relevant to us.
-This can be used to print standardised log messages when working with different datasets.
+This can be used to print standardised log messages when working with different datasets,
+or to check the license and creator of a dataset (see also the [ORCESTRA Data Policy](data_policy)).
 
 ```{code-cell} ipython3
 pprint(ds_ctd.attrs["title"])
 pprint(ds_ctd.attrs["creator_name"])
+pprint(ds_ctd.attrs["license"])
 ```
 
