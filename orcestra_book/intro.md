@@ -13,7 +13,7 @@
 
 ORCESTRA took place from August 10 to September 30, 2024 in the tropical Atlantic region.
 
-```{figure} /figures/campaign_overview_sketch.pdf
+```{figure} /figures/campaign_overview_sketch.png
 :alt: ORCESTRA campaign overview with the main measurement platforms.
 :width: 800px
 :align: center
