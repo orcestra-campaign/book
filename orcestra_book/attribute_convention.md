@@ -30,6 +30,7 @@ Key | Value
 
 Key | Value
 --- | ---
+`featureType` | Type of sampling geometry according to [CF conventions](https://cfconventions.org/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#_features_and_feature_types)
 `project` | Comma-separated list of projects (see below)
 `platform` | Name of the platform that supported the sensor (see below)
 `source` | Method of production of the original data (e.g. "radar", "radiometer", "CTD")
