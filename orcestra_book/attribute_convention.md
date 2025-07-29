@@ -65,3 +65,4 @@ Key | Value
 * `CVAO`
 * `RV METEOR`
 * `INMG`
+* `MSG`
