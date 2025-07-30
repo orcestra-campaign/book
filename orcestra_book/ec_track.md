@@ -49,17 +49,14 @@ For the plot, we select only the afternoon overpass that coincided with our flig
 ec_track = ec_track.sel(time=slice(f"{date} 12:00", f"{date} 23:59"))
 ```
 
-Next, we will load the HALO position/attidue data for the corresponding flight.
+Next, we will select the HALO position/attidue data for the corresponding flight day.
 For plotting reasons, the coarsen the 100Hz data into 1min-averages.
 
 ```{code-cell} ipython3
 # root = "ipns://latest.orcestra-campaign.org"
-root = "ipfs://QmRmpJDydygnTkyBjYKgpjjzjnv1hfRiwUmB2uzkiCxZpZ"
-halo_track = xr.open_dataset(
-    f"{root}/products/HALO/position_attitude/HALO-{date:%Y%m%d}a.zarr",
-    engine="zarr",
-)
-halo_track = halo_track.coarsen(time=6000, boundary="pad").mean("time")  # 1min-average
+root = "ipfs://Qmb1wKeNLkqichCfPwsjk8f2vBHU1dxkgLRVmHwk7rdvi2"
+halo_track = xr.open_dataset(f"{root}/products/HALO/position_attitude.zarr", engine="zarr")
+halo_track = halo_track.sel(time=str(date)).coarsen(time=6000, boundary="pad").mean("time")  # 1min-average
 ```
 
 Now we can plot the tracks:
