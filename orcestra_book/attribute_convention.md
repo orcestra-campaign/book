@@ -66,3 +66,43 @@ Key | Value
 * `RV METEOR`
 * `INMG`
 * `MSG`
+
+## Annotating datasets without native metadata
+
+Our attribute convention is based on the use of global attributes.
+However, not all data formats support metadata natively (e.g., CSV, PDF).
+While we strongly recommend converting data to formats that support attributes, a fallback mechanism is provided for externally annotating data of any format.
+
+Each directory containing a file named `dataset_meta.yaml` is considered a dataset.
+This [YAML](https://yaml.org/spec/) file **must** include an `attributes` block that defines the dataset’s global attributes.
+All attributes **must** comply with the ORCESTRA Attribute Convention.
+
+The file **may** also include an optional `extent` block, used to provide information that would otherwise be derived from dataset coordinates.
+Currently, the `extent` block supports the following keys:
+
+Key | Type | Description
+--- | --- | ---
+`temporal` | [string] | Temporal extent in [ISO 8601 format](https://www.iso.org/iso-8601-date-and-time-format.html)
+`spatial` | [float] | Geospatial extent defined by a [GeoJSON Bounding Box](https://datatracker.ietf.org/doc/html/rfc7946#section-5)
+
+**Example:**
+
+```yaml
+attributes:
+  title: BEACH dropsonde dataset (Level 3)
+  summary: This dataset is the Level 3 BEACH dataset. It contains quality controlled
+    dropsonde data from the ORCESTRA field campaign with a common altitude dimension.
+  creator_name: Helene Gloeckner, Theresa Mieslinger, Nina Robbins
+  creator_email: helene.gloeckner@mpimet.mpg.de, theresa.mieslinger@mpimet.mpg.de, nina.robbins@mpimet.mpg.de
+  license: CC-BY-4.0
+  featureType: trajectoryProfile
+  history: Level 1 ASPEN processing with Aspen V4.0.4
+  keywords: ORCESTRA, BEACH, Sounding, Dropsondes, Atmospheric Profiles
+  platform: HALO
+  project: ORCESTRA, PERCUSION, MAESTRO
+  references: https://github.com/atmdrops/pydropsonde
+  source: dropsondes
+extent:
+  temporal: ["2024-08-09T14:26:37", "2024-09-28T19:30:47"]
+  spatial: [-59.45647812, 1.29273319, -19.62099838, 22.03603554]
+```
