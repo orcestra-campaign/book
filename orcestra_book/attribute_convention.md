@@ -43,30 +43,6 @@ Key | Value
 `creator_id` | Comma-separated list of identifiers (e.g. ORCID)
 `Conventions` | A comma-separated list of the conventions that are followed by the dataset, e.g., 'ACDD-1.3, CF-1.12'.
 
-## Valid `project` values
-
-* `ORCESTRA`
-* `BOW-TIE`
-* `CELLO`
-* `CLARINET`
-* `MAESTRO`
-* `PERCUSION`
-* `PICCOLO`
-* `SCORE`
-* `STRINQS`
-
-## Valid `platform` values
-
-* `EarthCARE`
-* `HALO`
-* `ATR-42`
-* `INCAS KingAir`
-* `BCO`
-* `CVAO`
-* `RV METEOR`
-* `INMG`
-* `MSG`
-
 ## Annotating datasets without native metadata
 
 Our attribute convention is based on the use of global attributes.
@@ -106,3 +82,14 @@ extent:
   temporal: ["2024-08-09T14:26:37", "2024-09-28T19:30:47"]
   spatial: [-59.45647812, 1.29273319, -19.62099838, 22.03603554]
 ```
+
+
+## Appendix: Controlled Vocabularies
+
+**Project identifiers:**
+
+`ORCESTRA`, `BOW-TIE`, `CELLO`, `CLARINET`, `MAESTRO`, `PERCUSION`, `PICCOLO`, `SCORE`, `STRINQS`
+
+**Platform identifiers:**
+
+`EarthCARE`, `HALO`, `ATR-42`, `INCAS KingAir`, `BCO`, `CVAO`, `RV METEOR`, `INMG`, `MSG`
