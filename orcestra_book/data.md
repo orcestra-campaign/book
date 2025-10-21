@@ -3,7 +3,7 @@
 ORCESTRA encourages free use and access to its data (see [](data-policy)).
 The primary starting point for exploring data is the [**ORCESTRA Data Browser**](https://browser.orcestra-campaign.org).
 Data listed in the browser can be accessed through [](IPFS).
-Some specific datasets may not (yet) be available in the data bowser, so if you still miss something, you might want to check [alternate locations](data-locations).
+Some specific datasets may not (yet) be available in the data browser, so if you still miss something, you might want to check [alternate locations](data-locations).
 
 (data-browser)=
 ## Data Browser
@@ -15,7 +15,7 @@ The [**ORCESTRA Data Browser**](https://browser.orcestra-campaign.org) retrieves
 
 The primary data distribution method for ORCESTRA is {term}`IPFS`.
 In short, any data is identified by a content identifier ({term}`CID`), which identifies (immutable) content in a verifiable way, but doesn't specify the data location.
-IPFS adds a mechanism to locate and retrieve the date, based on only the CID.
+IPFS adds a mechanism to locate and retrieve the data, based on only the CID.
 This means, the following code is sufficient to locate, retrieve, verify and open a dataset based on the CID:
 ```python
 xr.open_dataset("ipfs://bafybeiesyutuduzqwvu4ydn7ktihjljicywxeth6wtgd5zi4ynxzqngx4m", engine="zarr")
@@ -30,7 +30,7 @@ To learn more about setting up and using IPFS in the context of ORCESTRA, [conti
 | Name & Link | Description |
 | --- | --- |
 | [**ORCESTRA Data Browser**](https://browser.orcestra-campaign.org) | Main entry point for ORCESTRA data. |
-| [ipns://latest.orcestra-campaign.org](https://latest.orcestra-campaign.org/) | (*deprecated*) IPFS filesystem tree, established during the campaign. A loosely organized collection of files, is being replaced entirely be the [](data-browser). |
+| [ipns://latest.orcestra-campaign.org](https://latest.orcestra-campaign.org/) | (*deprecated*) IPFS filesystem tree, established during the campaign. A loosely organized collection of files, is being replaced entirely by the [](data-browser). |
 | [MAESTRO Catalog](https://maestro.aeris-data.fr/catalog/) | Datasets from [](maestro) sub-campaign. |
 | [MAESTRO Thredds Catalog](https://thredds-x.ipsl.fr/thredds/catalog/MAESTRO/catalog.html) | Loosely organized collection of files from [](maestro) sub-campaign. Also includes several forecasts and satellite data. |
 | [Marine Data](https://marine-data.de/expeditions/M203) | Additional data for [](bowtie). |

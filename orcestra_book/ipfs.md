@@ -38,7 +38,7 @@ The easiest way to do so, is to install [IPFS Desktop](https://docs.ipfs.tech/in
 ```{admonition} advantages
 :class: tip
 
-A local gateway automatically retrives and verifies content from the most responsive peers, and still can provide access to the data if any particular server fails (no single point of failure).
+A local gateway automatically retrieves and verifies content from the most responsive peers, and still can provide access to the data if any particular server fails (no single point of failure).
 This option also caches content locally, so accessing the same data multiple times won't require additional network transfers.
 ```
 
