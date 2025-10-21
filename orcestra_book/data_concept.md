@@ -7,6 +7,20 @@ Together and for mutual benefit.
 This page first focusses on the general **goals** we want to achieve, they should reflect general ideas of what we think a useful, practical datasystem should be capable of.
 The next section details on **requirements** we derive from the goals, in order to find a good **implementation**, which is described in the third part.
 
+
+```{admonition} Accessing Data
+:class: tip
+
+This article is about the concepts, if you "just" want to access data from ORCESTRA, please go to the [](data) section.
+```
+
+```{admonition} Historic Article
+:class: warning
+
+The article in its current form mostly describes ideas from the campaign planning stage.
+We are currently developing the data access and archiving methods.
+Although we still strive for the stated goals, the current implementation might deviate from the descriptions further below.
+```
 ## Goals
 
 The purpose of these goals is to have a well-working environment for data dissemination (both during and post campaign) and to learn from what worked and what didn't work during the EUREC4A field campaign and other previous projects.
