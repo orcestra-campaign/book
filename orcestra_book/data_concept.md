@@ -53,6 +53,7 @@ The goals are sorted in decreasing priority (i.e. 1 is the most important). We *
 The use of the words **must**, **must not**, **should**, **should not** and **may** in bold case follows the definition of [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
 :::
 
+(dc-list)=
 ### 1. a **single** list of existing datasets
 
 There **must** be one definitive list of all ORCESTRA datasets.
@@ -67,6 +68,7 @@ Any datasets which are not part of the list **must not** be called "an ORCESTRA 
   We aim to sidestep this problem by requiring every dataset which should be associated to ORCESTRA to be in this list. The effort to add datasets to the list should be kept low in order not to exclude anyone from making "ORCESTRA datasets".
 ---
 
+(dc-accessible)=
 ### 2. the datasets in list are **accessible**
 
 ```
@@ -84,6 +86,7 @@ The dataset **must** be stored in one the following data formats:
   * Zarr
 * The list of accepted data formats **can** be extended, if the data format is well standardized and readable by several common programming languages
 
+(dc-analysis-ready)=
 ### 3. datasets are **well-formed** and **analysis-ready**
 
 * You **should** follow standard metadata schemes ([CF-Conventions](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.11/cf-conventions.html))
@@ -92,6 +95,7 @@ The dataset **must** be stored in one the following data formats:
 * You **should** work with your own **published** datasets.
 * Datasets **should** be reviewed across teams.
 
+(dc-incremental)=
 ### 4. incremental backups are possible
 
 * You **must** provide a version number for your dataset in the corresponding catalog metadata
@@ -102,6 +106,7 @@ The dataset **must** be stored in one the following data formats:
 * The catalog entry **should** point to previous versions if explicitly requested.
 * The storage location **should** provide a method to efficiently check if something changed (e.g. HTTP [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#etagif-none-match), [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#if-modified-since)...)
 
+(dc-distributed)=
 ### 5. datasets are on a shared, distributed system
 
 Use a distributed storage protocol to make datasets accessible e.g. [IPFS](https://ipfs.tech), [ONEDATA](https://onedata.org)

@@ -100,7 +100,8 @@ os.environ["IPFS_GATEWAY"] = "https://ipfs.io"
 ``````
 ```````
 
-## Accessing data through Python
+(access-python)=
+### Accessing data through Python
 
 If you want to access the ORCESTRA data using Python, you will need to install the [`ipfsspec>=0.6.0`](http://pypi.org/project/ipfsspec/) package.
 It is essential to install `ipfsspec` using pip, the version provided via `conda-forge` is outdated and **broken**.
@@ -112,16 +113,31 @@ import xarray as xr
 ds = xr.open_dataset("ipfs://bafybeiadmnra665v3yflqz7ekjq3sgzt2bpb2ytz4dsu34ggf3gxd2nn5m", engine="zarr")
 ```
 
-## Adding data to IPFS
+## Adding to the ORCESTRA data collection
+
+Adding to the ORCESTRA data collection involves a few steps, each of which gradually provide more functionality, so depending on your use case, you may want to use only some of the steps.
+
+1. We aim for [analysis-ready datasets](dc-analysis-ready) to improve accessibility. It's generally easier to cut datasets than to glue them, so it's best to provide large, concatenated datasets (e.g. not one per day etc...). The datasets should follow the [](attribute-convention) and should be written as [Zarr](https://zarr.dev/).
+2. [Add the dataset to IPFS](add-to-ipfs). This will return a {term}`CID`, which can immediately be used to open the dataset (e.g. [in Python](access-python) or in the browser). It's a good idea to have a peek at the browser landing page at this stage to identify data or metadata issues, and cycle back to step 1 in case of problems.
+3. [](increase-retrievability), such that more people get reliable access.
+4. Add your {term}`CID` to the [ORCESTRA pin list](orcestra-pin-list): {term}`CID`s in the pin list will be automatically pinned on multiple participating IPFS nodes, and the datasets will be listed in the [](data-browser).
+
+(add-to-ipfs)=
+### Adding data to IPFS
+
+```{margin} Kubo Deamon
+Kubo can run in daemon mode (i.e. as an IPFS node in the background), this is also what IPFS Desktop does, so if you run a local gateway as written above, you probably are set up already.
+If you don't run IPFS Desktop, you can start the daemon using `ipfs daemon`.
+```
 
 To add data to IPFS, you need to install and run a local IPFS client, e.g. [kubo](https://docs.ipfs.tech/install/command-line/).
-The local client will usually start a local gateway and connect to it.
-You can then add data to your local IPFS node using the `ipfs add` command.
+Kubo provides a command line interface (e.g. `ipfs add`), which we use below to add content to the node running in the background.
 
 The following options are recommended when adding data:
 ```sh
 ipfs add --recursive --hidden --raw-leaves --chunker=size-1048576 --quieter </path/to/data>
 ```
+
 This command will add trees recursively and will also include hidden files, which is important for Zarr v2, as crucial metadata is stored in hidden files (e.g. `.zarray`).
 The `--raw-leaves` option tells IPFS to store data blocks on the lowest level in a raw format instead of wrapping them in more complex [IPLD](https://ipld.io) data types.
 This doesn't have any direct effect on the user side, but allows for easier reuse of individual data blocks when handling the data on the backend.
@@ -129,14 +145,23 @@ The `--chunker=size-1048576` increases the maximum internal block size from the 
 
 The command returns a Content Identifier ({term}`CID`) of your data, which you can then use to access and share the data.
 
-## The ORCESTRA pin list
+(increase-retrievability)=
+### Increase CID retrievability
 
-After adding data to IPFS, it can be found and retrieved via its {term}`CID`.
-However, because IPFS is a peer-to-peer network, the data must be available on at least one connected node.
+At this stage, the content is maybe only present on your local computer.
+To add it to the ORCESTRA collection, others (including public ORCESTRA IPFS nodes) must be able to reliably access the content.
+While in theory others could access the content from your computer, it might be behind a firewall, limiting access.
+As we currently don't operate an ORCESTRA {term}`pinning service`, the current best option might be to create a {term}`CAR` and share this until the data is in the [ORCESTRA pin list](orcestra-pin-list).
+Alternatively you can of course run a well-connected node yourself, or use a commercial {term}`pinning service`.
 
-To improve data availability and ensure redundancy, we [pin](https://docs.ipfs.tech/how-to/pin-files/) data on multiple nodes (for example, nodes operated at DKRZ).
+(orcestra-pin-list)=
+### The ORCESTRA pin list
+
+To further improve data availability and ensure redundancy, we [pin](https://docs.ipfs.tech/how-to/pin-files/) data on multiple nodes (for example, nodes operated at DKRZ).
 For this to work, all participating nodes need to agree on the set of CIDs that should be stored.
 We maintain this set in a **pin list** — a list of all datasets that the ORCESTRA community wants to keep available.
 
 The pin list is maintained in the [`ipfs_tools`](https://github.com/orcestra-campaign/ipfs_tools) repository, where anyone can propose new CIDs via a pull request.
 Several IPFS nodes automatically fetch the latest version of the pin list and pin the corresponding data, increasing both **redundancy** and **availability**.
+
+CIDs which are listed in the pin list **and** follow the [](attribute-convention) will subsequently be listed in the [](data-browser).
