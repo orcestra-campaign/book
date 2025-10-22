@@ -11,7 +11,7 @@ See also [what is IPFS?](https://docs.ipfs.tech/concepts/what-is-ipfs/).
 
 We run the [**ORCESTRA Data Browser**](https://browser.orcestra-campaign.org) for finding ORCESTRA datasets on IPFS.
 
-```{admonition} historic note
+```{admonition} Historic note
 :class: tip
 
 We started using IPFS during the field campaign to share data locally in an efficient way.
@@ -24,18 +24,18 @@ For most datasets, we now graduated from this approach and access through the **
 To obtain data from the IPFS network, you need access to an [IPFS Gateway](https://docs.ipfs.tech/concepts/ipfs-gateway).
 There are multiple options available.
 
-```{margin} on levante
-On DKRZ's **levante** supercomputer (and probably some other machines), `IPFS_GATEWAY` is pre-defined for you, so you **don't have to care** about a gateway yourself.
+```{margin} On Levante
+On DKRZ's **Levante** supercomputer (and probably some other machines), `IPFS_GATEWAY` is pre-defined for you, so you **don't have to care** about a gateway yourself.
 ```
 
 ```````{tab-set}
-``````{tab-item} local gateway
+``````{tab-item} Local gateway
 
 By far, the **best option** is to run a local gateway on your machine yourself.
 The easiest way to do so, is to install [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/), which provides a graphical user interface and runs a [Kubo daemon](https://docs.ipfs.tech/install/command-line/) in the background.
 
 
-```{admonition} advantages
+```{admonition} Advantages
 :class: tip
 
 A local gateway automatically retrieves and verifies content from the most responsive peers, and still can provide access to the data if any particular server fails (no single point of failure).
@@ -62,14 +62,14 @@ os.environ["IPFS_GATEWAY"] = "https://ipfs.orcestra-campaign.org"
 ````
 `````
 
-```{admonition} disadvantages
+```{admonition} Disadvantages
 :class: warning
 
 The downside of using the ORCESTRA gateway are, that you rely on a single server, you won't have access to non-orcestra datasets on IPFS and you won't benefit from local caching.
 ```
 
 ``````
-``````{tab-item} public gateway
+``````{tab-item} Public gateway
 
 If the ORCESTRA gateway doesn't work for you, you may also use the public HTTPS gateway `https://ipfs.io` instead.
 
@@ -87,7 +87,7 @@ os.environ["IPFS_GATEWAY"] = "https://ipfs.io"
 ```
 ````
 `````
-```{admonition} disadvantages
+```{admonition} Disadvantages
 :class: warning
 
 While the public gateway provides access to all of IPFS, it is operated voluntarily and doesn't provide any availability guarantees. You also won't benefit from local caching like you'd have when running a local node, and on some networks, the public IPFS gateways are blocked.
@@ -96,7 +96,7 @@ While the public gateway provides access to all of IPFS, it is operated voluntar
 ``````
 ```````
 
-## access through Python
+## Accessing data through Python
 
 If you want to access the ORCESTRA data using Python, you will need to install the [`ipfsspec>=0.6.0`](http://pypi.org/project/ipfsspec/) package.
 It is essential to install `ipfsspec` using pip, the version provided via `conda-forge` is outdated and **broken**.
