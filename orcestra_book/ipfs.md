@@ -123,4 +123,16 @@ The `--raw-leaves` option tells IPFS to store data blocks on the lowest level in
 This doesn't have any direct effect on the user side, but allows for easier reuse of individual data blocks when handling the data on the backend.
 The `--chunker=size-1048576` increases the maximum internal block size from the default of 256KB to 1MB (which is the maximum safely transferrable by IPFS). This also doesn't have a direct user-visible effect, but will improve performance.
 
-The command returns a Content Identifier (CID) of your data, which you can then use to access and share the data.
+The command returns a Content Identifier ({term}`CID`) of your data, which you can then use to access and share the data.
+
+## The ORCESTRA pin list
+
+After adding data to IPFS, it can be found and retrieved via its {term}`CID`.
+However, because IPFS is a peer-to-peer network, the data must be available on at least one connected node.
+
+To improve data availability and ensure redundancy, we [pin](https://docs.ipfs.tech/how-to/pin-files/) data on multiple nodes (for example, nodes operated at DKRZ).
+For this to work, all participating nodes need to agree on the set of CIDs that should be stored.
+We maintain this set in a **pin list** — a list of all datasets that the ORCESTRA community wants to keep available.
+
+The pin list is maintained in the [`ipfs_tools`](https://github.com/orcestra-campaign/ipfs_tools) repository, where anyone can propose new CIDs via a pull request.
+Several IPFS nodes automatically fetch the latest version of the pin list and pin the corresponding data, increasing both **redundancy** and **availability**.
