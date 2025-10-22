@@ -35,12 +35,13 @@ By far, the **best option** is to run a local gateway on your machine yourself.
 The easiest way to do so, is to install [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/), which provides a graphical user interface and runs a [Kubo daemon](https://docs.ipfs.tech/install/command-line/) in the background.
 
 
-```{admonition} Advantages
-:class: tip
-
-A local gateway automatically retrieves and verifies content from the most responsive peers, and still can provide access to the data if any particular server fails (no single point of failure).
-This option also caches content locally, so accessing the same data multiple times won't require additional network transfers.
-```
+* ✅ retrieves content from any peer (i.e. the fastest responding or nearby ones)
+* ✅ no single point of failure
+* ✅ local caching of content (using the same dataset twice is effectively a local access)
+* ✅ best performance
+* ✅ access to all of IPFS
+* ✅ access to data you've created & pinned yourself
+* ❌ additional software to install
 
 ``````
 ``````{tab-item} ORCESTRA gateway
@@ -61,12 +62,12 @@ os.environ["IPFS_GATEWAY"] = "https://ipfs.orcestra-campaign.org"
 ```
 ````
 `````
-
-```{admonition} Disadvantages
-:class: warning
-
-The downside of using the ORCESTRA gateway are, that you rely on a single server, you won't have access to non-orcestra datasets on IPFS and you won't benefit from local caching.
-```
+* ✅ easy to set up
+* ✅ server is operated by ORCESTRA community
+* 🤔 only serves data from ORCESTRA pinlist (**not** all of IPFS)
+* ❌ relies on a single server, which may be offline
+* ❌ little local caching
+* ❌ usually much slower than local gateway
 
 ``````
 ``````{tab-item} Public gateway
@@ -87,11 +88,14 @@ os.environ["IPFS_GATEWAY"] = "https://ipfs.io"
 ```
 ````
 `````
-```{admonition} Disadvantages
-:class: warning
 
-While the public gateway provides access to all of IPFS, it is operated voluntarily and doesn't provide any availability guarantees. You also won't benefit from local caching like you'd have when running a local node, and on some networks, the public IPFS gateways are blocked.
-```
+* ✅ easy to set up
+* ✅ access to all of IPFS (if reachable from the public internet)
+* ✅ redundant cluster of servers
+* ❌ operated voluntarily with no guarantees on availability or performance
+* ❌ little local caching
+* ❌ blocked on some corporate networks
+* ❌ usually much slower than local gateway
 
 ``````
 ```````
