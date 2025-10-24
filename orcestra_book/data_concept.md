@@ -7,6 +7,20 @@ Together and for mutual benefit.
 This page first focusses on the general **goals** we want to achieve, they should reflect general ideas of what we think a useful, practical datasystem should be capable of.
 The next section details on **requirements** we derive from the goals, in order to find a good **implementation**, which is described in the third part.
 
+
+```{admonition} Accessing Data
+:class: tip
+
+This article is about the concepts, if you "just" want to access data from ORCESTRA, please go to the [](data) section.
+```
+
+```{admonition} Historic Article
+:class: warning
+
+The article in its current form mostly describes ideas from the campaign planning stage.
+We are currently developing the data access and archiving methods.
+Although we still strive for the stated goals, the current implementation might deviate from the descriptions further below.
+```
 ## Goals
 
 The purpose of these goals is to have a well-working environment for data dissemination (both during and post campaign) and to learn from what worked and what didn't work during the EUREC4A field campaign and other previous projects.
@@ -39,6 +53,7 @@ The goals are sorted in decreasing priority (i.e. 1 is the most important). We *
 The use of the words **must**, **must not**, **should**, **should not** and **may** in bold case follows the definition of [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
 :::
 
+(dc-list)=
 ### 1. a **single** list of existing datasets
 
 There **must** be one definitive list of all ORCESTRA datasets.
@@ -53,6 +68,7 @@ Any datasets which are not part of the list **must not** be called "an ORCESTRA 
   We aim to sidestep this problem by requiring every dataset which should be associated to ORCESTRA to be in this list. The effort to add datasets to the list should be kept low in order not to exclude anyone from making "ORCESTRA datasets".
 ---
 
+(dc-accessible)=
 ### 2. the datasets in list are **accessible**
 
 ```
@@ -70,6 +86,7 @@ The dataset **must** be stored in one the following data formats:
   * Zarr
 * The list of accepted data formats **can** be extended, if the data format is well standardized and readable by several common programming languages
 
+(dc-analysis-ready)=
 ### 3. datasets are **well-formed** and **analysis-ready**
 
 * You **should** follow standard metadata schemes ([CF-Conventions](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.11/cf-conventions.html))
@@ -78,6 +95,7 @@ The dataset **must** be stored in one the following data formats:
 * You **should** work with your own **published** datasets.
 * Datasets **should** be reviewed across teams.
 
+(dc-incremental)=
 ### 4. incremental backups are possible
 
 * You **must** provide a version number for your dataset in the corresponding catalog metadata
@@ -88,6 +106,7 @@ The dataset **must** be stored in one the following data formats:
 * The catalog entry **should** point to previous versions if explicitly requested.
 * The storage location **should** provide a method to efficiently check if something changed (e.g. HTTP [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#etagif-none-match), [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#if-modified-since)...)
 
+(dc-distributed)=
 ### 5. datasets are on a shared, distributed system
 
 Use a distributed storage protocol to make datasets accessible e.g. [IPFS](https://ipfs.tech), [ONEDATA](https://onedata.org)
