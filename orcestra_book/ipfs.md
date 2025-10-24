@@ -148,7 +148,7 @@ The command returns a Content Identifier ({term}`CID`) of your data, which you c
 (increase-retrievability)=
 ### Increase CID retrievability
 
-At this stage, the content is maybe only present on your local computer.
+Once you have added new data to IPFS, the content may only be present on your local computer.
 To add it to the ORCESTRA collection, others (including public ORCESTRA IPFS nodes) must be able to reliably access the content.
 While in theory others could access the content from your computer, it might be behind a firewall, limiting access.
 As we currently don't operate an ORCESTRA {term}`pinning service`, the current best option might be to create a {term}`CAR` and share this until the data is in the [ORCESTRA pin list](orcestra-pin-list).
