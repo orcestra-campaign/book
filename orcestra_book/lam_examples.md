@@ -4,6 +4,11 @@ To support the campaign, we performed daily hindcasts of the atmospheric conditi
 
 Visualisations of individual variables for each day are given [here](lam.md). A sample script showing how to load and plot the data is provided below.
 
+```{admonition} Requires zarr>=3
+:class: warning
+
+The dataset is stored in [Zarr v3](https://zarr.dev/blog/zarr-python-3-release/) and thus requires `zarr>=3.0.0`.
+```
 
 ```py
 # %%
