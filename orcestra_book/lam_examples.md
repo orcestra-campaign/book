@@ -75,7 +75,7 @@ def apply_figure_style(ax, fig):
 # Chose the starting day of the target run (remember it is 48h-long and includes 24h of spin-up)
 day = "2024-09-03"
 cat = intake.open_catalog("https://tcodata.mpimet.mpg.de/internal.yaml")
-ds = cat.ORCESTRA.ICON_LAM(date=day, dim="2d").to_dask()
+ds = cat.ORCESTRA.LAM_ORCESTRA(dim="2d").to_dask()
 
 # %%
 # Plotting horizontal surface wind speed at 16h00
