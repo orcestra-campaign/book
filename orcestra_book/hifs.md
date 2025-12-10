@@ -74,13 +74,17 @@ ds["2t"].sel(cell=i_bco).plot()
 
 Plotting the forecasted total column water vapor and precipitation contours over the campaign domain.
 
+```{admonition} Plotting maps
+:class: info
+You may want to check out [this tutorial](https://easy.gems.dkrz.de/Processing/map_show.html) on ways to plot geospatial data.
+```
+
 ```{code-cell} ipython3
 fig, ax = plt.subplots(figsize=(10, 6), subplot_kw={"projection": ccrs.PlateCarree()})
 ax.set_extent([-65, -5, -10, 25])
 ax.coastlines(lw=0.8)
 egh.healpix_show(
     ds["tcwv"].sel(time="2024-04-05 12:00"),
-    method="linear",
     cmap="cmo.dense",
     vmin=25,
     vmax=65,
@@ -88,7 +92,6 @@ egh.healpix_show(
 
 egh.healpix_contour(
     ds["tp"].sel(time="2024-04-05 12:00"),
-    method="linear",
     cmap="cmo.rain",
     vmin=0.,
     vmax=0.15,
