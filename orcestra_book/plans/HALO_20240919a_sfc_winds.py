@@ -4,6 +4,8 @@
     weather briefing repository"""
 
 import easygems.healpix as egh
+from easygems.resample import DelaunayResampler
+from easygems.show import map_show, map_contour
 import numpy as np
 import healpix as hp
 import xarray as xr
@@ -15,9 +17,24 @@ SPEED_COLORMAP = "YlGn"
 MESH_GRID_SIZE = 50
 QUIVER_SKIP = 4
 
+
+def get_resampler(arr):
+    # Emulate the linear HEALPix interpolation without healpy,
+    # which is unavailable on Windows.
+    lons, lats = hp.pix2ang(
+        egh.get_nside(arr),
+        np.arange(egh.get_npix(arr)),
+        nest=True,
+        lonlat=True,
+    )
+
+    return DelaunayResampler(lat=lats, lon=lons)
+
+
 def _windspeed_contour(windspeed_10m, ax):
-    im = egh.healpix_contour(
+    im = map_contour(
         windspeed_10m,
+        resampler=get_resampler(windspeed_10m),
         ax=ax,
         levels=[SPEED_THRESHOLD],
         colors="r",
@@ -25,8 +42,9 @@ def _windspeed_contour(windspeed_10m, ax):
     ax.clabel(im, inline=True, fontsize=12, colors="r", fmt="%d")
 
 def _draw_confluence_contour(v10m, ax):
-    im = egh.healpix_contour(
+    im = map_contour(
         v10m,
+        resampler=get_resampler(v10m),
         ax=ax,
         levels=[0],
         colors="gray",
@@ -36,9 +54,9 @@ def _draw_confluence_contour(v10m, ax):
 
 
 def _windspeed_plot(windspeed_10m, fig, ax):
-    im = egh.healpix_show(
+    im = map_show(
         windspeed_10m,
-        method="linear",
+        resampler=get_resampler(windspeed_10m),
         cmap=SPEED_COLORMAP,
         vmin=SPEED_MIN,
         vmax=SPEED_MAX,
