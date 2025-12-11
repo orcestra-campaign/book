@@ -4,6 +4,11 @@ To support the campaign, we performed daily hindcasts of the atmospheric conditi
 
 Visualisations of individual variables for each day are given [here](lam.md). A sample script showing how to load and plot the data is provided below.
 
+```{admonition} Requires zarr>=3
+:class: warning
+
+The dataset is stored in [Zarr v3](https://zarr.dev/blog/zarr-python-3-release/) and thus requires `zarr>=3.0.0`.
+```
 
 ```py
 # %%
@@ -70,7 +75,7 @@ def apply_figure_style(ax, fig):
 # Chose the starting day of the target run (remember it is 48h-long and includes 24h of spin-up)
 day = "2024-09-03"
 cat = intake.open_catalog("https://tcodata.mpimet.mpg.de/internal.yaml")
-ds = cat.ORCESTRA.ICON_LAM(date=day, dim="2d").to_dask()
+ds = cat.ORCESTRA.LAM_ORCESTRA(dim="2d").to_dask()
 
 # %%
 # Plotting horizontal surface wind speed at 16h00
