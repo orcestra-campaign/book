@@ -50,6 +50,7 @@ chapters:
     - file: operation/kingair
     - file: operation/rvmeteor
     - file: operation/BCO_Radiosondes
+    - file: operation/lessons-learned
 - file: platforms
   sections:
   - file: earthcare
