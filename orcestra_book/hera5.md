@@ -76,6 +76,11 @@ For this rather short time period, we would like to work with the hourly data. T
 ```{code-cell} ipython3
 era5 = cat.HERA5(time="PT1H").to_dask().pipe(egh.attach_coords)
 ```
+```{admonition} Intake v2
+:class: warning
+The recent Intake v2 libraries do not support parameters!  
+Make sure you constrain the Intake version to `intake<2` and `intake-xarray<2` during installation.
+```
 
 Next, we want to see how temperature readings at BCO (WXT) compare with the ERA5 reanalysis.
 We select the cell index that is the nearest neighbor to the BCO location using `healpix.ang2pix()`.
