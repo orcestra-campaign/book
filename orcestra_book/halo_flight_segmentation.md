@@ -58,8 +58,8 @@ segments = [{**s,
 def unique_kinds(list_of_dicts):
 
     lists_of_kinds = [
-        dict["kinds"] if isinstance(dict["kinds"], (list)) else [dict["kinds"]]
-        for dict in list_of_dicts
+        d["kinds"] if isinstance(d["kinds"], (list)) else [d["kinds"]]
+        for d in list_of_dicts
     ]
     kinds = [i for list_of_kinds in lists_of_kinds for i in list_of_kinds]
 
