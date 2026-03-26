@@ -54,8 +54,19 @@ segments = [{**s,
 ### Listing available segment `kinds`
 
 ```{code-cell} ipython3
-kinds = set(k for s in segments for k in s["kinds"])
-kinds
+
+def unique_kinds(list_of_dicts):
+
+    lists_of_kinds = [
+        d["kinds"] if isinstance(d["kinds"], (list)) else [d["kinds"]]
+        for d in list_of_dicts
+    ]
+    kinds = [i for list_of_kinds in lists_of_kinds for i in list_of_kinds]
+
+    return set(kinds)
+
+segment_kinds = unique_kinds(segments)
+segment_kinds
 ```
 
 ### Plotting all segments of a specific flight
@@ -142,7 +153,7 @@ ax.spines[['right', 'top']].set_visible(False)
 segment_ids_by_kind = {kind: [segment["segment_id"]
                               for segment in segments
                               if kind in segment["kinds"]]
-                       for kind in kinds}
+                       for kind in segment_kinds}
 ```
 
 Print the total number of circles.  
@@ -181,7 +192,7 @@ print(meteor_time)
 ```
 
 ## Events
-Events are different from segments in having only **one** timestamp. Examples are the usual "EC meeting points" or station / ship overpasses.
+Events are different from segments in having only **one** timestamp. Most common events are EarthCARE underpasses or station / ship overpasses.
 
 ```{code-cell} ipython3
 events = [{**e,
@@ -192,6 +203,9 @@ events = [{**e,
             for flight_id, flight in flights.items()
             for e in flight["events"]
            ]
+
+event_kinds = unique_kinds(events)
+event_kinds
 ```
 
 ### EarthCARE underpass events
