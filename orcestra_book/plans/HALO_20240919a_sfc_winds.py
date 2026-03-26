@@ -71,7 +71,7 @@ def _wind_direction_plot(u10m, v10m, ax, domain_lonlat):
     lat1 = np.linspace(lat_min, lat_max, MESH_GRID_SIZE)
     pix = xr.DataArray(
         hp.ang2pix(
-            u10m.crs.healpix_nside,
+            egh.get_nside(u10m),
             *np.meshgrid(lon1, lat1),
             nest=True,
             lonlat=True,
