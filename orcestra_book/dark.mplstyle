@@ -1,0 +1,27 @@
+# Set black background default line colors to white.
+
+lines.color: white
+patch.edgecolor: white
+
+font.family: 'TimesNewRoman'
+font.size: 13
+
+text.color: white
+text.usetex: True
+
+axes.facecolor: black
+axes.edgecolor: white
+axes.labelcolor: white
+axes.linewidth: 1.5
+
+xtick.color: white
+ytick.color: white
+
+grid.color: grey
+
+figure.dpi: 300
+figure.facecolor: black
+figure.edgecolor: black
+
+savefig.facecolor: black
+savefig.edgecolor: black

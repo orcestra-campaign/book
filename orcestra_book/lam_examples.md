@@ -23,6 +23,12 @@ Visualisations of individual variables for each day are given [here](lam.md). A 
 The dataset is stored in [Zarr v3](https://zarr.dev/blog/zarr-python-3-release/) and thus requires `zarr>=3.0.0`.
 ```
 
+```{admonition} Matplotlib style sheet
+:class: info
+
+This script makes use of a custom [Matplotlib style sheet](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html): [`dark.mplstyle`](./dark.mplstyle)
+```
+
 This script shows how to read the LAM-ORCESTRA HEALPix dataset.
 It plots a contour of horizontal surface wind speed for a specific time.
 
@@ -36,6 +42,10 @@ import xarray as xr
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 
+# Apply custom dark background style
+plt.style.use("./dark.mplstyle")
+
+
 def format_longitude(x, pos):
     """Customize the tick labels to remove the minus sign (its in °W)"""
     return f"{abs(int(x))}"
@@ -43,7 +53,7 @@ def format_longitude(x, pos):
 
 def apply_figure_style(ax, fig):
     """Black background style for figures."""
-    ax.coastlines(color='white', linewidth=0.7)
+    ax.coastlines(color="white", linewidth=0.7)
     ax.set_aspect('equal', adjustable='box')
     xticks = np.linspace(-62, -10, 14)
     ax.set_xticks(xticks, crs=ccrs.PlateCarree())
@@ -51,19 +61,8 @@ def apply_figure_style(ax, fig):
     ax.set_yticks(np.linspace(-2, 22, 7), crs=ccrs.PlateCarree())
     ax.set_xlim([-62, -10])
     ax.set_ylim([-2, 22])
-    ax.set_xlabel('Longitude [°W]', color='white')
-    ax.set_ylabel('Latitude [°N]', color='white')
-
-    # Set the face color of both the axis and the figure
-    ax.set_facecolor('black')
-    fig.patch.set_facecolor('black')
-
-    for spine in ax.spines.values():
-        spine.set_edgecolor('white')
-    ax.xaxis.label.set_color('white')
-    ax.yaxis.label.set_color('white')
-    ax.tick_params(axis='x', colors='white')
-    ax.tick_params(axis='y', colors='white')
+    ax.set_xlabel('Longitude [°W]')
+    ax.set_ylabel('Latitude [°N]')
 
 
 # Opening the 2d dataset covering the full-campaign period
@@ -77,7 +76,7 @@ ds = xr.open_dataset(url, chunks={}, engine="zarr", zarr_format=3)
 # Plotting horizontal surface wind speed at 16h00
 time = "2024-09-03 16:00"
 
-fig, ax = plt.subplots(figsize=(13, 6), dpi=200, subplot_kw={'projection': ccrs.PlateCarree()})
+fig, ax = plt.subplots(figsize=(13, 6), subplot_kw={'projection': ccrs.PlateCarree()})
 apply_figure_style(ax, fig)
 
 ds = ds.assign(sfcwind=lambda dx: np.hypot(dx.uas, dx.vas))
@@ -85,13 +84,9 @@ im = egh.healpix_show(ds.sfcwind.sel(time=time), vmin=0, vmax=20, cmap="magma", 
 
 # Add colorbar
 divider = make_axes_locatable(ax)
-cax = divider.append_axes("right", size="1%", pad=0.1, axes_class=plt.Axes)  # Ensure no projection is used
-cbar = plt.colorbar(im, cax=cax, ticks=np.linspace(0, 20, 5))
-cbar.set_label('Horizontal surface wind speed [m/s]', color='white')
-cbar.ax.yaxis.set_tick_params(color='white')
-plt.setp(plt.getp(cbar.ax.axes, 'yticklabels'), color='white')
-cbar.outline.set_edgecolor('white')
+cax = divider.append_axes("right", size="1%", pad=0.1, axes_class=plt.Axes)
+fig.colorbar(im, cax=cax, ticks=np.arange(0, 21, 5), label='Horizontal surface wind speed [m/s]')
 
 # Add title with formatted timestamp
-ax.set_title(time, color='white');
+ax.set_title(time);
 ```
