@@ -46,18 +46,13 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 plt.style.use("./dark.mplstyle")
 
 
-def format_longitude(x, pos):
-    """Customize the tick labels to remove the minus sign (its in °W)"""
-    return f"{abs(int(x))}"
-
-
 def apply_figure_style(ax, fig):
     """Black background style for figures."""
     ax.coastlines(color="white", linewidth=0.7)
     ax.set_aspect('equal', adjustable='box')
     xticks = np.linspace(-62, -10, 14)
     ax.set_xticks(xticks, crs=ccrs.PlateCarree())
-    ax.xaxis.set_major_formatter(plt.FuncFormatter(format_longitude))
+    ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f"{abs(int(x))}"))
     ax.set_yticks(np.linspace(-2, 22, 7), crs=ccrs.PlateCarree())
     ax.set_xlim([-62, -10])
     ax.set_ylim([-2, 22])
@@ -65,7 +60,7 @@ def apply_figure_style(ax, fig):
     ax.set_ylabel('Latitude [°N]')
 
 
-# Opening the 2d dataset covering the full-campaign period
+# Open the 2d dataset spanning the full-campaign period
 url = "https://eerie.cloud.dkrz.de/datasets/orcestra_1250m_2d_hpz12/kerchunk"
 ds = xr.open_dataset(url, chunks={}, engine="zarr", zarr_format=3)
 
@@ -73,19 +68,21 @@ ds = xr.open_dataset(url, chunks={}, engine="zarr", zarr_format=3)
 # cat = intake.open_catalog("https://tcodata.mpimet.mpg.de/internal.yaml")
 # ds = cat.ORCESTRA.LAM_ORCESTRA(dim="2d").to_dask()
 
-# Plotting horizontal surface wind speed at 16h00
+# Compute surface wind speed
+ds = ds.assign(sfcwind=lambda dx: np.hypot(dx.uas, dx.vas))
+
+# Select and plot horizontal surface wind speed at 16:00h
 time = "2024-09-03 16:00"
 
 fig, ax = plt.subplots(figsize=(13, 6), subplot_kw={'projection': ccrs.PlateCarree()})
 apply_figure_style(ax, fig)
 
-ds = ds.assign(sfcwind=lambda dx: np.hypot(dx.uas, dx.vas))
 im = egh.healpix_show(ds.sfcwind.sel(time=time), vmin=0, vmax=20, cmap="magma", ax=ax)
 
 # Add colorbar
 divider = make_axes_locatable(ax)
 cax = divider.append_axes("right", size="1%", pad=0.1, axes_class=plt.Axes)
-fig.colorbar(im, cax=cax, ticks=np.arange(0, 21, 5), label='Horizontal surface wind speed [m/s]')
+fig.colorbar(im, cax=cax, ticks=range(0, 21, 5), label="Horizontal surface wind speed [m/s]")
 
 # Add title with formatted timestamp
 ax.set_title(time);
