@@ -3,11 +3,10 @@
 lines.color: white
 patch.edgecolor: white
 
-font.family: 'TimesNewRoman'
+font.family: serif
 font.size: 13
 
 text.color: white
-text.usetex: True
 
 axes.facecolor: black
 axes.edgecolor: white
