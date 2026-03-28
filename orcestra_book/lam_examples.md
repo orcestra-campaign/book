@@ -48,16 +48,13 @@ plt.style.use("./dark.mplstyle")
 
 def apply_figure_style(ax, fig):
     """Black background style for figures."""
+    ax.set_extent([-62, -10, -2, 22])
     ax.coastlines(color="white", linewidth=0.7)
-    ax.set_aspect('equal', adjustable='box')
-    xticks = np.linspace(-62, -10, 14)
-    ax.set_xticks(xticks, crs=ccrs.PlateCarree())
+    ax.set_xlabel("Longitude [°W]")
+    ax.set_xticks(np.linspace(-62, -10, 14), crs=ccrs.PlateCarree())
     ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f"{abs(int(x))}"))
+    ax.set_ylabel("Latitude [°N]")
     ax.set_yticks(np.linspace(-2, 22, 7), crs=ccrs.PlateCarree())
-    ax.set_xlim([-62, -10])
-    ax.set_ylim([-2, 22])
-    ax.set_xlabel('Longitude [°W]')
-    ax.set_ylabel('Latitude [°N]')
 
 
 # Open the 2d dataset spanning the full-campaign period
@@ -74,14 +71,13 @@ ds = ds.assign(sfcwind=lambda dx: np.hypot(dx.uas, dx.vas))
 # Select and plot horizontal surface wind speed at 16:00h
 time = "2024-09-03 16:00"
 
-fig, ax = plt.subplots(figsize=(13, 6), subplot_kw={'projection': ccrs.PlateCarree()})
+fig, ax = plt.subplots(figsize=(13, 6), subplot_kw={"projection": ccrs.PlateCarree()})
 apply_figure_style(ax, fig)
 
 im = egh.healpix_show(ds.sfcwind.sel(time=time), vmin=0, vmax=20, cmap="magma", ax=ax)
 
 # Add colorbar
-divider = make_axes_locatable(ax)
-cax = divider.append_axes("right", size="1%", pad=0.1, axes_class=plt.Axes)
+cax = make_axes_locatable(ax).append_axes("right", size="1%", pad=0.1, axes_class=plt.Axes)
 fig.colorbar(im, cax=cax, ticks=range(0, 21, 5), label="Horizontal surface wind speed [m/s]")
 
 # Add title with formatted timestamp
