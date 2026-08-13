@@ -118,20 +118,19 @@ era5["q"].sel(
 
 ### Select ORCESTRA region
 
-We want to see how the RH profile changes with latitude when averaged over the ORCESTRA campaign region on the 20th of August 2020. The `easygems` package provides the the `isel_extent` function which takes a lat/lon extent (`[W, E, S, N]`) as input and returns the corresponding indices of the global HEALPix grid. These indices can then be used to select the region of interest.
+We want to see how the RH profile changes with latitude when averaged over the ORCESTRA campaign region on the 20th of August 2020. The `easygems` package provides the the `select_extent` function which takes a lat/lon extent (`[W, E, S, N]`) as input and returns the corresponding indices of the global HEALPix grid. These indices can then be used to select the region of interest.
 
 ```{code-cell} ipython3
-is_orcestra = egh.isel_extent(era5, [-60, -10, -5, 20])
+era5_orcestra = egh.select_extent(era5, [-60, -10, -5, 20])
 
 fig, ax = plt.subplots()
-era5["r"].sel(
-    cell=is_orcestra,
+era5_orcestra["r"].sel(
     time="2020-08-20",
     level=slice(100, 1000),
 ).mean(
     "time"
 ).groupby(
-    era5.lat.sel(cell=is_orcestra)
+    "lat"
 ).mean().plot(
     x="lat",
     yincrease=False,
