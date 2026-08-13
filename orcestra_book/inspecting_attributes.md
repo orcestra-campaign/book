@@ -24,7 +24,7 @@ import xarray as xr
 ```
 
 In general, the `attrs` attribute allows access to the global attributes of a dataset.
-Here, we print **all** the global attributes of the CTD measurements during the BOW-TIE subcampaign:
+Here, we print **all** the global attributes of the CTD measurements during the BOWTIE subcampaign:
 
 ```{code-cell} ipython3
 ds_ctd = xr.open_dataset("ipfs://bafybeihoghhgi655g7arw2ubtpudbq4c4hpwjlrwghcex3snu7f36imjgq", engine="zarr")
