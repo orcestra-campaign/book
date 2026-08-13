@@ -86,7 +86,7 @@ Next, we want to see how temperature readings at BCO (WXT) compare with the ERA5
 We select the cell index that is the nearest neighbor to the BCO location using `healpix.ang2pix()`.
 
 ```{code-cell} ipython3
-wxt = cat.BCO.surfacemet_wxt_v1.to_dask()
+wxt = cat.BCO.wxt.to_dask()
 i_bco = hp.ang2pix(egh.get_nside(era5), wxt.lon, wxt.lat, nest=egh.get_nest(era5), lonlat=True)
 ```
 
