@@ -89,7 +89,9 @@ extent:
 
 **Project identifiers:**
 
-`ORCESTRA`, `BOW-TIE`, `CELLO`, `CLARINET`, `MAESTRO`, `PERCUSION`, `PICCOLO`, `SCORE`, `STRINQS`
+`ORCESTRA`, `BOWTIE`, `CELLO`, `CLARINET`, `MAESTRO`, `PERCUSION`, `PICCOLO`, `SCORE`, `STRINQS`
+
+_Deprecated:_ `BOW-TIE`
 
 **Platform identifiers:**
 

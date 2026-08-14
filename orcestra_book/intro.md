@@ -25,7 +25,7 @@ ORCESTRA is an international initiative that combines eight different sub-campai
 
 <!---
 ORCESTRA is an international initiative that combines eight different sub-campaigns:
-* [BOW-TIE - Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment](bowtie.md)
+* [BOWTIE - Beobachtung von Ozean und Wolken – Das Trans ITCZ Experiment](bowtie.md)
 * [CELLO - Cloud and EarthCARE caL/vaL Observations](cello.md)
 * [CLARINET - Cloud and Aerosol Remote sensing for EarthCARE](clarinet.md)
 * [MAESTRO - Mesoscale organisation of tropical convection](maestro.md)
