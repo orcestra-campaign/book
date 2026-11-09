@@ -54,9 +54,6 @@ jobs:
           conda-${{ runner.os }}--${{ runner.arch }}--${{ hashFiles('environment.yml') }}-${{ env.CONDA_CACHE_NUMBER }}
     - name: Install IPFS
       uses: ipfs/download-ipfs-distribution-action@v2
-    - name: configure known IPFS peers
-      run: |
-        wget -q https://raw.githubusercontent.com/orcestra-campaign/ipfs_tools/refs/heads/main/scripts/add_peers.py -O - | python - -f https://raw.githubusercontent.com/orcestra-campaign/ipfs_tools/refs/heads/main/known_peers.yaml
     - name: Start IPFS daemon
       uses: ipfs/start-ipfs-daemon-action@v1
     - name: setting up notebook execution cache
