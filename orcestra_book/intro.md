@@ -2,12 +2,10 @@
 
 **OR**ganized **C**onvection and **E**arthCARE **S**tudies over the **TR**opical **A**tlantic
 
+## Overall objectives
 
-```{admonition} Overall objectives of the ORCESTRA campaign
-:class: tip
 1. Determine the drivers of mesoscale organisation in the tropics and their impact on smallscale weather systems and the large scale circulation with a particular focus on the structure and variability of the Atlantic ITCZ
 2. Serve as a benchmark for satellite remote sensing and a new generation of high resolution storm resolving models
-```
 
 ## Date and Location
 
