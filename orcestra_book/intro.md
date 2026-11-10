@@ -2,6 +2,11 @@
 
 **OR**ganized **C**onvection and **E**arthCARE **S**tudies over the **TR**opical **A**tlantic
 
+```{admonition} Monthly virtual meetings
+:class: tip
+Starting in November 2026, the ORCESTRA community meets virtually on a monthly basis. These meetings are open to everyone interested in the campaign. For more information, see the [Virtual Meetings subpage](virtual_meeting.md).
+```
+
 ## Overall objectives
 
 1. Determine the drivers of mesoscale organisation in the tropics and their impact on smallscale weather systems and the large scale circulation with a particular focus on the structure and variability of the Atlantic ITCZ
