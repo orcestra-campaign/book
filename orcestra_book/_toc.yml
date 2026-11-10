@@ -63,4 +63,6 @@ chapters:
 - file: coordination
   title: Members
 - file: blog
+- file: virtual_meeting
+  title: Virtual Meetings
 - file: glossary
